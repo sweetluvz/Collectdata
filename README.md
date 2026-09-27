@@ -1,14 +1,15 @@
 # Collectdata — Thu thập dữ liệu nghiên cứu tự động
 
-Hệ thống thu thập dữ liệu **hiện tại và lịch sử** bằng **GitHub Actions** (không cần máy chủ riêng) cho ba nhóm dữ liệu nghiên cứu:
+Hệ thống thu thập dữ liệu **hiện tại và lịch sử** bằng **GitHub Actions** (không cần máy chủ riêng), chỉ dùng nguồn **miễn phí**:
 
-| Nhóm | Mục đích nghiên cứu | Nguồn | Lịch sử có thể lấy |
-|---|---|---|---|
-| **Năng lượng & môi trường** | Dự báo phụ tải ngắn hạn (STLF), dự báo gió/mặt trời, mô hình không–thời gian | Open-Meteo (ERA5, dự báo, chất lượng không khí), EIA-930 (Mỹ), ENTSO-E (châu Âu) | ERA5 từ 1940, EIA từ 07/2015, ENTSO-E từ 2015, chất lượng không khí từ 08/2022 |
-| **Bất động sản** | Định giá hedonic, phân tích không gian, tác động hạ tầng | batdongsan.com.vn, Zillow Research | Zillow từ 2000 (có sẵn trong mỗi bản phát hành); Batdongsan **chỉ từ lúc bắt đầu cào** |
-| **Bằng sáng chế** | Dự báo công nghệ mới nổi, hội tụ công nghệ (mạng CPC) | USPTO PatentsView, Lens.org (WIPO/EP/US) | USPTO từ 1976, Lens toàn bộ |
+| Nhóm | Mục đích nghiên cứu | Nguồn | Cần key? | Lịch sử có thể lấy |
+|---|---|---|---|---|
+| **Năng lượng & môi trường** | Dự báo phụ tải ngắn hạn (STLF), dự báo gió/mặt trời, mô hình không–thời gian | EIA-930 (lưới điện Mỹ) | `EIA_API_KEY` (miễn phí) | từ 07/2015 |
+| | | Open-Meteo: ERA5, dự báo, chất lượng không khí | không | ERA5 từ 1940; chất lượng không khí từ 08/2022 |
+| **Bất động sản** | Định giá hedonic, phân tích không gian, tác động hạ tầng | Zillow Research | không | từ 2000 (có sẵn trong mỗi bản phát hành) |
+| | | batdongsan.com.vn | không | **chỉ từ lúc bắt đầu cào** |
 
-Mỗi lần chạy, dữ liệu được **gộp (upsert)** vào các file CSV theo tháng trong `data/`, rồi bot tự commit và push lại vào repo. Dữ liệu lịch sử được **backfill tự động theo từng phần** và tiếp tục qua nhiều lượt chạy cho đến khi xong.
+Mỗi lần chạy, dữ liệu được **gộp (upsert)** vào các file CSV theo tháng trong `data/`, rồi bot tự commit và push lại vào repo. Dữ liệu lịch sử được **backfill tự động theo từng phần** qua nhiều lượt chạy cho đến khi xong.
 
 ---
 
@@ -35,7 +36,6 @@ GitHub Actions (cron)
   │
   ├── collect_energy.yml      ── 6 giờ/lần ──▶ scrapers/energy/*      ──▶ data/energy/...
   ├── collect_realestate.yml  ── hằng ngày ──▶ scrapers/realestate/*  ──▶ data/realestate/...
-  ├── collect_patents.yml     ── hằng tuần ──▶ scrapers/patents/*     ──▶ data/patents/...
   ├── keepalive.yml           ── hằng tuần ──▶ bật lại các workflow (tránh bị GitHub tự tắt)
   └── ci.yml                  ── mỗi push   ──▶ pytest (không chạy khi chỉ data/ thay đổi)
 
@@ -51,9 +51,8 @@ Mỗi lượt chạy một collector:
 .
 ├── .github/workflows/        # lịch chạy, keepalive, CI
 ├── scrapers/
-│   ├── energy/               # weather_collector, eia_collector, entsoe_collector
-│   ├── realestate/           # batdongsan_collector, zillow_collector
-│   └── patents/              # uspto_collector, lens_collector, common.py (danh sách mã CPC)
+│   ├── energy/               # weather_collector (Open-Meteo), eia_collector
+│   └── realestate/           # batdongsan_collector, zillow_collector
 ├── utils/
 │   ├── http.py               # session có retry/backoff, check() lỗi API, đọc biến môi trường
 │   ├── storage.py            # upsert theo tháng, nén tháng cũ, chỉ ghi khi nội dung đổi
@@ -70,7 +69,7 @@ Mỗi lượt chạy một collector:
 
 - **Upsert với cửa sổ chồng lấn:** mỗi lần chạy lấy lại vài ngày gần nhất. Nhờ vậy, nếu một lần cron bị trễ hoặc lỗi thì lần sau tự lấp khoảng trống, và các giá trị được nguồn sửa lại sau (EIA-930 thường sửa số liệu trong vài ngày) sẽ ghi đè bản cũ theo khoá chính.
 - **Phân vùng theo tháng.** Tháng gần đây (≤ 2 tháng) để dạng `.csv` thường, vì git nén rất tốt các thay đổi nhỏ. Tháng cũ tự được nén thành `.csv.gz` với nội dung byte cố định, nên git không bao giờ lưu thêm bản sao nếu dữ liệu không đổi.
-- **Backfill có thể tiếp tục:** lịch sử được chia thành từng phần (tháng, năm, hoặc năm × địa điểm). Tiến độ lưu trong `data/<nhóm>/_backfill.json`. Một lượt chạy chỉ dùng tối đa một quỹ thời gian cho backfill; phần còn lại do lượt sau, tự kích hoạt hoặc theo lịch, làm tiếp.
+- **Backfill có thể tiếp tục:** lịch sử được chia thành từng phần (tháng, hoặc năm × địa điểm). Tiến độ lưu trong `data/<nhóm>/_backfill.json`. Một lượt chạy chỉ dùng tối đa một quỹ thời gian cho backfill; phần còn lại do lượt sau, tự kích hoạt hoặc theo lịch, làm tiếp.
 - **Mỗi workflow chỉ ghi vào thư mục nhóm của mình** và luôn checkout đầu nhánh mới nhất, nên khi hai workflow push gần nhau, `pull --rebase` không bao giờ xung đột.
 - **Một nguồn lỗi không làm mất nguồn khác:** dữ liệu được commit ngay sau mỗi nguồn; một lỗi tạm thời chỉ dừng backfill của nguồn đó đến lượt sau.
 - **Thiếu API key thì bỏ qua (exit 0) kèm cảnh báo**, nhưng kế hoạch backfill vẫn được ghi nhận, nên khi thêm key thì lượt chạy kế tiếp tự lấy lịch sử.
@@ -82,12 +81,11 @@ Mỗi lượt chạy một collector:
 
 | Workflow | Cron (UTC) | Giờ Việt Nam | Cửa sổ gần đây mỗi lần chạy | Quỹ thời gian backfill / lượt |
 |---|---|---|---|---|
-| `collect_energy.yml` | `23 */6 * * *` | 06:23, 12:23, 18:23, 00:23 | Open-Meteo: 3 ngày quá khứ + 2 ngày dự báo + 14 ngày ERA5; EIA: 7 ngày; ENTSO-E: 3 ngày + 1 ngày tới | 95 phút cho mỗi bước (thời tiết, EIA, ENTSO-E) |
+| `collect_energy.yml` | `23 */6 * * *` | 06:23, 12:23, 18:23, 00:23 | Open-Meteo: 3 ngày quá khứ + 2 ngày dự báo + 14 ngày ERA5; EIA: 7 ngày | 95 phút cho mỗi bước (thời tiết, EIA) |
 | `collect_realestate.yml` | `37 1 * * *` | 08:37 hằng ngày | 5 trang × 6 danh mục Batdongsan; tối đa 80 trang chi tiết mới | — |
-| `collect_patents.yml` | `11 3 * * 3` | 10:11 thứ Tư | PatentsView: 180 ngày; Lens: 14 ngày | 150 phút cho mỗi bước (USPTO, Lens) |
 | `keepalive.yml` | `0 6 * * 1` | 13:00 thứ Hai | — | — |
 
-**Vì sao năng lượng chạy 6 giờ/lần mà không phải mỗi giờ?** Dữ liệu vẫn có độ phân giải giờ (hoặc 15 phút với ENTSO-E); chỉ tần suất *gọi API* là 6 giờ. Vì mỗi lần lấy lại cả cửa sổ nhiều ngày nên không mất giờ nào. Riêng bảng dự báo thời tiết thì chạy dày hơn sẽ có nhiều "phiên bản dự báo" hơn; có thể đổi dòng `cron`.
+**Vì sao năng lượng chạy 6 giờ/lần mà không phải mỗi giờ?** Dữ liệu vẫn có độ phân giải giờ; chỉ tần suất *gọi API* là 6 giờ. Vì mỗi lần lấy lại cả cửa sổ nhiều ngày nên không mất giờ nào. Riêng bảng dự báo thời tiết thì chạy dày hơn sẽ có nhiều "phiên bản dự báo" hơn; có thể đổi dòng `cron`.
 
 > GitHub **không đảm bảo** cron chạy đúng phút; lúc tải cao có thể trễ hoặc bỏ lượt. Cửa sổ chồng lấn ở trên sinh ra để bù cho điều này.
 
@@ -105,17 +103,13 @@ Cron **chỉ chạy trên nhánh mặc định** của repo. Hiện nhánh mặc
 - **Actions permissions:** Allow all actions.
 - **Workflow permissions:** các workflow đã tự khai báo `contents: write` (để commit dữ liệu) và `actions: write` (để tự kích hoạt lượt backfill tiếp theo). Nếu tổ chức giới hạn token ở mức read-only thì cần chọn **Read and write permissions**.
 
-### 3.3. API key (Secrets)
+### 3.3. EIA API key
 
-Vào *Settings → Secrets and variables → Actions → New repository secret*. Chỉ cần key cho nguồn bạn dùng.
+1. Đăng ký miễn phí tại <https://www.eia.gov/opendata/register.php>; key được gửi qua email.
+2. *Settings → Secrets and variables → Actions → New repository secret*.
+3. **Name:** `EIA_API_KEY`, **Secret:** dán key, rồi bấm *Add secret*.
 
-| Secret | Nguồn | Cách lấy | Ghi chú |
-|---|---|---|---|
-| *(không cần)* | Open-Meteo, Zillow Research, Batdongsan | — | Open-Meteo miễn phí cho mục đích phi thương mại, có hạn mức gọi API (xem mục 11) |
-| `EIA_API_KEY` | EIA Open Data | Đăng ký tại <https://www.eia.gov/opendata/register.php>, key gửi qua email ngay | Miễn phí |
-| `ENTSOE_API_KEY` | ENTSO-E Transparency | (1) Tạo tài khoản tại <https://transparency.entsoe.eu>; (2) gửi email tới `transparency@entsoe.eu`, tiêu đề *"Restful API access"*, nêu email tài khoản; (3) khi được duyệt, vào *My Account Settings → Generate token* | Thường mất vài ngày làm việc |
-| `PATENTSVIEW_API_KEY` | USPTO PatentsView | Gửi yêu cầu API key qua cổng hỗ trợ PatentsView (<https://patentsview.org> → *API*) | Miễn phí, giới hạn 45 request/phút |
-| `LENS_API_TOKEN` | Lens.org | Tạo tài khoản, vào <https://www.lens.org/lens/user/subscriptions> để xin quyền **Patent API** (có gói trial/học thuật) | Cần mô tả mục đích; hạn mức theo gói |
+> **Tuyệt đối không dán key vào code, README hay file trong repo:** repo đang **public**, ai cũng đọc được. GitHub Secrets được mã hoá và tự bị che (`***`) trong log.
 
 ### 3.4. Chạy thử
 
@@ -137,7 +131,7 @@ Khi chưa đặt `BDS_RUNNER`, job Batdongsan vẫn thử trên máy GitHub. N�
 
 ### 4.1. Bắt đầu
 
-*Actions → Collect energy data* (hoặc *Collect patent data*) → **Run workflow** → điền:
+*Actions → Collect energy data* → **Run workflow** → điền:
 
 | Ô | Giá trị | Ý nghĩa |
 |---|---|---|
@@ -151,20 +145,18 @@ Khi chưa đặt `BDS_RUNNER`, job Batdongsan vẫn thử trên máy GitHub. N�
 | `era5` (thời tiết tái phân tích) | 2015-01-01 | 1940-01-01 | năm × địa điểm | ~55 MB |
 | `airquality` | 2022-08-01 | 2022-08-01 | năm × địa điểm | ~12 MB |
 | `eia` | 2015-07-01 | 2015-07-01 | tháng | ~90 MB |
-| `entsoe` | 2015-01-01 | 2015-01-01 | năm × nước × loại dữ liệu | ~150 MB |
-| `uspto` | 2015-01-01 | 1976-01-01 | tháng | ~230 MB |
-| `lens` | 2024-01-01 | toàn bộ | tháng | ~100–200 MB |
 
 \* Dung lượng nén trong repo, **[ước tính]** từ kích thước thực đo của dữ liệu Open-Meteo (~94 byte/dòng, gzip ~4 lần) và số dòng dự kiến. Con số thật sẽ hiện trong `CATALOG.md`.
 
-**Mốc `auto` không phải lúc nào cũng là mốc sớm nhất.** ERA5 được căn theo năm bắt đầu của dữ liệu lưới điện, vì thời tiết trước 2015 không có phụ tải để ghép. USPTO và Lens bị giới hạn vì dung lượng và hạn mức API. Muốn lấy xa hơn, điền ngày cụ thể (ví dụ `1976-01-01` cho USPTO), nhưng repo sẽ lớn hơn nhiều (xem mục 11).
+ERA5 mặc định từ 2015 để khớp với dữ liệu phụ tải EIA; thời tiết trước đó không có phụ tải để ghép. Muốn lấy xa hơn thì điền ngày cụ thể, ví dụ `1990-01-01` với `backfill_sources` = `era5` (khoảng 55 MB cho mỗi 11 năm [ước tính]).
+
+> Backfill `auto` đã được kích hoạt ngày 27/09/2026. Kế hoạch EIA đã được ghi nhận sẵn, nên chỉ cần thêm `EIA_API_KEY` (mục 3.3); lượt chạy kế tiếp sẽ tự lấy lịch sử EIA.
 
 ### 4.2. Cách backfill chạy
 
-- Lượt chạy đầu ghi kế hoạch vào `data/<nhóm>/_backfill.json`, tải phần gần nhất trong quỹ thời gian, commit, rồi **tự kích hoạt lượt tiếp theo** (tối đa 40 lượt nối tiếp). Sau đó các lượt chạy theo lịch tiếp tục đến khi xong.
-- Theo dõi tiến độ ở mục **Backfill progress** trong `data/<nhóm>/CATALOG.md` (số phần đã xong / tổng, số phần bị bỏ qua do nguồn không có dữ liệu, số phần còn lại).
-- Phần nào bị nguồn trả lỗi cố định (HTTP 400/404/422, hoặc ENTSO-E báo không có dữ liệu) được đánh dấu **skipped** để không lặp vô hạn. Lỗi tạm thời (429, 5xx, mất kết nối) thì dừng và thử lại ở lượt sau.
-- Kế hoạch được ghi nhận **ngay cả khi chưa có API key**: bấm backfill `auto` ngay hôm nay, khi thêm key thì lượt chạy kế tiếp tự làm.
+- Lượt chạy đầu ghi kế hoạch vào `data/energy/_backfill.json`, tải phần gần nhất trong quỹ thời gian, commit, rồi **tự kích hoạt lượt tiếp theo** (tối đa 40 lượt nối tiếp). Sau đó các lượt chạy theo lịch tiếp tục đến khi xong.
+- Theo dõi tiến độ ở mục **Backfill progress** trong `data/energy/CATALOG.md` (số phần đã xong / tổng, số phần bị bỏ qua do nguồn không có dữ liệu, số phần còn lại).
+- Phần nào bị nguồn trả lỗi cố định (HTTP 400/404/422) được đánh dấu **skipped** để không lặp vô hạn. Lỗi tạm thời (429, 5xx, mất kết nối) thì dừng và thử lại ở lượt sau.
 - Chạy lại backfill với khoảng rộng hơn sẽ **mở rộng** kế hoạch; các phần đã xong không bị tải lại.
 
 ### 4.3. Thời gian dự kiến [ước tính]
@@ -172,10 +164,7 @@ Khi chưa đặt `BDS_RUNNER`, job Batdongsan vẫn thử trên máy GitHub. N�
 | Nguồn | Số phần | Thời gian | Yếu tố giới hạn |
 |---|---|---|---|
 | `era5` (2015→) + `airquality` | ~260 + ~110 | 1–2 ngày | Hạn mức Open-Meteo miễn phí (~10.000 lượt/ngày; một request dài nhiều biến được tính thành nhiều lượt). Code nghỉ 30 giây giữa các request (`OPEN_METEO_PAUSE_SECONDS`) |
-| `eia` | ~135 tháng | 1–2 giờ | |
-| `entsoe` | ~420 | 2–4 giờ | |
-| `uspto` (2015→) | ~140 tháng | ~1 giờ | 45 request/phút |
-| `lens` (2024→) | ~33 tháng | vài giờ đến vài ngày | Hạn mức gói Lens của bạn |
+| `eia` | ~135 tháng | 1–2 giờ sau khi có key | |
 
 ---
 
@@ -192,22 +181,18 @@ data/
 │   │   ├── observed/YYYY-MM.csv[.gz]     # giá trị phân tích của mô hình dự báo, vài ngày gần nhất
 │   │   └── forecast/YYYY-MM.csv[.gz]     # MỌI bản dự báo, theo thời điểm phát hành (issued_at)
 │   ├── airquality/observed/…             # PM2.5, PM10, NO2, O3, SO2, CO, US AQI
-│   ├── eia/
-│   │   ├── region/…                      # phụ tải, dự báo phụ tải, phát điện ròng, trao đổi
-│   │   └── fuel_type/…                   # phát điện theo nhiên liệu
-│   └── entsoe/
-│       ├── load/…  load_forecast/…  generation/…  wind_solar_forecast/…  day_ahead_price/…
-├── realestate/
-│   ├── batdongsan/
-│   │   ├── listings/…                    # ảnh chụp hằng ngày: 1 dòng / (tin đăng, ngày)
-│   │   └── details/…                     # 1 dòng / tin đăng: toạ độ, mô tả, thông số
-│   └── zillow/
-│       ├── zhvi_metro/YYYY-MM.csv.gz     # chỉ giữ bản phát hành mới nhất (chứa toàn bộ lịch sử)
-│       ├── zhvi_county/YYYY-MM.csv.gz
-│       └── zori_metro/YYYY-MM.csv.gz
-└── patents/
-    ├── uspto/grants/YYYY-MM.csv.gz       # theo tháng cấp bằng
-    └── lens/publications/YYYY-MM.csv.gz  # theo tháng công bố
+│   └── eia/
+│       ├── region/…                      # phụ tải, dự báo phụ tải, phát điện ròng, trao đổi
+│       └── fuel_type/…                   # phát điện theo nhiên liệu
+└── realestate/
+    ├── CATALOG.md
+    ├── batdongsan/
+    │   ├── listings/…                    # ảnh chụp hằng ngày: 1 dòng / (tin đăng, ngày)
+    │   └── details/…                     # 1 dòng / tin đăng: toạ độ, mô tả, thông số
+    └── zillow/
+        ├── zhvi_metro/YYYY-MM.csv.gz     # chỉ giữ bản phát hành mới nhất (chứa toàn bộ lịch sử)
+        ├── zhvi_county/YYYY-MM.csv.gz
+        └── zori_metro/YYYY-MM.csv.gz
 ```
 
 Quy ước:
@@ -219,7 +204,7 @@ Quy ước:
 
 ## 6. Từ điển dữ liệu (data dictionary)
 
-> Tên cột của Open-Meteo và Zillow đã được xác nhận qua lần chạy thật. Tên cột của EIA, ENTSO-E, PatentsView và Lens viết theo tài liệu API và cần đối chiếu lại sau lần chạy đầu có key.
+> Tên cột của Open-Meteo và Zillow đã được xác nhận qua lần chạy thật. Tên cột của EIA viết theo tài liệu API và cần đối chiếu lại sau lần chạy đầu có key.
 
 ### 6.1. `energy/weather/era5`, `observed`, `forecast`
 
@@ -242,6 +227,8 @@ Ba bảng dùng cho ba mục đích khác nhau:
 - **`observed`**: giá trị phân tích của mô hình dự báo trong vài ngày gần nhất, dùng khi cần số liệu mới hơn ERA5.
 - **`forecast`**: **mọi phiên bản dự báo** kể từ ngày bắt đầu cào; phần này **không backfill được**. Dùng để đánh giá STLF bằng đúng thông tin thời tiết có sẵn tại thời điểm dự báo, thay vì dùng thời tiết thực tế làm đầu vào (cách đó làm kết quả lạc quan hơn thực tế).
 
+Các điểm ở Đức, Pháp, Tây Ban Nha, Hà Lan, Bỉ, Ba Lan, Áo được giữ lại để có dữ liệu thời tiết châu Âu, dù phụ tải châu Âu (ENTSO-E) không còn trong dự án.
+
 ### 6.2. `energy/airquality/observed`
 `location`, `time`, `pm10`, `pm2_5` (µg/m³), `nitrogen_dioxide`, `ozone`, `sulphur_dioxide`, `carbon_monoxide` (µg/m³), `us_aqi`.
 
@@ -257,18 +244,7 @@ Ba bảng dùng cho ba mục đích khác nhau:
 
 Các cột mô tả (`respondent-name`, `type-name`, `value-units`) bị bỏ để giảm khoảng 60% dung lượng lịch sử; ý nghĩa của chúng nằm trong bảng trên.
 
-### 6.4. `energy/entsoe/<dataset>` (dạng rộng)
-
-| Cột | Ý nghĩa |
-|---|---|
-| `timestamp` | UTC (một số nước dùng bước 15 phút) |
-| `country` | `DE_LU`, `FR`, `ES`, `NL`, `BE`, `PL`, `AT` |
-| Các cột còn lại | Mỗi chuỗi một cột. `load`: `Actual Load`. `load_forecast`: `Forecasted Load`. `generation`: `<nguồn> \| Actual Aggregated` hoặc `<nguồn> \| Actual Consumption` (ví dụ `Solar \| Actual Aggregated`). `wind_solar_forecast`: `Solar`, `Wind Onshore`, `Wind Offshore`. `day_ahead_price`: `day_ahead_price` |
-| Đơn vị | MW (phụ tải/sản lượng), €/MWh (giá; PL có thể là PLN) |
-
-Anh (GB) không có vì đã ngừng công bố lên ENTSO-E sau Brexit.
-
-### 6.5. `realestate/batdongsan/listings`
+### 6.4. `realestate/batdongsan/listings`
 
 | Cột | Ý nghĩa |
 |---|---|
@@ -283,38 +259,15 @@ Anh (GB) không có vì đã ngừng công bố lên ENTSO-E sau Brexit.
 | `published_text` | Thời gian đăng hiển thị trên thẻ tin |
 | `is_vip` | Tin VIP (được đẩy lên đầu, xem mục 11) |
 
-### 6.6. `realestate/batdongsan/details`
+### 6.5. `realestate/batdongsan/details`
 `listing_id`, `fetched_at`, `latitude`, `longitude` (từ bản đồ nhúng), `address`, `description` (toàn văn mô tả cho NLP, **số điện thoại đã được thay bằng `[SĐT]`**), `posted_date`, `expiry_date`, `listing_type`, `specs_json` (bảng thông số dạng JSON: pháp lý, hướng, nội thất…).
 
 Mật độ tiện ích xung quanh nên tính sau từ `latitude`/`longitude` với OpenStreetMap (Overpass API hoặc file `.osm.pbf` của Việt Nam), để tái lập được.
 
-### 6.7. `realestate/zillow/<dataset>`
+### 6.6. `realestate/zillow/<dataset>`
 Dạng rộng của Zillow: `RegionID`, `SizeRank`, `RegionName`, `RegionType`, `StateName`, …, rồi mỗi tháng một cột (`2000-01-31`, …). Mỗi bản phát hành đã chứa **toàn bộ lịch sử** (ZHVI từ 01/2000, ZORI từ 2015), nên chỉ giữ bản mới nhất; các bản cũ vẫn còn trong lịch sử git.
 - `zhvi_*`: Zillow Home Value Index (nhà riêng + căn hộ, phân khúc giữa, đã làm mượt và điều chỉnh mùa vụ).
 - `zori_metro`: Zillow Observed Rent Index.
-
-### 6.8. `patents/uspto/grants`
-
-| Cột | Ý nghĩa |
-|---|---|
-| `patent_id`, `patent_date`, `filing_date`, `patent_type` | Số bằng, ngày cấp, ngày nộp, loại |
-| `title`, `abstract`, `num_claims` | |
-| `cpc_subclasses`, `cpc_groups` | CPC hiện hành, phân tách bằng `;` (ví dụ `G06N;G05B`) |
-| `ipc` | IPC subclass, phân tách bằng `;` |
-| `assignees`, `assignee_countries`, `inventor_countries` | Phân tách bằng `;` |
-
-### 6.9. `patents/lens/publications`
-
-| Cột | Ý nghĩa |
-|---|---|
-| `lens_id` | Khoá chính |
-| `jurisdiction`, `doc_number`, `kind` | Ví dụ `WO 2026123456 A1` |
-| `date_published`, `filing_date` | |
-| `title`, `abstract` | Ưu tiên tiếng Anh |
-| `num_claims`, `first_claim` | Số yêu cầu bảo hộ, claim 1 (thường là claim độc lập) |
-| `claims` | Toàn bộ claims, chỉ có khi đặt `LENS_FULL_CLAIMS=1` |
-| `cpc`, `ipcr` | Mã phân loại, phân tách bằng `;` |
-| `applicants`, `applicant_countries`, `family_size` | |
 
 ---
 
@@ -332,20 +285,16 @@ python scripts/build_catalog.py energy
 python -m pytest -q               # test offline, không gọi mạng
 ```
 
-Luôn chạy từ **thư mục gốc repo** bằng `python -m ...`.
+Luôn chạy từ **thư mục gốc repo** bằng `python -m ...`. Khi chạy trên máy cá nhân, key chỉ đặt qua biến môi trường, không ghi vào file trong repo.
 
 | Biến môi trường | Mặc định | Tác dụng |
 |---|---|---|
 | `BACKFILL_START` / `BACKFILL_END` / `BACKFILL_SOURCES` | trống | Như các ô trong mục 4.1 |
-| `BACKFILL_MINUTES` | 90 (workflow đặt 95/150) | Quỹ thời gian backfill cho một lượt chạy collector |
+| `BACKFILL_MINUTES` | 90 (workflow đặt 95) | Quỹ thời gian backfill cho một lượt chạy collector |
 | `OPEN_METEO_PAUSE_SECONDS` | 30 | Thời gian nghỉ giữa các request lịch sử Open-Meteo |
 | `WEATHER_PAST_DAYS` / `WEATHER_FORECAST_DAYS` | 3 / 2 | Cửa sổ gần đây của Open-Meteo (quá khứ tối đa 92) |
-| `EIA_LOOKBACK_DAYS` / `ENTSOE_LOOKBACK_DAYS` | 7 / 3 | |
+| `EIA_LOOKBACK_DAYS` | 7 | |
 | `BDS_MAX_PAGES` / `BDS_DETAIL_LIMIT` | 5 / 80 | |
-| `PATENTSVIEW_LOOKBACK_DAYS` | 180 | |
-| `LENS_LOOKBACK_DAYS` / `LENS_MAX_RECORDS` | 14 / 20000 | |
-| `LENS_JURISDICTIONS` | `WO,EP,US` | Ví dụ `WO,EP,US,CN,JP,KR` (khối lượng tăng rất nhanh) |
-| `LENS_FULL_CLAIMS` | *(tắt)* | `1` = lưu toàn bộ claims (file lớn hơn khoảng 10 lần) |
 
 ---
 
@@ -365,14 +314,16 @@ ercot = (eia[eia.respondent == "ERCO"]
          .assign(period=lambda d: pd.to_datetime(d.period, utc=True))
          .pivot_table(index="period", columns="type", values="value"))
 
-# Ghép thời tiết ERA5 Houston
+# Sản lượng mặt trời và gió của CAISO theo giờ
+fuel = load("energy/eia/fuel_type")
+caiso_re = (fuel[(fuel.respondent == "CISO") & fuel.fueltype.isin(["SUN", "WND"])]
+            .assign(period=lambda d: pd.to_datetime(d.period, utc=True))
+            .pivot_table(index="period", columns="fueltype", values="value"))
+
+# Ghép thời tiết ERA5 Houston vào phụ tải ERCOT
 wx = load("energy/weather/era5")
 wx = wx[wx.location == "US_ERCO_Houston"].assign(time=lambda d: pd.to_datetime(d.time, utc=True)).set_index("time")
 df = ercot.join(wx[["temperature_2m", "shortwave_radiation"]], how="inner")
-
-# Phụ tải và sản lượng mặt trời của Đức (ENTSO-E, dạng rộng)
-de_load = load("energy/entsoe/load").query("country == 'DE_LU'")
-de_gen = load("energy/entsoe/generation").query("country == 'DE_LU'")[["timestamp", "Solar | Actual Aggregated"]]
 
 # Dự báo thời tiết phát hành trước thời điểm t tối thiểu 24h (tránh rò rỉ thông tin tương lai)
 fc = load("energy/weather/forecast")
@@ -381,15 +332,6 @@ fc = fc[(fc.time - fc.issued_at) >= pd.Timedelta("24h")].sort_values("issued_at"
 
 # Ảnh chụp giá hằng ngày của Batdongsan + toạ độ/mô tả
 panel = load("realestate/batdongsan/listings").merge(load("realestate/batdongsan/details"), on="listing_id", how="left")
-
-# Mạng đồng xuất hiện CPC subclass (phân tích hội tụ công nghệ), theo năm
-pat = load("patents/uspto/grants")
-pat["year"] = pat.patent_date.str[:4]
-pairs = (pat.dropna(subset=["cpc_subclasses"])
-         .assign(pair=lambda d: d.cpc_subclasses.str.split(";").apply(
-             lambda s: [(a, b) for i, a in enumerate(sorted(set(s))) for b in sorted(set(s))[i + 1:]]))
-         .explode("pair").dropna(subset=["pair"])
-         .groupby(["year", "pair"]).size())
 ```
 
 Repo sẽ lớn dần. Khi chỉ cần một nhóm dữ liệu, có thể clone nông và thưa:
@@ -406,14 +348,13 @@ cd Collectdata && git sparse-checkout set data/energy
 | Việc | Cách làm |
 |---|---|
 | Biết khi có lỗi | Job *failed* → GitHub gửi email cho người sửa cron gần nhất. Bật trong *Settings (tài khoản) → Notifications → Actions* |
-| Kiểm tra dữ liệu có vào đều | Cột **To** trong `data/*/CATALOG.md`: energy trong vòng ~1 ngày (ERA5 ~6 ngày), bất động sản ~1 ngày, Lens ~1 tuần, PatentsView có thể trễ tới 1 quý |
-| Tiến độ backfill | Mục **Backfill progress** trong `CATALOG.md`. `waiting (API key missing?)` nghĩa là kế hoạch đã có nhưng chưa có key |
+| Kiểm tra dữ liệu có vào đều | Cột **To** trong `data/*/CATALOG.md`: energy trong vòng ~1 ngày (ERA5 ~6 ngày), bất động sản ~1 ngày |
+| Tiến độ backfill | Mục **Backfill progress** trong `data/energy/CATALOG.md`. `waiting (API key missing?)` nghĩa là kế hoạch đã có nhưng chưa có key |
 | Backfill dừng lâu | Xem log của bước tương ứng: `will retry next run` (lỗi tạm thời) hay `skipped`. Có thể bấm Run workflow (để trống các ô) để chạy tiếp ngay |
 | Workflow bị tắt | `keepalive.yml` bật lại hằng tuần. Nếu vẫn thấy *disabled* trong tab Actions thì bấm *Enable workflow* |
-| Lỗi `HTTP 4xx ... <thông báo>` | Đọc thông báo API trong log. Thường do sai hoặc hết hạn key, hoặc API đổi tên trường |
+| Lỗi `HTTP 4xx ... <thông báo>` | Đọc thông báo API trong log. Với EIA thường do sai hoặc hết hạn key: tạo key mới và cập nhật secret `EIA_API_KEY` |
 | Batdongsan `blocked by anti-bot protection` | Xem mục 3.5 |
 | Batdongsan `0 listings parsed - markup probably changed` | Trang đổi HTML. Cập nhật selector trong `parse_cards` / `parse_detail` của `batdongsan_collector.py` và HTML mẫu trong `tests/test_realestate.py` |
-| Lens `stored X of Y matches` | Tăng `LENS_MAX_RECORDS` hoặc thu hẹp `LENS_JURISDICTIONS` / danh sách CPC |
 | Làm lại một phần backfill | Xoá mã phần đó khỏi `done`/`skipped` trong `_backfill.json`, commit, rồi chạy workflow |
 | Cập nhật thư viện | Sửa phiên bản trong `requirements.txt` (đang pin cố định), chạy `pytest`, rồi push |
 
@@ -425,43 +366,38 @@ cd Collectdata && git sparse-checkout set data/energy
 |---|---|
 | Điểm thời tiết | `LOCATIONS` trong `scrapers/energy/weather_collector.py`. Điểm mới cần backfill lại `era5`: chạy lại backfill, các phần của điểm mới sẽ được thêm |
 | Biến thời tiết / chất lượng không khí | `WEATHER_VARS`, `AQ_VARS` (tên theo tài liệu Open-Meteo) |
-| Vùng lưới Mỹ | `RESPONDENTS` trong `eia_collector.py` |
-| Nước / vùng giá châu Âu | `ZONES` trong `entsoe_collector.py` (mã theo `entsoe.mappings.Area`) |
+| Vùng lưới Mỹ | `RESPONDENTS` trong `eia_collector.py` (danh sách mã trên <https://www.eia.gov/electricity/gridmonitor/>) |
 | Loại BĐS, thành phố | `SEARCHES` trong `batdongsan_collector.py`, ví dụ `ban-can-ho-chung-cu-binh-duong` |
-| Lĩnh vực công nghệ | `CPC_SUBCLASSES` trong `scrapers/patents/common.py` (dùng chung cho USPTO và Lens) |
 | Tần suất chạy | Dòng `cron:` trong `.github/workflows/*.yml` |
-
-CPC hiện tại: G06N (AI), G16H (tin học y tế), A61B (chẩn đoán/thiết bị y tế), H04W (mạng không dây), G16Y (IoT), G05B (điều khiển), H02J (lưới điện/lưu trữ), Y02E (năng lượng giảm phát thải), F03D (tua-bin gió), H01M (pin), H10K (điện tử hữu cơ/OLED/OPV), G02B (quang học/thấu kính), H01S (laser). G06F và H04L cố tình bị loại vì quá rộng.
+| Thêm nguồn có backfill | Viết collector gọi `backfill.run(...)` và thêm tên nguồn vào `SOURCES` trong `utils/backfill.py`; kế hoạch của nguồn không có trong `SOURCES` sẽ bị dọn khi build catalog |
 
 ---
 
 ## 11. Giới hạn & rủi ro đã biết
 
+**Phạm vi đã thu hẹp (chỉ giữ nguồn miễn phí, không cần xin duyệt)**
+- **Đã loại:** ENTSO-E (lưới điện châu Âu), USPTO PatentsView và Lens.org (sáng chế), vì cần xin key hoặc tài khoản được duyệt. Hướng nghiên cứu về sáng chế hiện **không có dữ liệu**. Nếu cần lại, có một nguồn không cần key là bộ tải hàng loạt (bulk download) miễn phí của PatentsView, nhưng file rất lớn (vài GB) và phải xử lý riêng.
+- Nghiên cứu năng lượng chỉ còn **lưới điện Mỹ** (8 vùng EIA), không còn dữ liệu phụ tải châu Âu.
+
 **Không thể lấy lịch sử**
-- **Batdongsan**: trang chỉ hiển thị tin đang còn hạn, nên không có cách hợp lệ để lấy giá của các năm trước. Dữ liệu chỉ bắt đầu từ ngày collector chạy được (mục 3.5). Nếu cần giá lịch sử của Việt Nam, phải tìm nguồn khác (báo cáo thị trường, dữ liệu giao dịch được cấp phép).
-- **Phiên bản dự báo thời tiết** (`forecast`): chỉ có từ ngày bắt đầu cào. Open-Meteo có "Historical Forecast API", nhưng API này nối các phần đầu của nhiều lượt chạy mô hình, không phải các bản dự báo phát hành tại một thời điểm, nên không thay thế được.
+- **Batdongsan**: trang chỉ hiển thị tin đang còn hạn, nên không có cách hợp lệ để lấy giá của các năm trước. Dữ liệu chỉ bắt đầu từ ngày collector chạy được (mục 3.5).
+- **Phiên bản dự báo thời tiết** (`forecast`): chỉ có từ ngày bắt đầu cào. "Historical Forecast API" của Open-Meteo nối các phần đầu của nhiều lượt chạy mô hình, không phải các bản dự báo phát hành tại một thời điểm, nên không thay thế được.
 
-**Dung lượng repo**
-- Backfill mặc định (mục 4.1) ước tính đưa repo lên khoảng **0,6–0,8 GB** [ước tính]. GitHub khuyến nghị repo dưới 1 GB và tốt nhất dưới 5 GB. Mỗi workflow chỉ checkout thư mục dữ liệu của nhóm mình nên vẫn chạy nhanh.
-- Lấy xa hơn mặc định (USPTO từ 1976, ERA5 từ 1940, Lens nhiều năm) có thể vượt 1–2 GB. Khi đó nên chuyển dữ liệu lịch sử sang Hugging Face Datasets hoặc Zenodo (Zenodo có DOI để trích dẫn); với sáng chế, dùng thẳng các bảng tải hàng loạt (bulk download) của PatentsView thay vì gọi API.
-
-**Hạn mức API**
+**Dung lượng & hạn mức**
+- Backfill mặc định ước tính đưa repo lên khoảng **150–250 MB** [ước tính]. Lấy ERA5 xa hơn (đến 1940) thêm khoảng 55 MB cho mỗi 11 năm.
 - Open-Meteo miễn phí: khoảng 600 lượt/phút, 5.000/giờ, 10.000/ngày, và một request dài nhiều biến được tính thành nhiều lượt [theo trang điều khoản của Open-Meteo, cách tính chính xác chưa xác minh]. Backfill ERA5 vì thế kéo dài 1–2 ngày.
-- Hạn mức của Lens phụ thuộc gói tài khoản; gói trial có thể không đủ cho nhiều năm dữ liệu.
 
 **Kỹ thuật**
 - Selector HTML của Batdongsan sẽ hỏng khi trang đổi giao diện; job sẽ báo lỗi rõ (mục 9).
-- PatentsView cập nhật khoảng mỗi quý, nên lượt chạy hằng tuần thường không có bằng mới.
 - `keepalive.yml` bật lại workflow qua API; việc này có reset bộ đếm 60 ngày của GitHub hay không thì chưa được xác minh. Các commit dữ liệu thường xuyên của bot cũng giữ repo hoạt động.
 
 **Tính hợp lệ của dữ liệu cho nghiên cứu**
 - **Batdongsan là giá chào bán, không phải giá giao dịch.** Kết quả tìm kiếm ưu tiên tin VIP và tin mới, nên mẫu **không ngẫu nhiên** (có selection bias). Cần nêu rõ và kiểm định độ nhạy (ví dụ loại tin VIP).
 - Một tin có thể biến mất khỏi ảnh chụp hằng ngày vì bị đẩy xuống trang sau, không nhất thiết vì đã bán.
 - **Zillow Research là chỉ số tổng hợp theo vùng**, không có từng căn. Không cào listing Zillow vì điều khoản sử dụng cấm.
-- **Không cào Google Patents** (không có API công khai, chặn truy vấn tự động); PatentsView và Lens thay thế với dữ liệu có cấu trúc.
 - ERA5 là dữ liệu tái phân tích trên lưới khoảng 25–30 km, không phải số đo trạm.
 
 **Quyền riêng tư & điều khoản** (repo đang **public**)
 - Số điện thoại trong tiêu đề và mô tả Batdongsan được tự động thay bằng `[SĐT]` trước khi lưu. Tên người đăng hoặc thông tin cá nhân khác trong phần mô tả tự do **không** được lọc hết; nếu công bố bộ dữ liệu thì cần rà soát thêm, hoặc chuyển repo sang private.
 - Collector Batdongsan giãn cách 3–6 giây/request và chỉ đọc trang công khai. Người dùng tự chịu trách nhiệm tuân thủ điều khoản sử dụng của trang.
-- EIA (public domain), ENTSO-E, Open-Meteo (CC BY 4.0), Lens, Zillow Research: cần ghi nguồn đúng khi công bố bài báo hoặc bộ dữ liệu.
+- EIA (public domain), Open-Meteo (CC BY 4.0), Zillow Research: cần ghi nguồn đúng khi công bố bài báo hoặc bộ dữ liệu.

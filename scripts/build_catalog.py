@@ -3,7 +3,7 @@ size, plus backfill progress.
 
 Per-file stats are cached in data/<domain>/_catalog_cache.json keyed by content hash, so only changed files
 are re-read. Output has no generation timestamp, so it only changes when the data changes.
-Usage: python scripts/build_catalog.py energy|realestate|patents
+Usage: python scripts/build_catalog.py energy|realestate
 """
 import hashlib
 import json
@@ -14,9 +14,9 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from utils import storage  # noqa: E402
-from utils.backfill import load_state  # noqa: E402
+from utils.backfill import load_state, prune  # noqa: E402
 
-TIME_COLS = ["issued_at", "time", "period", "timestamp", "scraped_at", "fetched_at", "patent_date", "date_published"]
+TIME_COLS = ["issued_at", "time", "period", "timestamp", "scraped_at", "fetched_at"]
 
 
 def human(n):
@@ -85,6 +85,9 @@ def backfill_lines(domain):
 def build(domain):
     root = storage.DATA_DIR / domain
     root.mkdir(parents=True, exist_ok=True)
+    stale = prune(domain)
+    if stale:
+        print(f"removed backfill plans of retired sources: {', '.join(sorted(stale))}")
     converted = storage.compact(domain)
     if converted:
         print(f"compacted {converted} cold partitions to .csv.gz")

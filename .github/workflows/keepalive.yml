@@ -17,6 +17,6 @@ jobs:
       - env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          for wf in collect_energy.yml collect_realestate.yml collect_patents.yml keepalive.yml; do
+          for wf in collect_energy.yml collect_realestate.yml keepalive.yml; do
             gh api -X PUT "repos/${{ github.repository }}/actions/workflows/$wf/enable" && echo "enabled $wf"
           done

@@ -78,10 +78,10 @@ def test_sources_filter_and_earliest_bound(data_dir, monkeypatch):
     monkeypatch.setenv("BACKFILL_START", "2000-01-01")
     monkeypatch.setenv("BACKFILL_END", "2015-08-31")
     monkeypatch.setenv("BACKFILL_SOURCES", "eia")
-    backfill.run("energy", "entsoe", date(2015, 1, 1), date(2015, 1, 1), backfill.month_chunks, lambda f, l: None)
+    backfill.run("energy", "era5", date(2015, 1, 1), date(2015, 1, 1), backfill.month_chunks, lambda f, l: None)
     backfill.run("energy", "eia", date(2015, 7, 1), date(2015, 7, 1), backfill.month_chunks, lambda f, l: None)
     state = backfill.load_state("energy")
-    assert "entsoe" not in state
+    assert "era5" not in state
     assert state["eia"]["start"] == "2015-07-01" and state["eia"]["done"] == ["2015-07", "2015-08"]
 
 
@@ -94,3 +94,9 @@ def test_plan_is_registered_even_without_api_key(data_dir, monkeypatch):
         ec.main()
     plan = backfill.load_state("energy")["eia"]
     assert plan["start"] == "2015-07-01" and plan["done"] == []
+
+
+def test_prune_drops_plans_of_retired_sources(data_dir):
+    backfill.save_state("energy", {"eia": {"start": "2015-07-01"}, "entsoe": {"start": "2015-01-01"}})
+    assert backfill.prune("energy") == {"entsoe"}
+    assert set(backfill.load_state("energy")) == {"eia"}

@@ -17,6 +17,8 @@ from utils.http import env_int
 from utils import storage
 
 PERMANENT_HTTP = (400, 404, 422)
+# Sources that can have a backfill plan; plans of any other (removed) source are pruned by the catalog build.
+SOURCES = {"energy": {"era5", "airquality", "eia"}}
 _deadline = None
 
 
@@ -45,6 +47,14 @@ def save_state(domain, state):
     p = state_path(domain)
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(state, indent=1, sort_keys=True) + "\n")
+
+
+def prune(domain):
+    state = load_state(domain)
+    stale = set(state) - SOURCES.get(domain, set())
+    if stale:
+        save_state(domain, {k: v for k, v in state.items() if k not in stale})
+    return stale
 
 
 def requested(source):
