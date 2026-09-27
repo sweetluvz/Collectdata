@@ -6733,18 +6733,1663 @@
   "sha1": "d4a860794c8eeb751f317a13d75af555c7b5561a:2",
   "time_col": "timestamp"
  },
+ "energy/gb/carbon_intensity/2017-09.csv.gz": {
+  "max": "2017-09-30T23:30Z",
+  "min": "2017-09-11T23:00Z",
+  "rows": 914,
+  "sha1": "df5a7200f8f40ba7a09d650d2897f23b10f2c69a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2017-10.csv.gz": {
+  "max": "2017-10-31T23:30Z",
+  "min": "2017-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "06541bfaf59bfeb81e75b8c6302b56215b9039b3:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2017-11.csv.gz": {
+  "max": "2017-11-30T23:30Z",
+  "min": "2017-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "e6ae4ffab73257d6c0c6e9b3a9c4f87a25e354b5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2017-12.csv.gz": {
+  "max": "2017-12-31T23:30Z",
+  "min": "2017-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "85361237fb6e78ba27a5b9d8db6f4494fee2ddef:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2018-01.csv.gz": {
+  "max": "2018-01-31T23:30Z",
+  "min": "2018-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ba119a671bc5b1ee0ef1cf876313e7cafe7e177b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2018-02.csv.gz": {
+  "max": "2018-02-28T23:30Z",
+  "min": "2018-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "646e4a6aa95658602748112100fae5bce49fac58:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2018-03.csv.gz": {
+  "max": "2018-03-31T23:30Z",
+  "min": "2018-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f58a7fed33078876645e108a2dc7e906dee60193:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2018-04.csv.gz": {
+  "max": "2018-04-30T23:30Z",
+  "min": "2018-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "b0ba22ec74f9bfb364ff6975452c80161824644d:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2018-05.csv.gz": {
+  "max": "2018-05-31T23:30Z",
+  "min": "2018-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "1589da76fa94649a5850718c9c788dcb8a8b1f39:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2018-06.csv.gz": {
+  "max": "2018-06-30T23:30Z",
+  "min": "2018-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "e3ddf7c0cd0bf388a004a2051970325bb4b68546:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2018-07.csv.gz": {
+  "max": "2018-07-31T23:30Z",
+  "min": "2018-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "837c5b9ae44d394e04f34bf3f3270b7385fbc673:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2018-08.csv.gz": {
+  "max": "2018-08-31T23:30Z",
+  "min": "2018-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "6d963298d999e7cff7c2f4e127f3762cf5a81a97:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2018-09.csv.gz": {
+  "max": "2018-09-30T23:30Z",
+  "min": "2018-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "b2e51c3c7f48d93ffdfdafe7731b8bd54dddc937:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2018-10.csv.gz": {
+  "max": "2018-10-31T23:30Z",
+  "min": "2018-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ee8eebc73a98be46dfc21bf72bba5d207529e23e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2018-11.csv.gz": {
+  "max": "2018-11-30T23:30Z",
+  "min": "2018-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "ce7ca74978a8e2306792f1b0dec6f8e6cf71aaf5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2018-12.csv.gz": {
+  "max": "2018-12-31T23:30Z",
+  "min": "2018-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "5cb1c30be7ef4b974fe9988d643f3b6c0db4f470:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2019-01.csv.gz": {
+  "max": "2019-01-31T23:30Z",
+  "min": "2019-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ae96cbd345d715c5e55a403a17af76d5d8fc64f3:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2019-02.csv.gz": {
+  "max": "2019-02-28T23:30Z",
+  "min": "2019-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "04c07232444cb13b2ff924aaad0f471b2b917641:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2019-03.csv.gz": {
+  "max": "2019-03-31T23:30Z",
+  "min": "2019-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ce765370a4aea39966667ea4d8c6059cb4fab297:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2019-04.csv.gz": {
+  "max": "2019-04-30T23:30Z",
+  "min": "2019-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "9df27821de87ca7aadf358c6001f4438613f7bd5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2019-05.csv.gz": {
+  "max": "2019-05-31T23:30Z",
+  "min": "2019-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e274ad418832356183b30bbe74d5be57fbfd018b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2019-06.csv.gz": {
+  "max": "2019-06-30T23:30Z",
+  "min": "2019-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "8514f7596fa699ebfe537c278a9f45a45980c424:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2019-07.csv.gz": {
+  "max": "2019-07-31T23:30Z",
+  "min": "2019-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "fe95bb4edf15bb838d588a09d592408821a35569:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2019-08.csv.gz": {
+  "max": "2019-08-31T23:30Z",
+  "min": "2019-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "959dd86ea6a3722f256a63fcf6875ff7e33182bf:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2019-09.csv.gz": {
+  "max": "2019-09-30T23:30Z",
+  "min": "2019-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "4f9845fb3a1429786e7ee05f1a824d5f7cf8544f:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2019-10.csv.gz": {
+  "max": "2019-10-31T23:30Z",
+  "min": "2019-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2346a560f1f5d22e968816cd2d7d64d6ce9f4e1e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2019-11.csv.gz": {
+  "max": "2019-11-30T23:30Z",
+  "min": "2019-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "dd47c069f5a31880df4feb0b39393b3077fdeaaf:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2019-12.csv.gz": {
+  "max": "2019-12-31T23:30Z",
+  "min": "2019-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "803999f8f55434b51bfc2aa818ee2fde437d032b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2020-01.csv.gz": {
+  "max": "2020-01-31T23:30Z",
+  "min": "2020-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f1d25eb0a2b0c112ba5695d8991fa786bd19c97b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2020-02.csv.gz": {
+  "max": "2020-02-29T23:30Z",
+  "min": "2020-02-01T00:00Z",
+  "rows": 1392,
+  "sha1": "ca5ec7b111677f76a27bd953d5fbace2d5a1cb4a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2020-03.csv.gz": {
+  "max": "2020-03-31T23:30Z",
+  "min": "2020-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "b5a6568e404786ab043953cc20eee1b6c5fb9e25:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2020-04.csv.gz": {
+  "max": "2020-04-30T23:30Z",
+  "min": "2020-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "323b84819667d036d5e152df1021a8a0eee0fa30:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2020-05.csv.gz": {
+  "max": "2020-05-31T23:30Z",
+  "min": "2020-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "fe84f843d69e1adf2097f9b34774ad96306a742c:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2020-06.csv.gz": {
+  "max": "2020-06-30T23:30Z",
+  "min": "2020-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "b2db3a1828183f063c392809f6a6eae07c7f012c:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2020-07.csv.gz": {
+  "max": "2020-07-31T23:30Z",
+  "min": "2020-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "9faefd57bb63aa7aa4a329e333abea6d3538edc2:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2020-08.csv.gz": {
+  "max": "2020-08-31T23:30Z",
+  "min": "2020-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "aced46d9e32fb8e6202ea592248de7653afa5e26:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2020-09.csv.gz": {
+  "max": "2020-09-30T23:30Z",
+  "min": "2020-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "938f34b48404ac08d73c24e1d31a59fc0702dc9a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2020-10.csv.gz": {
+  "max": "2020-10-31T23:30Z",
+  "min": "2020-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2425effa018f0370fac09115d414061f43f91d5f:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2020-11.csv.gz": {
+  "max": "2020-11-30T23:30Z",
+  "min": "2020-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "d2ec0b87cb3fb669ea6e0a47a6363b0879f50645:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2020-12.csv.gz": {
+  "max": "2020-12-31T23:30Z",
+  "min": "2020-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f08e2051830ccdf0ad3ad63b897c2f2e44089c8d:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2021-01.csv.gz": {
+  "max": "2021-01-31T23:30Z",
+  "min": "2021-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ad1b9543507d3d296b54d3836bf18dfeacf3ced2:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2021-02.csv.gz": {
+  "max": "2021-02-28T23:30Z",
+  "min": "2021-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "440063d465220c30797358453edf3387bc65de38:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2021-03.csv.gz": {
+  "max": "2021-03-31T23:30Z",
+  "min": "2021-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "c235734c030d33f9fade9e74fd1c61aec4673734:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2021-04.csv.gz": {
+  "max": "2021-04-30T23:30Z",
+  "min": "2021-04-01T00:00Z",
+  "rows": 1437,
+  "sha1": "efe9b070be9f801621913e23d94be82b933dc5f4:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2021-05.csv.gz": {
+  "max": "2021-05-31T23:30Z",
+  "min": "2021-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "707f53e61103999ca5d11efda8add45ec61fc125:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2021-06.csv.gz": {
+  "max": "2021-06-30T23:30Z",
+  "min": "2021-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "5a34f2000acc9db29a49d66a080839283b48d56e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2021-07.csv.gz": {
+  "max": "2021-07-31T23:30Z",
+  "min": "2021-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7346ae15d0d029853c365e23d5b77c7ea56c7207:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2021-08.csv.gz": {
+  "max": "2021-08-31T23:30Z",
+  "min": "2021-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "802dafe8365cc1e60aa3e8c5e6ba82018d2b3adf:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2021-09.csv.gz": {
+  "max": "2021-09-30T23:30Z",
+  "min": "2021-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "c92b980ab0f9d23672d6ea254f323949f1f4980b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2021-10.csv.gz": {
+  "max": "2021-10-31T23:30Z",
+  "min": "2021-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "4cd0f8fb75a0aea30eae2271d013f1183b755951:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2021-11.csv.gz": {
+  "max": "2021-11-30T23:30Z",
+  "min": "2021-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "31754bb406b4c4b6680f6623172f34bbdebeed66:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2021-12.csv.gz": {
+  "max": "2021-12-31T23:30Z",
+  "min": "2021-12-01T00:00Z",
+  "rows": 1434,
+  "sha1": "881de655625b1faa039b99023003ecfa9ccc802b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2022-01.csv.gz": {
+  "max": "2022-01-31T23:30Z",
+  "min": "2022-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "afe71a4be89585377913bffd92f7a8a5d73e3018:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2022-02.csv.gz": {
+  "max": "2022-02-28T23:30Z",
+  "min": "2022-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "64af0b455428de5ecb2cc9ffbbba5be7e86b0f64:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2022-03.csv.gz": {
+  "max": "2022-03-31T23:30Z",
+  "min": "2022-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "098e9778602414a50d35818c85d7726c42da29de:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2022-04.csv.gz": {
+  "max": "2022-04-30T23:30Z",
+  "min": "2022-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "097d4dc2bbefb5b80be913b38e16d05bd4ad07c6:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2022-05.csv.gz": {
+  "max": "2022-05-31T23:30Z",
+  "min": "2022-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "46c0da7977f92d35dc5ab8e337d0817f4824c8a5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2022-06.csv.gz": {
+  "max": "2022-06-30T23:30Z",
+  "min": "2022-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "cc3c7d4a0c4f29ea0abc4d88fe1e91bf05114940:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2022-07.csv.gz": {
+  "max": "2022-07-31T23:30Z",
+  "min": "2022-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ab57c794c36d120a896c7a403452df493a5aa91e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2022-08.csv.gz": {
+  "max": "2022-08-31T23:30Z",
+  "min": "2022-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e7d076444a6efb6bcd00d2a6211ba86f62bcf71e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2022-09.csv.gz": {
+  "max": "2022-09-30T23:30Z",
+  "min": "2022-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "0f558f4326c7ac68935b6318a850e033e6f5ffb8:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2022-10.csv.gz": {
+  "max": "2022-10-31T23:30Z",
+  "min": "2022-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f8c5f3f9d390713f24b1f998282871c5479dfe31:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2022-11.csv.gz": {
+  "max": "2022-11-30T23:30Z",
+  "min": "2022-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "5a1fbc7c5fec365ce15c3541c437c3d0564789ca:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2022-12.csv.gz": {
+  "max": "2022-12-31T23:30Z",
+  "min": "2022-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "9609dd4d5b42a26cb758dbe014240a5f62c82c07:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2023-01.csv.gz": {
+  "max": "2023-01-31T23:30Z",
+  "min": "2023-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f83eec75791a2a8e92333866be9bb399e9d782be:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2023-02.csv.gz": {
+  "max": "2023-02-28T23:30Z",
+  "min": "2023-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "60919eaa857bbb54c0003fa32621dbca6c35aae5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2023-03.csv.gz": {
+  "max": "2023-03-31T23:30Z",
+  "min": "2023-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "869f17dcd9487c84ec81886202b90b5cfa56fc93:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2023-04.csv.gz": {
+  "max": "2023-04-30T23:30Z",
+  "min": "2023-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "105061aaa51626c1753909f023021659b2aefc03:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2023-05.csv.gz": {
+  "max": "2023-05-31T23:30Z",
+  "min": "2023-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "98326de8b965b21a75942b4fc8fb72382dbd72f7:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2023-06.csv.gz": {
+  "max": "2023-06-30T23:30Z",
+  "min": "2023-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "ee9004eff777fbb4e99c539ad7f0b922ef06bb52:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2023-07.csv.gz": {
+  "max": "2023-07-31T23:30Z",
+  "min": "2023-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "810cad14d6f4200141894079823f542117e40153:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2023-08.csv.gz": {
+  "max": "2023-08-31T23:30Z",
+  "min": "2023-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "03050774d8d93d6222f9a19d911d8c6a6c22ec1d:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2023-09.csv.gz": {
+  "max": "2023-09-30T23:30Z",
+  "min": "2023-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "73039573d2abd9055eba53c9998d9f52a8792225:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2023-10.csv.gz": {
+  "max": "2023-10-31T23:30Z",
+  "min": "2023-10-01T00:00Z",
+  "rows": 1397,
+  "sha1": "5ecdc1d1e64bce6bf33bce2a385b9e729c247990:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2023-11.csv.gz": {
+  "max": "2023-11-30T23:30Z",
+  "min": "2023-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "6a935c7c745cb150bc6f6b4b2745c5b3b558965c:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2023-12.csv.gz": {
+  "max": "2023-12-31T23:30Z",
+  "min": "2023-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "bda24a6bbf413652f29a9e7bed3042303024b450:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2024-01.csv.gz": {
+  "max": "2024-01-31T23:30Z",
+  "min": "2024-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "19a6c3be62e80b5ab792cc5ea58b480530447020:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2024-02.csv.gz": {
+  "max": "2024-02-29T23:30Z",
+  "min": "2024-02-01T00:00Z",
+  "rows": 1392,
+  "sha1": "83101010c1f51a0b6e6b537a01364c7d974eaee7:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2024-03.csv.gz": {
+  "max": "2024-03-31T23:30Z",
+  "min": "2024-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "81bc1ac9fdcf27975b4326177b5fe67cd2eb93e5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2024-04.csv.gz": {
+  "max": "2024-04-30T23:30Z",
+  "min": "2024-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "e84793184cf459b516a0b3e01e1b5449fdcd4407:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2024-05.csv.gz": {
+  "max": "2024-05-31T23:30Z",
+  "min": "2024-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "6b9c729dbcb032d708375203cf643b1d7eacd2d1:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2024-06.csv.gz": {
+  "max": "2024-06-30T23:30Z",
+  "min": "2024-06-01T00:00Z",
+  "rows": 1409,
+  "sha1": "a2076acda444e0dc037790123dee5bcae6d98b15:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2024-07.csv.gz": {
+  "max": "2024-07-31T23:30Z",
+  "min": "2024-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2e5efebe9c5cb1fc8d55d8d1bb8c9063644a15a4:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2024-08.csv.gz": {
+  "max": "2024-08-31T23:30Z",
+  "min": "2024-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2d57068f7375fc3909a67539d3aa259344953cf6:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2024-09.csv.gz": {
+  "max": "2024-09-30T23:30Z",
+  "min": "2024-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "9bee90fad8f088bebe982d77eab96a9693be6366:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2024-10.csv.gz": {
+  "max": "2024-10-31T23:30Z",
+  "min": "2024-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ba01a76fd94a3a9791e0f78a3e9e37666c0685fa:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2024-11.csv.gz": {
+  "max": "2024-11-30T23:30Z",
+  "min": "2024-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "b3247753f6d863ce41bcb53d833f6bc3e9e78806:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2024-12.csv.gz": {
+  "max": "2024-12-31T23:30Z",
+  "min": "2024-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "1b34c52605c543fb483d6e850a6cb23655bf7bb0:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2025-01.csv.gz": {
+  "max": "2025-01-31T23:30Z",
+  "min": "2025-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "472dc779efa3f0518cbdc66ca1ebaf01cbf38e05:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2025-02.csv.gz": {
+  "max": "2025-02-28T23:30Z",
+  "min": "2025-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "bbf70dfc3115ff6696643eb76a6482e02a6328d0:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2025-03.csv.gz": {
+  "max": "2025-03-31T23:30Z",
+  "min": "2025-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "effe0733b2558fe3970ae317af40ff43080f6fa5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2025-04.csv.gz": {
+  "max": "2025-04-30T23:30Z",
+  "min": "2025-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "bab36ed2e873dc2ffa35e9446c12c02b4adb79ed:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2025-05.csv.gz": {
+  "max": "2025-05-31T23:30Z",
+  "min": "2025-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e22c6ef4e05703b57eaac869b1557ad8c7675105:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2025-06.csv.gz": {
+  "max": "2025-06-30T23:30Z",
+  "min": "2025-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "aedbdcf1f678863128a011a4d4cf9b22f2502552:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2025-07.csv.gz": {
+  "max": "2025-07-31T23:30Z",
+  "min": "2025-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "44cecce383a05fad3c95c5e3c9bcbd85f81e0d46:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2025-08.csv.gz": {
+  "max": "2025-08-31T23:30Z",
+  "min": "2025-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2f6ab6f74842c42d3e35a68658f2a0a13753ea13:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2025-09.csv.gz": {
+  "max": "2025-09-30T23:30Z",
+  "min": "2025-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "4b7fc1432c91d592920e161589cac8226c15ad9a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2025-10.csv.gz": {
+  "max": "2025-10-31T23:30Z",
+  "min": "2025-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7b4f90449093b830d42bdf5da2595d979ba96ee6:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2025-11.csv.gz": {
+  "max": "2025-11-30T23:30Z",
+  "min": "2025-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "34998c05d1081dc3c7363146054179e680165f34:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2025-12.csv.gz": {
+  "max": "2025-12-31T23:30Z",
+  "min": "2025-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "599386a0244b01cb407c4656aae2469351024987:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2026-01.csv.gz": {
+  "max": "2026-01-31T23:30Z",
+  "min": "2026-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "9b375eace44b0c96e4b66fe43c33cd3c3d452022:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2026-02.csv.gz": {
+  "max": "2026-02-28T23:30Z",
+  "min": "2026-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "aec11e992297b4836f5f9a3883b0a8acd83d866b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2026-03.csv.gz": {
+  "max": "2026-03-31T23:30Z",
+  "min": "2026-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "de5897f2d890cfa0592af56f7744fe63b0a7ceee:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2026-04.csv.gz": {
+  "max": "2026-04-30T23:30Z",
+  "min": "2026-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "a04d29bd20744fff39d0c9abea06ad1d254ac4b8:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2026-05.csv.gz": {
+  "max": "2026-05-31T23:30Z",
+  "min": "2026-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "8a228c232135b917d8971e5c0f85858b21525aa1:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2026-06.csv.gz": {
+  "max": "2026-06-30T23:30Z",
+  "min": "2026-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "57f2736fbe653bbd4fd1df17d556e25aba73a0e5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2026-07.csv": {
+  "max": "2026-07-31T23:30Z",
+  "min": "2026-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "3637c8c84f350a8e81cde816651a08bc1ae2af88:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/carbon_intensity/2026-08.csv": {
+  "max": "2026-08-31T23:30Z",
+  "min": "2026-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "051556c2894cb41bdff70bc6e740f74bca2ee010:2",
+  "time_col": "timestamp"
+ },
  "energy/gb/carbon_intensity/2026-09.csv": {
   "max": "2026-09-27T23:30Z",
-  "min": "2026-09-20T23:30Z",
-  "rows": 337,
-  "sha1": "28d434fb4f7b4a25ac210614fc93b68d994f2a84:2",
+  "min": "2026-09-01T00:00Z",
+  "rows": 1296,
+  "sha1": "d07398a8fab22297be0bbaf8b9f5ff29cd0e5109:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2016-02.csv.gz": {
+  "max": "2016-02-29T23:30Z",
+  "min": "2016-02-29T23:30Z",
+  "rows": 1,
+  "sha1": "52706bedd141007a58b35406da17f3e75405b410:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2016-03.csv.gz": {
+  "max": "2016-03-31T23:30Z",
+  "min": "2016-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "36f949a81b440f03f8c8b7be0bf7a611d8107d10:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2016-04.csv.gz": {
+  "max": "2016-04-30T23:30Z",
+  "min": "2016-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "c961899ca22e13fc3fab5d4f48969cd0e6c64955:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2016-05.csv.gz": {
+  "max": "2016-05-31T23:30Z",
+  "min": "2016-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "6ff6dd7835d0f4e847cb9e0ed5bea3ee500021bb:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2016-06.csv.gz": {
+  "max": "2016-06-30T23:30Z",
+  "min": "2016-06-01T00:00Z",
+  "rows": 1392,
+  "sha1": "296c6f73a8368634c761b827d94dcca5c1b9d78f:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2016-07.csv.gz": {
+  "max": "2016-07-31T23:30Z",
+  "min": "2016-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e0128b6d8c4ecbfc4876d2f279a7ce31b9fa8a41:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2016-08.csv.gz": {
+  "max": "2016-08-31T23:30Z",
+  "min": "2016-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "c6eb3049d866575f40ae26138acad16e202516a1:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2016-09.csv.gz": {
+  "max": "2016-09-30T23:30Z",
+  "min": "2016-09-01T00:00Z",
+  "rows": 1388,
+  "sha1": "94889cca38faf18a92a6121c593a9a47dc7de1d6:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2016-10.csv.gz": {
+  "max": "2016-10-31T23:30Z",
+  "min": "2016-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "85b57e1e6727d5475afe7b1f2d1b4171962c4da5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2016-11.csv.gz": {
+  "max": "2016-11-30T23:30Z",
+  "min": "2016-11-01T00:00Z",
+  "rows": 1418,
+  "sha1": "296c024bf0a93fab836acd6e5a41ce5073e8834a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2016-12.csv.gz": {
+  "max": "2016-12-31T23:30Z",
+  "min": "2016-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "c4cb55e63b0e9aba1777d011e3923cc1845f429c:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2017-01.csv.gz": {
+  "max": "2017-01-31T23:30Z",
+  "min": "2017-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "0572a4fa684aad071070567f62121555d2258773:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2017-02.csv.gz": {
+  "max": "2017-02-28T23:30Z",
+  "min": "2017-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "32cbfa9a9d7eb07b6323c4375c2d91d98b5207e5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2017-03.csv.gz": {
+  "max": "2017-03-31T23:30Z",
+  "min": "2017-03-01T00:00Z",
+  "rows": 1466,
+  "sha1": "831c54cc04266eb7275f7e5632396b444f3d9546:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2017-04.csv.gz": {
+  "max": "2017-04-30T23:30Z",
+  "min": "2017-04-01T00:00Z",
+  "rows": 1344,
+  "sha1": "42621fff6f4484c4ef08f8d04221051993b20814:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2017-05.csv.gz": {
+  "max": "2017-05-31T23:00Z",
+  "min": "2017-05-01T00:00Z",
+  "rows": 1487,
+  "sha1": "68732b5dca066eff6c079303d51930a6f1c87243:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2017-06.csv.gz": {
+  "max": "2017-06-30T23:30Z",
+  "min": "2017-06-02T23:30Z",
+  "rows": 1345,
+  "sha1": "27de79cfcf6a4a51b64b3bde69cd43f121049bcd:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2017-07.csv.gz": {
+  "max": "2017-07-31T23:30Z",
+  "min": "2017-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "065d7465f763d225f8723d6ba87b9646f5d36729:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2017-08.csv.gz": {
+  "max": "2017-08-31T23:30Z",
+  "min": "2017-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "09dfa51d0b9c4932d4e1724fa12df98b12810338:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2017-09.csv.gz": {
+  "max": "2017-09-30T23:30Z",
+  "min": "2017-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "35c22fbc8b355c36031568cfd60c0701bf3133c6:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2017-10.csv.gz": {
+  "max": "2017-10-31T23:30Z",
+  "min": "2017-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "6b4142594caa2ffb32daeca62af1346a076631e1:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2017-11.csv.gz": {
+  "max": "2017-11-30T23:30Z",
+  "min": "2017-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "900e93a9b8e921a84eaf6880231ce1d0fcde4d2e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2017-12.csv.gz": {
+  "max": "2017-12-31T23:30Z",
+  "min": "2017-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "aa93a3fa899d1ff5ec3ba790a84207e36c62f7f6:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2018-01.csv.gz": {
+  "max": "2018-01-31T23:30Z",
+  "min": "2018-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "31f5164013d30ecef92e6dde14648bb94cab1035:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2018-02.csv.gz": {
+  "max": "2018-02-28T23:30Z",
+  "min": "2018-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "bef916cbac476f21cb0743ee8541e06f84e963b1:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2018-03.csv.gz": {
+  "max": "2018-03-31T23:30Z",
+  "min": "2018-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2a7be8dfa63dd517c331baca89edc2b36c13a05b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2018-04.csv.gz": {
+  "max": "2018-04-30T23:30Z",
+  "min": "2018-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "1c802905d21ef424f61c499f287b8a920c335fb0:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2018-05.csv.gz": {
+  "max": "2018-05-31T23:30Z",
+  "min": "2018-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "37bc05d86a6715b6f9ade039f117ed51ccf0e833:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2018-06.csv.gz": {
+  "max": "2018-06-30T23:30Z",
+  "min": "2018-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "a268f0c2e45faf39a9aa03ce0f023e77178ba5dc:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2018-07.csv.gz": {
+  "max": "2018-07-31T23:30Z",
+  "min": "2018-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f0348f5b2ead92a9376b803a4d0c23b1304f39ef:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2018-08.csv.gz": {
+  "max": "2018-08-31T23:30Z",
+  "min": "2018-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "a3c06899b938035f7402c67b109ffc5c2cef6da1:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2018-09.csv.gz": {
+  "max": "2018-09-30T23:30Z",
+  "min": "2018-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "77e7e02c3510c24668c55718362af187dd93ea11:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2018-10.csv.gz": {
+  "max": "2018-10-31T23:30Z",
+  "min": "2018-10-01T00:00Z",
+  "rows": 1440,
+  "sha1": "89a3e0f5325dfe5c9e09a9b4641a127b2986df7f:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2018-11.csv.gz": {
+  "max": "2018-11-30T23:30Z",
+  "min": "2018-11-01T00:00Z",
+  "rows": 1344,
+  "sha1": "0f595c7b216faac3d4a749f9ded86b1a69f420fe:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2018-12.csv.gz": {
+  "max": "2018-12-31T23:30Z",
+  "min": "2018-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "4e0254269563f775830fd354395e7c87dcaf34fe:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2019-01.csv.gz": {
+  "max": "2019-01-31T23:30Z",
+  "min": "2019-01-01T00:00Z",
+  "rows": 1392,
+  "sha1": "9b6b7da41551b426cb43e93caac40a75dc75ea54:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2019-02.csv.gz": {
+  "max": "2019-02-28T23:30Z",
+  "min": "2019-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "fafaf4a6ec03974093fda7ba485ae7ba361de7a1:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2019-03.csv.gz": {
+  "max": "2019-03-31T23:30Z",
+  "min": "2019-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7af8e35f38066b92f48eac94634452c868dae44f:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2019-04.csv.gz": {
+  "max": "2019-04-30T23:30Z",
+  "min": "2019-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "19fcad7c90e118f097e283e3164393261e8393ca:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2019-05.csv.gz": {
+  "max": "2019-05-31T23:30Z",
+  "min": "2019-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "5c13d08611a6b86b7a4a7679cb3f0f38836664fb:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2019-06.csv.gz": {
+  "max": "2019-06-30T23:30Z",
+  "min": "2019-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "71b2a53f5ffeea18a0f47fff27a46e531fa44fc4:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2019-07.csv.gz": {
+  "max": "2019-07-31T23:30Z",
+  "min": "2019-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "957dc55c15e9fe1bb608fda705f838481f334e51:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2019-08.csv.gz": {
+  "max": "2019-08-31T23:30Z",
+  "min": "2019-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2ad6e914f4126a1123c14fb2c3c3d6f287c8b53c:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2019-09.csv.gz": {
+  "max": "2019-09-30T23:30Z",
+  "min": "2019-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "8bf8550f906ce477e91de2b28783d1b0bccdaa8e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2019-10.csv.gz": {
+  "max": "2019-10-31T23:30Z",
+  "min": "2019-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "0deb2532f4e72722c118cb517f6ff1366d12e2e4:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2019-11.csv.gz": {
+  "max": "2019-11-30T23:30Z",
+  "min": "2019-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "f3bef28a2f8eb4cd02258fdea1be7b8826030e0c:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2019-12.csv.gz": {
+  "max": "2019-12-31T23:30Z",
+  "min": "2019-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "a7300bb2b3c70f4be90b1aa9b406b1f540181cc5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2020-01.csv.gz": {
+  "max": "2020-01-31T23:30Z",
+  "min": "2020-01-01T00:00Z",
+  "rows": 1462,
+  "sha1": "38b6f60453c09f420fdfe1e77f27fa9e28aa613c:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2020-02.csv.gz": {
+  "max": "2020-02-29T23:30Z",
+  "min": "2020-02-01T00:00Z",
+  "rows": 1392,
+  "sha1": "563b6a4149e6c368a3ba12ff759fdffe21cd3f9a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2020-03.csv.gz": {
+  "max": "2020-03-31T23:30Z",
+  "min": "2020-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7af338dfc02c9dbe4cea4975b8e8eb64f307751e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2020-04.csv.gz": {
+  "max": "2020-04-30T23:30Z",
+  "min": "2020-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "15afbf5fa4925fed4e1ad856e1c489c78c549ec8:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2020-05.csv.gz": {
+  "max": "2020-05-31T23:30Z",
+  "min": "2020-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "6a05444368231ee884ec0d262593a183cf8ada82:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2020-06.csv.gz": {
+  "max": "2020-06-30T23:30Z",
+  "min": "2020-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "46ed59ada846ef562776855179142085943c1d24:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2020-07.csv.gz": {
+  "max": "2020-07-31T23:30Z",
+  "min": "2020-07-01T00:00Z",
+  "rows": 1392,
+  "sha1": "7f35c35a65357d8e5a6b2658415057b92da3e17b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2020-08.csv.gz": {
+  "max": "2020-08-31T23:30Z",
+  "min": "2020-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "5d06e273c4555c29e8811ad7b95c680620e3de86:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2020-09.csv.gz": {
+  "max": "2020-09-30T23:30Z",
+  "min": "2020-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "1ba2f4178169f119f59f4ea7bc9e73e556e67371:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2020-10.csv.gz": {
+  "max": "2020-10-31T23:30Z",
+  "min": "2020-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "c59eeeedf0a0f81dd1c225342c7cff38e3818e89:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2020-11.csv.gz": {
+  "max": "2020-11-30T23:30Z",
+  "min": "2020-11-01T00:00Z",
+  "rows": 1392,
+  "sha1": "7ab4249ae4cc27c79674066f0b043f0131737791:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2020-12.csv.gz": {
+  "max": "2020-12-31T23:30Z",
+  "min": "2020-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "a1e08960c1ac301d0c2a715268d1726d0ebdafc5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2021-01.csv.gz": {
+  "max": "2021-01-31T23:30Z",
+  "min": "2021-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e971c6bce60ec21b77b31a8ed523709aec033cab:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2021-02.csv.gz": {
+  "max": "2021-02-28T23:30Z",
+  "min": "2021-02-01T00:00Z",
+  "rows": 1200,
+  "sha1": "1a6b2a10366e385a9f111bda4ab257d08d024e71:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2021-03.csv.gz": {
+  "max": "2021-03-31T23:30Z",
+  "min": "2021-03-01T00:00Z",
+  "rows": 1392,
+  "sha1": "1225844f0983b8925357b3452237a85126de84c8:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2021-04.csv.gz": {
+  "max": "2021-04-30T23:30Z",
+  "min": "2021-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "8994ed7814586782d4f3b1e9733a5324322c1b04:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2021-05.csv.gz": {
+  "max": "2021-05-31T23:30Z",
+  "min": "2021-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "8cc7dc8ed1febaa66b9b207e5b97a00c1b121e04:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2021-06.csv.gz": {
+  "max": "2021-06-30T23:30Z",
+  "min": "2021-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "57e5d3f40ac911814b2dc240ceb7d328a798e655:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2021-07.csv.gz": {
+  "max": "2021-07-31T23:30Z",
+  "min": "2021-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "9cd47befa9958aa70d1a3b90c1385146fce339c9:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2021-08.csv.gz": {
+  "max": "2021-08-31T23:30Z",
+  "min": "2021-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "262cb96729522f257874c01104a0fd4f1c73c675:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2021-09.csv.gz": {
+  "max": "2021-09-30T23:30Z",
+  "min": "2021-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "df800fcee67ae7c91ada1fdb77719f57f66b3061:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2021-10.csv.gz": {
+  "max": "2021-10-31T23:30Z",
+  "min": "2021-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7f7770163673975f25b557f01ec2c2a5965b062e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2021-11.csv.gz": {
+  "max": "2021-11-30T23:30Z",
+  "min": "2021-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "89eafa73f2bca58b5a808e378daa4345c9a2a0c2:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2021-12.csv.gz": {
+  "max": "2021-12-31T23:30Z",
+  "min": "2021-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "01e87ea38ea4f064e6946a80a73d9ed1da3f7c17:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2022-01.csv.gz": {
+  "max": "2022-01-31T23:30Z",
+  "min": "2022-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ce29adf1f6fe7c73efa06b20df89dbc0e473b152:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2022-02.csv.gz": {
+  "max": "2022-02-28T23:30Z",
+  "min": "2022-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "b44f49dfd2998a54554372218cc1082b24f8f0fb:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2022-03.csv.gz": {
+  "max": "2022-03-31T23:30Z",
+  "min": "2022-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "362d61d2813462a4cd7086a2f551a7913d2e7759:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2022-04.csv.gz": {
+  "max": "2022-04-30T23:30Z",
+  "min": "2022-04-01T00:00Z",
+  "rows": 1439,
+  "sha1": "fdbad2cf9e0eb58d4c13d4281e2d1e528da1fd2b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2022-05.csv.gz": {
+  "max": "2022-05-31T23:30Z",
+  "min": "2022-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "94f6a9a16b48db9fc10b7c0748e1c915aadcf1b0:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2022-06.csv.gz": {
+  "max": "2022-06-30T23:30Z",
+  "min": "2022-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "d9da03425252f2b576c5277b401002d2237b1c20:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2022-07.csv.gz": {
+  "max": "2022-07-31T23:30Z",
+  "min": "2022-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "80a4c91b81fd08b263d48485d50c5fa68fedb0c8:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2022-08.csv.gz": {
+  "max": "2022-08-31T23:30Z",
+  "min": "2022-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f873921fe966ea8b2c462df025b0f981987ff3e2:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2022-09.csv.gz": {
+  "max": "2022-09-30T23:30Z",
+  "min": "2022-09-01T00:00Z",
+  "rows": 1439,
+  "sha1": "44bd50685100c80b8a3e00b2db51361c855f3e45:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2022-10.csv.gz": {
+  "max": "2022-10-31T23:30Z",
+  "min": "2022-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "b7e9b3d966f4927c5fc4c33e5dc509543db2c19a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2022-11.csv.gz": {
+  "max": "2022-11-30T23:30Z",
+  "min": "2022-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "ae6c7ade8d579f9b87074ee43a19e0fbc315ce84:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2022-12.csv.gz": {
+  "max": "2022-12-31T23:30Z",
+  "min": "2022-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e6b768d5f09a0dacad4c7e233aaa88b1ce77d72d:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2023-01.csv.gz": {
+  "max": "2023-01-31T23:30Z",
+  "min": "2023-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7d26f0a899b1954ec5f6a36d458bced785701ac7:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2023-02.csv.gz": {
+  "max": "2023-02-28T23:30Z",
+  "min": "2023-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "87dea86ae616f8f7f29168a3cdc2ebe35427f988:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2023-03.csv.gz": {
+  "max": "2023-03-31T23:30Z",
+  "min": "2023-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "b51afa02b2029307b0d08f790c8449846d0ec472:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2023-04.csv.gz": {
+  "max": "2023-04-30T23:30Z",
+  "min": "2023-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "b920220cfd1f8865a75bf5a511249efed193f951:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2023-05.csv.gz": {
+  "max": "2023-05-31T23:30Z",
+  "min": "2023-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "4d6127d1ff8c4087f47cb44fad853c40a1c28fe6:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2023-06.csv.gz": {
+  "max": "2023-06-30T23:30Z",
+  "min": "2023-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "537a0738d0d0d35adac77d4e1e4abc32742fd630:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2023-07.csv.gz": {
+  "max": "2023-07-31T23:30Z",
+  "min": "2023-07-01T00:00Z",
+  "rows": 1487,
+  "sha1": "89a671aac9a76f864f5ba6060739cd8b8c104add:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2023-08.csv.gz": {
+  "max": "2023-08-31T23:30Z",
+  "min": "2023-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e1c4b23471304ea73a5998a2ca38b9e247b4dac3:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2023-09.csv.gz": {
+  "max": "2023-09-30T23:30Z",
+  "min": "2023-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "8db7868a46d4d4b9f7e401bad992aff045b9544d:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2023-10.csv.gz": {
+  "max": "2023-10-31T23:30Z",
+  "min": "2023-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "4227a424cad71bf5d4fe481d7bcd460ce5732eb4:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2023-11.csv.gz": {
+  "max": "2023-11-30T23:30Z",
+  "min": "2023-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "89139dccc84b0b1957725944d10d1663a190d63a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2023-12.csv.gz": {
+  "max": "2023-12-31T23:30Z",
+  "min": "2023-12-01T00:00Z",
+  "rows": 1487,
+  "sha1": "acdb3d0f0a8d935396532fdd8051a679ac624ea2:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2024-01.csv.gz": {
+  "max": "2024-01-31T23:30Z",
+  "min": "2024-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "b131dccf1655df43dc2ba188a7524a5199b5c43a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2024-02.csv.gz": {
+  "max": "2024-02-29T23:30Z",
+  "min": "2024-02-01T00:00Z",
+  "rows": 1392,
+  "sha1": "c3105503339c211f2b2faa4ae1ed88203684d1d2:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2024-03.csv.gz": {
+  "max": "2024-03-31T23:30Z",
+  "min": "2024-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "9dacf4de4eff6bfcb315d27d04df61b7939f0812:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2024-04.csv.gz": {
+  "max": "2024-04-30T23:30Z",
+  "min": "2024-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "0f2b8c15ab7ccabd6ad63bae45517d1758fbcd03:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2024-05.csv.gz": {
+  "max": "2024-05-31T23:30Z",
+  "min": "2024-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "be79c48ab91509ec5538dbe44c2bfe43fbcb107e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2024-06.csv.gz": {
+  "max": "2024-06-30T23:30Z",
+  "min": "2024-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "545f9bf315328c31914fad8ef1c5f36c4f941152:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2024-07.csv.gz": {
+  "max": "2024-07-31T23:30Z",
+  "min": "2024-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e1bd18563faa38cfdc6d9dae5fb643361a15c1cf:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2024-08.csv.gz": {
+  "max": "2024-08-31T23:30Z",
+  "min": "2024-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e3682826641793d432b5a1a7138803899beef7a2:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2024-09.csv.gz": {
+  "max": "2024-09-30T23:30Z",
+  "min": "2024-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "2ad7f8fc4a5dd3bb0da612d35d23bad9bb132c53:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2024-10.csv.gz": {
+  "max": "2024-10-31T23:30Z",
+  "min": "2024-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "bb25c8d2b2a1b2b1b1e022c5e9b3f05d005602fc:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2024-11.csv.gz": {
+  "max": "2024-11-30T23:30Z",
+  "min": "2024-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "fda0a8ede32c2711c5e819ad40dfcaafdcf833d1:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2024-12.csv.gz": {
+  "max": "2024-12-31T23:30Z",
+  "min": "2024-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "4b83c3fa51beede7e50ef2faf815a58939647677:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2025-01.csv.gz": {
+  "max": "2025-01-31T23:30Z",
+  "min": "2025-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "fe6154f21b68eb73e5abc29b2039657ca83fe41f:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2025-02.csv.gz": {
+  "max": "2025-02-28T23:30Z",
+  "min": "2025-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "6a54722749baf0bd2975b6332f11b6cb0dc0fbb5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2025-03.csv.gz": {
+  "max": "2025-03-31T23:30Z",
+  "min": "2025-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "d851b25059bfba9d0f35d011b9e41daaa8c9272d:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2025-04.csv.gz": {
+  "max": "2025-04-30T23:30Z",
+  "min": "2025-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "3d90582f522818ac274e8d8bc980bef8603a088d:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2025-05.csv.gz": {
+  "max": "2025-05-31T23:30Z",
+  "min": "2025-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "bf4e2e0210a6b2118bf8c54328bc7191cbc5266e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2025-06.csv.gz": {
+  "max": "2025-06-30T23:30Z",
+  "min": "2025-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "7bc00ea9b47f7f60308f2bae03c70c7eba72e0c9:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2025-07.csv.gz": {
+  "max": "2025-07-31T23:30Z",
+  "min": "2025-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "65d81ab13bad33bef5f13de5b53c24699c5ca43b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2025-08.csv.gz": {
+  "max": "2025-08-31T23:30Z",
+  "min": "2025-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "13172f2a02153106e62d11f2d92b243511675b02:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2025-09.csv.gz": {
+  "max": "2025-09-30T23:30Z",
+  "min": "2025-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "1f3ecc3fa6b5b87e57f388f0259828c54ec1b0b0:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2025-10.csv.gz": {
+  "max": "2025-10-31T23:30Z",
+  "min": "2025-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "6e166507dfa1a56b9fcb8ae6484b0daa9c52b8f8:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2025-11.csv.gz": {
+  "max": "2025-11-30T23:30Z",
+  "min": "2025-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "7ee8b49481ed740acdcbda3b7810c880a30d80ce:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2025-12.csv.gz": {
+  "max": "2025-12-31T23:30Z",
+  "min": "2025-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "36ec53ce745abac5e309b7d03a97237b6a84f185:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2026-01.csv.gz": {
+  "max": "2026-01-31T23:30Z",
+  "min": "2026-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7bd7d736882932696dce2e393fba915c019cdb32:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2026-02.csv.gz": {
+  "max": "2026-02-28T23:30Z",
+  "min": "2026-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "dfc4bfc79ce139664459c142ecab1e56bf116d82:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2026-03.csv.gz": {
+  "max": "2026-03-31T23:30Z",
+  "min": "2026-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "88375a42933079d28e6c071a783779aecdb7747a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2026-04.csv.gz": {
+  "max": "2026-04-30T23:30Z",
+  "min": "2026-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "fdef05d8b6742e0fc922f850d5525d5af84a13ca:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2026-05.csv.gz": {
+  "max": "2026-05-31T23:30Z",
+  "min": "2026-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f24174ec3ed512bc08497d61c3963043fd3f777a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2026-06.csv.gz": {
+  "max": "2026-06-30T23:30Z",
+  "min": "2026-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "67ea42dfeac633d6bf7faa3d1847cbc1d1238e8b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2026-07.csv": {
+  "max": "2026-07-31T23:30Z",
+  "min": "2026-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "499eab3aa3779f67ce136a125227a9b6bb50ac91:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/demand/2026-08.csv": {
+  "max": "2026-08-31T23:30Z",
+  "min": "2026-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f22e7f3fac9420ac7f3e45c5755f291ce57cd20f:2",
   "time_col": "timestamp"
  },
  "energy/gb/demand/2026-09.csv": {
-  "max": "2026-09-27T13:00Z",
-  "min": "2026-09-20T23:00Z",
-  "rows": 317,
-  "sha1": "33e7f1b172dc8a4fc91d023eab3f93cdcd328b8b:2",
+  "max": "2026-09-27T16:00Z",
+  "min": "2026-09-01T00:00Z",
+  "rows": 1281,
+  "sha1": "87a51e06d2694a4c1f90d4c900851d353dd01308:2",
   "time_col": "timestamp"
  },
  "energy/gb/generation/2015-12.csv.gz": {
@@ -6755,17 +8400,906 @@
   "time_col": "timestamp"
  },
  "energy/gb/generation/2016-01.csv.gz": {
-  "max": "2016-01-31T23:00Z",
+  "max": "2016-01-31T23:30Z",
   "min": "2016-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "542c8cfac5369ea8840394a6256a0b0294959ad9:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2016-02.csv.gz": {
+  "max": "2016-02-29T23:30Z",
+  "min": "2016-02-01T00:00Z",
+  "rows": 1390,
+  "sha1": "7355c3ed1c1ce08bd8f4fccc1a1e92a6d49b5e76:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2016-03.csv.gz": {
+  "max": "2016-03-31T23:30Z",
+  "min": "2016-03-01T00:00Z",
+  "rows": 1485,
+  "sha1": "1ea047e8eb4fb979dcb7fa4295b577358a3c2d7e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2016-04.csv.gz": {
+  "max": "2016-04-30T23:30Z",
+  "min": "2016-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "b136d567f1fba6362a1b924f22f0a72497d29072:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2016-05.csv.gz": {
+  "max": "2016-05-31T23:30Z",
+  "min": "2016-05-01T00:00Z",
+  "rows": 1486,
+  "sha1": "5cbbe1b5c52d0ede440ea09fde43d8c8e16d9dd4:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2016-06.csv.gz": {
+  "max": "2016-06-30T23:30Z",
+  "min": "2016-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "e7fe417f74446df77c10cd6867580fe1b5d8ecb7:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2016-07.csv.gz": {
+  "max": "2016-07-31T23:30Z",
+  "min": "2016-07-01T00:00Z",
+  "rows": 1485,
+  "sha1": "b93d253df55134f6293d99a701a1a0123939f0df:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2016-08.csv.gz": {
+  "max": "2016-08-31T23:30Z",
+  "min": "2016-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2d4dc1cb3b1569bfe1c963e16e9fe04eb1258e8c:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2016-09.csv.gz": {
+  "max": "2016-09-30T23:30Z",
+  "min": "2016-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "afd44a9bbc60be44887ef6a9965051c56c1c16c8:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2016-10.csv.gz": {
+  "max": "2016-10-31T23:30Z",
+  "min": "2016-10-01T00:00Z",
+  "rows": 1486,
+  "sha1": "b2b1a195959e9c88fbe7d25f392a83f158a8e1b8:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2016-11.csv.gz": {
+  "max": "2016-11-30T23:30Z",
+  "min": "2016-11-01T00:00Z",
+  "rows": 1438,
+  "sha1": "d99c2fafdf292f412e7f579a4e179091d2cfea29:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2016-12.csv.gz": {
+  "max": "2016-12-31T23:30Z",
+  "min": "2016-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "3558ecfc5c32a4830680336a5a5c431a20966777:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2017-01.csv.gz": {
+  "max": "2017-01-31T23:30Z",
+  "min": "2017-01-01T00:00Z",
+  "rows": 1486,
+  "sha1": "783aaa8aac7a63640eb12ec976a00398f84d1470:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2017-02.csv.gz": {
+  "max": "2017-02-28T23:30Z",
+  "min": "2017-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "9ef30fe57749034594a275f0b86de9cbec39310e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2017-03.csv.gz": {
+  "max": "2017-03-31T23:30Z",
+  "min": "2017-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "9d589d1b364a7e98ce6a7f653f546285981a2209:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2017-04.csv.gz": {
+  "max": "2017-04-30T23:30Z",
+  "min": "2017-04-01T00:00Z",
+  "rows": 1439,
+  "sha1": "005d13f8abd570a87fb771eac4c5a90cbd7da275:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2017-05.csv.gz": {
+  "max": "2017-05-31T23:30Z",
+  "min": "2017-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "1984d13d6d4dfa430798a5175f605cb678382747:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2017-06.csv.gz": {
+  "max": "2017-06-30T23:30Z",
+  "min": "2017-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "1d87c6a9f4f8f850b4208f6823908ade8d900478:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2017-07.csv.gz": {
+  "max": "2017-07-31T23:30Z",
+  "min": "2017-07-01T00:00Z",
+  "rows": 1486,
+  "sha1": "94b00dbef908d6e01b39b342f64b88ca44309c58:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2017-08.csv.gz": {
+  "max": "2017-08-31T23:30Z",
+  "min": "2017-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7023036013bb509e08b22d2cbd1db00662ac17d0:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2017-09.csv.gz": {
+  "max": "2017-09-30T23:30Z",
+  "min": "2017-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "5b4c0cf783e93160c1562c5b70bf0f033e37213e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2017-10.csv.gz": {
+  "max": "2017-10-31T23:30Z",
+  "min": "2017-10-01T00:00Z",
+  "rows": 1484,
+  "sha1": "6e22236a7819a5e8e1989aedbbdab92399a54b90:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2017-11.csv.gz": {
+  "max": "2017-11-30T23:30Z",
+  "min": "2017-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "64dd6e938970889d64bbfc49aa041cf21e00525d:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2017-12.csv.gz": {
+  "max": "2017-12-31T23:30Z",
+  "min": "2017-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ee16bbd75050a7df60beca91fc1e55210fafb820:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2018-01.csv.gz": {
+  "max": "2018-01-31T23:30Z",
+  "min": "2018-01-01T00:00Z",
+  "rows": 1484,
+  "sha1": "34f28f5bc782f99cad941597d5e2b1f6ffb79e24:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2018-02.csv.gz": {
+  "max": "2018-02-28T23:30Z",
+  "min": "2018-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "eddade0ce939539faea4a8f2d81be7d6c2533e33:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2018-03.csv.gz": {
+  "max": "2018-03-31T23:30Z",
+  "min": "2018-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "6114298000f9f78e38cf88cf71586dc790c21e54:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2018-04.csv.gz": {
+  "max": "2018-04-30T23:30Z",
+  "min": "2018-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "3f481e1aaa2dc436a302337a694a2b974f1a6420:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2018-05.csv.gz": {
+  "max": "2018-05-31T23:30Z",
+  "min": "2018-05-01T00:00Z",
+  "rows": 1485,
+  "sha1": "a88b4bcc69f16cff8a672df4e3bd620f88d34549:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2018-06.csv.gz": {
+  "max": "2018-06-30T23:30Z",
+  "min": "2018-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "dcc7421d7e2d3407e98f080cbfeb02d8eccb6025:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2018-07.csv.gz": {
+  "max": "2018-07-31T23:30Z",
+  "min": "2018-07-01T00:00Z",
+  "rows": 1486,
+  "sha1": "bfdb79b64b99c50d8a5ea394dbdeb0ef80c1135e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2018-08.csv.gz": {
+  "max": "2018-08-31T23:30Z",
+  "min": "2018-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "611626f1703eecb4f7d2b3e20192b9f1c92e15ad:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2018-09.csv.gz": {
+  "max": "2018-09-30T23:30Z",
+  "min": "2018-09-01T00:00Z",
+  "rows": 1437,
+  "sha1": "cbc8892daa172da7ee344cab1eef1b3af9f8410c:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2018-10.csv.gz": {
+  "max": "2018-10-31T23:30Z",
+  "min": "2018-10-01T00:00Z",
+  "rows": 1485,
+  "sha1": "ee5bbf3088ce16c622f3e4759bfdc829a1f9ec40:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2018-11.csv.gz": {
+  "max": "2018-11-30T23:30Z",
+  "min": "2018-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "d87f5311b3a88fce2492a45de7b3a57ddb5e96bf:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2018-12.csv.gz": {
+  "max": "2018-12-31T23:30Z",
+  "min": "2018-12-01T00:00Z",
+  "rows": 1484,
+  "sha1": "bce21e14a4c0a63e677e831240f9e84c36c7f936:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2019-01.csv.gz": {
+  "max": "2019-01-31T23:30Z",
+  "min": "2019-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7ea8dbae41678ac9eefd67fd16a4ca414207820e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2019-02.csv.gz": {
+  "max": "2019-02-28T23:30Z",
+  "min": "2019-02-01T00:00Z",
+  "rows": 1341,
+  "sha1": "8104c64ab053ddfc594f0225d451c3b57b9d6de7:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2019-03.csv.gz": {
+  "max": "2019-03-31T23:30Z",
+  "min": "2019-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "a27f4ad3f8fb7df6cdf761085c6fb9f7c6fec5dd:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2019-04.csv.gz": {
+  "max": "2019-04-30T23:30Z",
+  "min": "2019-04-01T00:00Z",
+  "rows": 1437,
+  "sha1": "c0a7585c3ff1580dbfb43c29513318fa3efa83d7:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2019-05.csv.gz": {
+  "max": "2019-05-31T23:30Z",
+  "min": "2019-05-01T00:00Z",
+  "rows": 1481,
+  "sha1": "7f6359ec3428aa465a3b26cf3254e7be42ebfe30:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2019-06.csv.gz": {
+  "max": "2019-06-30T23:30Z",
+  "min": "2019-06-01T00:00Z",
+  "rows": 1438,
+  "sha1": "f3eda43479aa94fb283ae8591b2b9a324fa1e807:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2019-07.csv.gz": {
+  "max": "2019-07-31T23:30Z",
+  "min": "2019-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "90fe7002a63b9b4e4c23eb4ae36e9abc3948c725:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2019-08.csv.gz": {
+  "max": "2019-08-31T23:30Z",
+  "min": "2019-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2e45706500fbf5eec847de6bacb7cf594dc476a9:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2019-09.csv.gz": {
+  "max": "2019-09-30T23:30Z",
+  "min": "2019-09-01T00:00Z",
+  "rows": 1437,
+  "sha1": "d5c864c95e2c3f2b8592d3bf9c9fee3dd709b540:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2019-10.csv.gz": {
+  "max": "2019-10-31T23:30Z",
+  "min": "2019-10-01T00:00Z",
+  "rows": 1485,
+  "sha1": "03c3bf6b25f91c8f47b99334ee1b70e8697d2d93:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2019-11.csv.gz": {
+  "max": "2019-11-30T23:30Z",
+  "min": "2019-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "0fca4052b6138e7f94525c90bbc871c89fc3ae8a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2019-12.csv.gz": {
+  "max": "2019-12-31T23:30Z",
+  "min": "2019-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "80933113f8069f8590f8b7bff2aa482785e8c59e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2020-01.csv.gz": {
+  "max": "2020-01-31T23:30Z",
+  "min": "2020-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "b6a5570c442ff887b933a06d5b8b2de6262d0369:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2020-02.csv.gz": {
+  "max": "2020-02-29T23:30Z",
+  "min": "2020-02-01T00:00Z",
+  "rows": 1390,
+  "sha1": "34276fae1b93a0553e41456e045c523a69dc4e5b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2020-03.csv.gz": {
+  "max": "2020-03-31T23:30Z",
+  "min": "2020-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "aa6365db41949e995835465b7ec50a0281d5802f:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2020-04.csv.gz": {
+  "max": "2020-04-30T23:30Z",
+  "min": "2020-04-01T00:00Z",
+  "rows": 1437,
+  "sha1": "630b5893e43c8f9a4e1bceaeab859e5fc2a16a16:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2020-05.csv.gz": {
+  "max": "2020-05-31T23:30Z",
+  "min": "2020-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ba15aa286377dcb964d485b1c606b49491aa632f:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2020-06.csv.gz": {
+  "max": "2020-06-30T23:30Z",
+  "min": "2020-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "c3343a451012ef0daae239c12bb887208f28eb2e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2020-07.csv.gz": {
+  "max": "2020-07-31T23:30Z",
+  "min": "2020-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "a564186edb48470357c4f82b71ba977361768529:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2020-08.csv.gz": {
+  "max": "2020-08-31T23:30Z",
+  "min": "2020-08-01T00:00Z",
+  "rows": 1484,
+  "sha1": "9f375e2e4e41756442130d9d32d668b47255b09b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2020-09.csv.gz": {
+  "max": "2020-09-30T23:30Z",
+  "min": "2020-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "81c0d8c767f6ed1a8e3aa29b9d8e41c0e445f149:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2020-10.csv.gz": {
+  "max": "2020-10-31T23:30Z",
+  "min": "2020-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "b93643390f61572486bf2b931a9b54f7a37121fb:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2020-11.csv.gz": {
+  "max": "2020-11-30T23:30Z",
+  "min": "2020-11-01T00:00Z",
+  "rows": 1436,
+  "sha1": "a151d4456ba09f372aa900a2865a10bb8d54b467:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2020-12.csv.gz": {
+  "max": "2020-12-31T23:30Z",
+  "min": "2020-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "aa07ca020ba54583eb5f72e98a03e13114c2b2e1:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2021-01.csv.gz": {
+  "max": "2021-01-31T23:30Z",
+  "min": "2021-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "4ebb4b2cb03bc66da7827f860e774daf9cdb9564:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2021-02.csv.gz": {
+  "max": "2021-02-28T23:30Z",
+  "min": "2021-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "127e4d02aa9cf5a77739591ea97f95d81c8ed5a4:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2021-03.csv.gz": {
+  "max": "2021-03-31T23:30Z",
+  "min": "2021-03-01T00:00Z",
+  "rows": 1486,
+  "sha1": "273e37f77b80d70411a2c910f01d713cea9f160e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2021-04.csv.gz": {
+  "max": "2021-04-30T23:30Z",
+  "min": "2021-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "cd59f970fb3066b38ebcd3b3e75ceaf10cb36502:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2021-05.csv.gz": {
+  "max": "2021-05-31T23:30Z",
+  "min": "2021-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e85892cb3ca3247bafc4c331431f78ec88a65d5b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2021-06.csv.gz": {
+  "max": "2021-06-30T23:30Z",
+  "min": "2021-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "104ad86df3f9959891f1c41c20c7d6a804d62058:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2021-07.csv.gz": {
+  "max": "2021-07-31T23:30Z",
+  "min": "2021-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ea0894c692e36e054e358e5862c9b62d07865372:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2021-08.csv.gz": {
+  "max": "2021-08-31T23:30Z",
+  "min": "2021-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "112c86010158353aa1278dc3a4ee2ea8939f78a6:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2021-09.csv.gz": {
+  "max": "2021-09-30T23:30Z",
+  "min": "2021-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "f31dae4397c9ef0cb38341ab453963a70621da7c:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2021-10.csv.gz": {
+  "max": "2021-10-31T23:30Z",
+  "min": "2021-10-01T00:00Z",
+  "rows": 1485,
+  "sha1": "386cdcb486637ba8a0521c2c9d29ff6970a1d232:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2021-11.csv.gz": {
+  "max": "2021-11-30T23:30Z",
+  "min": "2021-11-01T00:00Z",
+  "rows": 1436,
+  "sha1": "90d538344de0568f075524279fcf59161df97124:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2021-12.csv.gz": {
+  "max": "2021-12-31T23:30Z",
+  "min": "2021-12-01T00:00Z",
+  "rows": 1482,
+  "sha1": "5cb6b79fac2d6369d43392b775b54a7b3cb39302:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2022-01.csv.gz": {
+  "max": "2022-01-31T23:30Z",
+  "min": "2022-01-01T00:00Z",
+  "rows": 1482,
+  "sha1": "65c4e7e7aa3146b9cd174aac934dbd0b354a2612:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2022-02.csv.gz": {
+  "max": "2022-02-28T23:30Z",
+  "min": "2022-02-01T00:00Z",
+  "rows": 1340,
+  "sha1": "ff71085f92d590eb51a105819d86cb450eb0de69:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2022-03.csv.gz": {
+  "max": "2022-03-31T23:30Z",
+  "min": "2022-03-01T00:00Z",
+  "rows": 1486,
+  "sha1": "1893166ea33942f094905edd4e01d21ce33c5c24:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2022-04.csv.gz": {
+  "max": "2022-04-30T23:30Z",
+  "min": "2022-04-01T00:00Z",
+  "rows": 1439,
+  "sha1": "9b77cecaa0a3f91e428104bb0b4acaba50e63ad8:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2022-05.csv.gz": {
+  "max": "2022-05-31T23:30Z",
+  "min": "2022-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "729c98c56de72014ac05d47b27360ab205b35bdf:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2022-06.csv.gz": {
+  "max": "2022-06-30T23:30Z",
+  "min": "2022-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "e782bf6ff094d5042112fa9c7eeda695dbdbae9c:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2022-07.csv.gz": {
+  "max": "2022-07-31T23:30Z",
+  "min": "2022-07-01T00:00Z",
+  "rows": 1485,
+  "sha1": "3c6f3ce339b35e8756340466c7a09d7affcd1500:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2022-08.csv.gz": {
+  "max": "2022-08-31T23:30Z",
+  "min": "2022-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ebfab5f0cda9054ac2cb7649e1c82bfde73e2b0a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2022-09.csv.gz": {
+  "max": "2022-09-30T23:30Z",
+  "min": "2022-09-01T00:00Z",
+  "rows": 1439,
+  "sha1": "81082e44387d28ada6e97c2dd8aabaec9827c28d:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2022-10.csv.gz": {
+  "max": "2022-10-31T23:30Z",
+  "min": "2022-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "c5f53bd64c8cf3ea2b90d252bc8e6b3ebabb59fc:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2022-11.csv.gz": {
+  "max": "2022-11-30T23:30Z",
+  "min": "2022-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "ce6e9a1cdd3a0d183ea2830b3b9274bb9720f389:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2022-12.csv.gz": {
+  "max": "2022-12-31T23:30Z",
+  "min": "2022-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "697d1d1f7ad7ecfbf73a0c0ee6a8a047bce5ed22:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2023-01.csv.gz": {
+  "max": "2023-01-31T23:30Z",
+  "min": "2023-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "6be3398de412f1f9527fc2ae8cf5b2c73cd33a2b:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2023-02.csv.gz": {
+  "max": "2023-02-28T23:30Z",
+  "min": "2023-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "181fcd1f773bbcd2c8b9590f437504beab0f117f:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2023-03.csv.gz": {
+  "max": "2023-03-31T23:30Z",
+  "min": "2023-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2a3e8766a3e6bcc954de8bf3e85e82211071d00a:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2023-04.csv.gz": {
+  "max": "2023-04-30T23:30Z",
+  "min": "2023-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "ff28bcadafb709ccfd4bcb41c0166d2ce5bbddf7:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2023-05.csv.gz": {
+  "max": "2023-05-31T23:30Z",
+  "min": "2023-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "4058ef9a3edbe9e7fd08a8e062973d6007cc9927:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2023-06.csv.gz": {
+  "max": "2023-06-30T23:30Z",
+  "min": "2023-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "107f1ea13982799a8832976c3f7da1f465b8f579:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2023-07.csv.gz": {
+  "max": "2023-07-31T23:30Z",
+  "min": "2023-07-01T00:00Z",
   "rows": 1487,
-  "sha1": "f76f315227edc324d94e6334ebc41bcf253cfe69:2",
+  "sha1": "63537c2d4362d35c7aa09d2c44728faaacafc6f5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2023-08.csv.gz": {
+  "max": "2023-08-31T23:30Z",
+  "min": "2023-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "94107759957a7a659285f38ca47f32e87401d97f:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2023-09.csv.gz": {
+  "max": "2023-09-30T23:30Z",
+  "min": "2023-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "384efe36444c4d756742bf0f979609a7ee8ba733:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2023-10.csv.gz": {
+  "max": "2023-10-31T23:30Z",
+  "min": "2023-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2bf82efe1bc63f8d303be87588aecf56542fdcdf:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2023-11.csv.gz": {
+  "max": "2023-11-30T23:30Z",
+  "min": "2023-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "db48517cd40c28e76a8995c12792c1674727897f:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2023-12.csv.gz": {
+  "max": "2023-12-31T23:30Z",
+  "min": "2023-12-01T00:00Z",
+  "rows": 1487,
+  "sha1": "4323461730273b32873b1f6ffde01a4135c49c27:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2024-01.csv.gz": {
+  "max": "2024-01-31T23:30Z",
+  "min": "2024-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e4f1a0ebcce16653343c24c32c87e433380bdf81:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2024-02.csv.gz": {
+  "max": "2024-02-29T23:30Z",
+  "min": "2024-02-01T00:00Z",
+  "rows": 1392,
+  "sha1": "4075f7b7985c42137036c413ccf603c7f67e65f0:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2024-03.csv.gz": {
+  "max": "2024-03-31T23:30Z",
+  "min": "2024-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "cd785c23dc35570ac74820ecd79c0d26fe190698:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2024-04.csv.gz": {
+  "max": "2024-04-30T23:30Z",
+  "min": "2024-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "e9cc32927048c6a1b96aa535dbeb7cdb2e9bfbcd:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2024-05.csv.gz": {
+  "max": "2024-05-31T23:30Z",
+  "min": "2024-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "62d5d8ee5f53d3bea838ecb080dde505c9876cb5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2024-06.csv.gz": {
+  "max": "2024-06-30T23:30Z",
+  "min": "2024-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "676e5f45fd6fe1b6c8785f1e9f85685f45cb11df:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2024-07.csv.gz": {
+  "max": "2024-07-31T23:30Z",
+  "min": "2024-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "8f7928c49bead63e973cfd8e68666ab09acbf584:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2024-08.csv.gz": {
+  "max": "2024-08-31T23:30Z",
+  "min": "2024-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e793a9721e7c71f1f5baf40bf993ff66acc60777:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2024-09.csv.gz": {
+  "max": "2024-09-30T23:30Z",
+  "min": "2024-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "81b040b40df76305d3e18ade8b0c0767f9af12af:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2024-10.csv.gz": {
+  "max": "2024-10-31T23:30Z",
+  "min": "2024-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "d83105587bb8724ccb20b394474533338f2bc457:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2024-11.csv.gz": {
+  "max": "2024-11-30T23:30Z",
+  "min": "2024-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "ece0d4d8d802a24f33e0e391418f05069537db91:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2024-12.csv.gz": {
+  "max": "2024-12-31T23:30Z",
+  "min": "2024-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "6ab6a2f2aa1291611b1809a74613b5e57e2f52b6:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2025-01.csv.gz": {
+  "max": "2025-01-31T23:30Z",
+  "min": "2025-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "b7d2be37c7f08ac96b109b8be9a964a84cb53e27:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2025-02.csv.gz": {
+  "max": "2025-02-28T23:30Z",
+  "min": "2025-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "fdb5dbdda7fbf892785829bb4dc7bf840f48b87e:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2025-03.csv.gz": {
+  "max": "2025-03-31T23:30Z",
+  "min": "2025-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "5769d0b199cc1d32a22f407fc47b3ce4b9793fa7:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2025-04.csv.gz": {
+  "max": "2025-04-30T23:30Z",
+  "min": "2025-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "f797cbd9ee7caec7fd232de3bfd0136eb6dbec68:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2025-05.csv.gz": {
+  "max": "2025-05-31T23:30Z",
+  "min": "2025-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f9e1087a17b62bff03cdafc637a7eca4b99979e5:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2025-06.csv.gz": {
+  "max": "2025-06-30T23:30Z",
+  "min": "2025-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "ec2afb63a70c902ce2ea2a02fd21b02e5775a424:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2025-07.csv.gz": {
+  "max": "2025-07-31T23:30Z",
+  "min": "2025-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "fe5191801a91975ef89458d432d28559eab2ae08:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2025-08.csv.gz": {
+  "max": "2025-08-31T23:30Z",
+  "min": "2025-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "67ee9e81be3efe2adf0a0d839661844d5242c377:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2025-09.csv.gz": {
+  "max": "2025-09-30T23:30Z",
+  "min": "2025-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "56b3c850e6621d9f2cfd61457f158c07e63c3642:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2025-10.csv.gz": {
+  "max": "2025-10-31T23:30Z",
+  "min": "2025-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "37155879bbe0ad77cdd9433563787841a1645244:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2025-11.csv.gz": {
+  "max": "2025-11-30T23:30Z",
+  "min": "2025-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "b8fc34e35ad9f75f8ee32c729dbfdcfb33fa8653:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2025-12.csv.gz": {
+  "max": "2025-12-31T23:30Z",
+  "min": "2025-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "99e097491d4bcad1ad05241bc4a7feac2ea85591:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2026-01.csv.gz": {
+  "max": "2026-01-31T23:30Z",
+  "min": "2026-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "3be57458237f1f81c5db37ed23909254fe82afeb:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2026-02.csv.gz": {
+  "max": "2026-02-28T23:30Z",
+  "min": "2026-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "e4babda7b6fd97c9ac72f88467bfa6aee7e93606:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2026-03.csv.gz": {
+  "max": "2026-03-31T23:30Z",
+  "min": "2026-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "607f2826b7959ebe84cd06a065d4f284b3c6d36c:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2026-04.csv.gz": {
+  "max": "2026-04-30T23:30Z",
+  "min": "2026-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "76c0448abdc635d8c844bec3a0b991151be727ac:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2026-05.csv.gz": {
+  "max": "2026-05-31T23:30Z",
+  "min": "2026-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2c29aa1c77cf6f2b8c52b08babd0cd169f7c15d0:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2026-06.csv.gz": {
+  "max": "2026-06-30T23:30Z",
+  "min": "2026-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "428103a819997da870897016c630ffd9209030db:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2026-07.csv": {
+  "max": "2026-07-31T23:30Z",
+  "min": "2026-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "b44a6f6494792b661e42fe1121fdd806c1753a06:2",
+  "time_col": "timestamp"
+ },
+ "energy/gb/generation/2026-08.csv": {
+  "max": "2026-08-31T23:30Z",
+  "min": "2026-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "d7ee3799b13f8564ebd06035d77c8a16d6dae426:2",
   "time_col": "timestamp"
  },
  "energy/gb/generation/2026-09.csv": {
-  "max": "2026-09-27T13:00Z",
-  "min": "2026-09-20T23:00Z",
-  "rows": 317,
-  "sha1": "9b0e9510c8fab023b026110a4b736f50bd5b3ea1:2",
+  "max": "2026-09-27T16:00Z",
+  "min": "2026-09-01T00:00Z",
+  "rows": 1281,
+  "sha1": "b3835f1c7509d18ff218ff9bd417260fe1302c87:2",
   "time_col": "timestamp"
  },
  "energy/nyiso/lbmp_da/2000-01.csv.gz": {
