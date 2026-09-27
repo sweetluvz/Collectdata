@@ -4,7 +4,7 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 
 | Table | Files | Rows | Time column | From | To | Size |
 |---|---:|---:|---|---|---|---:|
-| `energy/aemo/price_demand` | 3 | 16,416 | `timestamp` | 2026-07-31T14:05Z | 2026-09-26T14:00Z | 1.4 MB |
+| `energy/aemo/price_demand` | 113 | 177,151 | `timestamp` | 1998-12-06T16:00Z | 2026-09-27T14:00Z | 6.2 MB |
 | `energy/airquality/observed` | 6 | 7,040 | `time` | 2022-08-04T00:00Z | 2026-09-27T13:00Z | 274.4 KB |
 | `energy/eia/fuel_prices` | 489 | 129,990 | `period` | 1986-01-02 | 2026-09-22 | 1022.3 KB |
 | `energy/eia/fuel_type` | 14 | 9,663 | `period` | 2018-07-01T05:00Z | 2026-09-27T06:00Z | 5.2 MB |
@@ -27,7 +27,7 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 
 | Source | Range | Chunks done | Skipped (no data) | Remaining |
 |---|---|---:|---:|---:|
-| `aemo` | 1998-12-01 .. 2026-09-27 | 0 / 334 | 0 | 334 |
+| `aemo` | 1998-12-01 .. 2026-09-27 | 110 / 334 | 0 | 224 |
 | `airquality` | 2022-08-01 .. 2026-09-27 | 1 / 200 | 0 | 199 |
 | `eia` | 2015-07-01 .. 2026-09-27 | 7 / 135 | 42 | 86 |
 | `eia_bulk` | 2015-07-01 .. 2026-09-27 | 7 / 7 | 0 | complete |

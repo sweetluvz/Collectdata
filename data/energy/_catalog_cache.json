@@ -1,4 +1,774 @@
 {
+ "energy/aemo/price_demand/1998-12.csv.gz": {
+  "max": "1998-12-31T23:30Z",
+  "min": "1998-12-06T16:00Z",
+  "rows": 1216,
+  "sha1": "c2c1051c19a6c810d592c7247d3a4c27316d2d7f:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/1999-01.csv.gz": {
+  "max": "1999-01-31T23:30Z",
+  "min": "1999-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "b0d876f973b752d8a68b820a4dc1230708db7fc9:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/1999-02.csv.gz": {
+  "max": "1999-02-28T23:30Z",
+  "min": "1999-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "1e15b89b7bf9b8d29594d1052dbbdf74f40d16e3:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/1999-03.csv.gz": {
+  "max": "1999-03-31T23:30Z",
+  "min": "1999-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ba0037763baab7fc84d9f8ddfbe15350db9e0e56:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/1999-04.csv.gz": {
+  "max": "1999-04-30T23:30Z",
+  "min": "1999-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "0ce1bcf21bc807b67d5d3f17b46c382e785709f0:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/1999-05.csv.gz": {
+  "max": "1999-05-31T23:30Z",
+  "min": "1999-05-01T00:00Z",
+  "rows": 1483,
+  "sha1": "c68a5fce019f59c6a61e46e7f1d61e884a85cffc:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/1999-06.csv.gz": {
+  "max": "1999-06-30T23:30Z",
+  "min": "1999-06-01T00:00Z",
+  "rows": 1439,
+  "sha1": "bb8882dd81330ee251a73d7b9b66da5e51651d68:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/1999-07.csv.gz": {
+  "max": "1999-07-31T23:30Z",
+  "min": "1999-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "d1f515cfd2e29b46a849eab7d3e4ab4816e5616f:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/1999-08.csv.gz": {
+  "max": "1999-08-31T23:30Z",
+  "min": "1999-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7c35a69dd69d2dfa521546cd8e8eeb24b48962d7:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/1999-09.csv.gz": {
+  "max": "1999-09-30T23:30Z",
+  "min": "1999-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "f78b245020641cd9846d8002a8cc47b4775891a1:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/1999-10.csv.gz": {
+  "max": "1999-10-31T23:30Z",
+  "min": "1999-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "841acc180a21127b16f53489151a4fa2f2bc862b:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/1999-11.csv.gz": {
+  "max": "1999-11-30T23:30Z",
+  "min": "1999-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "d45573f543a31bdf89c1b2fd32ef9c2371946c85:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/1999-12.csv.gz": {
+  "max": "1999-12-31T23:30Z",
+  "min": "1999-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "1bbe185decfc5c8f2892f308ba036d048e90a866:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2000-01.csv.gz": {
+  "max": "2000-01-31T23:30Z",
+  "min": "2000-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "38d71bb26bc962e7e17fafee4280c51fb3673848:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2000-02.csv.gz": {
+  "max": "2000-02-29T23:30Z",
+  "min": "2000-02-01T00:00Z",
+  "rows": 1392,
+  "sha1": "1bcd184e59bcf4b859ee74e3463172648f421213:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2000-03.csv.gz": {
+  "max": "2000-03-31T23:30Z",
+  "min": "2000-03-01T00:00Z",
+  "rows": 1487,
+  "sha1": "7b2cc8a4964225d5aa3f6f851984aa0903ca408b:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2000-04.csv.gz": {
+  "max": "2000-04-30T23:30Z",
+  "min": "2000-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "cf680fe2e0b57f62558ac276b828de7fba2f5614:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2000-05.csv.gz": {
+  "max": "2000-05-31T23:30Z",
+  "min": "2000-05-01T00:00Z",
+  "rows": 1486,
+  "sha1": "96d7aa9b8efdc31ef3ba32d759a63e3e5a3eff1a:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2000-06.csv.gz": {
+  "max": "2000-06-30T23:30Z",
+  "min": "2000-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "1160ebbea19f5d189a7f37a3ec2bdd181a79e749:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2000-07.csv.gz": {
+  "max": "2000-07-31T23:30Z",
+  "min": "2000-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "950a6ab771cb4ece773700c29af09c92419bc02d:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2000-08.csv.gz": {
+  "max": "2000-08-31T23:30Z",
+  "min": "2000-08-01T00:00Z",
+  "rows": 1487,
+  "sha1": "e91609b52b98b48235e2d7b34f26228c7b6e3c40:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2000-09.csv.gz": {
+  "max": "2000-09-30T23:30Z",
+  "min": "2000-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "8e32b69a1decc74fd56dd643dc9ded908b4a7c2d:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2000-10.csv.gz": {
+  "max": "2000-10-31T23:30Z",
+  "min": "2000-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f1f2c5f315fbbee0c52e0cbfabeea1950244ccb6:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2000-11.csv.gz": {
+  "max": "2000-11-30T23:30Z",
+  "min": "2000-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "782453ce414974b5791b19d5a1612c60b10a57f8:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2000-12.csv.gz": {
+  "max": "2000-12-31T23:30Z",
+  "min": "2000-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "0672a404fa2845052859f21e8f145f66651befec:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2001-01.csv.gz": {
+  "max": "2001-01-31T23:30Z",
+  "min": "2001-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "538091f110c3ce49242d1b86f8f85ad2e435b452:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2001-02.csv.gz": {
+  "max": "2001-02-28T23:30Z",
+  "min": "2001-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "4231d71dd7fd1ede962abd7c632da4cc5574e427:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2001-03.csv.gz": {
+  "max": "2001-03-31T23:30Z",
+  "min": "2001-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ee2546cf5fb455d7577849aecc98c9018d6d503e:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2001-04.csv.gz": {
+  "max": "2001-04-30T23:30Z",
+  "min": "2001-04-01T00:00Z",
+  "rows": 1436,
+  "sha1": "6c6be1e3657e35be1c5ec6a204679a9006aba8fc:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2001-05.csv.gz": {
+  "max": "2001-05-31T23:30Z",
+  "min": "2001-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "96fe09716e6f832a87d2f7e11152ac927175f9be:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2001-06.csv.gz": {
+  "max": "2001-06-30T23:30Z",
+  "min": "2001-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "43e67f51ad971477bd3954cd71d18e45e3e9a2a5:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2001-07.csv.gz": {
+  "max": "2001-07-31T23:30Z",
+  "min": "2001-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "dc8ccfb0ea9337d2c6fb3312a4fdff82cde92eeb:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2001-08.csv.gz": {
+  "max": "2001-08-31T23:30Z",
+  "min": "2001-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "99e97b67039fd5d41feee1a2512187476120f27b:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2001-09.csv.gz": {
+  "max": "2001-09-30T23:30Z",
+  "min": "2001-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "a860c94097ec800fdda8c261f8038244379ae77b:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2001-10.csv.gz": {
+  "max": "2001-10-31T23:30Z",
+  "min": "2001-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "35c0b30801f3700ef5e2628c65eeb552709b4941:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2001-11.csv.gz": {
+  "max": "2001-11-30T23:30Z",
+  "min": "2001-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "3a49b0b562cbdddcf5b4f3eb558815ce3906b7e8:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2001-12.csv.gz": {
+  "max": "2001-12-31T23:30Z",
+  "min": "2001-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "625ba8f4fa9bc44edde6f2af880dc8a17221f29e:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2002-01.csv.gz": {
+  "max": "2002-01-31T23:30Z",
+  "min": "2002-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ea50dc0bc184bc1373e88408231e3e26ef9ce5de:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2002-02.csv.gz": {
+  "max": "2002-02-28T23:30Z",
+  "min": "2002-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "66ba4240790f69a7eee4213579305885ddec326f:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2002-03.csv.gz": {
+  "max": "2002-03-31T23:30Z",
+  "min": "2002-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "33ee6b3ec6fbee30ae2b5d51bf8dbebe2ca7f8eb:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2002-04.csv.gz": {
+  "max": "2002-04-30T23:30Z",
+  "min": "2002-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "0ee58403a336c2744d3d08f4657d6be93be117ae:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2002-05.csv.gz": {
+  "max": "2002-05-31T23:30Z",
+  "min": "2002-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f977a2b02f70c2a35976cd498e05ec041cb7ec12:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2002-06.csv.gz": {
+  "max": "2002-06-30T23:30Z",
+  "min": "2002-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "f8cc360b3537c351667a322e2e518c5e3343f21d:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2002-07.csv.gz": {
+  "max": "2002-07-31T23:30Z",
+  "min": "2002-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "1780dba9b1a686a541454944453f2bad2ad4dd50:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2002-08.csv.gz": {
+  "max": "2002-08-31T23:30Z",
+  "min": "2002-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "447fa11ab323c6a43b68947ea3420b4f43824936:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2002-09.csv.gz": {
+  "max": "2002-09-30T23:30Z",
+  "min": "2002-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "81eeec06d6925688397ed2eab4b39ec89d48457d:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2002-10.csv.gz": {
+  "max": "2002-10-31T23:30Z",
+  "min": "2002-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "d00b40cdaee8ffc58f638e16fe9c1bd5607de25c:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2002-11.csv.gz": {
+  "max": "2002-11-30T23:30Z",
+  "min": "2002-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "f12d202cde0649a1507016538c51872cdab285e0:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2002-12.csv.gz": {
+  "max": "2002-12-31T23:30Z",
+  "min": "2002-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "8fb88ca1c82e6dde65f3298f58c2f725ee1359e5:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2003-01.csv.gz": {
+  "max": "2003-01-31T23:30Z",
+  "min": "2003-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "39adc419139730b3e06c8f093f61b4e83cbac0dc:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2003-02.csv.gz": {
+  "max": "2003-02-28T23:30Z",
+  "min": "2003-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "12d8fc38b36bb996ddc1a22416c3959e09405221:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2003-03.csv.gz": {
+  "max": "2003-03-31T23:30Z",
+  "min": "2003-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "0510ddfd695285bf92869b1d8905f68a852ecae7:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2003-04.csv.gz": {
+  "max": "2003-04-30T23:30Z",
+  "min": "2003-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "f8653de95f4135a476ec0824c329457c18cbbacd:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2003-05.csv.gz": {
+  "max": "2003-05-31T23:30Z",
+  "min": "2003-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "fbb3d36731b9123af84748547e5b931d58414727:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2003-06.csv.gz": {
+  "max": "2003-06-30T23:30Z",
+  "min": "2003-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "3220b29fe5e5a3c696724d672a83071bd26e898d:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2003-07.csv.gz": {
+  "max": "2003-07-31T23:30Z",
+  "min": "2003-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "b6bb39c70cd27fde8d5f082677dfe72be4c3994c:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2003-08.csv.gz": {
+  "max": "2003-08-31T23:30Z",
+  "min": "2003-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "5b1b0d7c68f6c31202849f887058e109dfe6c0e6:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2003-09.csv.gz": {
+  "max": "2003-09-30T23:30Z",
+  "min": "2003-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "19fe8ecbd25a788b7143924641f48bb550ffedb7:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2003-10.csv.gz": {
+  "max": "2003-10-31T23:30Z",
+  "min": "2003-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "2b7c95d9d844c359528f632bfbdc1396397cace1:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2003-11.csv.gz": {
+  "max": "2003-11-30T23:30Z",
+  "min": "2003-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "f1137923188f40c58a39eb32b769e003b2e40b24:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2003-12.csv.gz": {
+  "max": "2003-12-31T23:30Z",
+  "min": "2003-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "5611d69e38b3f0c717a62ba2bac57cfe71221b74:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2004-01.csv.gz": {
+  "max": "2004-01-31T23:30Z",
+  "min": "2004-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "b63b7cb3fd33ab3840c51b431627ba5cbd064483:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2004-02.csv.gz": {
+  "max": "2004-02-29T23:30Z",
+  "min": "2004-02-01T00:00Z",
+  "rows": 1392,
+  "sha1": "988d726476df4416c57b3cc77d30a59af2ebc17a:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2004-03.csv.gz": {
+  "max": "2004-03-31T23:30Z",
+  "min": "2004-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "d1a45c6bd5a42873b574323a1d6c9bd70eb7b599:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2004-04.csv.gz": {
+  "max": "2004-04-30T23:30Z",
+  "min": "2004-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "b4c0ee0d8b7b3da33fcb30e4e0c2108445321956:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2004-05.csv.gz": {
+  "max": "2004-05-31T23:30Z",
+  "min": "2004-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "da2df2c5f05673c2652f2013ac5cbc75604c60ea:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2004-06.csv.gz": {
+  "max": "2004-06-30T23:30Z",
+  "min": "2004-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "235b1cf5320009ebf270a5973e0aa571f785499c:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2004-07.csv.gz": {
+  "max": "2004-07-31T23:30Z",
+  "min": "2004-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "dbc04440210789779a3df4d8daf1deaa696ce8cd:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2004-08.csv.gz": {
+  "max": "2004-08-31T23:30Z",
+  "min": "2004-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "18258644fef37b999feaeaa1bfd8c83912df455c:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2004-09.csv.gz": {
+  "max": "2004-09-30T23:30Z",
+  "min": "2004-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "5db69e30e5096de68cc5f29dd5169844cd639578:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2004-10.csv.gz": {
+  "max": "2004-10-31T23:30Z",
+  "min": "2004-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "60fd5dc8b305b3be557deeeff2d7d1d1f2b951c1:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2004-11.csv.gz": {
+  "max": "2004-11-30T23:30Z",
+  "min": "2004-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "9c8c90c6e97d8ecce3e10eba59a21d6bcbbf18d9:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2004-12.csv.gz": {
+  "max": "2004-12-31T23:30Z",
+  "min": "2004-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "1dda31d7627ac84ba3d46d874db20dedd2f1f1bf:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2005-01.csv.gz": {
+  "max": "2005-01-31T23:30Z",
+  "min": "2005-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "8251ec368ba87a00b757a8554f8e2b06932e1e4d:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2005-02.csv.gz": {
+  "max": "2005-02-28T23:30Z",
+  "min": "2005-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "3f6200851781eae392435fa0fad0755deddcb144:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2005-03.csv.gz": {
+  "max": "2005-03-31T23:30Z",
+  "min": "2005-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "de726386a5668dfbb565a39253f6d438fd5181a4:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2005-04.csv.gz": {
+  "max": "2005-04-30T23:30Z",
+  "min": "2005-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "80de0f1127da1e78fbff154ac54dfeb5f1b58e39:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2005-05.csv.gz": {
+  "max": "2005-05-31T23:30Z",
+  "min": "2005-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "6c7f04f95c95c037d140930fdfeacad65d3f9d2b:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2005-06.csv.gz": {
+  "max": "2005-06-30T23:30Z",
+  "min": "2005-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "a4fda1e1e32624576f54ee48d3fc346916873c4b:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2005-07.csv.gz": {
+  "max": "2005-07-31T23:30Z",
+  "min": "2005-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f0d1336af74442810f3466cf35c705c3d6b43bba:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2005-08.csv.gz": {
+  "max": "2005-08-31T23:30Z",
+  "min": "2005-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "04103dc69a3e9627350829f239051dcb67253f2c:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2005-09.csv.gz": {
+  "max": "2005-09-30T23:30Z",
+  "min": "2005-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "9f6102a183c18a3bd4c686da423d5ad7fafafd6f:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2005-10.csv.gz": {
+  "max": "2005-10-31T23:30Z",
+  "min": "2005-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "342724d850fa1f7fe4e9c661f05cd2bb8ece5080:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2005-11.csv.gz": {
+  "max": "2005-11-30T23:30Z",
+  "min": "2005-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "75dc07709c28ce3a53c14c2136f508351180a825:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2005-12.csv.gz": {
+  "max": "2005-12-31T23:30Z",
+  "min": "2005-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "cdde635e2bc4ea7018353f46bfdc514d0dbbbd40:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2006-01.csv.gz": {
+  "max": "2006-01-31T23:30Z",
+  "min": "2006-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "1e10e70551cf54e25f0b32c616b2d776094a3900:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2006-02.csv.gz": {
+  "max": "2006-02-28T23:30Z",
+  "min": "2006-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "4e2fcb45c226a550e9e48bbd8469cbcf8ffaed56:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2006-03.csv.gz": {
+  "max": "2006-03-31T23:30Z",
+  "min": "2006-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "bef9fae19d2246dae65b351e6444896ec2036213:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2006-04.csv.gz": {
+  "max": "2006-04-30T23:30Z",
+  "min": "2006-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "743f535421cacc85a51a12f6c12d6f21550d1476:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2006-05.csv.gz": {
+  "max": "2006-05-31T23:30Z",
+  "min": "2006-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "09e38553b855f70ad262a696a1370ee3d358f3b9:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2006-06.csv.gz": {
+  "max": "2006-06-30T23:30Z",
+  "min": "2006-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "160c8000065d18b61225979c0426eeb68e9ce474:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2006-07.csv.gz": {
+  "max": "2006-07-31T23:30Z",
+  "min": "2006-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "de284ba7dc3e870ea2379cadab7480893da5abf0:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2006-08.csv.gz": {
+  "max": "2006-08-31T23:30Z",
+  "min": "2006-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "77e5dfeea0938aa91557bb6daeec38fcb6173f03:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2006-09.csv.gz": {
+  "max": "2006-09-30T23:30Z",
+  "min": "2006-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "5b79fca14bf7e0bc832bc0755c99cf8e3cc2366a:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2006-10.csv.gz": {
+  "max": "2006-10-31T23:30Z",
+  "min": "2006-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "3793391b44ed71b1231cd5c2d710a53ba460fb7e:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2006-11.csv.gz": {
+  "max": "2006-11-30T23:30Z",
+  "min": "2006-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "3529d4d4e293280f3d0b488ebebd13a6a292c390:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2006-12.csv.gz": {
+  "max": "2006-12-31T23:30Z",
+  "min": "2006-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "1a3572f2d0cd739e03789c7089133601220640f4:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2007-01.csv.gz": {
+  "max": "2007-01-31T23:30Z",
+  "min": "2007-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "28e4469213bf832cfc42248e6cb73403e587c5dc:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2007-02.csv.gz": {
+  "max": "2007-02-28T23:30Z",
+  "min": "2007-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "72b22c37d93fd8eb4c02ddaca8217629f090bf9c:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2007-03.csv.gz": {
+  "max": "2007-03-31T23:30Z",
+  "min": "2007-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7bae7992b5216bd429d9b46504846d1b2c73096c:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2007-04.csv.gz": {
+  "max": "2007-04-30T23:30Z",
+  "min": "2007-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "52bd501547a8c0bda57fed56db3b80a8246cbe5b:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2007-05.csv.gz": {
+  "max": "2007-05-31T23:30Z",
+  "min": "2007-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "4400829b6094ac36e95b9f938fcc4ff30effb71b:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2007-06.csv.gz": {
+  "max": "2007-06-30T23:30Z",
+  "min": "2007-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "8589ec0dba20ba7d5f529c78284604aa969d8eaf:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2007-07.csv.gz": {
+  "max": "2007-07-31T23:30Z",
+  "min": "2007-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "44b8557068395e0bddab2220170d8c30c568d505:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2007-08.csv.gz": {
+  "max": "2007-08-31T23:30Z",
+  "min": "2007-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "f6319c176960152d1383177741d31524014539fc:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2007-09.csv.gz": {
+  "max": "2007-09-30T23:30Z",
+  "min": "2007-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "59e9146741cd804d2d1068c2960b7f4dca734456:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2007-10.csv.gz": {
+  "max": "2007-10-31T23:30Z",
+  "min": "2007-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "bb6ab64fd6e118fc226721a8c242e9cdd2e17317:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2007-11.csv.gz": {
+  "max": "2007-11-30T23:30Z",
+  "min": "2007-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "280fc9b621edf4f7f213d0b1fe4b27bac13a359e:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2007-12.csv.gz": {
+  "max": "2007-12-31T23:30Z",
+  "min": "2007-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "c297e919883296b53df5e622ef948bf125b9108f:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2008-01.csv.gz": {
+  "max": "2008-01-31T14:00Z",
+  "min": "2008-01-01T00:00Z",
+  "rows": 1469,
+  "sha1": "a2484c0c53081c25d12eaf9eae67fc3c25259a9c:2",
+  "time_col": "timestamp"
+ },
  "energy/aemo/price_demand/2026-07.csv": {
   "max": "2026-07-31T23:55Z",
   "min": "2026-07-31T14:05Z",
@@ -14,10 +784,10 @@
   "time_col": "timestamp"
  },
  "energy/aemo/price_demand/2026-09.csv": {
-  "max": "2026-09-26T14:00Z",
+  "max": "2026-09-27T14:00Z",
   "min": "2026-09-01T00:00Z",
-  "rows": 7369,
-  "sha1": "40420053223085ba2339ea684996d1f061c8558a:2",
+  "rows": 7657,
+  "sha1": "15b9052c0cd1848e502cd6bc5f46a79649934ca8:2",
   "time_col": "timestamp"
  },
  "energy/airquality/observed/2022-08.csv.gz": {
