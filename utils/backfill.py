@@ -2,8 +2,9 @@
 
 A plan per source lives in data/<domain>/_backfill.json:
     {"<source>": {"start": "...", "end": "...", "total": N, "done": [...], "skipped": [...]}}
-Registering (BACKFILL_START set) creates or widens the plan; every later run - scheduled or manual -
-continues the remaining chunks until the time budget runs out, so a multi-year backfill completes across
+A source without a plan gets its default history plan on its first run; BACKFILL_START creates or widens
+a plan explicitly. Every later run - scheduled or manual - continues the remaining chunks until the time
+budget runs out, so a multi-year backfill completes across
 several runs without supervision. Progress is committed together with the data.
 """
 from datetime import date, timedelta
@@ -100,11 +101,14 @@ def register(domain, source, default_start, earliest):
     """Create or widen the plan when this run requests a backfill. Safe to call before API keys are
     checked, so a plan made today is carried out by the first run that has the key."""
     req = requested(source)
+    state = load_state(domain)
     if not req:
-        return
+        # Sources without any plan get their default history automatically (BACKFILL_AUTO=0 disables this).
+        if source in state or os.environ.get("BACKFILL_AUTO", "1") == "0":
+            return
+        req = (None, date.today())
     start, end = req
     start = max(start or default_start, earliest)
-    state = load_state(domain)
     old = state.get(source, {})
     state[source] = {
         "start": min(start.isoformat(), old.get("start", "9999")),

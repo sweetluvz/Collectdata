@@ -20,5 +20,6 @@ def data_dir(tmp_path, monkeypatch):
     import utils.storage as storage
 
     monkeypatch.setattr(storage, "DATA_DIR", tmp_path)
+    monkeypatch.setenv("BACKFILL_AUTO", "0")  # tests opt in to backfill explicitly
     monkeypatch.setattr("time.sleep", lambda *_: None)
     return tmp_path

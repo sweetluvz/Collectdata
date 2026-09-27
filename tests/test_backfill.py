@@ -100,3 +100,14 @@ def test_prune_drops_plans_of_retired_sources(data_dir):
     backfill.save_state("energy", {"eia": {"start": "2015-07-01"}, "entsoe": {"start": "2015-01-01"}})
     assert backfill.prune("energy") == {"entsoe"}
     assert set(backfill.load_state("energy")) == {"eia"}
+
+
+def test_sources_without_plan_get_default_history_automatically(data_dir, monkeypatch):
+    monkeypatch.setenv("BACKFILL_AUTO", "1")
+    backfill.register("energy", "aemo", date(1998, 12, 1), date(1998, 12, 1))
+    plan = backfill.load_state("energy")["aemo"]
+    assert plan["start"] == "1998-12-01" and plan["end"] == date.today().isoformat()
+
+    backfill.save_state("energy", {"aemo": {**plan, "start": "2020-01-01"}})
+    backfill.register("energy", "aemo", date(1998, 12, 1), date(1998, 12, 1))  # existing plan left alone
+    assert backfill.load_state("energy")["aemo"]["start"] == "2020-01-01"

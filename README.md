@@ -123,8 +123,10 @@ Khi chưa đặt `BDS_RUNNER`, job Batdongsan vẫn thử trên máy GitHub và 
 
 ## 4. Lấy dữ liệu lịch sử (backfill)
 
-### 4.1. Bắt đầu hoặc mở rộng
-*Actions → Collect energy data* → **Run workflow**:
+### 4.1. Tự động hoặc tuỳ chỉnh
+**Không cần bấm gì:** nguồn nào chưa có kế hoạch sẽ tự ghi kế hoạch mặc định (cột "Mốc `auto`" bên dưới) ngay lần chạy đầu tiên, rồi các lượt sau tải dần lịch sử. Muốn tắt, đặt biến `BACKFILL_AUTO=0`.
+
+Muốn lấy xa hơn mốc mặc định hoặc chỉ một số nguồn: *Actions → Collect energy data* → **Run workflow**:
 
 | Ô | Giá trị | Ý nghĩa |
 |---|---|---|
@@ -154,10 +156,10 @@ Khi chưa đặt `BDS_RUNNER`, job Batdongsan vẫn thử trên máy GitHub và 
 
 Muốn lấy xa hơn thì điền ngày cụ thể.
 
-> Backfill `auto` cho các nguồn năng lượng đã được kích hoạt ngày 27/09/2026.
+> Backfill đã chạy từ ngày 27/09/2026. Riêng ERA5 xong 175/264 phần ngay trong lượt đầu (95 phút).
 
 ### 4.2. Cách backfill chạy
-- Lượt đầu ghi kế hoạch vào `data/energy/_backfill.json`, tải trong quỹ thời gian, commit sau mỗi nguồn, rồi **tự kích hoạt lượt tiếp** (tối đa 40 lượt nối tiếp). Sau đó các lượt theo lịch làm tiếp đến khi xong.
+- Kế hoạch lưu trong `data/energy/_backfill.json`. Mỗi lượt tải trong quỹ thời gian, commit sau mỗi nguồn, rồi **tự kích hoạt lượt tiếp** nếu chưa có lượt nào đang chờ (tối đa 40 lượt nối tiếp). Sau đó các lượt theo lịch làm tiếp đến khi xong.
 - Theo dõi ở mục **Backfill progress** trong `data/energy/CATALOG.md`.
 - Phần nào nguồn trả lỗi cố định (HTTP 400/404/422, hoặc không có file cho tháng đó) được đánh dấu **skipped**. Lỗi tạm thời (429, 5xx, mất kết nối) thì dừng và thử lại lượt sau.
 - Chạy lại với khoảng rộng hơn sẽ **mở rộng** kế hoạch; phần đã xong không bị tải lại.
@@ -304,6 +306,7 @@ python -m pytest -q                                   # test offline, không g�
 | Biến môi trường | Mặc định | Tác dụng |
 |---|---|---|
 | `BACKFILL_START` / `BACKFILL_END` / `BACKFILL_SOURCES` | trống | Như mục 4.1 |
+| `BACKFILL_AUTO` | 1 | `0` = không tự ghi kế hoạch backfill cho nguồn mới |
 | `BACKFILL_MINUTES` | 90 (workflow đặt 20–60 tuỳ bước) | Quỹ thời gian backfill của một collector trong một lượt |
 | `OPEN_METEO_PAUSE_SECONDS` | 30 | Nghỉ giữa các request lịch sử Open-Meteo |
 | `WEATHER_PAST_DAYS` / `WEATHER_FORECAST_DAYS` | 3 / 2 | Cửa sổ gần đây của Open-Meteo |
