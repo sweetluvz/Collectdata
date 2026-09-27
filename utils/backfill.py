@@ -20,7 +20,7 @@ from utils import storage
 PERMANENT_HTTP = (400, 404, 422)
 # Sources that can have a backfill plan; plans of any other (removed) source are pruned by the catalog build.
 SOURCES = {
-    "energy": {"era5", "airquality", "eia", "eia_market", "europe_power", "europe_price", "gb", "aemo",
+    "energy": {"era5", "airquality", "eia", "eia_bulk", "eia_market", "europe_power", "europe_price", "gb", "aemo",
                "nyiso_da", "nyiso_rt"},
 }
 _deadline = None
@@ -141,11 +141,15 @@ def run(domain, source, default_start, earliest, chunker, fetch):
     end_at = deadline()
     left = int((end_at - time.monotonic()) // 60)
     print(f"[backfill:{source}] {len(todo)}/{len(chunks)} chunks remaining, {left} min left in this run")
+    durations = []
     for chunk_id, *args in todo:
-        if time.monotonic() > end_at:
+        remaining = end_at - time.monotonic()
+        # Stop before a chunk that would likely overrun the budget (and the step timeout behind it).
+        if remaining <= 0 or (durations and sum(durations) / len(durations) > remaining):
             print(f"::notice::backfill {source}: time budget used, {len(todo)} chunks left for the next run")
             flag_incomplete(source)
             return
+        started = time.monotonic()
         try:
             fetch(*args)
             plan["done"].append(chunk_id)
@@ -164,6 +168,7 @@ def run(domain, source, default_start, earliest, chunker, fetch):
             print(f"::warning::backfill {source} {chunk_id}: {type(e).__name__}: {e} - will retry next run")
             return
         finally:
+            durations.append(time.monotonic() - started)
             plan["done"].sort()
             plan["skipped"].sort()
             save_state(domain, state)

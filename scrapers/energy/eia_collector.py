@@ -10,9 +10,12 @@ Long-format market tables:
   energy/eia/fuel_prices  : daily spot/futures prices (WTI, Brent, Henry Hub, products; since 1986)
   energy/eia/retail_sales : monthly retail electricity price (cents/kWh), revenue (M$), sales (MWh),
                             customers by state and sector (since 2001)
-History is backfilled month by month (EIA-930 starts 2015-07-01) and year by year (market tables).
+History: the API serves hourly EIA-930 data only from 2019-01; July 2015 - Dec 2018 comes from EIA's keyless
+six-month bulk CSVs (BALANCE -> region/fuel_type, INTERCHANGE -> interchange) mapped to the same columns.
+Market tables are backfilled year by year.
 """
 from datetime import date, datetime, timedelta, timezone
+import io
 import time
 
 import pandas as pd
@@ -23,7 +26,15 @@ from utils.storage import upsert
 
 BASE = "https://api.eia.gov/v2"
 PAGE = 5000
-EARLIEST = date(2015, 7, 1)
+EARLIEST = date(2019, 1, 1)          # first hour the v2 API serves
+BULK_EARLIEST, BULK_LAST = date(2015, 7, 1), date(2018, 12, 31)
+BULK_URL = "https://www.eia.gov/electricity/gridmonitor/sixMonthFiles/EIA930_{kind}_{year}_{half}.csv"
+BULK_SHIFT = pd.Timedelta(0)  # verified: API period == bulk "UTC Time at End of Hour" (both hour-ending)
+BULK_BALANCE = {"Demand (MW)": "D", "Demand Forecast (MW)": "DF", "Net Generation (MW)": "NG",
+                "Total Interchange (MW)": "TI"}
+BULK_FUELS = {"Coal": "COL", "Natural Gas": "NG", "Nuclear": "NUC", "All Petroleum Products": "OIL",
+              "Hydropower and Pumped Storage": "WAT", "Solar": "SUN", "Wind": "WND", "Other Fuel Sources": "OTH",
+              "Unknown Fuel Sources": "UNK"}
 MARKET_EARLIEST = date(1986, 1, 1)
 
 # route, table, column-name builder
@@ -104,8 +115,62 @@ def collect_market(http, api_key, start, end):
     return got
 
 
+def half_year_chunks(start, end):
+    out = []
+    for year in range(start.year, end.year + 1):
+        for half, (a, b) in (("Jan_Jun", ((1, 1), (6, 30))), ("Jul_Dec", ((7, 1), (12, 31)))):
+            first, last = date(year, *a), date(year, *b)
+            if last >= start and first <= end:
+                out.append((f"{year}_{half}", first, last, year, half))
+    return out
+
+
+def bulk_csv(http, kind, year, half):
+    r = http.get(BULK_URL.format(kind=kind, year=year, half=half), timeout=600)
+    if r.status_code == 404:
+        return pd.DataFrame()
+    df = pd.read_csv(io.BytesIO(check(r).content), thousands=",", low_memory=False)
+    utc = pd.to_datetime(df["UTC Time at End of Hour"], format="%m/%d/%Y %I:%M:%S %p", utc=True)
+    df["period"] = (utc + BULK_SHIFT).dt.strftime("%Y-%m-%dT%H:%MZ")
+    return df
+
+
+def bulk_wide(df, id_cols, value_col, column):
+    long = df[["period", *id_cols, value_col]].copy()
+    long[value_col] = pd.to_numeric(long[value_col], errors="coerce").astype(float)  # same format as API values
+    long = long.dropna(subset=[value_col])
+    long = long.assign(column=[column(*v) for v in long[id_cols].itertuples(index=False)])
+    wide = long.pivot_table(index="period", columns="column", values=value_col, aggfunc="last")
+    return wide.reindex(sorted(wide.columns), axis=1).reset_index()
+
+
+def collect_bulk(http, year, half):
+    got = 0
+    bal = bulk_csv(http, "BALANCE", year, half)
+    if not bal.empty:
+        frames = [bulk_wide(bal, ["Balancing Authority"], col, lambda ba, t=t: f"{ba}_{t}")
+                  for col, t in BULK_BALANCE.items() if col in bal.columns]
+        region = pd.concat([f.set_index("period") for f in frames], axis=1).reset_index()
+        upsert(region, "energy/eia/region", ["period"], "period", cellwise=True)
+        fuels = [bulk_wide(bal, ["Balancing Authority"], f"Net Generation (MW) from {name}",
+                           lambda ba, c=code: f"{ba}_{c}")
+                 for name, code in BULK_FUELS.items() if f"Net Generation (MW) from {name}" in bal.columns]
+        if fuels:
+            fuel = pd.concat([f.set_index("period") for f in fuels], axis=1).reset_index()
+            upsert(fuel, "energy/eia/fuel_type", ["period"], "period", cellwise=True)
+        got += len(region)
+    inter = bulk_csv(http, "INTERCHANGE", year, half)
+    if not inter.empty:
+        wide = bulk_wide(inter, ["Balancing Authority", "Directly Interconnected Balancing Authority"],
+                         "Interchange (MW)", lambda a, b: f"{a}>{b}")
+        upsert(wide, "energy/eia/interchange", ["period"], "period", cellwise=True)
+        got += len(wide)
+    return got
+
+
 def main():
     backfill.register("energy", "eia", EARLIEST, EARLIEST)
+    backfill.register("energy", "eia_bulk", BULK_EARLIEST, BULK_EARLIEST)
     backfill.register("energy", "eia_market", MARKET_EARLIEST, MARKET_EARLIEST)
     api_key = require_env("EIA_API_KEY")
     http = session()
@@ -123,8 +188,16 @@ def main():
         if not collect_market(http, api_key, first.isoformat(), last.isoformat()):
             raise backfill.Skip("no rows")
 
-    backfill.run("energy", "eia", EARLIEST, EARLIEST, backfill.month_chunks, fetch_month)
+    # Market tables are small and quick; run them first so the long hourly backfill cannot starve them.
     backfill.run("energy", "eia_market", MARKET_EARLIEST, MARKET_EARLIEST, backfill.year_chunks, fetch_market_year)
+    def fetch_half(first, last, year, half):
+        if not collect_bulk(http, year, half):
+            raise backfill.Skip("no bulk file")
+
+    backfill.run("energy", "eia_bulk", BULK_EARLIEST, BULK_EARLIEST,
+                 lambda s, e: half_year_chunks(s, min(e, BULK_LAST)), fetch_half)
+
+    backfill.run("energy", "eia", EARLIEST, EARLIEST, backfill.month_chunks, fetch_month)
 
 
 if __name__ == "__main__":

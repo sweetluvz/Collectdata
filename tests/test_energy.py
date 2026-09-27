@@ -92,6 +92,8 @@ def test_weather_backfill_runs_even_if_live_api_is_down(data_dir, monkeypatch):
 
 def fake_eia(seen, page):
     def fake_get(url, params=None, timeout=None):
+        if "sixMonthFiles" in url:
+            return FakeResponse(status=404, text="missing")
         p = dict(params)
         seen.append((url.split("/v2/")[1].rsplit("/data/", 1)[0], p["start"], p["offset"]))
         day = p["start"][:10]
@@ -139,13 +141,21 @@ def test_eia_wide_tables_pagination_and_backfill(data_dir, monkeypatch):
     with mock.patch("requests.Session.get", side_effect=fake_eia(seen, 3)):
         ec.main()
     state = backfill.load_state("energy")
-    assert state["eia"]["start"] == "2015-07-01" and state["eia"]["done"] == ["2015-07", "2015-08"]
+    assert state["eia"]["start"] == "2019-01-01" and state["eia"]["done"] == []  # API has nothing before 2019
+    assert state["eia_bulk"]["skipped"] == ["2015_Jul_Dec"]
     assert state["eia_market"]["start"] == "2015-06-01"
-    assert ("electricity/rto/interchange-data", "2015-08-01T00", 0) in seen
-    assert (data_dir / "energy/eia/region/2015-07.csv.gz").exists()
+    monkeypatch.setenv("BACKFILL_START", "2019-01-01")
+    monkeypatch.setenv("BACKFILL_END", "2019-02-15")
+    monkeypatch.setenv("BACKFILL_SOURCES", "eia")
+    monkeypatch.setattr(backfill, "_deadline", None)
+    with mock.patch("requests.Session.get", side_effect=fake_eia(seen, 3)):
+        ec.main()
+    assert backfill.load_state("energy")["eia"]["done"] == ["2019-01", "2019-02"]
+    assert ("electricity/rto/interchange-data", "2019-02-01T00", 0) in seen
+    assert (data_dir / "energy/eia/region/2019-01.csv.gz").exists()
 
 
-def test_missing_key_skips_without_failing(monkeypatch):
+def test_missing_key_skips_without_failing(data_dir, monkeypatch):
     import scrapers.energy.eia_collector as ec
 
     monkeypatch.delenv("EIA_API_KEY", raising=False)
@@ -176,3 +186,36 @@ def test_aemo_wide_utc_and_backfill(data_dir, monkeypatch):
     assert "1998-12-01T00:30Z" in set(df.timestamp)  # 10:30 NEM time = 00:30 UTC
     state = backfill.load_state("energy")["aemo"]
     assert state["start"] == "1998-12-01" and state["done"] == ["1998-12", "1999-01"]
+
+
+def test_eia_bulk_history_maps_to_api_columns(data_dir, monkeypatch):
+    import scrapers.energy.eia_collector as ec
+
+    assert [c[0] for c in ec.half_year_chunks(date(2015, 7, 1), date(2016, 12, 31))] == [
+        "2015_Jul_Dec", "2016_Jan_Jun", "2016_Jul_Dec"]
+    balance = (
+        '"Balancing Authority","Data Date","Hour Number","Local Time at End of Hour","UTC Time at End of Hour",'
+        '"Demand Forecast (MW)","Demand (MW)","Net Generation (MW)","Total Interchange (MW)",'
+        '"Net Generation (MW) from Coal","Net Generation (MW) from Solar","Region"\n'
+        'CISO,01/01/2016,1,01/01/2016 1:00:00 AM,01/01/2016 9:00:00 AM,"25,000","24,500","20,100","-4,400",100,0,CAL\n'
+    )
+    interchange = (
+        '"Balancing Authority","Data Date","Hour Number","Directly Interconnected Balancing Authority",'
+        '"Interchange (MW)","Local Time at End of Hour","UTC Time at End of Hour","Region","DIBA_Region"\n'
+        'CISO,01/01/2016,1,BPAT,"-1,000",01/01/2016 1:00:00 AM,01/01/2016 9:00:00 AM,CAL,NW\n'
+    )
+
+    def get(url, timeout=None):
+        if "2016_Jan_Jun" not in url:
+            return FakeResponse(status=404, text="missing")
+        return FakeResponse(content=(balance if "BALANCE" in url else interchange).encode())
+
+    with mock.patch("requests.Session.get", side_effect=get):
+        assert ec.collect_bulk(ec.session(), 2016, "Jan_Jun") == 2
+        assert ec.collect_bulk(ec.session(), 2015, "Jul_Dec") == 0
+    region = load_all("energy/eia/region").iloc[0]
+    assert (region.period, region.CISO_D, region.CISO_DF, region.CISO_TI) == (
+        "2016-01-01T09:00Z", "24500.0", "25000.0", "-4400.0")
+    fuel = load_all("energy/eia/fuel_type")
+    assert list(fuel.columns) == ["period", "CISO_COL", "CISO_SUN"]
+    assert load_all("energy/eia/interchange").iloc[0]["CISO>BPAT"] == "-1000.0"

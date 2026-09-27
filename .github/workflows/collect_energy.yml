@@ -12,7 +12,7 @@ on:
         description: "Backfill end date YYYY-MM-DD (empty = today)"
         default: ""
       backfill_sources:
-        description: "Comma list: era5, airquality, eia, eia_market, europe_power, europe_price, gb, aemo, nyiso_da, nyiso_rt (empty = all)"
+        description: "Comma list: era5, airquality, eia, eia_bulk, eia_market, europe_power, europe_price, gb, aemo, nyiso_da, nyiso_rt (empty = all)"
         default: ""
       lookback_days:
         description: "Recent window for a normal run (EIA / weather, weather max 92)"

@@ -4,7 +4,7 @@ Hệ thống thu thập dữ liệu **hiện tại và lịch sử** bằng **Gi
 
 | Nhóm | Nguồn | Nội dung | Lịch sử |
 |---|---|---|---|
-| **Lưới điện Mỹ** | EIA-930 (key miễn phí) | Phụ tải, dự báo phụ tải, phát điện theo nhiên liệu của **tất cả ~80 vùng cân bằng**, dòng điện giữa các vùng, phụ tải ~90 vùng con — theo giờ | từ 07/2015 |
+| **Lưới điện Mỹ** | EIA-930 (key miễn phí + file CSV 6 tháng không cần key) | Phụ tải, dự báo phụ tải, phát điện theo nhiên liệu của **tất cả ~80 vùng cân bằng**, dòng điện giữa các vùng, phụ tải ~90 vùng con — theo giờ | từ 07/2015 (vùng con từ 2019) |
 | | EIA (key miễn phí) | Giá dầu WTI/Brent, khí Henry Hub, xăng/dầu diesel theo ngày; giá và sản lượng điện bán lẻ theo bang theo tháng | từ 1986 / 2001 |
 | | NYISO | Giá điện nút (LBMP) 11 vùng New York: ngày tới (giờ) và thời gian thực (5 phút) | từ 2000 |
 | **Lưới điện châu Âu** | Energy-Charts (Fraunhofer ISE) | Sản lượng theo nguồn, phụ tải, trao đổi qua biên giới của 10 nước (15 phút); giá ngày tới 13 vùng giá | từ 2015 |
@@ -79,7 +79,7 @@ Mỗi collector, mỗi lượt chạy:
 - **Phân vùng theo tháng.** Tháng gần đây (≤ 2 tháng) để dạng `.csv` thường, vì git nén rất tốt các thay đổi nhỏ. Tháng cũ tự được nén thành `.csv.gz` với nội dung byte cố định, nên git không lưu thêm bản sao nếu dữ liệu không đổi.
 - **Backfill có thể tiếp tục:** lịch sử được chia thành từng phần. Tiến độ lưu trong `data/<nhóm>/_backfill.json`. Mỗi nguồn có quỹ thời gian riêng trong một lượt chạy; phần còn lại do lượt sau làm tiếp.
 - **Mỗi workflow chỉ ghi vào thư mục nhóm của mình**, checkout đầu nhánh mới nhất, và commit ngay sau mỗi nguồn. Một nguồn lỗi không làm mất dữ liệu của nguồn khác.
-- **Mọi thời gian lưu theo UTC**, định dạng `YYYY-MM-DDTHH:MMZ`, là **thời điểm bắt đầu** của khoảng đo, trừ AEMO (xem 6.6).
+- **Mọi thời gian lưu theo UTC**, định dạng `YYYY-MM-DDTHH:MMZ`. Mỗi nguồn giữ quy ước gốc của nó: EIA và AEMO ghi **thời điểm kết thúc** của khoảng đo; Energy-Charts, Elexon, NYISO ghi **thời điểm bắt đầu** (xem mục 6).
 
 ---
 
@@ -139,7 +139,8 @@ Muốn lấy xa hơn mốc mặc định hoặc chỉ một số nguồn: *Actio
 |---|---|---|---|---|
 | `era5` | 2015-01-01 | 1940-01-01 | năm × địa điểm | ~100 MB |
 | `airquality` | 2022-08-01 | 2022-08-01 | năm × địa điểm | ~20 MB |
-| `eia` (lưới điện theo giờ) | 2015-07-01 | 2015-07-01 | tháng | ~140 MB |
+| `eia_bulk` (lưới điện 07/2015–12/2018, file CSV) | 2015-07-01 | 2015-07-01 | nửa năm | ~40 MB |
+| `eia` (lưới điện theo giờ qua API, từ 2019) | 2019-01-01 | 2019-01-01 | tháng | ~100 MB |
 | `eia_market` (giá nhiên liệu, bán lẻ) | 1986-01-01 | 1986-01-01 | năm | ~5 MB |
 | `europe_power` | 2015-01-01 | 2015-01-01 | tháng × nước | ~180 MB |
 | `europe_price` | 2015-01-01 | 2015-01-01 | tháng | ~10 MB |
@@ -167,7 +168,7 @@ Muốn lấy xa hơn thì điền ngày cụ thể.
 ### 4.3. Thời gian dự kiến [ước tính]
 Vài ngày cho toàn bộ. Yếu tố chậm nhất:
 - **ERA5 và chất lượng không khí:** hạn mức Open-Meteo miễn phí (~10.000 lượt/ngày; một request dài nhiều biến tính thành nhiều lượt); 40 điểm × 12 năm ≈ 480 phần.
-- **EIA:** mỗi tháng khoảng 150 request vì có đủ mọi vùng.
+- **EIA qua API:** mỗi tháng khoảng 160 request (~15 phút) vì có đủ mọi vùng; ~93 tháng từ 2019 mất khoảng 1 ngày chạy nối tiếp. Phần 2015–2018 lấy từ file CSV nên nhanh hơn nhiều.
 - **Energy-Charts:** 10 nước × 141 tháng.
 
 ---
@@ -223,7 +224,10 @@ Ba bảng thời tiết dùng cho ba mục đích:
 - **`observed`**: giá trị phân tích của mô hình dự báo, vài ngày gần nhất.
 - **`forecast`**: **mọi bản dự báo** kể từ ngày bắt đầu cào; phần này không backfill được. Dùng để đánh giá dự báo phụ tải bằng đúng thông tin thời tiết có sẵn tại thời điểm dự báo.
 
-### 6.2. EIA — lưới điện Mỹ (dạng rộng, cột `period` = giờ UTC, đơn vị MWh)
+### 6.2. EIA — lưới điện Mỹ (dạng rộng, đơn vị MWh)
+
+`period` là giờ UTC, theo quy ước của EIA là **thời điểm kết thúc giờ**: `2019-01-02T06:00Z` là giờ 05:00–06:00 UTC. Mình đã đối chiếu từng giá trị giữa API và file CSV 6 tháng để xác nhận quy ước này. Từ 2019 dữ liệu lấy qua API; 07/2015–12/2018 lấy từ file CSV 6 tháng của EIA (API không phục vụ giai đoạn này), ánh xạ vào cùng tên cột. Trong giai đoạn 2015–2018 chỉ có phát điện theo nhiên liệu từ 07/2018 và không có vùng con.
+
 
 | Bảng | Tên cột | Ví dụ |
 |---|---|---|

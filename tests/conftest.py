@@ -15,7 +15,7 @@ class FakeResponse:
         return self._js
 
 
-@pytest.fixture
+@pytest.fixture(autouse=True)  # no test may ever write into the real data/ directory
 def data_dir(tmp_path, monkeypatch):
     import utils.storage as storage
 

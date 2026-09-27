@@ -92,8 +92,9 @@ def test_plan_is_registered_even_without_api_key(data_dir, monkeypatch):
     monkeypatch.setenv("BACKFILL_START", "auto")
     with pytest.raises(SystemExit):
         ec.main()
-    plan = backfill.load_state("energy")["eia"]
-    assert plan["start"] == "2015-07-01" and plan["done"] == []
+    state = backfill.load_state("energy")
+    assert state["eia"]["start"] == "2019-01-01" and state["eia"]["done"] == []
+    assert state["eia_bulk"]["start"] == "2015-07-01"
 
 
 def test_prune_drops_plans_of_retired_sources(data_dir):
@@ -111,3 +112,17 @@ def test_sources_without_plan_get_default_history_automatically(data_dir, monkey
     backfill.save_state("energy", {"aemo": {**plan, "start": "2020-01-01"}})
     backfill.register("energy", "aemo", date(1998, 12, 1), date(1998, 12, 1))  # existing plan left alone
     assert backfill.load_state("energy")["aemo"]["start"] == "2020-01-01"
+
+
+def test_stops_before_a_chunk_that_would_overrun(data_dir, monkeypatch):
+    clock = {"t": 0.0}
+    monkeypatch.setattr(backfill.time, "monotonic", lambda: clock["t"])
+    monkeypatch.setattr(backfill, "_deadline", 25.0)
+
+    def fetch(first, last):
+        clock["t"] += 10  # each chunk takes 10 s
+
+    monkeypatch.setenv("BACKFILL_START", "2020-01-01")
+    monkeypatch.setenv("BACKFILL_END", "2020-12-31")
+    backfill.run("energy", "src", date(2020, 1, 1), date(2020, 1, 1), backfill.month_chunks, fetch)
+    assert backfill.load_state("energy")["src"]["done"] == ["2020-01", "2020-02"]  # third would end at 30 > 25
