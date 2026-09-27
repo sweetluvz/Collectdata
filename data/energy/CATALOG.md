@@ -13,6 +13,9 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | `energy/eia/subregion` | 6 | 3,789 | `period` | 2019-01-01T00:00Z | 2026-09-27T07:00Z | 633.5 KB |
 | `energy/europe/power` | 20 | 234,169 | `timestamp` | 2015-01-01T00:00Z | 2026-09-27T11:15Z | 10.2 MB |
 | `energy/europe/price` | 1 | 480 | `timestamp` | 2026-09-23T22:00Z | 2026-09-28T21:45Z | 47.1 KB |
+| `energy/gb/carbon_intensity` | 1 | 337 | `timestamp` | 2026-09-20T23:30Z | 2026-09-27T23:30Z | 11.3 KB |
+| `energy/gb/demand` | 1 | 317 | `timestamp` | 2026-09-20T23:00Z | 2026-09-27T13:00Z | 9.3 KB |
+| `energy/gb/generation` | 3 | 1,805 | `timestamp` | 2015-12-31T23:30Z | 2026-09-27T13:00Z | 67.5 KB |
 | `energy/weather/era5` | 97 | 2,425,128 | `time` | 2015-01-01T00:00Z | 2026-09-21T23:00Z | 58.7 MB |
 | `energy/weather/forecast` | 1 | 2,338 | `issued_at` | 2026-09-27T08:00Z | 2026-09-27T10:00Z | 260.1 KB |
 | `energy/weather/observed` | 1 | 3,320 | `time` | 2026-09-24T00:00Z | 2026-09-27T10:00Z | 310.3 KB |
@@ -27,3 +30,4 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | `era5` | 2015-01-01 .. 2026-09-27 | 275 / 480 | 0 | 205 |
 | `europe_power` | 2015-01-01 .. 2026-09-27 | 185 / 1410 | 0 | 1225 |
 | `europe_price` | 2015-01-01 .. 2026-09-27 | 0 / 141 | 0 | 141 |
+| `gb` | 2016-01-01 .. 2026-09-27 | 0 / 129 | 0 | 129 |
