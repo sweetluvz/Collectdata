@@ -1,30 +1,32 @@
-"""Temporary: why does EIA return nothing before 2019?"""
-import json
+"""Temporary: align EIA API periods with the six-month bulk files."""
+import csv
+import io
 import os
 
 import requests
 
 KEY = os.environ["EIA_API_KEY"]
-BASE = "https://api.eia.gov/v2/electricity/rto"
-for route in ("region-data", "fuel-type-data", "interchange-data", "region-sub-ba-data"):
-    for start, end in (("2016-01-01T00", "2016-01-31T23"), ("2018-12-01T00", "2018-12-31T23"), ("2019-01-01T00", "2019-01-01T23")):
-        r = requests.get(f"{BASE}/{route}/data/", params={"api_key": KEY, "frequency": "hourly", "data[0]": "value",
-                                                        "start": start, "end": end, "length": 1}, timeout=120)
-        body = r.text.replace(KEY, "***")
-        try:
-            js = r.json()
-            body = json.dumps({"total": js.get("response", {}).get("total"), "data": js.get("response", {}).get("data"),
-                               "error": js.get("error"), "warnings": js.get("warnings")})[:400]
-        except ValueError:
-            body = body[:300]
-        print(f"{route} {start}: HTTP {r.status_code} {body}")
-for freq in ("local-hourly",):
-    r = requests.get(f"{BASE}/region-data/data/", params={"api_key": KEY, "frequency": freq, "data[0]": "value",
-                                                        "start": "2016-01-01T00-05", "end": "2016-01-01T23-05", "length": 1}, timeout=120)
-    print(freq, r.status_code, r.text.replace(KEY, "***")[:400])
-for name in ("EIA930_BALANCE_2016_Jan_Jun.csv", "EIA930_INTERCHANGE_2016_Jan_Jun.csv", "EIA930_SUBREGION_2019_Jan_Jun.csv"):
-    url = f"https://www.eia.gov/electricity/gridmonitor/sixMonthFiles/{name}"
-    r = requests.get(url, timeout=120, stream=True, headers={"User-Agent": "Mozilla/5.0"})
-    head = next(r.iter_content(600), b"")[:600].decode("utf-8", "replace").replace("\n", " | ")
-    print(f"{name}: HTTP {r.status_code} len={r.headers.get('Content-Length')} {head}")
-    r.close()
+r = requests.get("https://api.eia.gov/v2/electricity/rto/region-data/data/", params=[
+    ("api_key", KEY), ("frequency", "hourly"), ("data[0]", "value"), ("facets[respondent][]", "CISO"),
+    ("facets[type][]", "D"), ("start", "2019-01-02T06"), ("end", "2019-01-02T12"),
+    ("sort[0][column]", "period"), ("sort[0][direction]", "asc")], timeout=120)
+print("API CISO D:", [(d["period"], d["value"]) for d in r.json()["response"]["data"]])
+
+url = "https://www.eia.gov/electricity/gridmonitor/sixMonthFiles/EIA930_BALANCE_2019_Jan_Jun.csv"
+with requests.get(url, timeout=300, stream=True, headers={"User-Agent": "Mozilla/5.0"}) as resp:
+    lines = resp.iter_lines(decode_unicode=True)
+    header = next(csv.reader([next(lines)]))
+    print("BULK header:", header)
+    idx = {h: i for i, h in enumerate(header)}
+    shown = 0
+    for line in lines:
+        row = next(csv.reader([line]))
+        if row[0] == "CISO" and row[idx["Data Date"]] == "01/01/2019" and shown < 30:
+            shown += 1
+            if shown > 20:
+                print("BULK CISO:", row[idx["UTC Time at End of Hour"]], row[idx["Demand (MW)"]])
+        if row[0] == "CISO" and row[idx["Data Date"]] == "01/02/2019":
+            print("BULK CISO:", row[idx["UTC Time at End of Hour"]], row[idx["Demand (MW)"]], "local end", row[idx["Local Time at End of Hour"]])
+            shown += 1
+        if shown > 34:
+            break
