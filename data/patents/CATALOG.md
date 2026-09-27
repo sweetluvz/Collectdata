@@ -10,4 +10,5 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 
 | Source | Range | Chunks done | Skipped (no data) | Remaining |
 |---|---|---:|---:|---:|
+| `lens` | 2024-01-01 .. 2026-09-27 | 0 / 0 | 0 | waiting (API key missing?) |
 | `uspto` | 2015-01-01 .. 2026-09-27 | 0 / 0 | 0 | waiting (API key missing?) |
