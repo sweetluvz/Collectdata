@@ -6,6 +6,202 @@
   "sha1": "a0cf2fb7654bec22e96349fe1f382a1504f44e81:2",
   "time_col": "time"
  },
+ "energy/eia/fuel_prices/2026-06.csv.gz": {
+  "max": "2026-06-30",
+  "min": "2026-06-29",
+  "rows": 24,
+  "sha1": "fc85248c07d96e546e2ac6834dbe39b04f42f5b3:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2026-07.csv": {
+  "max": "2026-07-31",
+  "min": "2026-07-01",
+  "rows": 265,
+  "sha1": "a7690c66e411fe3ba6c49e4bf241093cdd6d45aa:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2026-08.csv": {
+  "max": "2026-08-31",
+  "min": "2026-08-03",
+  "rows": 251,
+  "sha1": "28921130e5545515b64eb47a7bbea6b3dc770d3f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2026-09.csv": {
+  "max": "2026-09-22",
+  "min": "2026-09-01",
+  "rows": 181,
+  "sha1": "8fde6f92815f3436f05e5a6163fa304f0452f2cb:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_type/2019-01.csv.gz": {
+  "max": "2019-01-31T23:00Z",
+  "min": "2019-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "3cc1b7e5dce456912634f699a855184cfe3557c8:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_type/2019-02.csv.gz": {
+  "max": "2019-02-28T23:00Z",
+  "min": "2019-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "8c366c1088827290673ae0173975bf00894c216b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_type/2019-03.csv.gz": {
+  "max": "2019-03-31T23:00Z",
+  "min": "2019-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "61735d34f0d813a57a48dd480a5dfd4036ac15ba:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_type/2019-04.csv.gz": {
+  "max": "2019-04-30T23:00Z",
+  "min": "2019-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "34877d54ceac934eacc81d27de64dedcab0581d8:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_type/2019-05.csv.gz": {
+  "max": "2019-05-31T23:00Z",
+  "min": "2019-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "fa256ebfea6c538269c1587bf34a3447535e040a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_type/2026-09.csv": {
+  "max": "2026-09-27T06:00Z",
+  "min": "2026-09-20T11:00Z",
+  "rows": 164,
+  "sha1": "ddcac8cbb610c1d2ff40d47b4d4085f900ed62e9:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2019-01.csv.gz": {
+  "max": "2019-01-31T23:00Z",
+  "min": "2019-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "725905b6e4edf9bed4170fd31e9147f015efe90a:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2019-02.csv.gz": {
+  "max": "2019-02-28T23:00Z",
+  "min": "2019-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "2da9bc2bb73503ee5bfcc7099798a1b6723698d9:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2019-03.csv.gz": {
+  "max": "2019-03-31T23:00Z",
+  "min": "2019-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "90267ecbebec88de008ae1669e335649c358cc90:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2019-04.csv.gz": {
+  "max": "2019-04-30T23:00Z",
+  "min": "2019-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "e82f4f78a275467fdae4e2e43bcff3ee8e57a9cf:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2026-09.csv": {
+  "max": "2026-09-26T07:00Z",
+  "min": "2026-09-20T11:00Z",
+  "rows": 141,
+  "sha1": "0fda793c15cde067e9b52e8693841c4c2cbe8577:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2019-01.csv.gz": {
+  "max": "2019-01-31T23:00Z",
+  "min": "2019-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "222b9fc19bb27743ab34fd22911a1d45c4b5a4ed:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2019-02.csv.gz": {
+  "max": "2019-02-28T23:00Z",
+  "min": "2019-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "ba56a2fea4a1d9ccf037e4ce0f16fa3d71c695d6:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2019-03.csv.gz": {
+  "max": "2019-03-31T23:00Z",
+  "min": "2019-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "183f575c1e7dde5321dd7572737c87f3476e4853:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2019-04.csv.gz": {
+  "max": "2019-04-30T23:00Z",
+  "min": "2019-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "81ef3fed8db3cdecd37ab80fe494b584da094029:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2019-05.csv.gz": {
+  "max": "2019-05-31T23:00Z",
+  "min": "2019-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "78ed6eddca08d2724b57f40b91a2d1f1b9ffb8c4:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2026-09.csv": {
+  "max": "2026-09-27T11:00Z",
+  "min": "2026-09-20T11:00Z",
+  "rows": 169,
+  "sha1": "2c919c9415463fd1afc57cc6874531bee3398ccc:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2026-06.csv.gz": {
+  "max": "2026-06",
+  "min": "2026-06",
+  "rows": 372,
+  "sha1": "551ebf34c54588b84392bb68c619f17ba2f06055:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2026-07.csv": {
+  "max": "2026-07",
+  "min": "2026-07",
+  "rows": 372,
+  "sha1": "47628d52e5443d18bb5b2e40c77a2b239ccd214c:2",
+  "time_col": "period"
+ },
+ "energy/eia/subregion/2019-01.csv.gz": {
+  "max": "2019-01-31T23:00Z",
+  "min": "2019-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "fef901f92f8e6bce623c33d91cb4fa5741927151:2",
+  "time_col": "period"
+ },
+ "energy/eia/subregion/2019-02.csv.gz": {
+  "max": "2019-02-28T23:00Z",
+  "min": "2019-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "6bc61f52c3d35e2a524b80c07cdff91b13e5aed4:2",
+  "time_col": "period"
+ },
+ "energy/eia/subregion/2019-03.csv.gz": {
+  "max": "2019-03-31T23:00Z",
+  "min": "2019-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "c074a783edd6154635bb1d6025df9f8c674c6ce2:2",
+  "time_col": "period"
+ },
+ "energy/eia/subregion/2019-04.csv.gz": {
+  "max": "2019-04-30T23:00Z",
+  "min": "2019-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "8c3f932dcedc8e483c3a1ee8877cc0ee4f46cffa:2",
+  "time_col": "period"
+ },
+ "energy/eia/subregion/2026-09.csv": {
+  "max": "2026-09-27T07:00Z",
+  "min": "2026-09-20T11:00Z",
+  "rows": 165,
+  "sha1": "5a00aac74293c3d075e1e2d48d3023b5c38acd51:2",
+  "time_col": "period"
+ },
  "energy/weather/era5/2015-01.csv.gz": {
   "max": "2015-01-31T23:00Z",
   "min": "2015-01-01T00:00Z",
