@@ -28,7 +28,7 @@ Mỗi lần chạy, dữ liệu được **gộp (upsert)** vào các file CSV t
 5. [Cấu trúc dữ liệu](#5-cấu-trúc-dữ-liệu)
 6. [Từ điển dữ liệu](#6-từ-điển-dữ-liệu-data-dictionary)
 7. [Chạy trên máy cá nhân](#7-chạy-trên-máy-cá-nhân)
-8. [Đọc dữ liệu để phân tích](#8-đọc-dữ-liệu-để-phân-tích)
+8. [Đọc dữ liệu để phân tích](#8-đọc-dữ-liệu-để-phân-tích) · [8.1. Xử lý sơ bộ](#81-xử-lý-sơ-bộ-processing)
 9. [Giám sát & bảo trì](#9-giám-sát--bảo-trì)
 10. [Tuỳ biến](#10-tuỳ-biến)
 11. [Giới hạn & rủi ro đã biết](#11-giới-hạn--rủi-ro-đã-biết)
@@ -68,8 +68,10 @@ Mỗi collector, mỗi lượt chạy:
 │   ├── commit_data.sh        # commit + push an toàn khi nhiều workflow chạy đồng thời
 │   ├── continue_backfill.sh  # tự kích hoạt lượt chạy tiếp khi backfill chưa xong
 │   └── build_catalog.py      # sinh data/<nhóm>/CATALOG.md
+├── processing/               # xử lý sơ bộ: bảng phân tích theo giờ, sàng lọc, làm sạch Chợ Tốt (mục 8.1)
 ├── tests/                    # pytest, mock HTTP — không gọi mạng
-└── data/                     # dữ liệu (bot tự cập nhật)
+├── data/                     # dữ liệu thô (bot tự cập nhật)
+└── processed/                # đầu ra của processing/ (không commit, tự sinh lại bất cứ lúc nào)
 ```
 
 ### Các nguyên tắc thiết kế
@@ -371,6 +373,54 @@ Khi chỉ cần một nhóm dữ liệu, có thể clone nông và thưa:
 git clone --depth 1 --filter=blob:none --sparse https://github.com/sweetluvz/Collectdata.git
 cd Collectdata && git sparse-checkout set data/energy/eia
 ```
+
+### 8.1. Xử lý sơ bộ (`processing/`)
+
+Dữ liệu thô giữ nguyên như nguồn công bố. `processing/` sinh ra **bảng phân tích theo giờ** cho từng vùng lưới
+và bảng tin Chợ Tốt đã làm sạch, ghi vào `processed/` (không commit; chạy lại khi cần, vài phút trên CPU).
+
+```bash
+pip install -r requirements.txt
+python -m processing.build us --areas ERCO,CISO,PJM --start 2019-01-01   # mặc định 16 BA lớn
+python -m processing.build europe --areas DE,FR                           # mặc định 10 nước
+python -m processing.build aemo
+python -m processing.build chotot
+python -m processing.build all                                            # tất cả, vùng mặc định
+```
+
+| Đầu ra | Nội dung (mỗi dòng = 1 giờ, UTC, **nhãn cuối giờ**: `01:00Z` = 00:00–01:00) |
+|---|---|
+| `processed/us/<BA>.csv.gz` | `demand_raw`, `demand` (đã sàng lọc + nội suy khoảng trống ≤ 3 h), `demand_flags`, `eia_dayahead_forecast` (dự báo ngày tới của chính BA — mốc so sánh vận hành), `net_generation`, `interchange`, thời tiết ERA5 `wx_*` (trung bình các điểm của BA), `local_hour/dow/month`, `us_holiday` |
+| `processed/europe/<CC>.csv.gz` | các cột Energy-Charts `ec_*` gộp từ 15 phút về giờ (MW; cột `share` là %), `load` (đã sàng lọc), `load_flags`, `price_eur_mwh` (vùng giá tương ứng, **không** sàng lọc: giá âm/cực trị là thật), `wx_*`, lịch |
+| `processed/aemo/<REGION>.csv.gz` | `demand_raw`, `demand`, `demand_flags`, `price_aud_mwh`, `wx_*`, lịch (giờ Brisbane) |
+| `processed/chotot/ads_clean.csv.gz` | tin bán đã khử trùng, `price_per_m2`, `city`, `category_name`, `first_seen`/`last_seen`/`days_seen` |
+| `processed/quality.csv`, `QUALITY.md` | báo cáo chất lượng: số giờ, % thiếu, khoảng thiếu dài nhất, số điểm bị gắn cờ theo từng phép kiểm tra |
+
+**Chuẩn hoá thời gian.** Mỗi nguồn gán nhãn khác nhau (mục 6): EIA và AEMO theo *cuối* khoảng, Energy-Charts,
+Elexon, NYISO theo *đầu* khoảng. `processing.io.to_hourly_end()` đưa tất cả về nhãn cuối giờ. Đã kiểm tra trên
+dữ liệu thật: phụ tải ERCOT đạt đỉnh 17h, CAISO 18h giờ địa phương, bức xạ đạt đỉnh 12–13h.
+
+**Sàng lọc** (`processing/clean.py`), đơn giản hơn nhiều so với Ruggles et al. (2020), *Sci. Data* 7:155:
+
+| Cờ | Điều kiện |
+|---|---|
+| `nonpositive` | giá trị ≤ 0 |
+| `stuck` | cùng một giá trị lặp ≥ 24 giờ liên tiếp (telemetry đóng băng) |
+| `level` | lệch > 10 lần so với trung vị trượt 4 tuần |
+| `spike` | vọt khỏi **cả hai** giờ lân cận cùng chiều, lớn hơn 8 lần độ biến thiên giờ-giờ điển hình (MAD); dốc tăng/giảm đơn điệu không bị gắn cờ |
+
+Điểm bị gắn cờ → NaN; khoảng trống ≤ `--max-gap` giờ (mặc định 3) nội suy tuyến tính; khoảng dài hơn để NaN
+để người dùng tự quyết (bỏ, hay bù bằng mô hình). Cột `*_raw` và `*_flags` giữ lại để mọi thay đổi đều kiểm
+tra được. AEMO: `nonpositive` và vế dưới của `level` bị tắt vì phụ tải vận hành của SA1/VIC1 xuống gần 0 hoặc âm
+vào buổi trưa do điện mặt trời áp mái — đó là giá trị thật (đã thấy −44 MW ở SA1 tháng 9/2026).
+
+**Chợ Tốt** (`processing/realestate.py`): mỗi tin bị loại được ghi lý do — `not_for_sale`, `no_price`, `no_size`,
+`price_per_m2_implausible` (ngoài 1 triệu–1 tỷ VND/m²), `no_coordinates`, `price_per_m2_outlier` (|log giá/m² − trung
+vị| > 4·MAD trong từng thành phố × loại BĐS). Lần chạy 27/09/2026: 9.424 tin → giữ 9.020.
+
+> Các ngưỡng trên là lựa chọn thực dụng, **chưa được hiệu chỉnh** trên dữ liệu có nhãn lỗi. Khi viết báo, hãy
+> báo cáo `QUALITY.md`, thử độ nhạy của kết quả với ngưỡng, và trích Ruggles et al. (2020) nếu dùng bộ EIA-930 đã
+> được họ làm sạch để đối chiếu.
 
 ---
 
