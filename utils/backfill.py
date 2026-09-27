@@ -103,10 +103,14 @@ def register(domain, source, default_start, earliest):
     req = requested(source)
     state = load_state(domain)
     if not req:
-        # Sources without any plan get their default history automatically (BACKFILL_AUTO=0 disables this).
-        if source in state or os.environ.get("BACKFILL_AUTO", "1") == "0":
+        # Sources get their default history automatically (BACKFILL_AUTO=0 disables this); an existing plan is
+        # only widened when the default start moved earlier, so a manual dispatch that gets cancelled (a
+        # pending run is replaced by the next one) cannot lose a widened history.
+        if os.environ.get("BACKFILL_AUTO", "1") == "0":
             return
-        req = (None, date.today())
+        if source in state and state[source]["start"] <= max(default_start, earliest).isoformat():
+            return
+        req = (None, date.fromisoformat(state[source]["end"]) if source in state else date.today())
     start, end = req
     start = max(start or default_start, earliest)
     old = state.get(source, {})

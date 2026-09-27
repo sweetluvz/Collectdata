@@ -109,9 +109,15 @@ def test_sources_without_plan_get_default_history_automatically(data_dir, monkey
     plan = backfill.load_state("energy")["aemo"]
     assert plan["start"] == "1998-12-01" and plan["end"] == date.today().isoformat()
 
-    backfill.save_state("energy", {"aemo": {**plan, "start": "2020-01-01"}})
-    backfill.register("energy", "aemo", date(1998, 12, 1), date(1998, 12, 1))  # existing plan left alone
-    assert backfill.load_state("energy")["aemo"]["start"] == "2020-01-01"
+    backfill.save_state("energy", {"aemo": {**plan, "start": "1998-12-01", "end": "2026-01-01", "done": ["x"]}})
+    backfill.register("energy", "aemo", date(2005, 1, 1), date(1998, 12, 1))  # never narrowed
+    assert backfill.load_state("energy")["aemo"]["start"] == "1998-12-01"
+
+    # default start moved earlier (e.g. a cancelled widening dispatch): the plan follows, progress is kept
+    backfill.save_state("energy", {"aemo": {**plan, "start": "2015-01-01", "end": "2026-01-01", "done": ["x"]}})
+    backfill.register("energy", "aemo", date(2000, 1, 1), date(1998, 12, 1))
+    widened = backfill.load_state("energy")["aemo"]
+    assert (widened["start"], widened["end"], widened["done"]) == ("2000-01-01", "2026-01-01", ["x"])
 
 
 def test_stops_before_a_chunk_that_would_overrun(data_dir, monkeypatch):

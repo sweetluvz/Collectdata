@@ -126,7 +126,7 @@ Khi chưa đặt `BDS_RUNNER`, job Batdongsan vẫn thử trên máy GitHub và 
 ## 4. Lấy dữ liệu lịch sử (backfill)
 
 ### 4.1. Tự động hoặc tuỳ chỉnh
-**Không cần bấm gì:** nguồn nào chưa có kế hoạch sẽ tự ghi kế hoạch mặc định (cột "Mốc `auto`" bên dưới) ngay lần chạy đầu tiên, rồi các lượt sau tải dần lịch sử. Muốn tắt, đặt biến `BACKFILL_AUTO=0`.
+**Không cần bấm gì:** nguồn nào chưa có kế hoạch sẽ tự ghi kế hoạch mặc định (cột "Mốc `auto`" bên dưới) ngay lần chạy đầu tiên, rồi các lượt sau tải dần lịch sử. Khi mốc `auto` trong code được dời sớm hơn, kế hoạch đang có tự mở rộng theo ở lượt kế tiếp (phần đã xong giữ nguyên). Muốn tắt, đặt biến `BACKFILL_AUTO=0`.
 
 Muốn lấy xa hơn mốc mặc định hoặc chỉ một số nguồn: *Actions → Collect energy data* → **Run workflow**:
 
