@@ -5,7 +5,7 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | Table | Files | Rows | Time column | From | To | Size |
 |---|---:|---:|---|---|---|---:|
 | `energy/aemo/price_demand` | 334 | 916,111 | `timestamp` | 1998-12-06T16:00Z | 2026-09-27T14:00Z | 28.8 MB |
-| `energy/airquality/observed` | 30 | 823,992 | `time` | 2022-08-01T00:00Z | 2026-09-27T20:00Z | 11.4 MB |
+| `energy/airquality/observed` | 50 | 1,456,224 | `time` | 2022-08-01T00:00Z | 2026-09-27T23:00Z | 24.0 MB |
 | `energy/eia/fuel_prices` | 489 | 129,990 | `period` | 1986-01-02 | 2026-09-22 | 1022.3 KB |
 | `energy/eia/fuel_type` | 18 | 12,591 | `period` | 2018-07-01T05:00Z | 2026-09-27T06:00Z | 6.9 MB |
 | `energy/eia/interchange` | 53 | 38,152 | `period` | 2015-07-01T05:00Z | 2026-09-26T07:00Z | 21.0 MB |
@@ -20,15 +20,15 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | `energy/nyiso/lbmp_da` | 321 | 234,431 | `timestamp` | 2000-01-01T05:00Z | 2026-09-29T03:00Z | 8.5 MB |
 | `energy/nyiso/lbmp_rt` | 321 | 233,946 | `timestamp` | 2000-01-01T05:00Z | 2026-09-27T22:00Z | 8.7 MB |
 | `energy/weather/era5` | 141 | 4,110,720 | `time` | 2015-01-01T00:00Z | 2026-09-21T23:00Z | 103.3 MB |
-| `energy/weather/forecast` | 1 | 5,978 | `issued_at` | 2026-09-27T08:00Z | 2026-09-27T20:00Z | 665.0 KB |
-| `energy/weather/observed` | 1 | 3,720 | `time` | 2026-09-24T00:00Z | 2026-09-27T20:00Z | 347.8 KB |
+| `energy/weather/forecast` | 1 | 6,978 | `issued_at` | 2026-09-27T08:00Z | 2026-09-27T22:00Z | 776.1 KB |
+| `energy/weather/observed` | 1 | 3,800 | `time` | 2026-09-24T00:00Z | 2026-09-27T22:00Z | 355.4 KB |
 
 ## Backfill progress
 
 | Source | Range | Chunks done | Skipped (no data) | Remaining |
 |---|---|---:|---:|---:|
 | `aemo` | 1998-12-01 .. 2026-09-27 | 331 / 334 | 0 | 3 |
-| `airquality` | 2022-08-01 .. 2026-09-27 | 117 / 200 | 0 | 83 |
+| `airquality` | 2022-08-01 .. 2026-09-27 | 200 / 200 | 0 | complete |
 | `eia` | 2015-07-01 .. 2026-09-27 | 10 / 135 | 42 | 83 |
 | `eia_bulk` | 2015-07-01 .. 2026-09-27 | 7 / 7 | 0 | complete |
 | `eia_market` | 1986-01-01 .. 2026-09-27 | 41 / 41 | 0 | complete |

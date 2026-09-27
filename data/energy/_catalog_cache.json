@@ -2459,92 +2459,232 @@
  "energy/airquality/observed/2024-01.csv.gz": {
   "max": "2024-01-31T23:00Z",
   "min": "2024-01-01T00:00Z",
-  "rows": 27528,
-  "sha1": "3b0986549dea11208593ec4c6b60fec52fa57d0b:2",
+  "rows": 29760,
+  "sha1": "1334a4cd8f1fef67e779389244c2389b7ad75913:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2024-02.csv.gz": {
   "max": "2024-02-29T23:00Z",
   "min": "2024-02-01T00:00Z",
-  "rows": 25752,
-  "sha1": "a47b34c18472dd9451125e0717b2a8a56eeb0027:2",
+  "rows": 27840,
+  "sha1": "a85b2a310406a059d6eb760fe4d3050893dfabbc:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2024-03.csv.gz": {
   "max": "2024-03-31T23:00Z",
   "min": "2024-03-01T00:00Z",
-  "rows": 27528,
-  "sha1": "77fb7e7045d69dc05d32d9edb6cdf064e1027c4d:2",
+  "rows": 29760,
+  "sha1": "1013e9e66134462d94d24ac40e7663cd41c0d976:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2024-04.csv.gz": {
   "max": "2024-04-30T23:00Z",
   "min": "2024-04-01T00:00Z",
-  "rows": 26640,
-  "sha1": "acce39cbaf08d1a35ec230b46beedfcad5aa28a4:2",
+  "rows": 28800,
+  "sha1": "c13aa594e7336c8e5766a72a6dc57d7157836a3b:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2024-05.csv.gz": {
   "max": "2024-05-31T23:00Z",
   "min": "2024-05-01T00:00Z",
-  "rows": 27528,
-  "sha1": "058711b5c3eb73a326631b5b09373e368c66c301:2",
+  "rows": 29760,
+  "sha1": "200691a867616824365d8f0426cbf59e74961e3b:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2024-06.csv.gz": {
   "max": "2024-06-30T23:00Z",
   "min": "2024-06-01T00:00Z",
-  "rows": 26640,
-  "sha1": "86b6760a47cde33860e9e6e4a532df059dc14d34:2",
+  "rows": 28800,
+  "sha1": "933ab78069552bdee16981d905fb47d36e9e13dc:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2024-07.csv.gz": {
   "max": "2024-07-31T23:00Z",
   "min": "2024-07-01T00:00Z",
-  "rows": 27528,
-  "sha1": "f8ce094909b6ca0c30fe7da5d709f9627067e572:2",
+  "rows": 29760,
+  "sha1": "0cc41e6ed419daa7f1c96350aea471a4655f054c:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2024-08.csv.gz": {
   "max": "2024-08-31T23:00Z",
   "min": "2024-08-01T00:00Z",
-  "rows": 27528,
-  "sha1": "4da6124225f66ff3fb10902208918a7533635c53:2",
+  "rows": 29760,
+  "sha1": "9be1fecfeda09399abba8e67dc4f029adadfd188:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2024-09.csv.gz": {
   "max": "2024-09-30T23:00Z",
   "min": "2024-09-01T00:00Z",
-  "rows": 26640,
-  "sha1": "e34d61357104fbd97b87150f957edaae5a637316:2",
+  "rows": 28800,
+  "sha1": "c9db163eead18810f0392f6eb9da0e095fad6116:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2024-10.csv.gz": {
   "max": "2024-10-31T23:00Z",
   "min": "2024-10-01T00:00Z",
-  "rows": 27528,
-  "sha1": "3b28a370fff4fd181348e4df2739300212cef00f:2",
+  "rows": 29760,
+  "sha1": "c70d1264740e347afc53054e32262937cfad8c6a:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2024-11.csv.gz": {
   "max": "2024-11-30T23:00Z",
   "min": "2024-11-01T00:00Z",
-  "rows": 26640,
-  "sha1": "869543832ff1cff0b0516348765a8b8059d2052a:2",
+  "rows": 28800,
+  "sha1": "9db16f821c234589f199bf59f2d83551d3b112d5:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2024-12.csv.gz": {
   "max": "2024-12-31T23:00Z",
   "min": "2024-12-01T00:00Z",
-  "rows": 27528,
-  "sha1": "b04596921aa7229149d550a349fb4bd14978b18f:2",
+  "rows": 29760,
+  "sha1": "0adca78c9ce20239bf46e7e4771c297d1d2fc09d:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2025-01.csv.gz": {
+  "max": "2025-01-31T23:00Z",
+  "min": "2025-01-01T00:00Z",
+  "rows": 29760,
+  "sha1": "860657594aaa47e2dd95b5ae5e128bae64865a7b:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2025-02.csv.gz": {
+  "max": "2025-02-28T23:00Z",
+  "min": "2025-02-01T00:00Z",
+  "rows": 26880,
+  "sha1": "f0689c5bed695b2d1ea8b2326f556d49ac90b660:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2025-03.csv.gz": {
+  "max": "2025-03-31T23:00Z",
+  "min": "2025-03-01T00:00Z",
+  "rows": 29760,
+  "sha1": "3e899cba408e59b95d0683da4ee0a59870f513f2:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2025-04.csv.gz": {
+  "max": "2025-04-30T23:00Z",
+  "min": "2025-04-01T00:00Z",
+  "rows": 28800,
+  "sha1": "c9cf9d796b652a8fd1179089fa93af89782935c5:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2025-05.csv.gz": {
+  "max": "2025-05-31T23:00Z",
+  "min": "2025-05-01T00:00Z",
+  "rows": 29760,
+  "sha1": "84c1236eb84f9b0822425bb616c4eb972d8c0897:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2025-06.csv.gz": {
+  "max": "2025-06-30T23:00Z",
+  "min": "2025-06-01T00:00Z",
+  "rows": 28800,
+  "sha1": "059b45d49780bdf4a22528b4557da9e3527aed3f:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2025-07.csv.gz": {
+  "max": "2025-07-31T23:00Z",
+  "min": "2025-07-01T00:00Z",
+  "rows": 29760,
+  "sha1": "78b8bdd2badb508aa3e3ccf57092cebf198b4a57:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2025-08.csv.gz": {
+  "max": "2025-08-31T23:00Z",
+  "min": "2025-08-01T00:00Z",
+  "rows": 29760,
+  "sha1": "3bce106082e2f5797c8f4820f8d998f104f3a88d:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2025-09.csv.gz": {
+  "max": "2025-09-30T23:00Z",
+  "min": "2025-09-01T00:00Z",
+  "rows": 28800,
+  "sha1": "6fb5725c5aa2af424e86dc630671abb1318c341f:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2025-10.csv.gz": {
+  "max": "2025-10-31T23:00Z",
+  "min": "2025-10-01T00:00Z",
+  "rows": 29760,
+  "sha1": "f5683e864596e04177e0c502451252d6711fabde:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2025-11.csv.gz": {
+  "max": "2025-11-30T23:00Z",
+  "min": "2025-11-01T00:00Z",
+  "rows": 28800,
+  "sha1": "4b6261139955a818b0414e6d157d80c79c1214a1:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2025-12.csv.gz": {
+  "max": "2025-12-31T23:00Z",
+  "min": "2025-12-01T00:00Z",
+  "rows": 29760,
+  "sha1": "33a5965f6de1a1a11a9247ced66c3769fa8e1a03:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2026-01.csv.gz": {
+  "max": "2026-01-31T23:00Z",
+  "min": "2026-01-01T00:00Z",
+  "rows": 29760,
+  "sha1": "0c7954a2c8adb5bdf2903bd249c48ecbd45f35ab:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2026-02.csv.gz": {
+  "max": "2026-02-28T23:00Z",
+  "min": "2026-02-01T00:00Z",
+  "rows": 26880,
+  "sha1": "a50cb63d7fc9442b20b10a9a2b8d67b2b759a52d:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2026-03.csv.gz": {
+  "max": "2026-03-31T23:00Z",
+  "min": "2026-03-01T00:00Z",
+  "rows": 29760,
+  "sha1": "51ae68e5b4e34fc315ae9e9dd8927aec19e9da06:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2026-04.csv.gz": {
+  "max": "2026-04-30T23:00Z",
+  "min": "2026-04-01T00:00Z",
+  "rows": 28800,
+  "sha1": "630e7b4b66b6ef472b1a5b9678074a0c0f127287:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2026-05.csv.gz": {
+  "max": "2026-05-31T23:00Z",
+  "min": "2026-05-01T00:00Z",
+  "rows": 29760,
+  "sha1": "2e932779c89caeccd178e660d219848b618267e1:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2026-06.csv.gz": {
+  "max": "2026-06-30T23:00Z",
+  "min": "2026-06-01T00:00Z",
+  "rows": 28800,
+  "sha1": "f054ede4e5f794cd76f61fe1f0be879b0e8de216:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2026-07.csv": {
+  "max": "2026-07-31T23:00Z",
+  "min": "2026-07-01T00:00Z",
+  "rows": 29760,
+  "sha1": "528859a284953360a36bbda95e9cc6ec7d247f23:2",
+  "time_col": "time"
+ },
+ "energy/airquality/observed/2026-08.csv": {
+  "max": "2026-08-31T23:00Z",
+  "min": "2026-08-01T00:00Z",
+  "rows": 29760,
+  "sha1": "eddf26fc65644912b51a5d2f5a2f00215a112edb:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2026-09.csv": {
-  "max": "2026-09-27T20:00Z",
-  "min": "2026-09-24T00:00Z",
-  "rows": 3720,
-  "sha1": "2e8e73049fbb2bac0ae107035ebff9178f2e6f34:2",
+  "max": "2026-09-27T23:00Z",
+  "min": "2026-09-01T00:00Z",
+  "rows": 25920,
+  "sha1": "533e9f8e95008ece9d1dccb41dedbce46e4483ee:2",
   "time_col": "time"
  },
  "energy/eia/fuel_prices/1986-01.csv.gz": {
@@ -17549,17 +17689,17 @@
   "time_col": "time"
  },
  "energy/weather/forecast/2026-09.csv": {
-  "max": "2026-09-27T20:00Z",
+  "max": "2026-09-27T22:00Z",
   "min": "2026-09-27T08:00Z",
-  "rows": 5978,
-  "sha1": "102b703a59c0631398d854d0f0e60fb06ec149e4:2",
+  "rows": 6978,
+  "sha1": "188e4501dfdc395fb00e9fd9c7692ce9e41ad3b5:2",
   "time_col": "issued_at"
  },
  "energy/weather/observed/2026-09.csv": {
-  "max": "2026-09-27T20:00Z",
+  "max": "2026-09-27T22:00Z",
   "min": "2026-09-24T00:00Z",
-  "rows": 3720,
-  "sha1": "cc6dc39a7b3653822faf381db9b194ee353392c7:2",
+  "rows": 3800,
+  "sha1": "13b7ff92edc8984a53c5bb642c43841d3ffc157c:2",
   "time_col": "time"
  }
 }
