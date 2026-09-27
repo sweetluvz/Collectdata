@@ -1,79 +1,79 @@
 {
  "realestate/chotot/ads/2026-07.csv": {
-  "max": "2026-09-27T10:14Z",
-  "min": "2026-09-27T10:14Z",
+  "max": "2026-07-31T00:23Z",
+  "min": "2026-07-29T10:25Z",
   "rows": 3,
-  "sha1": "a33f6a7ed233db65e2805d9496e43cd6996190da",
-  "time_col": "scraped_at"
+  "sha1": "a33f6a7ed233db65e2805d9496e43cd6996190da:2",
+  "time_col": "list_time"
  },
  "realestate/chotot/ads/2026-08.csv": {
-  "max": "2026-09-27T10:14Z",
-  "min": "2026-09-27T10:14Z",
+  "max": "2026-08-31T19:03Z",
+  "min": "2026-08-01T00:17Z",
   "rows": 353,
-  "sha1": "ae63fbdcc5838f6f78d56516306030f15998e893",
-  "time_col": "scraped_at"
+  "sha1": "ae63fbdcc5838f6f78d56516306030f15998e893:2",
+  "time_col": "list_time"
  },
  "realestate/chotot/ads/2026-09.csv": {
-  "max": "2026-09-27T10:14Z",
-  "min": "2026-09-27T10:14Z",
+  "max": "2026-09-27T10:15Z",
+  "min": "2026-09-01T00:56Z",
   "rows": 9068,
-  "sha1": "c64146b488d4b5a8cab4cde8850bc25a26217ec9",
-  "time_col": "scraped_at"
+  "sha1": "496dae6b23af752fc18ed74703549c35e61ee3e5:2",
+  "time_col": "list_time"
  },
  "realestate/chotot/snapshots/2026-09.csv": {
+  "max": "2026-09-27",
+  "min": "2026-09-27",
+  "rows": 9424,
+  "sha1": "b3f5457541d02be45bdf691d1eacda24152c589f:2",
+  "time_col": "scraped_date"
+ },
+ "realestate/fhfa/hpi_master/2026-06.csv.gz": {
   "max": "",
   "min": "",
   "rows": null,
-  "sha1": "b3f5457541d02be45bdf691d1eacda24152c589f",
+  "sha1": "872ce13cb7f9d659f238a14c9cfbb9ac66e98ee3:2",
   "time_col": "release"
- },
- "realestate/fhfa/hpi_master/2026-06.csv.gz": {
-  "max": "9",
-  "min": "1",
-  "rows": 186011,
-  "sha1": "872ce13cb7f9d659f238a14c9cfbb9ac66e98ee3",
-  "time_col": "period"
  },
  "realestate/realtor/inventory_metro/2026-08.csv.gz": {
   "max": "",
   "min": "",
   "rows": null,
-  "sha1": "2ed8d1e6ca9b70d782688c1e461623e03c3bbe8a",
+  "sha1": "2ed8d1e6ca9b70d782688c1e461623e03c3bbe8a:2",
   "time_col": "release"
  },
  "realestate/zillow/inventory_metro/2026-08.csv.gz": {
   "max": "",
   "min": "",
   "rows": null,
-  "sha1": "49068cfb63a2c13b6cdb36643f5388711c6b2faf",
+  "sha1": "49068cfb63a2c13b6cdb36643f5388711c6b2faf:2",
   "time_col": "release"
  },
  "realestate/zillow/sales_count_metro/2026-08.csv.gz": {
   "max": "",
   "min": "",
   "rows": null,
-  "sha1": "2b8e9b82d7a2f2fa07ad3db28fc90558387a35e3",
+  "sha1": "2b8e9b82d7a2f2fa07ad3db28fc90558387a35e3:2",
   "time_col": "release"
  },
  "realestate/zillow/zhvi_county/2026-08.csv.gz": {
   "max": "",
   "min": "",
   "rows": null,
-  "sha1": "772e0135d7f82217bd77e4541e3a45239f7e9a35",
+  "sha1": "772e0135d7f82217bd77e4541e3a45239f7e9a35:2",
   "time_col": "release"
  },
  "realestate/zillow/zhvi_metro/2026-08.csv.gz": {
   "max": "",
   "min": "",
   "rows": null,
-  "sha1": "343ac590bc618b0735b834687b2a620414acc5cf",
+  "sha1": "343ac590bc618b0735b834687b2a620414acc5cf:2",
   "time_col": "release"
  },
  "realestate/zillow/zori_metro/2026-08.csv.gz": {
   "max": "",
   "min": "",
   "rows": null,
-  "sha1": "8f7b98bbc3ef2ec45617f65c02de074d9a5399ac",
+  "sha1": "8f7b98bbc3ef2ec45617f65c02de074d9a5399ac:2",
   "time_col": "release"
  }
 }

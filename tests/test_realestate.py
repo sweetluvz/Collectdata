@@ -103,3 +103,21 @@ def test_phone_numbers_are_masked():
 
     text = "Liên hệ 0912 345 678 hoặc +84 912.345.678, giá 3,5 tỷ, 70 m2, năm 2024"
     assert mask_phones(text) == "Liên hệ [SĐT] hoặc [SĐT], giá 3,5 tỷ, 70 m2, năm 2024"
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("Liên hệ: 912345678 Call/Zalo", "Liên hệ: [SĐT] Call/Zalo"),
+    ("LOAN912345678 đất đẹp", "LOAN[SĐT] đất đẹp"),
+    ("Em: @912.345.678 ngay", "Em: @[SĐT] ngay"),
+    ("Liên hệ***912345678.", "Liên hệ***[SĐT]."),
+    ("thông tin 09123456789 #tag", "thông tin [SĐT] #tag"),
+    ("Giá bán: 5.200.000.000 VNĐ", "Giá bán: 5.200.000.000 VNĐ"),
+    ("GIÁ BÁN : 950.000.000 VNĐ", "GIÁ BÁN : 950.000.000 VNĐ"),
+    ("chỉ từ 950.000.000vnd", "chỉ từ 950.000.000vnd"),
+    ("-giá: 123.456.789 triệu", "-giá: 123.456.789 triệu"),
+    ("Diện tích 5x20m, 3 tầng, 2024", "Diện tích 5x20m, 3 tầng, 2024"),
+])
+def test_obfuscated_phones_masked_prices_kept(text, expected):
+    from utils.privacy import mask_phones
+
+    assert mask_phones(text) == expected

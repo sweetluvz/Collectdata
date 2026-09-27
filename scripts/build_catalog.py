@@ -6,6 +6,7 @@ are re-read. Output has no generation timestamp, so it only changes when the dat
 Usage: python scripts/build_catalog.py energy|realestate
 """
 import hashlib
+import re
 import json
 from pathlib import Path
 import sys
@@ -16,7 +17,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from utils import storage  # noqa: E402
 from utils.backfill import load_state, prune  # noqa: E402
 
-TIME_COLS = ["issued_at", "time", "period", "timestamp", "scraped_at", "fetched_at"]
+TIME_COLS = ["issued_at", "time", "period", "timestamp", "list_time", "scraped_date", "scraped_at", "fetched_at"]
+DATE_LIKE = re.compile(r"^\d{4}-\d{2}")
+CACHE_VERSION = "2"  # bump when the stats logic changes so cached entries are recomputed
 
 
 def human(n):
@@ -29,7 +32,7 @@ def human(n):
 
 def file_stats(path, cache):
     key = path.relative_to(storage.DATA_DIR).as_posix()
-    digest = hashlib.sha1(path.read_bytes()).hexdigest()
+    digest = hashlib.sha1(path.read_bytes()).hexdigest() + ":" + CACHE_VERSION
     hit = cache.get(key)
     if hit and hit["sha1"] == digest:
         return hit
@@ -40,6 +43,10 @@ def file_stats(path, cache):
     else:
         col = pd.read_csv(path, usecols=[time_col], dtype=str, keep_default_na=False)[time_col]
         col = col[col != ""]
+        if len(col) and not DATE_LIKE.match(str(col.iloc[0])):  # e.g. FHFA "period" = month number
+            stats = {"rows": None, "min": "", "max": "", "time_col": "release"}
+            cache[key] = {"sha1": digest, **stats}
+            return cache[key]
         stats = {"rows": len(col), "min": col.min() if len(col) else "", "max": col.max() if len(col) else "",
                  "time_col": time_col}
     cache[key] = {"sha1": digest, **stats}
