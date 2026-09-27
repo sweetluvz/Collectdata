@@ -1,4 +1,11 @@
 {
+ "aemo": {
+  "done": [],
+  "end": "2026-09-27",
+  "skipped": [],
+  "start": "1998-12-01",
+  "total": 334
+ },
  "airquality": {
   "done": [],
   "end": "2026-09-27",

@@ -1,4 +1,25 @@
 {
+ "energy/aemo/price_demand/2026-07.csv": {
+  "max": "2026-07-31T23:55Z",
+  "min": "2026-07-31T14:05Z",
+  "rows": 119,
+  "sha1": "20827a69025355d0411b584e27ab4b6b605cfbfd:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2026-08.csv": {
+  "max": "2026-08-31T23:55Z",
+  "min": "2026-08-01T00:00Z",
+  "rows": 8928,
+  "sha1": "59041be210d1ce78ca4521ccbc806e3cdc40c194:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2026-09.csv": {
+  "max": "2026-09-26T14:00Z",
+  "min": "2026-09-01T00:00Z",
+  "rows": 7369,
+  "sha1": "40420053223085ba2339ea684996d1f061c8558a:2",
+  "time_col": "timestamp"
+ },
  "energy/airquality/observed/2026-09.csv": {
   "max": "2026-09-27T10:00Z",
   "min": "2026-09-24T00:00Z",
