@@ -83,6 +83,8 @@ def main():
     if failures == len(queries):
         raise SystemExit("chotot: every query failed")
 
+    if not rows:
+        raise SystemExit("chotot: 0 listings returned - the gateway API may have changed")
     ads = pd.DataFrame(rows.values())
     upsert(ads, "realestate/chotot/ads", ["list_id"], "list_time")
     snaps = ads[["list_id", "price"]].assign(scraped_date=now.strftime("%Y-%m-%d"))
