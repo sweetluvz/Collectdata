@@ -18,6 +18,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 from utils.http import check, env_int, session
+from utils.privacy import mask_phones
 from utils.storage import load_all, upsert
 
 BASE = "https://batdongsan.com.vn"
@@ -35,12 +36,6 @@ HEADERS = {
     "Referer": BASE + "/",
 }
 BLOCK_MARKERS = ("Just a moment", "cf-browser-verification", "Attention Required", "captcha")
-# The repository is public: phone numbers posted in titles/descriptions are masked before saving.
-PHONE_RE = re.compile(r"(?<!\d)(?:\+?84|0)(?:[\s.\-]?\d){8,10}(?!\d)")
-
-
-def mask_phones(text):
-    return PHONE_RE.sub("[SĐT]", text or "")
 
 
 class Blocked(RuntimeError):

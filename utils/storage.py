@@ -52,12 +52,24 @@ def _read(path):
     return pd.read_csv(path, dtype=str, keep_default_na=False)
 
 
-def upsert(df, table, keys, time_col, gzip=None):
+def _merge(frames, keys, cellwise):
+    merged = pd.concat(frames, ignore_index=True).fillna("")
+    if not cellwise:
+        return merged.drop_duplicates(subset=keys, keep="last")
+    # Wide tables: a newer row only overwrites the cells it actually has, so partial re-pulls never blank data.
+    values = [c for c in merged.columns if c not in keys]
+    merged[values] = merged[values].replace("", None)
+    merged = merged.groupby(keys, sort=False, dropna=False)[values].last().reset_index()
+    return merged.fillna("")
+
+
+def upsert(df, table, keys, time_col, gzip=None, cellwise=False):
     """Merge rows into monthly partitions data/<table>/YYYY-MM.csv[.gz].
 
-    Rows sharing `keys` are replaced by the newest version, so re-collecting an overlapping window
-    updates revised values instead of duplicating them. gzip=None stores cold months gzipped and hot
-    months as plain CSV; files are rewritten only when their content changes.
+    Rows sharing `keys` are replaced by the newest version (cellwise=True: only the non-empty cells of the
+    newer row), so re-collecting an overlapping window updates revised values instead of duplicating them.
+    gzip=None stores cold months gzipped and hot months as plain CSV; files are rewritten only when their
+    content changes.
     """
     if df is None or df.empty:
         print(f"[{table}] nothing to save")
@@ -74,11 +86,8 @@ def upsert(df, table, keys, time_col, gzip=None):
         sibling = out_dir / f"{m}.csv{'' if use_gz else '.gz'}"
         olds = [_read(p) for p in (sibling, path) if p.exists()]
         before = sum(len(o) for o in olds)
-        merged = pd.concat([*olds, _as_text(part)], ignore_index=True)
-        merged = (
-            merged.fillna("")
-            .drop_duplicates(subset=keys, keep="last")
-            .sort_values([time_col, *keys], kind="stable")
+        merged = _merge([*olds, _as_text(part)], keys, cellwise).sort_values(
+            list(dict.fromkeys([time_col, *keys])), kind="stable"
         )
         changed = write_if_changed(merged, path)
         if sibling.exists():

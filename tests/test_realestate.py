@@ -72,19 +72,34 @@ def test_batdongsan_saves_partial_data_when_blocked(data_dir):
     assert load_all("realestate/batdongsan/details").empty
 
 
-def test_zillow_stores_each_release_once(data_dir):
-    import scrapers.realestate.zillow_collector as zc
+def test_us_housing_keeps_latest_release_only(data_dir):
+    import scrapers.realestate.us_housing_collector as uh
 
-    csv = b"RegionID,RegionName,2026-07-31,2026-08-31\n1,US,350000,351000\n"
-    with mock.patch("requests.Session.get", return_value=FakeResponse(content=csv)):
-        zc.main()
-        zc.main()
+    zillow = b"RegionID,RegionName,2026-07-31,2026-08-31\n1,US,350000,351000\n"
+    fhfa = b"hpi_type,frequency,level,place_id,yr,period,index_nsa\nt,monthly,USA,US,2026,6,400\nt,quarterly,USA,US,2026,2,401\n"
+    realtor = b"month_date_yyyymm,cbsa_code,median_listing_price\n202607,1,300000\n202608,1,301000\n"
+
+    def get(url, timeout=None):
+        return FakeResponse(content=fhfa if "fhfa" in url else realtor if "econdata" in url else zillow)
+
+    with mock.patch("requests.Session.get", side_effect=get):
+        uh.main()
+        uh.main()
     files = sorted(p.relative_to(data_dir).as_posix() for p in data_dir.rglob("*.gz"))
-    assert files == [f"realestate/zillow/{n}/2026-08.csv.gz" for n in sorted(zc.DATASETS)]
+    assert "realestate/fhfa/hpi_master/2026-06.csv.gz" in files
+    assert "realestate/realtor/inventory_metro/2026-08.csv.gz" in files
+    assert "realestate/zillow/zhvi_metro/2026-08.csv.gz" in files
+    assert len(files) == len(uh.DATASETS)
+
+    newer = zillow.replace(b"2026-08-31", b"2026-09-30")
+    with mock.patch("requests.Session.get", side_effect=lambda url, timeout=None: FakeResponse(
+            content=fhfa if "fhfa" in url else realtor if "econdata" in url else newer)):
+        uh.main()
+    assert [p.name for p in (data_dir / "realestate/zillow/zhvi_metro").iterdir()] == ["2026-09.csv.gz"]
 
 
 def test_phone_numbers_are_masked():
-    from scrapers.realestate.batdongsan_collector import mask_phones
+    from utils.privacy import mask_phones
 
     text = "Liên hệ 0912 345 678 hoặc +84 912.345.678, giá 3,5 tỷ, 70 m2, năm 2024"
     assert mask_phones(text) == "Liên hệ [SĐT] hoặc [SĐT], giá 3,5 tỷ, 70 m2, năm 2024"

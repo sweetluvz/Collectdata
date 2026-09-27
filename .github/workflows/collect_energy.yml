@@ -6,13 +6,13 @@ on:
   workflow_dispatch:
     inputs:
       backfill_start:
-        description: "Historical backfill: 'auto' (ERA5 from 2015, EIA from 2015-07, air quality from 2022-08) or YYYY-MM-DD. Empty = normal run."
+        description: "Historical backfill: 'auto' = each source's default start (see README 4.1) or YYYY-MM-DD. Empty = normal run."
         default: ""
       backfill_end:
         description: "Backfill end date YYYY-MM-DD (empty = today)"
         default: ""
       backfill_sources:
-        description: "Comma list of era5, airquality, eia (empty = all)"
+        description: "Comma list: era5, airquality, eia, eia_market, europe_power, europe_price, gb, aemo, nyiso_da, nyiso_rt (empty = all)"
         default: ""
       lookback_days:
         description: "Recent window for a normal run (EIA / weather, weather max 92)"
@@ -34,12 +34,12 @@ env:
   BACKFILL_END: ${{ inputs.backfill_end }}
   BACKFILL_SOURCES: ${{ inputs.backfill_sources }}
   BACKFILL_FLAG: /tmp/backfill_incomplete
-  BACKFILL_MINUTES: "95"
+  BACKFILL_MINUTES: "45"
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 250
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v5
         with:
@@ -58,8 +58,9 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Weather, ERA5 & air quality (Open-Meteo)
-        timeout-minutes: 110
+        timeout-minutes: 80
         env:
+          BACKFILL_MINUTES: "60"
           WEATHER_PAST_DAYS: ${{ inputs.lookback_days }}
         run: python -m scrapers.energy.weather_collector
 
@@ -68,18 +69,67 @@ jobs:
         run: |
           bash scripts/commit_data.sh energy "data(energy): weather $(date -u +%Y-%m-%dT%H:%MZ)"
 
-      - name: US grid (EIA-930)
+      - name: US grid & markets (EIA)
         if: ${{ !cancelled() }}
-        timeout-minutes: 110
+        timeout-minutes: 80
         env:
+          BACKFILL_MINUTES: "60"
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
           EIA_LOOKBACK_DAYS: ${{ inputs.lookback_days }}
         run: python -m scrapers.energy.eia_collector
 
-      - name: Commit EIA
+      - name: Commit eia
         if: ${{ !cancelled() }}
         run: |
           bash scripts/commit_data.sh energy "data(energy): eia $(date -u +%Y-%m-%dT%H:%MZ)"
+
+      - name: Europe power & prices (Energy-Charts)
+        if: ${{ !cancelled() }}
+        timeout-minutes: 65
+        env:
+          BACKFILL_MINUTES: "45"
+        run: python -m scrapers.energy.europe_collector
+
+      - name: Commit europe
+        if: ${{ !cancelled() }}
+        run: |
+          bash scripts/commit_data.sh energy "data(energy): europe $(date -u +%Y-%m-%dT%H:%MZ)"
+
+      - name: Great Britain (Elexon, Carbon Intensity)
+        if: ${{ !cancelled() }}
+        timeout-minutes: 50
+        env:
+          BACKFILL_MINUTES: "30"
+        run: python -m scrapers.energy.gb_collector
+
+      - name: Commit gb
+        if: ${{ !cancelled() }}
+        run: |
+          bash scripts/commit_data.sh energy "data(energy): gb $(date -u +%Y-%m-%dT%H:%MZ)"
+
+      - name: Australia NEM (AEMO)
+        if: ${{ !cancelled() }}
+        timeout-minutes: 40
+        env:
+          BACKFILL_MINUTES: "20"
+        run: python -m scrapers.energy.aemo_collector
+
+      - name: Commit aemo
+        if: ${{ !cancelled() }}
+        run: |
+          bash scripts/commit_data.sh energy "data(energy): aemo $(date -u +%Y-%m-%dT%H:%MZ)"
+
+      - name: New York prices (NYISO)
+        if: ${{ !cancelled() }}
+        timeout-minutes: 40
+        env:
+          BACKFILL_MINUTES: "20"
+        run: python -m scrapers.energy.nyiso_collector
+
+      - name: Commit nyiso
+        if: ${{ !cancelled() }}
+        run: |
+          bash scripts/commit_data.sh energy "data(energy): nyiso $(date -u +%Y-%m-%dT%H:%MZ)"
 
       - name: Continue unfinished backfill
         if: ${{ !cancelled() }}

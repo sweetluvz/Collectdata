@@ -56,3 +56,10 @@ def test_new_columns_are_merged(data_dir):
     upsert(pd.DataFrame({"k": ["b"], "t": ["2026-09-02"], "extra": ["e"]}), "z", ["k"], "t")
     got = load_all("z")
     assert list(got["extra"]) == ["", "e"]
+
+
+def test_cellwise_merge_keeps_cells_missing_from_newer_rows(data_dir):
+    upsert(pd.DataFrame({"t": ["2026-09-01T00:00Z"], "A": [1.0], "B": [2.0]}), "w", ["t"], "t", cellwise=True)
+    upsert(pd.DataFrame({"t": ["2026-09-01T00:00Z"], "A": [5.0], "C": [3.0]}), "w", ["t"], "t", cellwise=True)
+    row = load_all("w").iloc[0]
+    assert (row.A, row.B, row.C) == ("5.0", "2.0", "3.0")

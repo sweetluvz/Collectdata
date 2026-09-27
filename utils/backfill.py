@@ -18,7 +18,10 @@ from utils import storage
 
 PERMANENT_HTTP = (400, 404, 422)
 # Sources that can have a backfill plan; plans of any other (removed) source are pruned by the catalog build.
-SOURCES = {"energy": {"era5", "airquality", "eia"}}
+SOURCES = {
+    "energy": {"era5", "airquality", "eia", "eia_market", "europe_power", "europe_price", "gb", "aemo",
+               "nyiso_da", "nyiso_rt"},
+}
 _deadline = None
 
 

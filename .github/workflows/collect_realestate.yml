@@ -20,7 +20,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  zillow:
+  public:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -40,16 +40,20 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Zillow Research (ZHVI / ZORI)
-        run: python -m scrapers.realestate.zillow_collector
+      - name: US housing indices (Zillow, FHFA, Realtor.com)
+        run: python -m scrapers.realestate.us_housing_collector
+
+      - name: Vietnam listings (Chợ Tốt)
+        if: ${{ !cancelled() }}
+        run: python -m scrapers.realestate.chotot_collector
 
       - name: Commit data
         if: ${{ !cancelled() }}
         run: |
-          bash scripts/commit_data.sh realestate "data(realestate): zillow $(date -u +%Y-%m-%d)"
+          bash scripts/commit_data.sh realestate "data(realestate): indices+chotot $(date -u +%Y-%m-%d)"
 
   batdongsan:
-    needs: zillow
+    needs: public
     if: ${{ !cancelled() }}
     # batdongsan.com.vn blocks GitHub's cloud IPs. Register a self-hosted runner on a machine in Vietnam and
     # set the repository variable BDS_RUNNER to its label (e.g. self-hosted) - see README section 3.5.

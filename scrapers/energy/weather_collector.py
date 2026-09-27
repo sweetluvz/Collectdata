@@ -17,7 +17,7 @@ from utils import backfill
 from utils.http import check, env_int, session
 from utils.storage import upsert
 
-# Near load centres of the EIA balancing authorities, ENTSO-E bidding zones and VN real-estate cities.
+# Near load centres of EIA balancing authorities, GB, the Australian NEM regions, EU capitals and VN cities.
 LOCATIONS = [
     ("US_CISO_LosAngeles", 34.05, -118.24),
     ("US_CISO_SanFrancisco", 37.77, -122.42),
@@ -29,6 +29,16 @@ LOCATIONS = [
     ("US_ISNE_Boston", 42.36, -71.06),
     ("US_SWPP_OklahomaCity", 35.47, -97.52),
     ("US_BPAT_Portland", 45.52, -122.68),
+    ("US_SOCO_Atlanta", 33.75, -84.39),
+    ("US_AZPS_Phoenix", 33.45, -112.07),
+    ("US_PSCO_Denver", 39.74, -104.99),
+    ("US_FPL_Miami", 25.76, -80.19),
+    ("US_SCL_Seattle", 47.61, -122.33),
+    ("US_MISO_Minneapolis", 44.98, -93.27),
+    ("US_SWPP_KansasCity", 39.10, -94.58),
+    ("US_NEVP_LasVegas", 36.17, -115.14),
+    ("US_DUK_Charlotte", 35.23, -80.84),
+    ("US_TVA_Nashville", 36.16, -86.78),
     ("DE_Berlin", 52.52, 13.40),
     ("DE_Hamburg", 53.55, 9.99),
     ("DE_Munich", 48.14, 11.58),
@@ -38,6 +48,14 @@ LOCATIONS = [
     ("BE_Brussels", 50.85, 4.35),
     ("PL_Warsaw", 52.23, 21.01),
     ("AT_Vienna", 48.21, 16.37),
+    ("GB_London", 51.51, -0.13),
+    ("GB_Manchester", 53.48, -2.24),
+    ("GB_Glasgow", 55.86, -4.25),
+    ("AU_NSW1_Sydney", -33.87, 151.21),
+    ("AU_QLD1_Brisbane", -27.47, 153.03),
+    ("AU_VIC1_Melbourne", -37.81, 144.96),
+    ("AU_SA1_Adelaide", -34.93, 138.60),
+    ("AU_TAS1_Hobart", -42.88, 147.33),
     ("VN_HoChiMinh", 10.78, 106.70),
     ("VN_HaNoi", 21.03, 105.85),
     ("VN_DaNang", 16.05, 108.20),
