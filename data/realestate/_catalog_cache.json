@@ -1,0 +1,79 @@
+{
+ "realestate/chotot/ads/2026-07.csv": {
+  "max": "2026-09-27T10:14Z",
+  "min": "2026-09-27T10:14Z",
+  "rows": 3,
+  "sha1": "a33f6a7ed233db65e2805d9496e43cd6996190da",
+  "time_col": "scraped_at"
+ },
+ "realestate/chotot/ads/2026-08.csv": {
+  "max": "2026-09-27T10:14Z",
+  "min": "2026-09-27T10:14Z",
+  "rows": 353,
+  "sha1": "ae63fbdcc5838f6f78d56516306030f15998e893",
+  "time_col": "scraped_at"
+ },
+ "realestate/chotot/ads/2026-09.csv": {
+  "max": "2026-09-27T10:14Z",
+  "min": "2026-09-27T10:14Z",
+  "rows": 9068,
+  "sha1": "c64146b488d4b5a8cab4cde8850bc25a26217ec9",
+  "time_col": "scraped_at"
+ },
+ "realestate/chotot/snapshots/2026-09.csv": {
+  "max": "",
+  "min": "",
+  "rows": null,
+  "sha1": "b3f5457541d02be45bdf691d1eacda24152c589f",
+  "time_col": "release"
+ },
+ "realestate/fhfa/hpi_master/2026-06.csv.gz": {
+  "max": "9",
+  "min": "1",
+  "rows": 186011,
+  "sha1": "872ce13cb7f9d659f238a14c9cfbb9ac66e98ee3",
+  "time_col": "period"
+ },
+ "realestate/realtor/inventory_metro/2026-08.csv.gz": {
+  "max": "",
+  "min": "",
+  "rows": null,
+  "sha1": "2ed8d1e6ca9b70d782688c1e461623e03c3bbe8a",
+  "time_col": "release"
+ },
+ "realestate/zillow/inventory_metro/2026-08.csv.gz": {
+  "max": "",
+  "min": "",
+  "rows": null,
+  "sha1": "49068cfb63a2c13b6cdb36643f5388711c6b2faf",
+  "time_col": "release"
+ },
+ "realestate/zillow/sales_count_metro/2026-08.csv.gz": {
+  "max": "",
+  "min": "",
+  "rows": null,
+  "sha1": "2b8e9b82d7a2f2fa07ad3db28fc90558387a35e3",
+  "time_col": "release"
+ },
+ "realestate/zillow/zhvi_county/2026-08.csv.gz": {
+  "max": "",
+  "min": "",
+  "rows": null,
+  "sha1": "772e0135d7f82217bd77e4541e3a45239f7e9a35",
+  "time_col": "release"
+ },
+ "realestate/zillow/zhvi_metro/2026-08.csv.gz": {
+  "max": "",
+  "min": "",
+  "rows": null,
+  "sha1": "343ac590bc618b0735b834687b2a620414acc5cf",
+  "time_col": "release"
+ },
+ "realestate/zillow/zori_metro/2026-08.csv.gz": {
+  "max": "",
+  "min": "",
+  "rows": null,
+  "sha1": "8f7b98bbc3ef2ec45617f65c02de074d9a5399ac",
+  "time_col": "release"
+ }
+}
