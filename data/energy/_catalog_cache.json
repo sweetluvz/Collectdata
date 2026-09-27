@@ -419,6 +419,3240 @@
   "sha1": "9b0e9510c8fab023b026110a4b736f50bd5b3ea1:2",
   "time_col": "timestamp"
  },
+ "energy/nyiso/lbmp_da/2000-01.csv.gz": {
+  "max": "2000-01-31T23:00Z",
+  "min": "2000-01-01T05:00Z",
+  "rows": 739,
+  "sha1": "890bf1281e97e1c3351006fde992cc22131ff4c5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2000-02.csv.gz": {
+  "max": "2000-02-29T23:00Z",
+  "min": "2000-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "4e6f74a7fd9921838287a607f6a39ca862f44b21:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2000-03.csv.gz": {
+  "max": "2000-03-31T23:00Z",
+  "min": "2000-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "899042baf70b656529626835101d07dccc46e8b2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2000-04.csv.gz": {
+  "max": "2000-04-30T23:00Z",
+  "min": "2000-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "f6eda8ccc6c9035f8df9cbfbaf272a54b063e5d2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2000-05.csv.gz": {
+  "max": "2000-05-31T23:00Z",
+  "min": "2000-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "eda69f07213e1984d34cc536aada761ca2ee5239:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2000-06.csv.gz": {
+  "max": "2000-06-30T23:00Z",
+  "min": "2000-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "459a6b3a92f2a9f57d858fe1603766558f62528c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2000-07.csv.gz": {
+  "max": "2000-07-31T23:00Z",
+  "min": "2000-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "c5b2b0e0fa35dc1c81b24ba055f6b6eeaa8f7ee6:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2000-08.csv.gz": {
+  "max": "2000-08-31T23:00Z",
+  "min": "2000-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "b34d36bb2afd1e0d3d31637a763eb5f98eaa4419:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2000-09.csv.gz": {
+  "max": "2000-09-30T23:00Z",
+  "min": "2000-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "1288ead920edc53e2fc556796a000e83f8b59a12:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2000-10.csv.gz": {
+  "max": "2000-10-31T23:00Z",
+  "min": "2000-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "5140ec86da1669b01de2e6839c7195c7ef725d10:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2000-11.csv.gz": {
+  "max": "2000-11-30T23:00Z",
+  "min": "2000-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "90e6bbb13a5f2b462cdc156f17cbb36287db1cf4:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2000-12.csv.gz": {
+  "max": "2000-12-31T23:00Z",
+  "min": "2000-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "85fa03270cb2c40887910ad40b1811c0fb91b125:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2001-01.csv.gz": {
+  "max": "2001-01-31T23:00Z",
+  "min": "2001-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "bc060d69411a6522a7a189329dbf313be5bd953f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2001-02.csv.gz": {
+  "max": "2001-02-28T23:00Z",
+  "min": "2001-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "a81fe6a5c0ac10b8fa71abe08d34ba6a3fb25694:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2001-03.csv.gz": {
+  "max": "2001-03-31T23:00Z",
+  "min": "2001-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "9707285d456e183e8d7f6e20f4b1aa98849c43d5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2001-04.csv.gz": {
+  "max": "2001-04-30T23:00Z",
+  "min": "2001-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "9aaba2ce7670e652b4d8fc0382abd9b1b8635844:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2001-05.csv.gz": {
+  "max": "2001-05-31T23:00Z",
+  "min": "2001-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "a9a0f2ef3f3d3775965ecc57a84fd77384332612:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2001-06.csv.gz": {
+  "max": "2001-06-30T23:00Z",
+  "min": "2001-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "7d501d1141454353c947a777d985037b62b8c3b1:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2001-07.csv.gz": {
+  "max": "2001-07-31T23:00Z",
+  "min": "2001-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "f048e5a75035f74848fb741e8fa05f540a1d5ac4:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2001-08.csv.gz": {
+  "max": "2001-08-31T23:00Z",
+  "min": "2001-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "a7ea2955da83e435936673806f718f787dfda75c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2001-09.csv.gz": {
+  "max": "2001-09-30T23:00Z",
+  "min": "2001-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "54dbd88f41ba5b70b2d3987941f4bcd2296b33c7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2001-10.csv.gz": {
+  "max": "2001-10-31T23:00Z",
+  "min": "2001-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "af42e840a274916c7b2cbf373dfd4e13564ea759:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2001-11.csv.gz": {
+  "max": "2001-11-30T23:00Z",
+  "min": "2001-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "0e56fdd621b467241145c5fa4f1b58672a67ad65:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2001-12.csv.gz": {
+  "max": "2001-12-31T23:00Z",
+  "min": "2001-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "5734ece722dcf9dc1abc6ab3e3339d8f884982ae:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2002-01.csv.gz": {
+  "max": "2002-01-31T23:00Z",
+  "min": "2002-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "bee21d5c8cb59cdaccdee1c62e3704d87111b121:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2002-02.csv.gz": {
+  "max": "2002-02-28T23:00Z",
+  "min": "2002-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "c60e65c99e6df22bcca2457abe7d439c58ae56a6:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2002-03.csv.gz": {
+  "max": "2002-03-31T23:00Z",
+  "min": "2002-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "adfe3397c5db27e86712f93640042e7d7ab8538e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2002-04.csv.gz": {
+  "max": "2002-04-30T23:00Z",
+  "min": "2002-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "40ebd935d21ae3643d47802edaab390e52287108:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2002-05.csv.gz": {
+  "max": "2002-05-31T23:00Z",
+  "min": "2002-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "f01c80400cb9e6631b44b231a2950c4775c5789e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2002-06.csv.gz": {
+  "max": "2002-06-30T23:00Z",
+  "min": "2002-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "49b3989c1aecbb1567d5bd4f5cf463fda85778af:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2002-07.csv.gz": {
+  "max": "2002-07-31T23:00Z",
+  "min": "2002-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "b38f9136470708eed719866ca27395d9ad202c08:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2002-08.csv.gz": {
+  "max": "2002-08-31T23:00Z",
+  "min": "2002-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "e05710015e554bee3d140820c5b586e0334b9fe0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2002-09.csv.gz": {
+  "max": "2002-09-30T23:00Z",
+  "min": "2002-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "8ace0703419597c0abceabf1a66a4cc817563d18:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2002-10.csv.gz": {
+  "max": "2002-10-31T23:00Z",
+  "min": "2002-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "7213aecfbedbdf585d354a1fa74de30569703398:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2002-11.csv.gz": {
+  "max": "2002-11-30T23:00Z",
+  "min": "2002-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "94954a75980f9b61a93d8093815781a8cac40ffd:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2002-12.csv.gz": {
+  "max": "2002-12-31T23:00Z",
+  "min": "2002-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "ec205282ccc8fde54a42057b1ed4dbe28bd614d2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2003-01.csv.gz": {
+  "max": "2003-01-31T23:00Z",
+  "min": "2003-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "25e87123a479758bb667ac764acca99e06a65951:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2003-02.csv.gz": {
+  "max": "2003-02-28T23:00Z",
+  "min": "2003-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "d07e4f6c92d6a13f145604086c9547e9f49f8f01:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2003-03.csv.gz": {
+  "max": "2003-03-31T23:00Z",
+  "min": "2003-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "fcfb9391b1ecc2feee07cc7f09e9d4c36ecc82f4:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2003-04.csv.gz": {
+  "max": "2003-04-30T23:00Z",
+  "min": "2003-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "b042b37a569d46db538b330f1d6109980b2c1307:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2003-05.csv.gz": {
+  "max": "2003-05-31T23:00Z",
+  "min": "2003-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "da813ae4a1c10d11899460dba18cb0b1e0ee1310:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2003-06.csv.gz": {
+  "max": "2003-06-30T23:00Z",
+  "min": "2003-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "deb00f00d6bb90583ba2cf30b8539fe87286e8f0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2003-07.csv.gz": {
+  "max": "2003-07-31T23:00Z",
+  "min": "2003-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "8cc64d75c64a311c260cac93ad9dfdf61f8ceccf:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2003-08.csv.gz": {
+  "max": "2003-08-31T23:00Z",
+  "min": "2003-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "fb0c8cc6d3a7fdbdaa01f0f64440d40f01117d49:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2003-09.csv.gz": {
+  "max": "2003-09-30T23:00Z",
+  "min": "2003-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "161f97ba7351a07efdf0e4c31857e275859f4e9c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2003-10.csv.gz": {
+  "max": "2003-10-31T23:00Z",
+  "min": "2003-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "02b39f533c374cd3d883df6584d102a0737b627b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2003-11.csv.gz": {
+  "max": "2003-11-30T23:00Z",
+  "min": "2003-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "13bf0d79d872dac5072c24501e39dbf991fcc744:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2003-12.csv.gz": {
+  "max": "2003-12-31T23:00Z",
+  "min": "2003-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "567a2573b79e2696a25ac15c8aa427d7550948b3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2004-01.csv.gz": {
+  "max": "2004-01-31T23:00Z",
+  "min": "2004-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "98177614eecf0f68abc781ec82c0074bff1df4c1:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2004-02.csv.gz": {
+  "max": "2004-02-29T23:00Z",
+  "min": "2004-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "4c020269aa87da5174b0d716dbe400d6d6f8912c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2004-03.csv.gz": {
+  "max": "2004-03-31T23:00Z",
+  "min": "2004-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "12e6e7c0ebbbb74cd7a2e97f7cd4ae14ffd43597:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2004-04.csv.gz": {
+  "max": "2004-04-30T23:00Z",
+  "min": "2004-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "267717a2c8d2e21c4f52bf1bac1c9b5473b43606:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2004-05.csv.gz": {
+  "max": "2004-05-31T23:00Z",
+  "min": "2004-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "83e6917dfdfbd7d2762f44ffceba787df70ec464:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2004-06.csv.gz": {
+  "max": "2004-06-30T23:00Z",
+  "min": "2004-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "c045fa4be3b5708b53b92d91682520b6ca1564eb:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2004-07.csv.gz": {
+  "max": "2004-07-31T23:00Z",
+  "min": "2004-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "7d2c422652e3ecf21167e56a2a6369bade8c22c9:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2004-08.csv.gz": {
+  "max": "2004-08-31T23:00Z",
+  "min": "2004-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "315602e05651dbcb0719229ba5b9251fba9242d7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2004-09.csv.gz": {
+  "max": "2004-09-30T23:00Z",
+  "min": "2004-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "0dc7dee885f70fd2a7e8fc5caa9bfaa6f8945e5b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2004-10.csv.gz": {
+  "max": "2004-10-31T23:00Z",
+  "min": "2004-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "a57908714b8681506ffe00b44a72a4a7f594e00c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2004-11.csv.gz": {
+  "max": "2004-11-30T23:00Z",
+  "min": "2004-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "542e8aa64f971fdb3efbbd258f68417f756283a6:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2004-12.csv.gz": {
+  "max": "2004-12-31T23:00Z",
+  "min": "2004-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "7247b76aeb52fe0b15a8dd505c44c1ae2ef35d2e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2005-01.csv.gz": {
+  "max": "2005-01-31T23:00Z",
+  "min": "2005-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "6280613167551425ed0a6c1a948822972294d912:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2005-02.csv.gz": {
+  "max": "2005-02-28T23:00Z",
+  "min": "2005-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "756b221e37a641bb9da325db2e508b4e2f7b4ecd:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2005-03.csv.gz": {
+  "max": "2005-03-31T23:00Z",
+  "min": "2005-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "039daccfc0a532f6c5335aae1ba197d669138be3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2005-04.csv.gz": {
+  "max": "2005-04-30T23:00Z",
+  "min": "2005-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "3ba8ae065149e30381d9cd10d1cb100c90d9263f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2005-05.csv.gz": {
+  "max": "2005-05-31T23:00Z",
+  "min": "2005-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "7257b74fd183deeeabe0132735be2c2ea30774f5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2005-06.csv.gz": {
+  "max": "2005-06-30T23:00Z",
+  "min": "2005-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "225431322bbb3aed7f82370c9ecac14bfc8c4ca5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2005-07.csv.gz": {
+  "max": "2005-07-31T23:00Z",
+  "min": "2005-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "ec7db83fee2c5e31f902054eea6e1846862f3dc0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2005-08.csv.gz": {
+  "max": "2005-08-31T23:00Z",
+  "min": "2005-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "092408d70ba1bed778bd9994702eb8764e501b79:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2005-09.csv.gz": {
+  "max": "2005-09-30T23:00Z",
+  "min": "2005-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "cf4ca03b99ecb8eda33d520c40923917ee7a304d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2005-10.csv.gz": {
+  "max": "2005-10-31T23:00Z",
+  "min": "2005-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "f2706fecaff658f96e2bba9f5e705e46b71def7a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2005-11.csv.gz": {
+  "max": "2005-11-30T23:00Z",
+  "min": "2005-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "585f7d691c5eac352724524cf284aa4d5fe1890f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2005-12.csv.gz": {
+  "max": "2005-12-31T23:00Z",
+  "min": "2005-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "b01ba6f97f6fb46f5bc25688a42e7c8719bc2000:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2006-01.csv.gz": {
+  "max": "2006-01-31T23:00Z",
+  "min": "2006-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "ee3936101931ea38041ac1c6869b1623993c6ce7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2006-02.csv.gz": {
+  "max": "2006-02-28T23:00Z",
+  "min": "2006-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "e0cf91eaef9d073120f45dec3934e369b0276f45:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2006-03.csv.gz": {
+  "max": "2006-03-31T23:00Z",
+  "min": "2006-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "8db1b7e2902d2ef7362e1f02aa073d8ef0374569:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2006-04.csv.gz": {
+  "max": "2006-04-30T23:00Z",
+  "min": "2006-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "48272f115e9f361bc326a2526e38e631b3aa7b37:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2006-05.csv.gz": {
+  "max": "2006-05-31T23:00Z",
+  "min": "2006-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "937d9ece464676dec3910ee37bc8a2ecf235ee70:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2006-06.csv.gz": {
+  "max": "2006-06-30T23:00Z",
+  "min": "2006-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "736b3a0f3532e3cbcc07cd03c709126cc992c5a2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2006-07.csv.gz": {
+  "max": "2006-07-31T23:00Z",
+  "min": "2006-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "890154b950dbf8cd0a46f491c2c5a2e453f637b1:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2006-08.csv.gz": {
+  "max": "2006-08-31T23:00Z",
+  "min": "2006-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "27ff10d66c998d66388ec94180171f86ca3c1b32:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2006-09.csv.gz": {
+  "max": "2006-09-30T23:00Z",
+  "min": "2006-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "861ca5b9ee6d47c2ca76c563d29bf4fed77fb60e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2006-10.csv.gz": {
+  "max": "2006-10-31T23:00Z",
+  "min": "2006-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "edb969e3855ff169f38da537c3792743f26d14c2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2006-11.csv.gz": {
+  "max": "2006-11-30T23:00Z",
+  "min": "2006-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "2a80aeb1e2914aa627157f39df467ab7ffe4d5cc:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2006-12.csv.gz": {
+  "max": "2006-12-31T23:00Z",
+  "min": "2006-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "11c30fadd4e78ea596d274ea72d62889312d4c9a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2007-01.csv.gz": {
+  "max": "2007-01-31T23:00Z",
+  "min": "2007-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "7b4c893b0be6ca29e58a457e3e5803047a992003:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2007-02.csv.gz": {
+  "max": "2007-02-28T23:00Z",
+  "min": "2007-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "b14f485db32375ad7088fcd9b55f24bd62ce0402:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2007-03.csv.gz": {
+  "max": "2007-03-31T23:00Z",
+  "min": "2007-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "a9f0109c7a37570c3be825e7159b1160a797fa60:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2007-04.csv.gz": {
+  "max": "2007-04-30T23:00Z",
+  "min": "2007-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "b008751ae48c7fff78e9642d9479e7d9b11d6c8a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2007-05.csv.gz": {
+  "max": "2007-05-31T23:00Z",
+  "min": "2007-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "418e1ab0433d0b828ae8aece26fb47800eea08b0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2007-06.csv.gz": {
+  "max": "2007-06-30T23:00Z",
+  "min": "2007-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "1ba4e4dbda57c80150f126cd28d33ed842f1fbbb:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2007-07.csv.gz": {
+  "max": "2007-07-31T23:00Z",
+  "min": "2007-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "821383d1ec6364c18da2abf3674abd0c2b3afa90:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2007-08.csv.gz": {
+  "max": "2007-08-31T23:00Z",
+  "min": "2007-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "d02d06bfede2ebc55f5946771d6791c29b4e0b39:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2007-09.csv.gz": {
+  "max": "2007-09-30T23:00Z",
+  "min": "2007-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "acbc1ac35af4ce6a77e04e87a1647dbff98ade8d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2007-10.csv.gz": {
+  "max": "2007-10-31T23:00Z",
+  "min": "2007-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "93c902ef102ee6a1cd6629ae8431546c99fb186a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2007-11.csv.gz": {
+  "max": "2007-11-30T23:00Z",
+  "min": "2007-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "83a93a07c3fc1bebcc6b0068fd12aa8e1ded4f1c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2007-12.csv.gz": {
+  "max": "2007-12-31T23:00Z",
+  "min": "2007-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "5f33c3b147cac8ad730a491ccafc627296118000:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2008-01.csv.gz": {
+  "max": "2008-01-31T23:00Z",
+  "min": "2008-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "501814118d322f9bbd54f4a11d28a6b09db2bd1a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2008-02.csv.gz": {
+  "max": "2008-02-29T23:00Z",
+  "min": "2008-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "69bc4898dae574d7defdebc71f133523149d3b69:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2008-03.csv.gz": {
+  "max": "2008-03-31T23:00Z",
+  "min": "2008-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "68968b4842cb1c1aef6c40f4fb4e3ec59799d7c3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2008-04.csv.gz": {
+  "max": "2008-04-30T23:00Z",
+  "min": "2008-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "74e7a8f66b811cb6882115d2d54137695dc7957f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2008-05.csv.gz": {
+  "max": "2008-05-31T23:00Z",
+  "min": "2008-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "463a3ec7a08b684294ad45407d8d55d1bda064f5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2008-06.csv.gz": {
+  "max": "2008-06-30T23:00Z",
+  "min": "2008-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "4dbab06930239a441259fcd6d18d623a5e82074d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2008-07.csv.gz": {
+  "max": "2008-07-31T23:00Z",
+  "min": "2008-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "2b2feb76a4c5fdf5338217eb0667c7986140107d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2008-08.csv.gz": {
+  "max": "2008-08-31T23:00Z",
+  "min": "2008-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "7ef7950f24acfe3755dc04496d173c81e332d312:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2008-09.csv.gz": {
+  "max": "2008-09-30T23:00Z",
+  "min": "2008-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "c39cca045868e43403388737fab764c84ca91dc0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2008-10.csv.gz": {
+  "max": "2008-10-31T23:00Z",
+  "min": "2008-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "65f4ddbbed4e60e7bc1267dfc073f5fd863402a5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2008-11.csv.gz": {
+  "max": "2008-11-30T23:00Z",
+  "min": "2008-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "ffe5c4330c37785bea3dc2ebc80192fe48fc389f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2008-12.csv.gz": {
+  "max": "2008-12-31T23:00Z",
+  "min": "2008-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "79d24536092b4a4c3fd3d90f210953adb93f7bfa:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2009-01.csv.gz": {
+  "max": "2009-01-31T23:00Z",
+  "min": "2009-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "f14da8c7aaa902ad645429ae6cab2e883eacd3f9:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2009-02.csv.gz": {
+  "max": "2009-02-28T23:00Z",
+  "min": "2009-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "567fa17dd7f2ba588f100f9cc515be094ae192f4:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2009-03.csv.gz": {
+  "max": "2009-03-31T23:00Z",
+  "min": "2009-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "db4a62b2d356353aed5918f2064a9dd1b8a9c4e3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2009-04.csv.gz": {
+  "max": "2009-04-30T23:00Z",
+  "min": "2009-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "e40117d76ad79dc8e4c98462da53a4fb2ebc3162:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2009-05.csv.gz": {
+  "max": "2009-05-31T23:00Z",
+  "min": "2009-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "be0a5a6bc27dcd9df14b198614802bac338b7421:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2009-06.csv.gz": {
+  "max": "2009-06-30T23:00Z",
+  "min": "2009-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "d3216828497c63df45dfdb28f79d276772b7e6a5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2009-07.csv.gz": {
+  "max": "2009-07-31T23:00Z",
+  "min": "2009-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "7c698d66ab0350b54649280b96d6aaddb4b8133b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2009-08.csv.gz": {
+  "max": "2009-08-31T23:00Z",
+  "min": "2009-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "7fc7fae43761c5edb2c4a8f0922579deca8eb933:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2009-09.csv.gz": {
+  "max": "2009-09-30T23:00Z",
+  "min": "2009-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "d322ea895203afd811260638884a6b9c5c11a289:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2009-10.csv.gz": {
+  "max": "2009-10-31T23:00Z",
+  "min": "2009-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "0ea7043a7c4fe758fad0b5f6509caab83106339c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2009-11.csv.gz": {
+  "max": "2009-11-30T23:00Z",
+  "min": "2009-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "1798058078b53f0ff3d450313194843cef353f9a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2009-12.csv.gz": {
+  "max": "2009-12-31T23:00Z",
+  "min": "2009-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "83bdda97565ec37e408194fc9542f7bb207b78eb:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2010-01.csv.gz": {
+  "max": "2010-01-31T23:00Z",
+  "min": "2010-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "f45a4078d9cb4bc5570bc462b8e96f1cd91af706:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2010-02.csv.gz": {
+  "max": "2010-02-28T23:00Z",
+  "min": "2010-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "ab57d9c0a9c4b94ae773d96185ce23a4fe03fcbd:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2010-03.csv.gz": {
+  "max": "2010-03-31T23:00Z",
+  "min": "2010-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "0d410de9c083e286890ea04500cf4f5a243c3ae1:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2010-04.csv.gz": {
+  "max": "2010-04-30T23:00Z",
+  "min": "2010-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "33464962ff57acdba158a7ef7f1c7c0dff064e7d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2010-05.csv.gz": {
+  "max": "2010-05-31T23:00Z",
+  "min": "2010-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "fc524f772817b3c265141a3a1fc25d3802d0ce98:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2010-06.csv.gz": {
+  "max": "2010-06-30T23:00Z",
+  "min": "2010-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "fdc9e9362e6dcfee2d34979ea8fa3f881ad67677:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2010-07.csv.gz": {
+  "max": "2010-07-31T23:00Z",
+  "min": "2010-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "8557459b47f59350f969602d14aca353041c12dd:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2010-08.csv.gz": {
+  "max": "2010-08-31T23:00Z",
+  "min": "2010-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "be9f9db73442c60f75b825da27fd1776b257fff7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2010-09.csv.gz": {
+  "max": "2010-09-30T23:00Z",
+  "min": "2010-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "28e2874e0e7454c9503982e0b583c1e6e2b3e8b5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2010-10.csv.gz": {
+  "max": "2010-10-31T23:00Z",
+  "min": "2010-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "efb57b4600a9c28b9ab99253315ec674d2e0812c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2010-11.csv.gz": {
+  "max": "2010-11-30T23:00Z",
+  "min": "2010-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "569af89d9f89f3a3aee34cf64554c563eea90285:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2010-12.csv.gz": {
+  "max": "2010-12-31T23:00Z",
+  "min": "2010-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "7784b5c30618a2219c880575a44ae6107c011001:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2011-01.csv.gz": {
+  "max": "2011-01-31T23:00Z",
+  "min": "2011-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "4e9be67a0bbf52f63012b012fc85685ab2d38fbf:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2011-02.csv.gz": {
+  "max": "2011-02-28T23:00Z",
+  "min": "2011-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "3a89586e75e20ab11ff8252e42deca3cb124b7e8:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2011-03.csv.gz": {
+  "max": "2011-03-31T23:00Z",
+  "min": "2011-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "0700306c3c0a80e437617475547d67f285c50fe2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2011-04.csv.gz": {
+  "max": "2011-04-30T23:00Z",
+  "min": "2011-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "3832539cbd3e9ddab594df16daccfaea56f8371a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2011-05.csv.gz": {
+  "max": "2011-05-31T23:00Z",
+  "min": "2011-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "400a7a3c2ea162c7afbfa787ccd6d3e2191918a2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2011-06.csv.gz": {
+  "max": "2011-06-30T23:00Z",
+  "min": "2011-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "6fcb0e7c9ea27807678738b926c20606709d394e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2011-07.csv.gz": {
+  "max": "2011-07-31T23:00Z",
+  "min": "2011-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "fa45f3a8cc2990a1fae126bb1340d572edfdd6b6:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2011-08.csv.gz": {
+  "max": "2011-08-31T23:00Z",
+  "min": "2011-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "924a221d69d4bf4976ecb24d9f250cc5eb4d6efe:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2011-09.csv.gz": {
+  "max": "2011-09-30T23:00Z",
+  "min": "2011-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "663d74df61102bbb1de3e0a64c5f9f103d0724a5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2011-10.csv.gz": {
+  "max": "2011-10-31T23:00Z",
+  "min": "2011-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "81092c09c1b213fec90580d1a9a35998d48fb54c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2011-11.csv.gz": {
+  "max": "2011-11-30T23:00Z",
+  "min": "2011-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "294be2df1a77eaf1fec5729846cf3a6e3b45ae41:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2011-12.csv.gz": {
+  "max": "2011-12-31T23:00Z",
+  "min": "2011-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "f7a16a3e5113b63fe529686699cb9d68e832c232:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2012-01.csv.gz": {
+  "max": "2012-01-31T23:00Z",
+  "min": "2012-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "4a8d1b114f5f00a72515add57b597a981e4b35d7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2012-02.csv.gz": {
+  "max": "2012-02-29T23:00Z",
+  "min": "2012-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "e6989517a8c67e523ce828ea2f1dadcb587fd113:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2012-03.csv.gz": {
+  "max": "2012-03-31T23:00Z",
+  "min": "2012-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "b929c8fddd1d5a8ad14ef72afdcbbac7d8e302d1:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2012-04.csv.gz": {
+  "max": "2012-04-30T23:00Z",
+  "min": "2012-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "fe06be5e881d23a8e6e94b4bcf394969aacc4e47:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2012-05.csv.gz": {
+  "max": "2012-05-31T23:00Z",
+  "min": "2012-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "d78b6f797f420c25c591d781a0e0a3c79ec11e99:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2012-06.csv.gz": {
+  "max": "2012-06-30T23:00Z",
+  "min": "2012-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "ae1fd98ae5bebfb1624cb37c40fee853d5587089:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2012-07.csv.gz": {
+  "max": "2012-07-31T23:00Z",
+  "min": "2012-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "6e85f0ec6fd191ce587c06efbe54902102a9f860:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2012-08.csv.gz": {
+  "max": "2012-08-31T23:00Z",
+  "min": "2012-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "93fa4384db1d6f784539c17b841732278c860b01:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2012-09.csv.gz": {
+  "max": "2012-09-30T23:00Z",
+  "min": "2012-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "a4eeb5c7b3933bcf4d106cf3bd0c40e89ef01833:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2012-10.csv.gz": {
+  "max": "2012-10-31T23:00Z",
+  "min": "2012-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "d2483deb671bfaad35b3ec2478f1f28e39acbf0c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2012-11.csv.gz": {
+  "max": "2012-11-30T23:00Z",
+  "min": "2012-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "7439c769e2a03f5e05648913882c0c96085f7698:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2012-12.csv.gz": {
+  "max": "2012-12-31T23:00Z",
+  "min": "2012-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "54739476148633f9bf9d63a1a716f62a7167505b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2013-01.csv.gz": {
+  "max": "2013-01-31T23:00Z",
+  "min": "2013-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "7eb013c16cbde343a151e7a3cb56cf8d2149ad5b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2013-02.csv.gz": {
+  "max": "2013-02-28T23:00Z",
+  "min": "2013-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "a11abe7702a583f0282191143a2b434333bae149:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2013-03.csv.gz": {
+  "max": "2013-03-31T23:00Z",
+  "min": "2013-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "7f11a01ecd258a2e0b969e6987be509b338e7c57:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2013-04.csv.gz": {
+  "max": "2013-04-30T23:00Z",
+  "min": "2013-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "3e80090265c36eb8ee13c5eb260e45af5644e6d7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2013-05.csv.gz": {
+  "max": "2013-05-31T23:00Z",
+  "min": "2013-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "dc0c8b3771c8676bf3914d8565f755d2b2893dd5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2013-06.csv.gz": {
+  "max": "2013-06-30T23:00Z",
+  "min": "2013-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "10af464d5da89a840091a64811ca92f1a3172863:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2013-07.csv.gz": {
+  "max": "2013-07-31T23:00Z",
+  "min": "2013-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "864421aeeafd87f86c3af80bbbed93d740fa8130:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2013-08.csv.gz": {
+  "max": "2013-08-31T23:00Z",
+  "min": "2013-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "7f6406a1096bf5b3d6d5006c750efd04bbe467bd:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2013-09.csv.gz": {
+  "max": "2013-09-30T23:00Z",
+  "min": "2013-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "8f9de035b67863f74634e646991e933a67087842:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2013-10.csv.gz": {
+  "max": "2013-10-31T23:00Z",
+  "min": "2013-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "01e8abe566c516ecee7c8841978982108570bb83:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2013-11.csv.gz": {
+  "max": "2013-11-30T23:00Z",
+  "min": "2013-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "7d0ab1104a85c9cf3ff8003a2ded5cc2d3b48821:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2013-12.csv.gz": {
+  "max": "2013-12-31T23:00Z",
+  "min": "2013-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "e80a515e80d88f04ffe3c852637dfec218e9a1c3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2014-01.csv.gz": {
+  "max": "2014-01-31T23:00Z",
+  "min": "2014-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "b653c137e912b90a37f78f4105b43d93048e616a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2014-02.csv.gz": {
+  "max": "2014-02-28T23:00Z",
+  "min": "2014-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "0e9faba6c6563b6f2cd37f573536b61dcbcf7955:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2014-03.csv.gz": {
+  "max": "2014-03-31T23:00Z",
+  "min": "2014-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "10cc18d9f42261d11771dfef06327dcbe9e680b0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2014-04.csv.gz": {
+  "max": "2014-04-30T23:00Z",
+  "min": "2014-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "a050a1aaac9112d6bb9c281e55640e390dfff464:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2014-05.csv.gz": {
+  "max": "2014-05-31T23:00Z",
+  "min": "2014-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "78973109dee2e9e610341a1d13e92277602fb5d1:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2014-06.csv.gz": {
+  "max": "2014-06-30T23:00Z",
+  "min": "2014-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "555e0c9b29cb02527cbeaaa748529f5c3457a42b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2014-07.csv.gz": {
+  "max": "2014-07-31T23:00Z",
+  "min": "2014-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "015e8b97cd349294bbbe2b4b625ab56a2f2ff280:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2014-08.csv.gz": {
+  "max": "2014-08-31T23:00Z",
+  "min": "2014-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "01ce2b17d6dee3fe999c9921287960482b6a4b5e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2014-09.csv.gz": {
+  "max": "2014-09-30T23:00Z",
+  "min": "2014-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "e8a63ce882c526c8855de492b3fe38c4203eff6b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2014-10.csv.gz": {
+  "max": "2014-10-31T23:00Z",
+  "min": "2014-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "2ef84349177274330ff3b29045b37d327acd3ed0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2014-11.csv.gz": {
+  "max": "2014-11-30T23:00Z",
+  "min": "2014-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "309111c071bf5335ccf8355a75f543767af682d9:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2014-12.csv.gz": {
+  "max": "2014-12-31T23:00Z",
+  "min": "2014-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "9de900f2687fb1d7a2da95451329d7c4146f5a1d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2015-01.csv.gz": {
+  "max": "2015-01-31T23:00Z",
+  "min": "2015-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "4dc4577aa559de029b57f66bbedb7b49740ff310:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2015-02.csv.gz": {
+  "max": "2015-02-28T23:00Z",
+  "min": "2015-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "c9611fd9549ba034b65204301f1f5d863228e48c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2015-03.csv.gz": {
+  "max": "2015-03-31T23:00Z",
+  "min": "2015-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "48c9d920ca6c04ad6d7166b5abdd008e8a4d4cff:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2015-04.csv.gz": {
+  "max": "2015-04-30T23:00Z",
+  "min": "2015-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "169203808c7c37f1fa1b1950bb1d3868b412c056:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2015-05.csv.gz": {
+  "max": "2015-05-31T23:00Z",
+  "min": "2015-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "5fc3d9e80d0ddcbc78232468746b3d5dcc3e25b8:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2015-06.csv.gz": {
+  "max": "2015-06-30T23:00Z",
+  "min": "2015-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "6968f07ad5a7f76029eb62b913fd0943f082b86c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2015-07.csv.gz": {
+  "max": "2015-07-31T23:00Z",
+  "min": "2015-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "fe35377c655392b78190d629e6cc63dd4a29d24a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2015-08.csv.gz": {
+  "max": "2015-08-31T23:00Z",
+  "min": "2015-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "899c4fddde2837176ec51b8923ff568516da59dc:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2015-09.csv.gz": {
+  "max": "2015-09-30T23:00Z",
+  "min": "2015-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "659d6623a27325a007fa8b13e0791c2576f93e86:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2015-10.csv.gz": {
+  "max": "2015-10-31T23:00Z",
+  "min": "2015-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "1499b591985274e9742f7ee95d452c2445307334:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2015-11.csv.gz": {
+  "max": "2015-11-30T23:00Z",
+  "min": "2015-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "7bf6fa8cc44d243a9db8b6f3ce30a89a52542e3d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2015-12.csv.gz": {
+  "max": "2015-12-31T23:00Z",
+  "min": "2015-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "b9712757f93d074a0454c7cbd646895f2ed550e2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2016-01.csv.gz": {
+  "max": "2016-01-31T23:00Z",
+  "min": "2016-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "f285c7ae40526a5d41c3e108fedc0435491cac30:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2016-02.csv.gz": {
+  "max": "2016-02-29T23:00Z",
+  "min": "2016-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "3b352e844369f249b337fa481b3463773197c7f5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2016-03.csv.gz": {
+  "max": "2016-03-31T23:00Z",
+  "min": "2016-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "95b97b5da917d93737f8df2750af6c9c3569d9d8:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2016-04.csv.gz": {
+  "max": "2016-04-30T23:00Z",
+  "min": "2016-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "8e5225cc181d12ffa48917c3f2d97371c7394c7e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2016-05.csv.gz": {
+  "max": "2016-05-31T23:00Z",
+  "min": "2016-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "95a5cede3610314f176bc2bbd2b13fc44130dc48:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2016-06.csv.gz": {
+  "max": "2016-06-30T23:00Z",
+  "min": "2016-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "6dc281b6aefe0a51ad047a01685d5e46859b2439:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2016-07.csv.gz": {
+  "max": "2016-07-31T23:00Z",
+  "min": "2016-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "5c7581200e742cd90be443985466ae2d52b4c4f3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2016-08.csv.gz": {
+  "max": "2016-08-31T23:00Z",
+  "min": "2016-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "c6a48d18f72baefbbf43dc8ccc010a0f73e18d00:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2016-09.csv.gz": {
+  "max": "2016-09-30T23:00Z",
+  "min": "2016-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "bb4f403636cacd7d6e9efeec108b08284985b989:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2016-10.csv.gz": {
+  "max": "2016-10-31T23:00Z",
+  "min": "2016-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "1f229efc94ba7dc0d6bdcf1bd1e9e4a3fe7703bc:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2016-11.csv.gz": {
+  "max": "2016-11-30T23:00Z",
+  "min": "2016-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "e919b39abef7de2922068a88c1840599c44958a6:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2016-12.csv.gz": {
+  "max": "2016-12-31T23:00Z",
+  "min": "2016-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "90805fe534fafa8178c7e28ce267f7bac6db2807:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2017-01.csv.gz": {
+  "max": "2017-01-31T23:00Z",
+  "min": "2017-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "11b6ec439077c03ab35a932e34b91fb5359359ec:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2017-02.csv.gz": {
+  "max": "2017-02-28T23:00Z",
+  "min": "2017-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "1155b7273954b37222568ec134eb63fc95e78e98:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2017-03.csv.gz": {
+  "max": "2017-03-31T23:00Z",
+  "min": "2017-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "a2a3028b1c14dcf0c8d29282bea3aace5ed6e453:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2017-04.csv.gz": {
+  "max": "2017-04-30T23:00Z",
+  "min": "2017-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "7a1cbc1a455db8511a25a950028c2b985479dc7a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2017-05.csv.gz": {
+  "max": "2017-05-31T23:00Z",
+  "min": "2017-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "d8a6009c817ab33318b35be2367cb9fbc1f93976:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2017-06.csv.gz": {
+  "max": "2017-06-30T23:00Z",
+  "min": "2017-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "6f2fcd014858e29c5728c39547a0ffebca20933b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2017-07.csv.gz": {
+  "max": "2017-07-31T23:00Z",
+  "min": "2017-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "ac3693fa65115db8a371d7cde43616142ebffb5b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2017-08.csv.gz": {
+  "max": "2017-08-31T23:00Z",
+  "min": "2017-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "9f37385a5dd5de13fb0299bb8619811350db6b00:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2017-09.csv.gz": {
+  "max": "2017-09-30T23:00Z",
+  "min": "2017-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "7c4da040779175d3e69fdec85d6ade84bcc2c8a3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2017-10.csv.gz": {
+  "max": "2017-10-31T23:00Z",
+  "min": "2017-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "99070b10cf9dcb852910e3e68f4daa0ef66371bb:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2017-11.csv.gz": {
+  "max": "2017-11-30T23:00Z",
+  "min": "2017-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "4b3216daa3fe09a0b9fa1a16b0f436cec2643def:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2017-12.csv.gz": {
+  "max": "2017-12-31T23:00Z",
+  "min": "2017-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "8dd1a200734effed313deaf48a8571bc403f6a77:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2018-01.csv.gz": {
+  "max": "2018-01-31T23:00Z",
+  "min": "2018-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "43d2931d830af1aea0b62e313df669fd00d5fbdd:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2018-02.csv.gz": {
+  "max": "2018-02-28T23:00Z",
+  "min": "2018-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "daa2104fe882cedab4e433bff0c076a5c345fc75:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2018-03.csv.gz": {
+  "max": "2018-03-31T23:00Z",
+  "min": "2018-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "e946f24296b709a4611578d65d85dccfd52a1b13:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2018-04.csv.gz": {
+  "max": "2018-04-30T23:00Z",
+  "min": "2018-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "185c9e0e0353b5801a4ab6f2af7fa7540284c083:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2018-05.csv.gz": {
+  "max": "2018-05-31T23:00Z",
+  "min": "2018-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "e5bf2fe63616b207715623369500681c0184e277:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2018-06.csv.gz": {
+  "max": "2018-06-30T23:00Z",
+  "min": "2018-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "78ef0d8b2d3332e3d591589699894aa6bd38a92e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2018-07.csv.gz": {
+  "max": "2018-07-31T23:00Z",
+  "min": "2018-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "34bdbcbec51f39f464369e67d97e042a472bc8f7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2018-08.csv.gz": {
+  "max": "2018-08-31T23:00Z",
+  "min": "2018-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "ed131d023d7060c02cb7dd0a9cb0d2e397aa77dd:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2018-09.csv.gz": {
+  "max": "2018-09-30T23:00Z",
+  "min": "2018-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "5ac9d828231029eeae2cf3d8c91aae52820315ec:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2018-10.csv.gz": {
+  "max": "2018-10-31T23:00Z",
+  "min": "2018-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "753b12bc5b2a17c75058d8cdd11d52c828343f39:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2018-11.csv.gz": {
+  "max": "2018-11-30T23:00Z",
+  "min": "2018-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "526dd2e2bf12d8fb0455d67adf68cbe211110e50:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2018-12.csv.gz": {
+  "max": "2018-12-31T23:00Z",
+  "min": "2018-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "237954b291543ec3ca04e50bf4b88f10b440a84b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2019-01.csv.gz": {
+  "max": "2019-01-31T23:00Z",
+  "min": "2019-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "d5e2ec9b6ebcbd898e83921cb6ad742caf0ce976:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2019-02.csv.gz": {
+  "max": "2019-02-28T23:00Z",
+  "min": "2019-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "a3b3bdca8e7b91f9dafc9971ecd9c14b36d215bc:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2019-03.csv.gz": {
+  "max": "2019-03-31T23:00Z",
+  "min": "2019-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "37a574d018cb0b22c170b588c7c1b8dd5b99d2cb:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2019-04.csv.gz": {
+  "max": "2019-04-30T23:00Z",
+  "min": "2019-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "f6974eb75fbc64eaceb43de3160b39bf4c63b072:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2019-05.csv.gz": {
+  "max": "2019-05-31T23:00Z",
+  "min": "2019-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "f65645fd15865c2da780b1d85cfbaaafd667dee7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2019-06.csv.gz": {
+  "max": "2019-06-30T23:00Z",
+  "min": "2019-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "479490131037ce17ac8634cd3e05dc7cd25f12ff:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2019-07.csv.gz": {
+  "max": "2019-07-31T23:00Z",
+  "min": "2019-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "da6c9b12ea9bfb1ec8d8a05504c26619b706cc9f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2019-08.csv.gz": {
+  "max": "2019-08-31T23:00Z",
+  "min": "2019-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "0b55820060453e6c60b1ee06681632fd67b18ac1:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2019-09.csv.gz": {
+  "max": "2019-09-30T23:00Z",
+  "min": "2019-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "07994a275e0cc20fd12aeb0631183587f42e44db:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2019-10.csv.gz": {
+  "max": "2019-10-31T23:00Z",
+  "min": "2019-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "90bc098b1cd14b925350e1d343e1871c4a118899:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2019-11.csv.gz": {
+  "max": "2019-11-30T23:00Z",
+  "min": "2019-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "b5430f050cec1ede8a93aafc98f29daa1c4d8f0d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2019-12.csv.gz": {
+  "max": "2019-12-31T23:00Z",
+  "min": "2019-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "3cc7963dcb8175d4464b2cc3deb51ff634ee0aed:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2020-01.csv.gz": {
+  "max": "2020-01-31T23:00Z",
+  "min": "2020-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "ef449cb92f778a191d88ce10560aa46b3050e73d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2020-02.csv.gz": {
+  "max": "2020-02-29T23:00Z",
+  "min": "2020-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "eb330448de303090f7ab925cfc682fe11831dc66:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2020-03.csv.gz": {
+  "max": "2020-03-31T23:00Z",
+  "min": "2020-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "b6a4a55aaf822f4370c74de5dc3858cda96bc9c9:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2020-04.csv.gz": {
+  "max": "2020-04-30T23:00Z",
+  "min": "2020-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "f447d16592daff3cb5871a486618a4883209fc69:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2020-05.csv.gz": {
+  "max": "2020-05-31T23:00Z",
+  "min": "2020-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "da95206e79cea24bc96097e90d6c4ad2d27b2923:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2020-06.csv.gz": {
+  "max": "2020-06-30T23:00Z",
+  "min": "2020-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "f836ae757e5a9af53a7a85fc67c57d2ecda9010b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2020-07.csv.gz": {
+  "max": "2020-07-31T23:00Z",
+  "min": "2020-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "70e87354b7c4291eff98632987759e2ab7672778:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2020-08.csv.gz": {
+  "max": "2020-08-31T23:00Z",
+  "min": "2020-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "bc71613b22b822f8cff7170091929aa8e73dc29f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2020-09.csv.gz": {
+  "max": "2020-09-30T23:00Z",
+  "min": "2020-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "d4aceaad5fd715c3b7db5508862e7217bc339530:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2020-10.csv.gz": {
+  "max": "2020-10-31T23:00Z",
+  "min": "2020-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "436aa9ae3a476ddea7c7d913559019b806e59956:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2020-11.csv.gz": {
+  "max": "2020-11-30T23:00Z",
+  "min": "2020-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "e7534deed8ae1a28f60afb646a9a1da87a6f00db:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2020-12.csv.gz": {
+  "max": "2020-12-31T23:00Z",
+  "min": "2020-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "31ec1cd2939553d4846c804ad1e895b9c7a08e34:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2021-01.csv.gz": {
+  "max": "2021-01-31T23:00Z",
+  "min": "2021-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "a750a774dfaeed40510145057b7c76eb2ed157eb:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2021-02.csv.gz": {
+  "max": "2021-02-28T23:00Z",
+  "min": "2021-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "f87a405d164c39883cb0e26e563e76104af32e22:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2021-03.csv.gz": {
+  "max": "2021-03-31T23:00Z",
+  "min": "2021-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "bc4213248189b74507ebfe9bfd978597e030c37e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2021-04.csv.gz": {
+  "max": "2021-04-30T23:00Z",
+  "min": "2021-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "b2f24edaaa6c544993f1e17b9475f6898339946b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2021-05.csv.gz": {
+  "max": "2021-05-31T23:00Z",
+  "min": "2021-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "86b05dd857cc89caf1159231eb9267050e6a5e7c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2021-06.csv.gz": {
+  "max": "2021-06-30T23:00Z",
+  "min": "2021-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "1731e96026083cf90e68609b12fe9946c9deb990:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2021-07.csv.gz": {
+  "max": "2021-07-31T23:00Z",
+  "min": "2021-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "74370a0c71a024b963a9af4f8a405b374e5f46ac:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2021-08.csv.gz": {
+  "max": "2021-08-31T23:00Z",
+  "min": "2021-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "7d44bcb163ab66d08c1cfc8d4d687ebb27ebcb89:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2021-09.csv.gz": {
+  "max": "2021-09-30T23:00Z",
+  "min": "2021-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "73d624bdc08c0edb13fa5584cabff5759fb03939:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2021-10.csv.gz": {
+  "max": "2021-10-31T23:00Z",
+  "min": "2021-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "98d554469ead11d239e96db6d6e645089c381fbd:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2021-11.csv.gz": {
+  "max": "2021-11-30T23:00Z",
+  "min": "2021-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "28ff9b248293ec91bb6fbed63d1113a2fbf81242:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2021-12.csv.gz": {
+  "max": "2021-12-31T23:00Z",
+  "min": "2021-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "c70f8f5cafaeebeedb00f9c8d668cbc30fdf02ea:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2022-01.csv.gz": {
+  "max": "2022-01-31T23:00Z",
+  "min": "2022-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "8ff5798b4e4e65f24889122d572344eaef89ec7f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2022-02.csv.gz": {
+  "max": "2022-02-28T23:00Z",
+  "min": "2022-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "ab08cf19f5d36195d91bdd3fcfa2d1d1fca515a0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2022-03.csv.gz": {
+  "max": "2022-03-31T23:00Z",
+  "min": "2022-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "357157e19237b83737bbffb50484139b4d99484d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2022-04.csv.gz": {
+  "max": "2022-04-30T23:00Z",
+  "min": "2022-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "9a8f24b94125987c8b0c4057cc75b05a3c6b4b34:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2022-05.csv.gz": {
+  "max": "2022-05-31T23:00Z",
+  "min": "2022-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "8bed370f5e79fe0c79abc880432883d68fcf430d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2022-06.csv.gz": {
+  "max": "2022-06-30T23:00Z",
+  "min": "2022-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "330c7b96172e73a4c52401801e72814f3d428950:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2022-07.csv.gz": {
+  "max": "2022-07-31T23:00Z",
+  "min": "2022-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "95651d7f12f265d8c9bb6726a400da06ccd1b8da:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2022-08.csv.gz": {
+  "max": "2022-08-31T23:00Z",
+  "min": "2022-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "739a4d39e1cab3a4383f649f539f3099fda63d9d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2022-09.csv.gz": {
+  "max": "2022-09-30T23:00Z",
+  "min": "2022-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "c119e6f0877bb85a5f2e5c5e93b800ecf15d35be:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2022-10.csv.gz": {
+  "max": "2022-10-31T23:00Z",
+  "min": "2022-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "5ece4df6ed0d31ccb271404c97f67476eab32dd1:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2022-11.csv.gz": {
+  "max": "2022-11-30T23:00Z",
+  "min": "2022-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "437641ec8677064db5e891e378aab11409c1a72e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2022-12.csv.gz": {
+  "max": "2022-12-31T23:00Z",
+  "min": "2022-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "a59c9161d8c1ebc51d403ec6948c8ad084908a6a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2023-01.csv.gz": {
+  "max": "2023-01-31T23:00Z",
+  "min": "2023-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "f5403b647261739807d1432aafce957d04c8f1d1:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2023-02.csv.gz": {
+  "max": "2023-02-28T23:00Z",
+  "min": "2023-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "b10470ab597a486949f85594eedcae4a14206fb6:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2023-03.csv.gz": {
+  "max": "2023-03-31T23:00Z",
+  "min": "2023-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "c75adc41ad4f12c08886d4eee36d22bb874e9818:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2023-04.csv.gz": {
+  "max": "2023-04-30T23:00Z",
+  "min": "2023-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "df4c78e08ca8b62c7c65c2ba818e027db64f4228:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2023-05.csv.gz": {
+  "max": "2023-05-31T23:00Z",
+  "min": "2023-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "29c3ea9fbd883f54c6fd4e6fff465b3063a301ed:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2023-06.csv.gz": {
+  "max": "2023-06-30T23:00Z",
+  "min": "2023-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "7435e1ef5b141a64dbc95d878455b0b21d9a2067:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2023-07.csv.gz": {
+  "max": "2023-07-31T23:00Z",
+  "min": "2023-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "5c71a923927dcf9e0c273a42d49bb59169200112:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2023-08.csv.gz": {
+  "max": "2023-08-31T23:00Z",
+  "min": "2023-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "f02ed11dd43dbb6a41b29aea37fbda35579133e3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2023-09.csv.gz": {
+  "max": "2023-09-30T23:00Z",
+  "min": "2023-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "f64b970319cee0edfd7418756cf058217a638638:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2023-10.csv.gz": {
+  "max": "2023-10-31T23:00Z",
+  "min": "2023-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "a8512f5a7e76e37539773e3de930b8cf55d263a7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2023-11.csv.gz": {
+  "max": "2023-11-30T23:00Z",
+  "min": "2023-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "94437149796c7aa52eea2fe13bc65c59a56d4b5c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2023-12.csv.gz": {
+  "max": "2023-12-31T23:00Z",
+  "min": "2023-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "f2b3f3db5b147faf42db091d7a7aaafe9133e89f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2024-01.csv.gz": {
+  "max": "2024-01-31T23:00Z",
+  "min": "2024-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "638f7ba16c09851f7f26d6ee430aa7adcef98c55:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2024-02.csv.gz": {
+  "max": "2024-02-29T23:00Z",
+  "min": "2024-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "b4ae891d714cc3772e86b90150cd0dd4933865a9:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2024-03.csv.gz": {
+  "max": "2024-03-31T23:00Z",
+  "min": "2024-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "2f8b18ac4d667165843b8d9f2c8684036c93e862:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2024-04.csv.gz": {
+  "max": "2024-04-30T23:00Z",
+  "min": "2024-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "624f2c31c1a7ed03dded77de906e3ef98a807dc3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2024-05.csv.gz": {
+  "max": "2024-05-31T23:00Z",
+  "min": "2024-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "44ab54a7c200d2a97ce7cf9755db96818642174f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2024-06.csv.gz": {
+  "max": "2024-06-30T23:00Z",
+  "min": "2024-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "ad8006d22d39b435ee3600eb674e1663179b0941:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2024-07.csv.gz": {
+  "max": "2024-07-31T23:00Z",
+  "min": "2024-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "b843b06f074e675d9e511a2faddcd23519420ce4:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2024-08.csv.gz": {
+  "max": "2024-08-31T23:00Z",
+  "min": "2024-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "857e10571fe84f2e812cd2d41327ddfad0d59a2a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2024-09.csv.gz": {
+  "max": "2024-09-30T23:00Z",
+  "min": "2024-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "0f58cad1c755baa9b63d5f6cfbac8b5b449f5dce:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2024-10.csv.gz": {
+  "max": "2024-10-31T23:00Z",
+  "min": "2024-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "29bbb89955e4af67946ef2168d078f3c92d6cf94:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2024-11.csv.gz": {
+  "max": "2024-11-30T23:00Z",
+  "min": "2024-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "128be1efa44202e015863b57ddb0d231ffae809f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2024-12.csv.gz": {
+  "max": "2024-12-31T23:00Z",
+  "min": "2024-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "8fd5e1d610486ddeade93326a042bce78e9a7366:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2025-01.csv.gz": {
+  "max": "2025-01-31T23:00Z",
+  "min": "2025-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "e3f029db0a0aba1a224738c744fd5acd95c1782d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2025-02.csv.gz": {
+  "max": "2025-02-28T23:00Z",
+  "min": "2025-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "1cb32c9b1c87d23d2fcb93d29412303d8786dc5d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2025-03.csv.gz": {
+  "max": "2025-03-31T23:00Z",
+  "min": "2025-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "11836d5e7d8fc6954e7534e9b640c58db23dd86c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2025-04.csv.gz": {
+  "max": "2025-04-30T23:00Z",
+  "min": "2025-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "c47764aa9cd308358eb4cb84deba3ca3eeee4cbf:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2025-05.csv.gz": {
+  "max": "2025-05-31T23:00Z",
+  "min": "2025-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "cc322328fdb7c3b2b899c387144a1fdb67d7f737:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2025-06.csv.gz": {
+  "max": "2025-06-30T23:00Z",
+  "min": "2025-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "c5d8b0ec14158b10c0bd55516448b91f77a29253:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2025-07.csv.gz": {
+  "max": "2025-07-31T23:00Z",
+  "min": "2025-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "308405432b51eb47a8f210120e95e507d6f45689:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2025-08.csv.gz": {
+  "max": "2025-08-31T23:00Z",
+  "min": "2025-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "1882be3ab49329dacc7df51d21a9367cd3b22119:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2025-09.csv.gz": {
+  "max": "2025-09-30T23:00Z",
+  "min": "2025-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "65cc84a9da953182e393d9911ee4c40a48bedd82:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2025-10.csv.gz": {
+  "max": "2025-10-31T23:00Z",
+  "min": "2025-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "f887173058edd290496861a28e1e2a9c97e9a2ec:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2025-11.csv.gz": {
+  "max": "2025-11-30T23:00Z",
+  "min": "2025-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "2878c3464bb10c95f36e80e9df8840cbffdd747d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2025-12.csv.gz": {
+  "max": "2025-12-31T23:00Z",
+  "min": "2025-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "a4326544f80671641b08e1d89abadf26fcffde6a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2026-01.csv.gz": {
+  "max": "2026-01-31T23:00Z",
+  "min": "2026-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "b8b9d8873b8aa248747c496ca4a5413ca1a3ee30:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2026-02.csv.gz": {
+  "max": "2026-02-28T23:00Z",
+  "min": "2026-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "87f91e828e4de9de46ea0ee94e3a55967693104e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2026-03.csv.gz": {
+  "max": "2026-03-31T23:00Z",
+  "min": "2026-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "1d6b095cd6ffd04782795ca7993362b0bf148f69:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2026-04.csv.gz": {
+  "max": "2026-04-30T23:00Z",
+  "min": "2026-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "b5f1d29bee7c8269c3ddfd849fb63dfda1ecf20f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2026-05.csv.gz": {
+  "max": "2026-05-31T23:00Z",
+  "min": "2026-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "c0a2bfc2df357274f9209b2fd05f2ff9201d950a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2026-06.csv.gz": {
+  "max": "2026-06-30T23:00Z",
+  "min": "2026-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "b019082b8752c8a9a3e1bd2a0d19f92ac6ffa23e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2026-07.csv": {
+  "max": "2026-07-31T23:00Z",
+  "min": "2026-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "c995a54bb4cc78c01bf07e42c501222d5956db7c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2026-08.csv": {
+  "max": "2026-08-31T23:00Z",
+  "min": "2026-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "a6df10f3c2a179d1a94ad93a650bd426a9337f5a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_da/2026-09.csv": {
+  "max": "2026-09-29T03:00Z",
+  "min": "2026-09-01T00:00Z",
+  "rows": 676,
+  "sha1": "3fe011fba772f5f8e69f35e34a414c44123be35e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2015-01.csv.gz": {
+  "max": "2015-01-31T23:00Z",
+  "min": "2015-01-01T05:00Z",
+  "rows": 739,
+  "sha1": "3e9374b4a31bee380d56f02b18de00fe26990ff1:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2015-02.csv.gz": {
+  "max": "2015-02-28T23:00Z",
+  "min": "2015-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "2474237f519eecf6aca050e13a21534236667a78:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2015-03.csv.gz": {
+  "max": "2015-03-31T23:00Z",
+  "min": "2015-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "a04e6064a9f67a3eb8f451e511dc49aeb018482e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2015-04.csv.gz": {
+  "max": "2015-04-30T23:00Z",
+  "min": "2015-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "70e3441cf583aa4a63ef93190cd40efe25664876:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2015-05.csv.gz": {
+  "max": "2015-05-31T23:00Z",
+  "min": "2015-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "20e63d49a60172ef472f5509554bdaad6f367e32:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2015-06.csv.gz": {
+  "max": "2015-06-30T23:00Z",
+  "min": "2015-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "ff352fd6689a2e70ac8e166a81468a74a70dfcdd:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2015-07.csv.gz": {
+  "max": "2015-07-31T23:00Z",
+  "min": "2015-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "a120340380a07946e55998650723d319647a766c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2015-08.csv.gz": {
+  "max": "2015-08-31T23:00Z",
+  "min": "2015-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "feb38fd1a78ad129cf1cd7bd3c66c85309c88f3d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2015-09.csv.gz": {
+  "max": "2015-09-30T23:00Z",
+  "min": "2015-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "218f6fc9331cdeff8cd12f6d6ad79e6b080b0ca4:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2015-10.csv.gz": {
+  "max": "2015-10-31T23:00Z",
+  "min": "2015-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "e75172b8a9a2073173ba308a809ce8587464f1f0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2015-11.csv.gz": {
+  "max": "2015-11-30T23:00Z",
+  "min": "2015-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "ec13157f96cb38f58824bdcdbfb1592e8952f692:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2015-12.csv.gz": {
+  "max": "2015-12-31T23:00Z",
+  "min": "2015-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "e94da3cad67b5845d3516399ba3c098c0359ccfb:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2016-01.csv.gz": {
+  "max": "2016-01-31T23:00Z",
+  "min": "2016-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "a9dc16a2a6951dd1d520a01fb35d03f8c43579f6:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2016-02.csv.gz": {
+  "max": "2016-02-29T23:00Z",
+  "min": "2016-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "ae227c507e1a9829e9233252810ba3a5fbd9426f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2016-03.csv.gz": {
+  "max": "2016-03-31T23:00Z",
+  "min": "2016-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "0b4fdd51ca35eb1d354599738ca4d88307c25c0e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2016-04.csv.gz": {
+  "max": "2016-04-30T23:00Z",
+  "min": "2016-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "d58caec64df6b596e04ad33b4269528fac6683e0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2016-05.csv.gz": {
+  "max": "2016-05-31T23:00Z",
+  "min": "2016-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "df7bd0e916d3ed504fae9a70805973d649ab54fb:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2016-06.csv.gz": {
+  "max": "2016-06-30T23:00Z",
+  "min": "2016-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "49e187bd38ee112768bb5a1e7bb3ada64a79f32a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2016-07.csv.gz": {
+  "max": "2016-07-31T23:00Z",
+  "min": "2016-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "1393d158211e7ba4577e3260ceb591c78b680ba7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2016-08.csv.gz": {
+  "max": "2016-08-31T23:00Z",
+  "min": "2016-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "28cf3556756472e3ef848cb85b512a94bba51502:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2016-09.csv.gz": {
+  "max": "2016-09-30T23:00Z",
+  "min": "2016-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "82816598d2cb47c243433e8d032e9cc133a5cc9e:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2016-10.csv.gz": {
+  "max": "2016-10-31T23:00Z",
+  "min": "2016-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "81a44243421e16d6e71ce64f84e04d62f5123f3b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2016-11.csv.gz": {
+  "max": "2016-11-30T23:00Z",
+  "min": "2016-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "6da0077674a62d94db4bf4672fc5b6fac1395a71:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2016-12.csv.gz": {
+  "max": "2016-12-31T23:00Z",
+  "min": "2016-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "b37bd08de38accbd2e224ff62626296b0fbe77aa:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2017-01.csv.gz": {
+  "max": "2017-01-31T23:00Z",
+  "min": "2017-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "3fac258c3b9eedc987415f1b405639c146558008:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2017-02.csv.gz": {
+  "max": "2017-02-28T23:00Z",
+  "min": "2017-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "cb149b9dbc4a1c231180ccd9ddad1fd72694c0d3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2017-03.csv.gz": {
+  "max": "2017-03-31T23:00Z",
+  "min": "2017-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "738f51fe8afb096120c439557374a92320ce379c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2017-04.csv.gz": {
+  "max": "2017-04-30T23:00Z",
+  "min": "2017-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "73e05d585bb44d45381b4f439709d878ccb6e675:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2017-05.csv.gz": {
+  "max": "2017-05-31T23:00Z",
+  "min": "2017-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "c3d3ec04d15e29b17321e592da584e4480a33bf7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2017-06.csv.gz": {
+  "max": "2017-06-30T23:00Z",
+  "min": "2017-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "680af24d8f58ca84d1f6abe7bc049a28d5086322:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2017-07.csv.gz": {
+  "max": "2017-07-31T23:00Z",
+  "min": "2017-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "e3c39241fd2a5a8683867d192aa7f9e7bcbf9afa:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2017-08.csv.gz": {
+  "max": "2017-08-31T23:00Z",
+  "min": "2017-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "f67e2ca59c0c90d15932de8a0beb68693df90fc4:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2017-09.csv.gz": {
+  "max": "2017-09-30T23:00Z",
+  "min": "2017-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "409bafe24a9257becec3d2bee31e88401edb5643:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2017-10.csv.gz": {
+  "max": "2017-10-31T23:00Z",
+  "min": "2017-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "a74719eb1875f5b9533108264af8da003eb270b6:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2017-11.csv.gz": {
+  "max": "2017-11-30T23:00Z",
+  "min": "2017-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "7a8d3d95bbe56a6452d6eb3fe043fb17ade44a98:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2017-12.csv.gz": {
+  "max": "2017-12-31T23:00Z",
+  "min": "2017-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "404521a43e80eea237256aae9ce71676d29f82f2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2018-01.csv.gz": {
+  "max": "2018-01-31T23:00Z",
+  "min": "2018-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "eeaf0fd2317c01e9e83ec7eef7f34ce6902a6f46:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2018-02.csv.gz": {
+  "max": "2018-02-28T23:00Z",
+  "min": "2018-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "0f660a0735e2eaa1cad000f56eb81ccb4dbfe21a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2018-03.csv.gz": {
+  "max": "2018-03-31T23:00Z",
+  "min": "2018-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "7ce1b71aa44969a306d8696b2ed579b328dae37c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2018-04.csv.gz": {
+  "max": "2018-04-30T23:00Z",
+  "min": "2018-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "df184b94a5a394dc7c0a2d6978d4914b86262f9d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2018-05.csv.gz": {
+  "max": "2018-05-31T23:00Z",
+  "min": "2018-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "92f331413575e026fd5f6c7816e6e7e66f608842:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2018-06.csv.gz": {
+  "max": "2018-06-30T23:00Z",
+  "min": "2018-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "32e5ee15b71a4f21641811daac4426c4f3cc37e5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2018-07.csv.gz": {
+  "max": "2018-07-31T23:00Z",
+  "min": "2018-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "8ff1da4aa8ce22beb530078942c808978e3473b2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2018-08.csv.gz": {
+  "max": "2018-08-31T23:00Z",
+  "min": "2018-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "9023efc054c02888622b448415290f967a59fbf1:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2018-09.csv.gz": {
+  "max": "2018-09-30T23:00Z",
+  "min": "2018-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "cb51132bc9d5c9a3a4120764887cdc0779738ef7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2018-10.csv.gz": {
+  "max": "2018-10-31T23:00Z",
+  "min": "2018-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "86f9e9ef587a16ad66f2edda51bf29539cd1efe7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2018-11.csv.gz": {
+  "max": "2018-11-30T23:00Z",
+  "min": "2018-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "d8b8dd38ae33d29b31a6a1002fcd8b34b5846fd2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2018-12.csv.gz": {
+  "max": "2018-12-31T23:00Z",
+  "min": "2018-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "91e0c242ddaa53f3fc40a8dab285e6593d221f9f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2019-01.csv.gz": {
+  "max": "2019-01-31T23:00Z",
+  "min": "2019-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "c96836518ccae4a2269132e6e3cf9a4694601972:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2019-02.csv.gz": {
+  "max": "2019-02-28T23:00Z",
+  "min": "2019-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "c64ea738fe52e45f41acfc830ccf687466889b5b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2019-03.csv.gz": {
+  "max": "2019-03-31T23:00Z",
+  "min": "2019-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "044b24ac3b0d651bf231b36ddb80183f268bc64c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2019-04.csv.gz": {
+  "max": "2019-04-30T23:00Z",
+  "min": "2019-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "cb422679a87aa95414bbce0cd42113108e4d8933:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2019-05.csv.gz": {
+  "max": "2019-05-31T23:00Z",
+  "min": "2019-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "1e9d907dfc4a2740302bb6423943bb8fdfd2a76f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2019-06.csv.gz": {
+  "max": "2019-06-30T23:00Z",
+  "min": "2019-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "311b07fe3f1fedbae0290d8e8fa9d8ea8179c36d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2019-07.csv.gz": {
+  "max": "2019-07-31T23:00Z",
+  "min": "2019-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "6cd208a4d4c80bb167599db3c687408463be43ae:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2019-08.csv.gz": {
+  "max": "2019-08-31T23:00Z",
+  "min": "2019-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "dcb9dd0e2e950b1a484ed95d1b43c3da89e6c0b2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2019-09.csv.gz": {
+  "max": "2019-09-30T23:00Z",
+  "min": "2019-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "101e000168b97a82c988f1d164f6be1c5f93194f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2019-10.csv.gz": {
+  "max": "2019-10-31T23:00Z",
+  "min": "2019-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "69879a62388e78c330ea4fc620d8b89798af76df:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2019-11.csv.gz": {
+  "max": "2019-11-30T23:00Z",
+  "min": "2019-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "feb0c0fd6d993471a9527bd4627ba00887adbcdb:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2019-12.csv.gz": {
+  "max": "2019-12-31T23:00Z",
+  "min": "2019-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "822b7fd2957b27e00b5b840fbdaa79fea73678a7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2020-01.csv.gz": {
+  "max": "2020-01-31T23:00Z",
+  "min": "2020-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "d2e9b48d8f7ab97ef7b86f60750481eaa54ec09a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2020-02.csv.gz": {
+  "max": "2020-02-29T23:00Z",
+  "min": "2020-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "7bab3c4e73757b69d1042345d1cac82e864ca0ba:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2020-03.csv.gz": {
+  "max": "2020-03-31T23:00Z",
+  "min": "2020-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "e9449b8b226181d6ec1b67b69453be58f940cfac:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2020-04.csv.gz": {
+  "max": "2020-04-30T23:00Z",
+  "min": "2020-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "1684b3153c000492a892f433ba4ccae9504219a3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2020-05.csv.gz": {
+  "max": "2020-05-31T23:00Z",
+  "min": "2020-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "772351b7e16b3513bba619e802fe07ab04c5d808:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2020-06.csv.gz": {
+  "max": "2020-06-30T23:00Z",
+  "min": "2020-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "935a1ca3030bc60ba99846a0cdd579d8457f82b2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2020-07.csv.gz": {
+  "max": "2020-07-31T23:00Z",
+  "min": "2020-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "2ff8974b8aa3e2b92b29f9117c617769755625a5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2020-08.csv.gz": {
+  "max": "2020-08-31T23:00Z",
+  "min": "2020-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "077cd9243382f63dbb5f36c6e5746f98e29e89c2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2020-09.csv.gz": {
+  "max": "2020-09-30T23:00Z",
+  "min": "2020-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "5f783c851fb8e7ee319e45195f6c2a8db5b380c6:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2020-10.csv.gz": {
+  "max": "2020-10-31T23:00Z",
+  "min": "2020-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "5e2eaf9a6c7e0fcdd56cd02c56c57875c3ee43e3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2020-11.csv.gz": {
+  "max": "2020-11-30T23:00Z",
+  "min": "2020-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "b26a690d2989c4511f45c9fd95377f8b6c6236a0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2020-12.csv.gz": {
+  "max": "2020-12-31T23:00Z",
+  "min": "2020-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "adbbb254f1a66b01a2d307184f9391335ff84ae6:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2021-01.csv.gz": {
+  "max": "2021-01-31T23:00Z",
+  "min": "2021-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "8ac59d37ad8c556994b28d536964de02784456ac:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2021-02.csv.gz": {
+  "max": "2021-02-28T23:00Z",
+  "min": "2021-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "fdc02eeb41b10d642e91df728388211b79b17faa:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2021-03.csv.gz": {
+  "max": "2021-03-31T23:00Z",
+  "min": "2021-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "5d7efa9e23e51d9cd5d0c7516f13d3a75ec0b2c3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2021-04.csv.gz": {
+  "max": "2021-04-30T23:00Z",
+  "min": "2021-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "175f632c296c2d0c3e0346894b9a2e415514a486:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2021-05.csv.gz": {
+  "max": "2021-05-31T23:00Z",
+  "min": "2021-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "0c854d509cad7454b23307ccf2525ea437c33167:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2021-06.csv.gz": {
+  "max": "2021-06-30T23:00Z",
+  "min": "2021-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "90d5ee72c393b49f54a60ab73ba2647af585e775:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2021-07.csv.gz": {
+  "max": "2021-07-31T23:00Z",
+  "min": "2021-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "081ff3b5298b1846ea44c57a6842ca40cd40d635:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2021-08.csv.gz": {
+  "max": "2021-08-31T23:00Z",
+  "min": "2021-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "4f96ad4a460163c42eaa26b215734fe3d42a3ce7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2021-09.csv.gz": {
+  "max": "2021-09-30T23:00Z",
+  "min": "2021-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "948b8e3ae42d2ff301009ab5ac27f65ffe3c188b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2021-10.csv.gz": {
+  "max": "2021-10-31T23:00Z",
+  "min": "2021-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "53c46bda9683033c0f52eb4d8f3d893ad709a096:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2021-11.csv.gz": {
+  "max": "2021-11-30T23:00Z",
+  "min": "2021-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "e709d7194f7faf728852a72d3f1da5110bc975a5:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2021-12.csv.gz": {
+  "max": "2021-12-31T23:00Z",
+  "min": "2021-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "23980225fd420216589aefc362719a3316848849:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2022-01.csv.gz": {
+  "max": "2022-01-31T23:00Z",
+  "min": "2022-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "196a435f8ea107f2e47e18304e7dd71bfd548fc1:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2022-02.csv.gz": {
+  "max": "2022-02-28T23:00Z",
+  "min": "2022-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "1ae93d41315d162a25057ea3e49b7842c16b69da:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2022-03.csv.gz": {
+  "max": "2022-03-31T23:00Z",
+  "min": "2022-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "24796ee390d9ff2bea3a95c811ed0d1d4f5172a0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2022-04.csv.gz": {
+  "max": "2022-04-30T23:00Z",
+  "min": "2022-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "005603db45c1071cf0f760c5a2b9ee40b498956c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2022-05.csv.gz": {
+  "max": "2022-05-31T23:00Z",
+  "min": "2022-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "77f45e89c1a2216b969881adff330cbed4bdfc62:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2022-06.csv.gz": {
+  "max": "2022-06-30T23:00Z",
+  "min": "2022-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "9200f5ea52ddf391302ec2e94dcd30a62f36fdc2:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2022-07.csv.gz": {
+  "max": "2022-07-31T23:00Z",
+  "min": "2022-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "3354a0fbeb11ff98f234012b463af71622adce30:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2022-08.csv.gz": {
+  "max": "2022-08-31T23:00Z",
+  "min": "2022-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "28e03ed9a30c03244c08bbfccd63287081d2b0ef:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2022-09.csv.gz": {
+  "max": "2022-09-30T23:00Z",
+  "min": "2022-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "255ee6669fa3052d23e6e28cb45f56d5cf78204c:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2022-10.csv.gz": {
+  "max": "2022-10-31T23:00Z",
+  "min": "2022-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "9e77ba6336e36870327b12c6d14163d76c8049fc:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2022-11.csv.gz": {
+  "max": "2022-11-30T23:00Z",
+  "min": "2022-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "f74bcce5a4e2aef678cd44bb7b68a88ca0c751a6:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2022-12.csv.gz": {
+  "max": "2022-12-31T23:00Z",
+  "min": "2022-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "02b76a73c6b64b02e4d2286cee219d5803dd3822:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2023-01.csv.gz": {
+  "max": "2023-01-31T23:00Z",
+  "min": "2023-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "d22fc61f5327d3855c9c35ff77170b8b95d52994:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2023-02.csv.gz": {
+  "max": "2023-02-28T23:00Z",
+  "min": "2023-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "7e91d3ffb8b359e863891541d30532c9e744cdc6:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2023-03.csv.gz": {
+  "max": "2023-03-31T23:00Z",
+  "min": "2023-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "7f09dbfcd5a1f84f87980746ff64e54311b2bd3a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2023-04.csv.gz": {
+  "max": "2023-04-30T23:00Z",
+  "min": "2023-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "2eef4ea24df51fa73703e6eac5a134c7567f91da:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2023-05.csv.gz": {
+  "max": "2023-05-31T23:00Z",
+  "min": "2023-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "99a7e9d559e03ffb982957135fb3d699b5df8fc4:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2023-06.csv.gz": {
+  "max": "2023-06-30T23:00Z",
+  "min": "2023-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "3659c66650a94d2996502b23bb2eb0d5300039eb:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2023-07.csv.gz": {
+  "max": "2023-07-31T23:00Z",
+  "min": "2023-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "810a9c47f0952360b66a88b5b621bdace9b1d7ad:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2023-08.csv.gz": {
+  "max": "2023-08-31T23:00Z",
+  "min": "2023-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "19be1bb8c077a210a0edcb7994d4922e81a4e461:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2023-09.csv.gz": {
+  "max": "2023-09-30T23:00Z",
+  "min": "2023-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "1740336e74e19190bf265775f2cd1092698097d7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2023-10.csv.gz": {
+  "max": "2023-10-31T23:00Z",
+  "min": "2023-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "081302d60408b9069fadbda5df378a9daf4b43fa:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2023-11.csv.gz": {
+  "max": "2023-11-30T23:00Z",
+  "min": "2023-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "fc8a6be883b375ac3a02bb2c423d8641f2007f96:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2023-12.csv.gz": {
+  "max": "2023-12-31T23:00Z",
+  "min": "2023-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "1a0218317c2dfc8cb6a2213907084af7bcc38af3:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2024-01.csv.gz": {
+  "max": "2024-01-31T23:00Z",
+  "min": "2024-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "84f7fcb5a3f1d1f41c3e5c29b687bfb5f296ca34:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2024-02.csv.gz": {
+  "max": "2024-02-29T23:00Z",
+  "min": "2024-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "fde492d97fedf1b749a770f3d3efb1c7d5e47b31:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2024-03.csv.gz": {
+  "max": "2024-03-31T23:00Z",
+  "min": "2024-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "0a82388f7b39a404ad5a3786beb143e01aa10d2b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2024-04.csv.gz": {
+  "max": "2024-04-30T23:00Z",
+  "min": "2024-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "e5828b6e296cd51461de0f7daaf2e9d45fa90396:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2024-05.csv.gz": {
+  "max": "2024-05-31T23:00Z",
+  "min": "2024-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "7aac9479f093a383e903e1a03a15dd3fedade309:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2024-06.csv.gz": {
+  "max": "2024-06-30T23:00Z",
+  "min": "2024-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "699e57d1603b45e067a0ae6b72775b9d06deda26:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2024-07.csv.gz": {
+  "max": "2024-07-31T23:00Z",
+  "min": "2024-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "65ec237dd06b3585f0b6898da55711a946021cfd:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2024-08.csv.gz": {
+  "max": "2024-08-31T23:00Z",
+  "min": "2024-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "43e78518272e0d1d26c0fb81f7784eb203bdd84d:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2024-09.csv.gz": {
+  "max": "2024-09-30T23:00Z",
+  "min": "2024-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "b49560cac5d535d2ebe7158e069c707ee5669f23:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2024-10.csv.gz": {
+  "max": "2024-10-31T23:00Z",
+  "min": "2024-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "b2423f6d61a4b8daa6f931f857a19439911b76f4:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2024-11.csv.gz": {
+  "max": "2024-11-30T23:00Z",
+  "min": "2024-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "00ba2f97d9f969a7c739f8ecb5bc20ca7b67dd15:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2024-12.csv.gz": {
+  "max": "2024-12-31T23:00Z",
+  "min": "2024-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "d635c4bb4ab99b37cb33d27bc95500c36920196f:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2025-01.csv.gz": {
+  "max": "2025-01-31T23:00Z",
+  "min": "2025-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "76634ab58fcb8d79d8fba5c0ffc26b60baf110ff:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2025-02.csv.gz": {
+  "max": "2025-02-28T23:00Z",
+  "min": "2025-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "a19e9dc0f8c99506dc8a4c7b9e8f2e9c34f9f7de:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2025-03.csv.gz": {
+  "max": "2025-03-31T23:00Z",
+  "min": "2025-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "2b0517e114a48a5898ebf9095116f7345c0eb68b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2025-04.csv.gz": {
+  "max": "2025-04-30T23:00Z",
+  "min": "2025-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "dae1852255009a6f4ccc6030558fbeb5257eca44:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2025-05.csv.gz": {
+  "max": "2025-05-31T23:00Z",
+  "min": "2025-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "2046508ebc2316ff6a7b50e04d0cb87529f8a104:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2025-06.csv.gz": {
+  "max": "2025-06-30T23:00Z",
+  "min": "2025-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "6d210facde8ac2f17e534720beef74847d311aef:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2025-07.csv.gz": {
+  "max": "2025-07-31T23:00Z",
+  "min": "2025-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "fb8e06b4d0c8a599e5b4a3a7034561e569a5ac22:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2025-08.csv.gz": {
+  "max": "2025-08-31T23:00Z",
+  "min": "2025-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "ebedc6a64ea23d26693beb6c1474bbac3dbdd5e0:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2025-09.csv.gz": {
+  "max": "2025-09-30T23:00Z",
+  "min": "2025-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "21a11bb456e6add5d6ee03d2a22891acbdf46843:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2025-10.csv.gz": {
+  "max": "2025-10-31T23:00Z",
+  "min": "2025-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "8d528f2c25a1dfe1e84de600d8ce9adbd55c9bb7:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2025-11.csv.gz": {
+  "max": "2025-11-30T23:00Z",
+  "min": "2025-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "73e7e2860ba153abd6fe1a6208f214001e0b603b:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2025-12.csv.gz": {
+  "max": "2025-12-31T23:00Z",
+  "min": "2025-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "c28d4dc63477a12c79d25af40cc99f89310f3783:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2026-01.csv.gz": {
+  "max": "2026-01-31T23:00Z",
+  "min": "2026-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "8300270437db6d89d6f343b782f28edf1d883d1a:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2026-02.csv.gz": {
+  "max": "2026-02-28T23:00Z",
+  "min": "2026-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "75aadddb2826b64ac664cdb9ee5584e4d48b0f07:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2026-03.csv.gz": {
+  "max": "2026-03-31T23:00Z",
+  "min": "2026-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "8889fc0b442d8ab8e0ddf1904edf80481e4e2b43:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2026-04.csv.gz": {
+  "max": "2026-04-30T23:00Z",
+  "min": "2026-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "f8134b1faa9453f98379cc36fba659a24ccbd279:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2026-05.csv.gz": {
+  "max": "2026-05-31T23:00Z",
+  "min": "2026-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "33c3056ffa630abbdfc84b1b73c54b5b7921a2d8:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2026-06.csv.gz": {
+  "max": "2026-06-30T23:00Z",
+  "min": "2026-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "a95e9ed0202b9fdcd608d6695b36ddfaed087499:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2026-07.csv": {
+  "max": "2026-07-31T23:00Z",
+  "min": "2026-07-01T00:00Z",
+  "rows": 288,
+  "sha1": "40f7f24ebae390426a60c3835c1f370d7f1d9baa:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2026-08.csv": {
+  "max": "2026-08-31T23:00Z",
+  "min": "2026-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "e145dae8030cb44a05d0749a1a41b7fc9dcf5491:2",
+  "time_col": "timestamp"
+ },
+ "energy/nyiso/lbmp_rt/2026-09.csv": {
+  "max": "2026-09-27T13:00Z",
+  "min": "2026-09-01T00:00Z",
+  "rows": 638,
+  "sha1": "c071b483c77938b46b8ae0094d4643d87ff303c0:2",
+  "time_col": "timestamp"
+ },
  "energy/weather/era5/2015-01.csv.gz": {
   "max": "2015-01-31T23:00Z",
   "min": "2015-01-01T00:00Z",
