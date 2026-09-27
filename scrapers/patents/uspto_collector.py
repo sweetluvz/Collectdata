@@ -2,6 +2,7 @@
 
 Free key: https://patentsview-support.atlassian.net/servicedesk (request API key) -> secret PATENTSVIEW_API_KEY
 PatentsView refreshes its database roughly quarterly, so each run re-queries a long window and upserts.
+Table: patents/uspto/grants (partitioned by grant month).
 """
 from datetime import date, timedelta
 import json
@@ -10,7 +11,7 @@ import time
 import pandas as pd
 
 from scrapers.patents.common import CPC_SUBCLASSES
-from utils.http import env_int, require_env, session
+from utils.http import check, env_int, require_env, session
 from utils.storage import upsert
 
 URL = "https://search.patentsview.org/api/v1/patent/"
@@ -74,8 +75,7 @@ def main():
             "q": json.dumps(query), "f": json.dumps(FIELDS),
             "s": json.dumps([{"patent_id": "asc"}]), "o": json.dumps(opts),
         }
-        r = http.get(URL, params=params, timeout=120)
-        r.raise_for_status()
+        r = check(http.get(URL, params=params, timeout=120))
         batch = r.json().get("patents") or []
         rows.extend(flatten(p) for p in batch)
         print(f"[uspto] fetched {len(rows)}")
@@ -84,7 +84,7 @@ def main():
         after = batch[-1]["patent_id"]
         time.sleep(1.5)  # API limit: 45 requests/minute
 
-    upsert(pd.DataFrame(rows), "patents", "uspto", ["patent_id"], "patent_date", ext=".csv.gz")
+    upsert(pd.DataFrame(rows), "patents/uspto/grants", ["patent_id"], "patent_date", ext=".csv.gz")
 
 
 if __name__ == "__main__":

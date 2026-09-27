@@ -2,15 +2,15 @@
 
 Free key: https://www.eia.gov/opendata/register.php  ->  secret EIA_API_KEY
 Tables:
-  region_*   : demand (D), day-ahead demand forecast (DF), net generation (NG), total interchange (TI)
-  fueltype_* : net generation by fuel (SUN, WND, NG, COL, NUC, WAT, OIL, OTH, ...)
+  energy/eia/region    : demand (D), day-ahead demand forecast (DF), net generation (NG), total interchange (TI)
+  energy/eia/fuel_type : net generation by fuel (SUN, WND, NG, COL, NUC, WAT, OIL, OTH, ...)
 """
 from datetime import datetime, timedelta, timezone
 import time
 
 import pandas as pd
 
-from utils.http import env_int, require_env, session
+from utils.http import check, env_int, require_env, session
 from utils.storage import upsert
 
 BASE = "https://api.eia.gov/v2/electricity/rto"
@@ -27,8 +27,7 @@ def fetch_route(http, api_key, route, start, end):
             ("sort[0][column]", "period"), ("sort[0][direction]", "asc"),
             ("offset", offset), ("length", PAGE),
         ] + [("facets[respondent][]", r) for r in RESPONDENTS]
-        r = http.get(f"{BASE}/{route}/data/", params=params, timeout=90)
-        r.raise_for_status()
+        r = check(http.get(f"{BASE}/{route}/data/", params=params, timeout=90))
         resp = r.json()["response"]
         batch = resp.get("data", [])
         rows.extend(batch)
@@ -52,10 +51,10 @@ def main():
     end = now.strftime("%Y-%m-%dT%H")
 
     region = fetch_route(http, api_key, "region-data", start, end)
-    upsert(region, "energy", "eia", ["period", "respondent", "type"], "period", prefix="region_")
+    upsert(region, "energy/eia/region", ["period", "respondent", "type"], "period")
 
     fuel = fetch_route(http, api_key, "fuel-type-data", start, end)
-    upsert(fuel, "energy", "eia", ["period", "respondent", "fueltype"], "period", prefix="fueltype_")
+    upsert(fuel, "energy/eia/fuel_type", ["period", "respondent", "fueltype"], "period")
 
 
 if __name__ == "__main__":

@@ -19,11 +19,19 @@ def session(headers=None, total=4, backoff=2.0):
         status_forcelist=(429, 500, 502, 503, 504),
         allowed_methods=("GET", "POST"),
         respect_retry_after_header=True,
+        raise_on_status=False,
     )
     s.mount("https://", HTTPAdapter(max_retries=retry))
     s.mount("http://", HTTPAdapter(max_retries=retry))
     s.headers.update({"User-Agent": UA, **(headers or {})})
     return s
+
+
+def check(r):
+    """raise_for_status that shows the API's error body but never the query string (it may hold API keys)."""
+    if r.status_code >= 400:
+        raise requests.HTTPError(f"HTTP {r.status_code} {r.url.split('?')[0]}: {r.text[:500]}", response=r)
+    return r
 
 
 def require_env(name):

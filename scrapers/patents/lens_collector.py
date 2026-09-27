@@ -1,7 +1,9 @@
 """Lens.org Patent API - worldwide publications incl. WIPO (WO), EP, US, CN, with claims.
 
 Token: https://www.lens.org/lens/user/subscriptions (Patent API access) -> secret LENS_API_TOKEN
-Stores first (independent) claim + claim count by default; set LENS_FULL_CLAIMS=1 to store all claims
+Table: patents/lens/publications (partitioned by publication month).
+Defaults to WO, EP and US publications (LENS_JURISDICTIONS) to keep weekly volume complete rather than
+truncated. Stores first (independent) claim + claim count; LENS_FULL_CLAIMS=1 stores all claims
 (roughly 10x larger files).
 """
 from datetime import date, timedelta
@@ -11,7 +13,7 @@ import time
 import pandas as pd
 
 from scrapers.patents.common import CPC_SUBCLASSES
-from utils.http import env_int, require_env, session
+from utils.http import check, env_int, require_env, session
 from utils.storage import upsert
 
 URL = "https://api.lens.org/patent/search"
@@ -69,9 +71,12 @@ def flatten(p, full_claims):
 
 
 def main():
-    http = session({"Authorization": f"Bearer {require_env('LENS_API_TOKEN')}", "Content-Type": "application/json"})
+    http = session(
+        {"Authorization": f"Bearer {require_env('LENS_API_TOKEN')}", "Content-Type": "application/json"}, total=6
+    )
     full_claims = os.environ.get("LENS_FULL_CLAIMS") == "1"
-    max_records = env_int("LENS_MAX_RECORDS", 5000)
+    max_records = env_int("LENS_MAX_RECORDS", 20000)
+    jurisdictions = [j.strip() for j in os.environ.get("LENS_JURISDICTIONS", "WO,EP,US").split(",") if j.strip()]
     end = date.today()
     start = end - timedelta(days=env_int("LENS_LOOKBACK_DAYS", 14))
     cpc_q = " OR ".join(f"{s}*" for s in CPC_SUBCLASSES)
@@ -79,17 +84,18 @@ def main():
         "query": {"bool": {"must": [
             {"range": {"date_published": {"gte": start.isoformat(), "lte": end.isoformat()}}},
             {"query_string": {"query": f"class_cpc.symbol:({cpc_q})"}},
+            {"terms": {"jurisdiction": jurisdictions}},
         ]}},
         "size": 100,
         "scroll": "1m",
         "include": INCLUDE,
     }
 
-    rows = []
+    rows, total = [], 0
     while len(rows) < max_records:
-        r = http.post(URL, json=body, timeout=120)
-        r.raise_for_status()
+        r = check(http.post(URL, json=body, timeout=120))
         res = r.json()
+        total = res.get("total") or total
         batch = res.get("data") or []
         rows.extend(flatten(p, full_claims) for p in batch)
         print(f"[lens] fetched {len(rows)} / total {res.get('total')}")
@@ -98,7 +104,9 @@ def main():
         body = {"scroll_id": res["scroll_id"], "scroll": "1m"}
         time.sleep(float(r.headers.get("x-rate-limit-retry-after-seconds", 0)) or 2)
 
-    upsert(pd.DataFrame(rows), "patents", "lens", ["lens_id"], "date_published", ext=".csv.gz")
+    if total and len(rows) < int(total):
+        print(f"::warning::lens: stored {len(rows)} of {total} matches - raise LENS_MAX_RECORDS or narrow the query")
+    upsert(pd.DataFrame(rows), "patents/lens/publications", ["lens_id"], "date_published", ext=".csv.gz")
 
 
 if __name__ == "__main__":

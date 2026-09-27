@@ -1,11 +1,11 @@
 # CPC subclasses tracked for emerging-tech / convergence analysis.
+# Very broad subclasses (G06F, H04L) are left out on purpose: they would dominate volume and storage.
 CPC_SUBCLASSES = [
     "G06N",  # AI / machine learning
-    "G06F",  # digital data processing
     "G16H",  # healthcare informatics
     "A61B",  # medical diagnosis / devices
-    "H04W",  # wireless networks / IoT
-    "H04L",  # data transmission / networking
+    "H04W",  # wireless networks
+    "G16Y",  # ICT specially adapted for the Internet of Things
     "G05B",  # control systems
     "H02J",  # power grids, energy storage dispatch
     "Y02E",  # climate-change mitigation in energy

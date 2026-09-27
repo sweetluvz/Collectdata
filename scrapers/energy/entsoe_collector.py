@@ -3,7 +3,7 @@
 Token: register at https://transparency.entsoe.eu, then email transparency@entsoe.eu asking for
 "Restful API access"  ->  secret ENTSOE_API_KEY.
 GB is not included: it stopped publishing to ENTSO-E after Brexit.
-Output is long format: timestamp, country, dataset, variable, value.
+One table per dataset (energy/entsoe/<dataset>), long format: timestamp, country, dataset, variable, value.
 """
 from datetime import datetime, timedelta, timezone
 import time
@@ -56,8 +56,10 @@ def main():
                 print(f"::warning::entsoe {zone}/{name}: {type(e).__name__}: {e}")
             time.sleep(1)
 
-    df = pd.concat(frames) if frames else pd.DataFrame()
-    upsert(df, "energy", "entsoe", ["timestamp", "country", "dataset", "variable"], "timestamp")
+    if frames:
+        df = pd.concat(frames, ignore_index=True)
+        for dataset, part in df.groupby("dataset"):
+            upsert(part, f"energy/entsoe/{dataset}", ["timestamp", "country", "variable"], "timestamp")
     if failures == total:
         raise SystemExit("entsoe: every query failed")
 

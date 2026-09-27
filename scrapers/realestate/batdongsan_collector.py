@@ -1,11 +1,12 @@
 """batdongsan.com.vn listing scraper.
 
 Tables:
-  listings_YYYY-MM : one row per (listing_id, scraped_date) -> daily panel of asking price / status
-  details_YYYY-MM  : one row per listing_id, fetched once -> coordinates, full description, spec table
+  realestate/batdongsan/listings : one row per (listing_id, scraped_date) -> daily panel of asking prices
+  realestate/batdongsan/details  : one row per listing_id, fetched once -> coordinates, description, specs
 
 CSS selectors reflect the site's markup at time of writing; if a run parses 0 cards the job fails
-loudly so the selectors can be updated. Runs are rate limited (a few seconds between requests).
+loudly so the selectors can be updated. If the site starts blocking mid-run, everything collected so far
+is still saved and the job is then marked failed. Requests are spaced a few seconds apart.
 """
 from datetime import datetime, timezone
 import json
@@ -16,7 +17,7 @@ import time
 import pandas as pd
 from bs4 import BeautifulSoup
 
-from utils.http import env_int, session
+from utils.http import check, env_int, session
 from utils.storage import load_all, upsert
 
 BASE = "https://batdongsan.com.vn"
@@ -48,8 +49,7 @@ def get_html(http, url):
     r = http.get(url, timeout=45)
     if r.status_code in (403, 429, 503) or any(m in r.text[:5000] for m in BLOCK_MARKERS):
         raise Blocked(f"{url} -> HTTP {r.status_code} (anti-bot page)")
-    r.raise_for_status()
-    return r.text
+    return check(r).text
 
 
 def first_text(node, *selectors):
@@ -172,10 +172,20 @@ def main():
     scraped_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
 
     rows = []
+    blocked = None
     for slug, category, city in SEARCHES:
+        if blocked:
+            break
         for page in range(1, max_pages + 1):
             url = f"{BASE}/{slug}" + (f"/p{page}" if page > 1 else "")
-            html = get_html(http, url)
+            try:
+                html = get_html(http, url)
+            except Blocked as e:
+                blocked = e
+                break
+            except Exception as e:
+                print(f"::warning::batdongsan {url}: {e}")
+                break
             parsed, n_cards = parse_cards(html, category, city, scraped_at)
             print(f"[batdongsan] {url}: {n_cards} cards, {len(parsed)} parsed")
             rows.extend(parsed)
@@ -184,25 +194,27 @@ def main():
                 break
 
     if not rows:
-        raise SystemExit("batdongsan: 0 listings parsed - markup probably changed, update selectors")
+        raise SystemExit(f"batdongsan: 0 listings parsed - {blocked or 'markup probably changed, update selectors'}")
     listings = pd.DataFrame(rows).drop_duplicates(["listing_id", "scraped_date"], keep="last")
-    upsert(listings, "realestate", "batdongsan", ["listing_id", "scraped_date"], "scraped_at", prefix="listings_")
+    upsert(listings, "realestate/batdongsan/listings", ["listing_id", "scraped_date"], "scraped_at")
 
-    known = load_all("realestate", "batdongsan", prefix="details_")
+    known = load_all("realestate/batdongsan/details")
     seen = set(known["listing_id"]) if not known.empty else set()
-    todo = listings[~listings["listing_id"].isin(seen)].head(detail_limit)
+    todo = listings[~listings["listing_id"].isin(seen)].head(0 if blocked else detail_limit)
     details = []
     for lid, url in zip(todo["listing_id"], todo["url"]):
         try:
             details.append(parse_detail(get_html(http, url), lid, scraped_at))
-        except Blocked:
-            print("::warning::batdongsan detail pages blocked - stopping detail fetch for this run")
+        except Blocked as e:
+            blocked = e
             break
         except Exception as e:
             print(f"::warning::batdongsan detail {lid}: {e}")
         pause()
-    upsert(pd.DataFrame(details), "realestate", "batdongsan", ["listing_id"], "fetched_at", prefix="details_")
+    upsert(pd.DataFrame(details), "realestate/batdongsan/details", ["listing_id"], "fetched_at")
 
+    if blocked:
+        raise SystemExit(f"batdongsan: blocked by anti-bot protection ({blocked}); partial data saved")
 
 if __name__ == "__main__":
     main()

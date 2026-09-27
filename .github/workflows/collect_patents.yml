@@ -4,6 +4,13 @@ on:
   schedule:
     - cron: "11 3 * * 3"   # weekly, Wednesday 03:11 UTC (USPTO grants are issued on Tuesdays)
   workflow_dispatch:
+    inputs:
+      uspto_lookback_days:
+        description: "PatentsView window in days (default 180). Use for backfill."
+        default: ""
+      lens_lookback_days:
+        description: "Lens.org window in days (default 14). Use for backfill."
+        default: ""
 
 permissions:
   contents: write
@@ -15,11 +22,11 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -29,15 +36,17 @@ jobs:
       - name: USPTO (PatentsView)
         env:
           PATENTSVIEW_API_KEY: ${{ secrets.PATENTSVIEW_API_KEY }}
+          PATENTSVIEW_LOOKBACK_DAYS: ${{ inputs.uspto_lookback_days }}
         run: python -m scrapers.patents.uspto_collector
 
       - name: Worldwide incl. WIPO (Lens.org)
         if: ${{ !cancelled() }}
         env:
           LENS_API_TOKEN: ${{ secrets.LENS_API_TOKEN }}
+          LENS_LOOKBACK_DAYS: ${{ inputs.lens_lookback_days }}
         run: python -m scrapers.patents.lens_collector
 
       - name: Commit data
         if: ${{ !cancelled() }}
         run: |
-          bash scripts/commit_data.sh "data(patents): $(date -u +%Y-%m-%d)"
+          bash scripts/commit_data.sh patents "data(patents): $(date -u +%Y-%m-%d)"

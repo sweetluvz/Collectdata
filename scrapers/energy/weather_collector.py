@@ -1,16 +1,17 @@
 """Open-Meteo weather + air quality (no API key).
 
-Two weather tables are stored:
-  * weather_*   : latest value per (location, time) over the recent past - use as observed/analysis data.
-  * forecast_*  : every forecast issue kept separately (issued_at, time) - lets STLF models be evaluated
-                  with the weather forecasts actually available at prediction time.
+Tables:
+  energy/weather/observed    : latest value per (location, time) over the recent past (model analysis data)
+  energy/weather/forecast    : every forecast issue kept separately (issued_at, time) - lets STLF models be
+                               evaluated with the weather forecasts actually available at prediction time
+  energy/airquality/observed : hourly pollutants + US AQI
 """
 from datetime import datetime, timezone
 import time
 
 import pandas as pd
 
-from utils.http import env_int, session
+from utils.http import check, env_int, session
 from utils.storage import upsert
 
 # Near load centres of the EIA balancing authorities, ENTSO-E bidding zones and VN real-estate cities.
@@ -66,14 +67,13 @@ def fetch(http, url, loc, lat, lon, variables, past_days, forecast_days):
         "latitude": lat, "longitude": lon, "hourly": ",".join(variables), "timezone": "UTC",
         "past_days": past_days, "forecast_days": forecast_days,
     }
-    r = http.get(url, params=params, timeout=60)
-    r.raise_for_status()
+    r = check(http.get(url, params=params, timeout=60))
     return _hourly_frame(r.json(), loc)
 
 
 def main():
     http = session()
-    past_days = env_int("WEATHER_PAST_DAYS", 3)
+    past_days = min(env_int("WEATHER_PAST_DAYS", 3), 92)  # API maximum
     forecast_days = env_int("WEATHER_FORECAST_DAYS", 2)
     now = pd.Timestamp(datetime.now(timezone.utc))
     issued_at = now.floor("h").strftime("%Y-%m-%dT%H:%MZ")
@@ -94,9 +94,9 @@ def main():
             print(f"::warning::open-meteo {loc}: {e}")
         time.sleep(0.5)
 
-    upsert(pd.concat(past or [pd.DataFrame()]), "energy", "weather", ["location", "time"], "time", prefix="weather_")
-    upsert(pd.concat(fcst or [pd.DataFrame()]), "energy", "weather", ["location", "issued_at", "time"], "issued_at", prefix="forecast_")
-    upsert(pd.concat(aq or [pd.DataFrame()]), "energy", "weather", ["location", "time"], "time", prefix="airquality_")
+    upsert(pd.concat(past or [pd.DataFrame()]), "energy/weather/observed", ["location", "time"], "time")
+    upsert(pd.concat(fcst or [pd.DataFrame()]), "energy/weather/forecast", ["location", "issued_at", "time"], "issued_at")
+    upsert(pd.concat(aq or [pd.DataFrame()]), "energy/airquality/observed", ["location", "time"], "time")
 
     if len(failures) == len(LOCATIONS):
         raise SystemExit("open-meteo: every location failed")
