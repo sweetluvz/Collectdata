@@ -62,11 +62,3406 @@
   "sha1": "63b7686ab33cb85fcb13ba2c5a60d6fa78d079ea:2",
   "time_col": "time"
  },
+ "energy/eia/fuel_prices/1986-01.csv.gz": {
+  "max": "1986-01-31",
+  "min": "1986-01-02",
+  "rows": 22,
+  "sha1": "88f3641ae3532d75ea68b17d256728cfb82ab9cb:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1986-02.csv.gz": {
+  "max": "1986-02-28",
+  "min": "1986-02-03",
+  "rows": 19,
+  "sha1": "d3c7063a2379d4837aa417fde157fdeaac980241:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1986-03.csv.gz": {
+  "max": "1986-03-31",
+  "min": "1986-03-03",
+  "rows": 20,
+  "sha1": "15f72d78f21f16213c07406d724caaaf3f147672:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1986-04.csv.gz": {
+  "max": "1986-04-30",
+  "min": "1986-04-01",
+  "rows": 22,
+  "sha1": "d946c29e6b04856883b75a9331afdb64ec98cdd1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1986-05.csv.gz": {
+  "max": "1986-05-30",
+  "min": "1986-05-01",
+  "rows": 21,
+  "sha1": "4fa9181f5b3db704c8c904b0a23fb959bfbc476b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1986-06.csv.gz": {
+  "max": "1986-06-30",
+  "min": "1986-06-02",
+  "rows": 84,
+  "sha1": "1580dd67483f254e93b4eeafc8096933ce24d762:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1986-07.csv.gz": {
+  "max": "1986-07-31",
+  "min": "1986-07-01",
+  "rows": 88,
+  "sha1": "bd64804fdb303e0d0dd840a8ec0077357b559136:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1986-08.csv.gz": {
+  "max": "1986-08-29",
+  "min": "1986-08-01",
+  "rows": 84,
+  "sha1": "e5f0eca8dc942a3a0e96d171c0bf8865a940d138:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1986-09.csv.gz": {
+  "max": "1986-09-30",
+  "min": "1986-09-02",
+  "rows": 84,
+  "sha1": "05390e8c22240945b4e56aaeb061482b0f6893ad:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1986-10.csv.gz": {
+  "max": "1986-10-31",
+  "min": "1986-10-01",
+  "rows": 88,
+  "sha1": "d650a3d5a8f296dcf39b3173f19c213779629a00:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1986-11.csv.gz": {
+  "max": "1986-11-28",
+  "min": "1986-11-03",
+  "rows": 76,
+  "sha1": "a61aa82679b97fd6217fcd8a573493630c3564cb:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1986-12.csv.gz": {
+  "max": "1986-12-31",
+  "min": "1986-12-01",
+  "rows": 84,
+  "sha1": "9a3fc366c9ec6da6e1e20f13ffba6ec5c35f424a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1987-01.csv.gz": {
+  "max": "1987-01-30",
+  "min": "1987-01-02",
+  "rows": 84,
+  "sha1": "e108f48ae4b947ed8659ebb6e437bdf52f8a9bd8:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1987-02.csv.gz": {
+  "max": "1987-02-27",
+  "min": "1987-02-02",
+  "rows": 76,
+  "sha1": "135d9a4430c1abc4b89a913dbe847a5616989a89:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1987-03.csv.gz": {
+  "max": "1987-03-31",
+  "min": "1987-03-02",
+  "rows": 87,
+  "sha1": "580369b4adfe1d61c4521f2f2620088f4b32d1bf:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1987-04.csv.gz": {
+  "max": "1987-04-30",
+  "min": "1987-04-01",
+  "rows": 84,
+  "sha1": "f4e3d08fd4f27816b3923b74cea6b933ede24363:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1987-05.csv.gz": {
+  "max": "1987-05-29",
+  "min": "1987-05-01",
+  "rows": 88,
+  "sha1": "81d13d98b03843b0c62c6255d00564c986e88414:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1987-06.csv.gz": {
+  "max": "1987-06-30",
+  "min": "1987-06-01",
+  "rows": 109,
+  "sha1": "888bf757339ad17f28ea5ad2d26942e31b50f780:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1987-07.csv.gz": {
+  "max": "1987-07-31",
+  "min": "1987-07-01",
+  "rows": 112,
+  "sha1": "e151fada5e054c8de8fe17bd3e88504782e05455:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1987-08.csv.gz": {
+  "max": "1987-08-31",
+  "min": "1987-08-03",
+  "rows": 105,
+  "sha1": "ae9d8fbe4f58c8fc4b2f9be40a249e67b40ce1cd:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1987-09.csv.gz": {
+  "max": "1987-09-30",
+  "min": "1987-09-01",
+  "rows": 107,
+  "sha1": "29c1da0ab2fe36380cd3a6a376c06d187b88c6aa:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1987-10.csv.gz": {
+  "max": "1987-10-30",
+  "min": "1987-10-01",
+  "rows": 110,
+  "sha1": "3ec1687099e71b7bf67e8dfd06d6ab6ef9751a7e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1987-11.csv.gz": {
+  "max": "1987-11-30",
+  "min": "1987-11-02",
+  "rows": 101,
+  "sha1": "7b6cbccf53fd7ed676dfd2883abe1afa4232714b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1987-12.csv.gz": {
+  "max": "1987-12-31",
+  "min": "1987-12-01",
+  "rows": 110,
+  "sha1": "eee5d7ec4afe70b9b06b75afe1162068bbdb3811:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1988-01.csv.gz": {
+  "max": "1988-01-29",
+  "min": "1988-01-04",
+  "rows": 98,
+  "sha1": "8c813f7790f75b8598d18cb4ef882be2e741e766:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1988-02.csv.gz": {
+  "max": "1988-02-29",
+  "min": "1988-02-01",
+  "rows": 99,
+  "sha1": "d1e514efed39f558d514fecccecd18b104507ff5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1988-03.csv.gz": {
+  "max": "1988-03-31",
+  "min": "1988-03-01",
+  "rows": 115,
+  "sha1": "0532f690604b22b096ebe5419c86d711aa702fe3:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1988-04.csv.gz": {
+  "max": "1988-04-29",
+  "min": "1988-04-04",
+  "rows": 99,
+  "sha1": "fbc5343b291439e05a1ef76a0a7dfc9724b5893d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1988-05.csv.gz": {
+  "max": "1988-05-31",
+  "min": "1988-05-02",
+  "rows": 107,
+  "sha1": "4b80b6a8b9a5202ab95d839ca5aafaddfed4f264:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1988-06.csv.gz": {
+  "max": "1988-06-30",
+  "min": "1988-06-01",
+  "rows": 110,
+  "sha1": "8b42dc6690f89400fd848734f1508d141d749d9d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1988-07.csv.gz": {
+  "max": "1988-07-29",
+  "min": "1988-07-01",
+  "rows": 101,
+  "sha1": "a35060e55bf687e17ec365463862eecdbb3d4036:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1988-08.csv.gz": {
+  "max": "1988-08-31",
+  "min": "1988-08-01",
+  "rows": 115,
+  "sha1": "0ccbbb5d256da6da594ac05705ae78d8dd58edf4:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1988-09.csv.gz": {
+  "max": "1988-09-30",
+  "min": "1988-09-01",
+  "rows": 104,
+  "sha1": "eb461f7882a40323977507949cee2c0d376dfb26:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1988-10.csv.gz": {
+  "max": "1988-10-31",
+  "min": "1988-10-03",
+  "rows": 105,
+  "sha1": "4ad433b8aacfa9add70adba96dc7245ab1fd1f3e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1988-11.csv.gz": {
+  "max": "1988-11-30",
+  "min": "1988-11-01",
+  "rows": 107,
+  "sha1": "b2f5c5d72da1c03d0684402b404265a4c37f3e98:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1988-12.csv.gz": {
+  "max": "1988-12-30",
+  "min": "1988-12-01",
+  "rows": 105,
+  "sha1": "4596783ce5c3a9a7bc5fb0e8a258fd7716b01deb:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1989-01.csv.gz": {
+  "max": "1989-01-31",
+  "min": "1989-01-03",
+  "rows": 105,
+  "sha1": "9ae2722414752563090624785e8e69591d37f859:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1989-02.csv.gz": {
+  "max": "1989-02-28",
+  "min": "1989-02-01",
+  "rows": 97,
+  "sha1": "feb20b2a492980621f05a81b2ac1636cfd8460af:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1989-03.csv.gz": {
+  "max": "1989-03-31",
+  "min": "1989-03-01",
+  "rows": 109,
+  "sha1": "3a8a71a1806951d4cf455e666530ad9d6865842f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1989-04.csv.gz": {
+  "max": "1989-04-28",
+  "min": "1989-04-03",
+  "rows": 100,
+  "sha1": "925b3c0ad2497d0147b7afcc097936bc6605b3ce:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1989-05.csv.gz": {
+  "max": "1989-05-31",
+  "min": "1989-05-01",
+  "rows": 111,
+  "sha1": "a1dbd2db5642bfb44ae80a8152bdf1dbbe75ca58:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1989-06.csv.gz": {
+  "max": "1989-06-30",
+  "min": "1989-06-01",
+  "rows": 110,
+  "sha1": "bd91256706c0d475fe61949803896cc69b841802:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1989-07.csv.gz": {
+  "max": "1989-07-31",
+  "min": "1989-07-03",
+  "rows": 102,
+  "sha1": "e5df345f9a3e82e348119bfc35685e5a4bc81088:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1989-08.csv.gz": {
+  "max": "1989-08-31",
+  "min": "1989-08-01",
+  "rows": 115,
+  "sha1": "76f7a3b6fd4ec2027842e783c5c0e1f3157a7181:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1989-09.csv.gz": {
+  "max": "1989-09-29",
+  "min": "1989-09-01",
+  "rows": 102,
+  "sha1": "dc4ad47d591536bcd96409dd69f59732c13cf548:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1989-10.csv.gz": {
+  "max": "1989-10-31",
+  "min": "1989-10-02",
+  "rows": 110,
+  "sha1": "bac44fd88e6bd0da25e9626b7e55a1a1dc257f20:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1989-11.csv.gz": {
+  "max": "1989-11-30",
+  "min": "1989-11-01",
+  "rows": 107,
+  "sha1": "e0ff90c5faf464a365d822745495cb5c7bbd1a07:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1989-12.csv.gz": {
+  "max": "1989-12-29",
+  "min": "1989-12-01",
+  "rows": 99,
+  "sha1": "3579edaae9bbc9ed2b77fcaff1c7f1ae496d6c43:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1990-01.csv.gz": {
+  "max": "1990-01-31",
+  "min": "1990-01-02",
+  "rows": 108,
+  "sha1": "b74ea42f5484d214213e5f4daf16821f17379ca0:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1990-02.csv.gz": {
+  "max": "1990-02-28",
+  "min": "1990-02-01",
+  "rows": 97,
+  "sha1": "d93b890582cc21a9f85b55e1c033bec7c7173f44:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1990-03.csv.gz": {
+  "max": "1990-03-30",
+  "min": "1990-03-01",
+  "rows": 110,
+  "sha1": "5c76070663458f51c9debb12612ebb568cd14587:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1990-04.csv.gz": {
+  "max": "1990-04-30",
+  "min": "1990-04-02",
+  "rows": 119,
+  "sha1": "b75eae482d8193a3df428411c7a90dc5825754ab:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1990-05.csv.gz": {
+  "max": "1990-05-31",
+  "min": "1990-05-01",
+  "rows": 132,
+  "sha1": "43293d5ae050cc4b1dcf403415c939a12fea7a59:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1990-06.csv.gz": {
+  "max": "1990-06-29",
+  "min": "1990-06-01",
+  "rows": 126,
+  "sha1": "d9b95d82a9eba05671193740297e400b5bf1ea15:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1990-07.csv.gz": {
+  "max": "1990-07-31",
+  "min": "1990-07-02",
+  "rows": 128,
+  "sha1": "8fbccc5662d7b68b763145c0b8dc2218cd5c4127:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1990-08.csv.gz": {
+  "max": "1990-08-31",
+  "min": "1990-08-01",
+  "rows": 138,
+  "sha1": "9b7dd742917a186bbdc2238beeaf7db3d79a234f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1990-09.csv.gz": {
+  "max": "1990-09-28",
+  "min": "1990-09-03",
+  "rows": 116,
+  "sha1": "07445c953d6163f95dc8b01e4f2a07a8c4fd9026:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1990-10.csv.gz": {
+  "max": "1990-10-31",
+  "min": "1990-10-01",
+  "rows": 138,
+  "sha1": "b0291de3c396f2e8a093228b947c8c5837e3f864:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1990-11.csv.gz": {
+  "max": "1990-11-30",
+  "min": "1990-11-01",
+  "rows": 126,
+  "sha1": "1fe3d79ac7498766aa1d318611cf15d0128022c5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1990-12.csv.gz": {
+  "max": "1990-12-31",
+  "min": "1990-12-03",
+  "rows": 120,
+  "sha1": "610af589bb22f3d5966b537796ec2d99812a0bd2:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1991-01.csv.gz": {
+  "max": "1991-01-31",
+  "min": "1991-01-02",
+  "rows": 132,
+  "sha1": "fa0b1cb5b4acf6d4baa56755f73ead0ff637996c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1991-02.csv.gz": {
+  "max": "1991-02-28",
+  "min": "1991-02-01",
+  "rows": 120,
+  "sha1": "d9705eb8858b7c04cb843e1fce35010a4af54a21:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1991-03.csv.gz": {
+  "max": "1991-03-28",
+  "min": "1991-03-01",
+  "rows": 120,
+  "sha1": "d4cd3767c472d38a685e36a3715a19c8bf184de5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1991-04.csv.gz": {
+  "max": "1991-04-30",
+  "min": "1991-04-01",
+  "rows": 132,
+  "sha1": "15115147e99fce90b52247f8115a381c0f3a5136:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1991-05.csv.gz": {
+  "max": "1991-05-31",
+  "min": "1991-05-01",
+  "rows": 132,
+  "sha1": "5a5fa48ec1557de265e101c02024911527038eee:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1991-06.csv.gz": {
+  "max": "1991-06-28",
+  "min": "1991-06-03",
+  "rows": 120,
+  "sha1": "52f11332434f2bfbaa38fd226d1841fb8ad5cd8f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1991-07.csv.gz": {
+  "max": "1991-07-31",
+  "min": "1991-07-01",
+  "rows": 138,
+  "sha1": "eb68ff3a98ed4a91fb86dc791db53fc4680452ed:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1991-08.csv.gz": {
+  "max": "1991-08-30",
+  "min": "1991-08-01",
+  "rows": 132,
+  "sha1": "dbfd32e1a3778fbfbf0f7f5cd430492f672d5e85:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1991-09.csv.gz": {
+  "max": "1991-09-30",
+  "min": "1991-09-02",
+  "rows": 123,
+  "sha1": "ea874804e9541c96fab3a75f02b54537c04cf76c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1991-10.csv.gz": {
+  "max": "1991-10-31",
+  "min": "1991-10-01",
+  "rows": 138,
+  "sha1": "2e9e0d40cb7b518cbd07610d00eeea1b01491642:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1991-11.csv.gz": {
+  "max": "1991-11-29",
+  "min": "1991-11-01",
+  "rows": 126,
+  "sha1": "d48f2b06825a4e680ffe29ec3370a45f22026cf3:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1991-12.csv.gz": {
+  "max": "1991-12-31",
+  "min": "1991-12-02",
+  "rows": 126,
+  "sha1": "a016c8a5169a37d4ef63f4ed3ae6439743082d74:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1992-01.csv.gz": {
+  "max": "1992-01-31",
+  "min": "1992-01-02",
+  "rows": 132,
+  "sha1": "3b37d80ee3457546574a7abc837df61e905af89a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1992-02.csv.gz": {
+  "max": "1992-02-28",
+  "min": "1992-02-03",
+  "rows": 120,
+  "sha1": "db58dd5045239e9a7ba0889d795f2e8a075e1207:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1992-03.csv.gz": {
+  "max": "1992-03-31",
+  "min": "1992-03-02",
+  "rows": 132,
+  "sha1": "2e134c3af9d5d5c63c3a7fefb153e2f1751eaf03:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1992-04.csv.gz": {
+  "max": "1992-04-30",
+  "min": "1992-04-01",
+  "rows": 126,
+  "sha1": "dfcba1db708493db17fa28fa4492d75e137ea7a6:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1992-05.csv.gz": {
+  "max": "1992-05-29",
+  "min": "1992-05-01",
+  "rows": 120,
+  "sha1": "448b948cef288c1e3d8f9745791a331ede3a5187:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1992-06.csv.gz": {
+  "max": "1992-06-30",
+  "min": "1992-06-01",
+  "rows": 132,
+  "sha1": "22f5ec48b8a19ac0651ecc78c8e8582a97bb9c2c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1992-07.csv.gz": {
+  "max": "1992-07-31",
+  "min": "1992-07-01",
+  "rows": 155,
+  "sha1": "3d61fb76f8bb14547f2dfa034f71044f85f1bc64:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1992-08.csv.gz": {
+  "max": "1992-08-31",
+  "min": "1992-08-03",
+  "rows": 147,
+  "sha1": "1a519bd08f57fba37b5fda2969ed9b84da74caef:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1992-09.csv.gz": {
+  "max": "1992-09-30",
+  "min": "1992-09-01",
+  "rows": 153,
+  "sha1": "3c496addb5cf87b76d9bc7cb3809202997508523:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1992-10.csv.gz": {
+  "max": "1992-10-30",
+  "min": "1992-10-01",
+  "rows": 154,
+  "sha1": "7693adbb3efa873f689165210bc0e1242746e6b0:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1992-11.csv.gz": {
+  "max": "1992-11-30",
+  "min": "1992-11-02",
+  "rows": 140,
+  "sha1": "26039ff1b58cbbd1215686ff5b11702774213a03:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1992-12.csv.gz": {
+  "max": "1992-12-31",
+  "min": "1992-12-01",
+  "rows": 153,
+  "sha1": "6fb1f7ba051c5d18c5c348bf6b0e4e4743169577:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1993-01.csv.gz": {
+  "max": "1993-01-29",
+  "min": "1993-01-04",
+  "rows": 140,
+  "sha1": "c18c78379d5cf4025a87840b1c3b62ef002c1b64:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1993-02.csv.gz": {
+  "max": "1993-02-26",
+  "min": "1993-02-01",
+  "rows": 128,
+  "sha1": "daa66bbe4a90f4e750f82eaa0186610d92838d6d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1993-03.csv.gz": {
+  "max": "1993-03-31",
+  "min": "1993-03-01",
+  "rows": 161,
+  "sha1": "44e246625dd3d1338a90c1250dc23a28df37b2c7:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1993-04.csv.gz": {
+  "max": "1993-04-30",
+  "min": "1993-04-01",
+  "rows": 140,
+  "sha1": "d7d43114d11843e450a1cb2446bc771af0c12c66:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1993-05.csv.gz": {
+  "max": "1993-05-28",
+  "min": "1993-05-03",
+  "rows": 139,
+  "sha1": "f6f8f3084423d720eab8e7e21966429fa3c986a1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1993-06.csv.gz": {
+  "max": "1993-06-30",
+  "min": "1993-06-01",
+  "rows": 154,
+  "sha1": "11adc2251517bc60ecf5a23733e5204d9a636233:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1993-07.csv.gz": {
+  "max": "1993-07-30",
+  "min": "1993-07-01",
+  "rows": 148,
+  "sha1": "fb82df42f7b74a3a99786e83d11f5277abc92bd5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1993-08.csv.gz": {
+  "max": "1993-08-31",
+  "min": "1993-08-02",
+  "rows": 153,
+  "sha1": "b154a7d57adf204c31033ea998bf4e44de7c0a21:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1993-09.csv.gz": {
+  "max": "1993-09-30",
+  "min": "1993-09-01",
+  "rows": 148,
+  "sha1": "0038c41d411b270f984a816ceb37791764d550e1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1993-10.csv.gz": {
+  "max": "1993-10-29",
+  "min": "1993-10-01",
+  "rows": 147,
+  "sha1": "85e1068e4ee5604046f3ab10ac18b618392b894e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1993-11.csv.gz": {
+  "max": "1993-11-30",
+  "min": "1993-11-01",
+  "rows": 143,
+  "sha1": "42d2ef223107dadc6e7fd5ccfdeafedd80ad5573:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1993-12.csv.gz": {
+  "max": "1993-12-31",
+  "min": "1993-12-01",
+  "rows": 155,
+  "sha1": "5c43ad60ee3123f3187e534b1280d6624ebb459a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1994-01.csv.gz": {
+  "max": "1994-01-31",
+  "min": "1994-01-03",
+  "rows": 203,
+  "sha1": "6f525d775a0bb9d6946ec1f53bc7239d1562eca5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1994-02.csv.gz": {
+  "max": "1994-02-28",
+  "min": "1994-02-01",
+  "rows": 210,
+  "sha1": "14b6df59f1271b63df976d6a26ce7e81e0680d92:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1994-03.csv.gz": {
+  "max": "1994-03-31",
+  "min": "1994-03-01",
+  "rows": 253,
+  "sha1": "ad2795614cff406ec9ddc936cb588b99e29c415d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1994-04.csv.gz": {
+  "max": "1994-04-29",
+  "min": "1994-04-04",
+  "rows": 215,
+  "sha1": "bb0307bf1d0c7d8be66784886419c831c18b0e6a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1994-05.csv.gz": {
+  "max": "1994-05-31",
+  "min": "1994-05-02",
+  "rows": 230,
+  "sha1": "c74db3ed5cb09ced76b18a6043ebf0a6d3956e8e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1994-06.csv.gz": {
+  "max": "1994-06-30",
+  "min": "1994-06-01",
+  "rows": 242,
+  "sha1": "cfc83dbfa325043d72342d62f6e47f7eb8e9ce54:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1994-07.csv.gz": {
+  "max": "1994-07-29",
+  "min": "1994-07-01",
+  "rows": 221,
+  "sha1": "84ec18c62dc8ea84aa39b08381e86fa8234c18e7:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1994-08.csv.gz": {
+  "max": "1994-08-31",
+  "min": "1994-08-01",
+  "rows": 252,
+  "sha1": "9c668204eff6dd1823d70f9dec9ef87a28310de5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1994-09.csv.gz": {
+  "max": "1994-09-30",
+  "min": "1994-09-01",
+  "rows": 232,
+  "sha1": "12bc05748d476463a6c9c5f6ec309769ed082604:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1994-10.csv.gz": {
+  "max": "1994-10-31",
+  "min": "1994-10-03",
+  "rows": 231,
+  "sha1": "18ed06e802aa02336dae8cdcf71128795b79ad2d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1994-11.csv.gz": {
+  "max": "1994-11-30",
+  "min": "1994-11-01",
+  "rows": 222,
+  "sha1": "784649db21db2737bf4ed129534c6f618fe26d05:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1994-12.csv.gz": {
+  "max": "1994-12-30",
+  "min": "1994-12-01",
+  "rows": 230,
+  "sha1": "e6e83bbf0e90db0953d21bebdf8b96ef9b93aa5b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1995-01.csv.gz": {
+  "max": "1995-01-31",
+  "min": "1995-01-03",
+  "rows": 231,
+  "sha1": "577df6d78ec749d2963bffe5dc41f10a6d873e52:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1995-02.csv.gz": {
+  "max": "1995-02-28",
+  "min": "1995-02-01",
+  "rows": 210,
+  "sha1": "79fd779bc74b81012afbf2d9d09b1708fc38ff36:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1995-03.csv.gz": {
+  "max": "1995-03-31",
+  "min": "1995-03-01",
+  "rows": 253,
+  "sha1": "21b9801bec64f3c928d184f7d69ba76164be6be2:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1995-04.csv.gz": {
+  "max": "1995-04-28",
+  "min": "1995-04-03",
+  "rows": 208,
+  "sha1": "38814d500fe217c04a5cd2dda797708b0ad88b5d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1995-05.csv.gz": {
+  "max": "1995-05-31",
+  "min": "1995-05-01",
+  "rows": 242,
+  "sha1": "98817da4afac51307009373eb022a9505936930c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1995-06.csv.gz": {
+  "max": "1995-06-30",
+  "min": "1995-06-01",
+  "rows": 242,
+  "sha1": "79ce503ad9f98915539aa7b02ad822f024be1c70:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1995-07.csv.gz": {
+  "max": "1995-07-31",
+  "min": "1995-07-03",
+  "rows": 217,
+  "sha1": "97fcb0fa0de268749ce07309335b593f66884633:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1995-08.csv.gz": {
+  "max": "1995-08-31",
+  "min": "1995-08-01",
+  "rows": 252,
+  "sha1": "cf64e801eccd0bceb2ad89eab554178ffd0c66b8:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1995-09.csv.gz": {
+  "max": "1995-09-29",
+  "min": "1995-09-01",
+  "rows": 221,
+  "sha1": "8ecce27362c0e08ee39a26915c3bcbd65217c572:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1995-10.csv.gz": {
+  "max": "1995-10-31",
+  "min": "1995-10-02",
+  "rows": 242,
+  "sha1": "980bfda1a41eb01d17cb63e5f4b831f8dfa0214e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1995-11.csv.gz": {
+  "max": "1995-11-30",
+  "min": "1995-11-01",
+  "rows": 221,
+  "sha1": "04a6c01a371b571cc50c02910b451d672f3175bd:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1995-12.csv.gz": {
+  "max": "1995-12-29",
+  "min": "1995-12-01",
+  "rows": 219,
+  "sha1": "b234dcc1a704aaed2ef08e7f3a7f5e2a29e5bbd2:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1996-01.csv.gz": {
+  "max": "1996-01-31",
+  "min": "1996-01-02",
+  "rows": 241,
+  "sha1": "df43be44ceb1e70ed6eefc86c3e4abe50d713e2b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1996-02.csv.gz": {
+  "max": "1996-02-29",
+  "min": "1996-02-01",
+  "rows": 221,
+  "sha1": "637b0bb0b847fc57aea6e61b204eab4d86a2fe8c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1996-03.csv.gz": {
+  "max": "1996-03-29",
+  "min": "1996-03-01",
+  "rows": 231,
+  "sha1": "ebb06e7246d65161229c0eaf310f56393c6a0c86:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1996-04.csv.gz": {
+  "max": "1996-04-30",
+  "min": "1996-04-01",
+  "rows": 240,
+  "sha1": "febdced60d381b95341a097b8936d93d6e0f46b7:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1996-05.csv.gz": {
+  "max": "1996-05-31",
+  "min": "1996-05-01",
+  "rows": 263,
+  "sha1": "f9027c6e0bf406e374a92546c1f788c507fda67f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1996-06.csv.gz": {
+  "max": "1996-06-28",
+  "min": "1996-06-03",
+  "rows": 240,
+  "sha1": "16ec0a04dd9c034adda3c49f16b849274e94f1cd:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1996-07.csv.gz": {
+  "max": "1996-07-31",
+  "min": "1996-07-01",
+  "rows": 261,
+  "sha1": "f412044c6d49667abdabbdd65f466872fcab4985:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1996-08.csv.gz": {
+  "max": "1996-08-30",
+  "min": "1996-08-01",
+  "rows": 262,
+  "sha1": "c3aa4e58424107d961e4f2e4b644353826c26958:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1996-09.csv.gz": {
+  "max": "1996-09-30",
+  "min": "1996-09-02",
+  "rows": 241,
+  "sha1": "48c2275b6328fd86762f81f2e41823a6d9393397:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1996-10.csv.gz": {
+  "max": "1996-10-31",
+  "min": "1996-10-01",
+  "rows": 276,
+  "sha1": "6679533e6129a481d2ac87164240aca1ca194ab2:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1996-11.csv.gz": {
+  "max": "1996-11-29",
+  "min": "1996-11-01",
+  "rows": 237,
+  "sha1": "053e1f36c3d1cca3df594543d42526d2d469a79d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1996-12.csv.gz": {
+  "max": "1996-12-31",
+  "min": "1996-12-02",
+  "rows": 251,
+  "sha1": "a53e5b8a3997731131a6ce3291fdbf2f272b2665:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1997-01.csv.gz": {
+  "max": "1997-01-31",
+  "min": "1997-01-02",
+  "rows": 282,
+  "sha1": "7537cfe960a58d9bccefef79a0f580f64ca08e40:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1997-02.csv.gz": {
+  "max": "1997-02-28",
+  "min": "1997-02-03",
+  "rows": 247,
+  "sha1": "cdda597a2d04d48b46c278264d6a02854be0df78:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1997-03.csv.gz": {
+  "max": "1997-03-31",
+  "min": "1997-03-03",
+  "rows": 260,
+  "sha1": "f45187723a4203f5f020af107b50980edd26c307:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1997-04.csv.gz": {
+  "max": "1997-04-30",
+  "min": "1997-04-01",
+  "rows": 286,
+  "sha1": "5b2023ee533f101f857be829260a925975946e66:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1997-05.csv.gz": {
+  "max": "1997-05-30",
+  "min": "1997-05-01",
+  "rows": 273,
+  "sha1": "84e6b49f1a4e27d02eea5206e4e5339d240eafea:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1997-06.csv.gz": {
+  "max": "1997-06-30",
+  "min": "1997-06-02",
+  "rows": 273,
+  "sha1": "998d0fecf1cdd715aa7fd80226744605b73670c1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1997-07.csv.gz": {
+  "max": "1997-07-31",
+  "min": "1997-07-01",
+  "rows": 284,
+  "sha1": "54a8749bcf1cf5c525650e3fe72683bd5cb8e836:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1997-08.csv.gz": {
+  "max": "1997-08-29",
+  "min": "1997-08-01",
+  "rows": 272,
+  "sha1": "9874a515e70f01e884af5d5c7400fa2794870e88:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1997-09.csv.gz": {
+  "max": "1997-09-30",
+  "min": "1997-09-02",
+  "rows": 273,
+  "sha1": "1b9b2a0119f3ac1778a89ac08a2a107254097e5d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1997-10.csv.gz": {
+  "max": "1997-10-31",
+  "min": "1997-10-01",
+  "rows": 299,
+  "sha1": "61644fa45c1035d3321c3bb5cc6cad1e2212f222:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1997-11.csv.gz": {
+  "max": "1997-11-28",
+  "min": "1997-11-03",
+  "rows": 235,
+  "sha1": "dd41cf7395acfc68d535af2163efbfdd30230a4e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1997-12.csv.gz": {
+  "max": "1997-12-31",
+  "min": "1997-12-01",
+  "rows": 285,
+  "sha1": "278831ea8ddb67efff3b029af395fb1673f90979:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1998-01.csv.gz": {
+  "max": "1998-01-30",
+  "min": "1998-01-02",
+  "rows": 260,
+  "sha1": "52568726a8e5551113bd6d281e592b2c32306d7f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1998-02.csv.gz": {
+  "max": "1998-02-27",
+  "min": "1998-02-02",
+  "rows": 248,
+  "sha1": "7676ed30b1c9949c13991d20293812ec5714dedf:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1998-03.csv.gz": {
+  "max": "1998-03-31",
+  "min": "1998-03-02",
+  "rows": 286,
+  "sha1": "74762b53c96bfad98cc7a08ef1aab91553048f03:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1998-04.csv.gz": {
+  "max": "1998-04-30",
+  "min": "1998-04-01",
+  "rows": 272,
+  "sha1": "389181da4b81b84e237f9f07a4a2ee75f3ab78c0:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1998-05.csv.gz": {
+  "max": "1998-05-29",
+  "min": "1998-05-01",
+  "rows": 259,
+  "sha1": "8bf0c92cce771a7e5e1760fffbdf76f74489afb5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1998-06.csv.gz": {
+  "max": "1998-06-30",
+  "min": "1998-06-01",
+  "rows": 286,
+  "sha1": "3742d6f89cfea538801eeeec66ff5c68faafa81a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1998-07.csv.gz": {
+  "max": "1998-07-31",
+  "min": "1998-07-01",
+  "rows": 287,
+  "sha1": "5913c4f14f5f845d8ed6c70d9e74d65b98df21f3:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1998-08.csv.gz": {
+  "max": "1998-08-31",
+  "min": "1998-08-03",
+  "rows": 272,
+  "sha1": "8e90ac75466c9925893e461e471a75457899b6ce:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1998-09.csv.gz": {
+  "max": "1998-09-30",
+  "min": "1998-09-01",
+  "rows": 274,
+  "sha1": "6524cde2186fb91a8797d124881f7e58256bc55a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1998-10.csv.gz": {
+  "max": "1998-10-30",
+  "min": "1998-10-01",
+  "rows": 286,
+  "sha1": "9666cbdb8caeae40be1d2a3cbc5e77a0e780b3ba:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1998-11.csv.gz": {
+  "max": "1998-11-30",
+  "min": "1998-11-02",
+  "rows": 248,
+  "sha1": "2ff9d5ef6ac25ab044ef267132e7aeed5cd5279e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1998-12.csv.gz": {
+  "max": "1998-12-31",
+  "min": "1998-12-01",
+  "rows": 285,
+  "sha1": "7357c38abfcaa5ae1c1b0d281ca87d440321b04e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1999-01.csv.gz": {
+  "max": "1999-01-29",
+  "min": "1999-01-04",
+  "rows": 248,
+  "sha1": "5c1b42eeaf8e9744211ab14b8319883c4a16917f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1999-02.csv.gz": {
+  "max": "1999-02-26",
+  "min": "1999-02-01",
+  "rows": 247,
+  "sha1": "9225ce80d767bb44279108a8429a97c9b35cdaa6:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1999-03.csv.gz": {
+  "max": "1999-03-31",
+  "min": "1999-03-01",
+  "rows": 299,
+  "sha1": "9413c53f52842e55f20179925bff313de1c8186c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1999-04.csv.gz": {
+  "max": "1999-04-30",
+  "min": "1999-04-01",
+  "rows": 271,
+  "sha1": "38976070fa04bd4dfc3477501843b5cbfc4d365b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1999-05.csv.gz": {
+  "max": "1999-05-28",
+  "min": "1999-05-03",
+  "rows": 259,
+  "sha1": "de2c7d38c6b0ffcb8e91717645c874fdb379d3c7:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1999-06.csv.gz": {
+  "max": "1999-06-30",
+  "min": "1999-06-01",
+  "rows": 286,
+  "sha1": "04925756e866263e3d732d270de1f166479dc6d0:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1999-07.csv.gz": {
+  "max": "1999-07-30",
+  "min": "1999-07-01",
+  "rows": 273,
+  "sha1": "20551ccee13f7b598a88fae4a1d2df452f4ef727:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1999-08.csv.gz": {
+  "max": "1999-08-31",
+  "min": "1999-08-02",
+  "rows": 285,
+  "sha1": "df6b7799f14e9af918c41f075bac2fcdef099dc5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1999-09.csv.gz": {
+  "max": "1999-09-30",
+  "min": "1999-09-01",
+  "rows": 274,
+  "sha1": "617884e17b83ee08b5c73ae9357d7da9174c81af:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1999-10.csv.gz": {
+  "max": "1999-10-29",
+  "min": "1999-10-01",
+  "rows": 272,
+  "sha1": "abdb271d3510e32b16dbeda3687f77f5e17e9d59:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1999-11.csv.gz": {
+  "max": "1999-11-30",
+  "min": "1999-11-01",
+  "rows": 268,
+  "sha1": "513853976ae9043e3364a0dbed5ca00f3ea84d5c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/1999-12.csv.gz": {
+  "max": "1999-12-30",
+  "min": "1999-12-01",
+  "rows": 271,
+  "sha1": "5080af1e29e4720916a459deb7e89666f2a144d4:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2000-01.csv.gz": {
+  "max": "2000-01-31",
+  "min": "2000-01-04",
+  "rows": 248,
+  "sha1": "ed0b62789b2befaa828857cf24546da249d4af26:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2000-02.csv.gz": {
+  "max": "2000-02-29",
+  "min": "2000-02-01",
+  "rows": 261,
+  "sha1": "7600c23302db36af396bc7532491bcd0957b509b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2000-03.csv.gz": {
+  "max": "2000-03-31",
+  "min": "2000-03-01",
+  "rows": 298,
+  "sha1": "6d128dbed99eabd1254fe6b94f4609947f196d8f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2000-04.csv.gz": {
+  "max": "2000-04-28",
+  "min": "2000-04-03",
+  "rows": 246,
+  "sha1": "a2ff7d705777706554f93a83e4ec96232e5a3eff:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2000-05.csv.gz": {
+  "max": "2000-05-31",
+  "min": "2000-05-01",
+  "rows": 285,
+  "sha1": "ce36acdf0802d029e4a96e18ed8ef56afa6be653:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2000-06.csv.gz": {
+  "max": "2000-06-30",
+  "min": "2000-06-01",
+  "rows": 286,
+  "sha1": "08777a71a8aaef4b6ff1af315b6a2f0c18204886:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2000-07.csv.gz": {
+  "max": "2000-07-31",
+  "min": "2000-07-03",
+  "rows": 252,
+  "sha1": "d01df25b1b2459de6b586c1413a38268f62e03de:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2000-08.csv.gz": {
+  "max": "2000-08-31",
+  "min": "2000-08-01",
+  "rows": 299,
+  "sha1": "6da646dac5dd0a23887f81330a87f7024bd9f3a6:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2000-09.csv.gz": {
+  "max": "2000-09-29",
+  "min": "2000-09-01",
+  "rows": 261,
+  "sha1": "8ac3674445b83f2fee6bd0fa6629b07cd185624b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2000-10.csv.gz": {
+  "max": "2000-10-31",
+  "min": "2000-10-02",
+  "rows": 286,
+  "sha1": "cccd4266cdef19e1d92c5ee434d8bfa6e3e28f25:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2000-11.csv.gz": {
+  "max": "2000-11-30",
+  "min": "2000-11-01",
+  "rows": 269,
+  "sha1": "49ffa06db715376fa53446e758ac00c46b77db21:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2000-12.csv.gz": {
+  "max": "2000-12-29",
+  "min": "2000-12-01",
+  "rows": 259,
+  "sha1": "94e311ea2d57f64db33689608e34db04fad12898:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2001-01.csv.gz": {
+  "max": "2001-01-31",
+  "min": "2001-01-02",
+  "rows": 274,
+  "sha1": "2098fc7884f3db5a953ddfda7b9e8b375cde1130:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2001-02.csv.gz": {
+  "max": "2001-02-28",
+  "min": "2001-02-01",
+  "rows": 248,
+  "sha1": "891cd00c73c6db76b3261eb6ffec8809463554e1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2001-03.csv.gz": {
+  "max": "2001-03-30",
+  "min": "2001-03-01",
+  "rows": 286,
+  "sha1": "cf1b73ede0002366186b5fd41e8c0d9ef867d26e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2001-04.csv.gz": {
+  "max": "2001-04-30",
+  "min": "2001-04-02",
+  "rows": 261,
+  "sha1": "8f006614d2ab56e737c4a73f6f220deff52e7eec:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2001-05.csv.gz": {
+  "max": "2001-05-31",
+  "min": "2001-05-01",
+  "rows": 286,
+  "sha1": "b42cf05498aeb9c0044ed0286141f1ce3fd70a8f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2001-06.csv.gz": {
+  "max": "2001-06-29",
+  "min": "2001-06-01",
+  "rows": 273,
+  "sha1": "0cb187665bcc8a4e755eb6e4b6c7c6aa0f6dcf08:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2001-07.csv.gz": {
+  "max": "2001-07-31",
+  "min": "2001-07-02",
+  "rows": 274,
+  "sha1": "ed84f161afd612185b03922f0f7241abce429045:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2001-08.csv.gz": {
+  "max": "2001-08-31",
+  "min": "2001-08-01",
+  "rows": 299,
+  "sha1": "737d71ab292a4514ed6fa7b289791e074cf1362d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2001-09.csv.gz": {
+  "max": "2001-09-28",
+  "min": "2001-09-03",
+  "rows": 232,
+  "sha1": "5be2814e399bdd28b10abcef8324872983acdc13:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2001-10.csv.gz": {
+  "max": "2001-10-31",
+  "min": "2001-10-01",
+  "rows": 299,
+  "sha1": "2e9ad8ab60a1be4a66a1c180025f7fcdbeecb599:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2001-11.csv.gz": {
+  "max": "2001-11-30",
+  "min": "2001-11-01",
+  "rows": 262,
+  "sha1": "40cd26c855f59839dd34aa681642023ed358c7cc:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2001-12.csv.gz": {
+  "max": "2001-12-31",
+  "min": "2001-12-03",
+  "rows": 247,
+  "sha1": "608db38a9b1a3b0fdcf91dc24dac878bce99d551:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2002-01.csv.gz": {
+  "max": "2002-01-31",
+  "min": "2002-01-02",
+  "rows": 274,
+  "sha1": "7061969efa50b989a3d5eab2d16bd68253c0e160:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2002-02.csv.gz": {
+  "max": "2002-02-28",
+  "min": "2002-02-01",
+  "rows": 248,
+  "sha1": "c030306ef64c03b95ec839d234bf31002811b91c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2002-03.csv.gz": {
+  "max": "2002-03-29",
+  "min": "2002-03-01",
+  "rows": 261,
+  "sha1": "c0f40501860b3b4e57298850f292b0fc6b407a34:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2002-04.csv.gz": {
+  "max": "2002-04-30",
+  "min": "2002-04-01",
+  "rows": 286,
+  "sha1": "1a3b28a4c89a7fcc31c1167f0787bad004fd26fe:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2002-05.csv.gz": {
+  "max": "2002-05-31",
+  "min": "2002-05-01",
+  "rows": 286,
+  "sha1": "f9fbfd731d3d6b98af22ca0bc7e9431db5b0c3af:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2002-06.csv.gz": {
+  "max": "2002-06-28",
+  "min": "2002-06-03",
+  "rows": 258,
+  "sha1": "c38bea25790f498abd8699f00396b99ad9b45563:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2002-07.csv.gz": {
+  "max": "2002-07-31",
+  "min": "2002-07-01",
+  "rows": 275,
+  "sha1": "4f645914db82c3887093b6509627e1f2359fc13d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2002-08.csv.gz": {
+  "max": "2002-08-30",
+  "min": "2002-08-01",
+  "rows": 286,
+  "sha1": "26aaee90e10e6dc382111fd5b7b64fa4238e6230:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2002-09.csv.gz": {
+  "max": "2002-09-30",
+  "min": "2002-09-02",
+  "rows": 261,
+  "sha1": "5b1ee0a5f0aacdbb7106fb49e429d5ba4ce658fc:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2002-10.csv.gz": {
+  "max": "2002-10-31",
+  "min": "2002-10-01",
+  "rows": 299,
+  "sha1": "f6f978760b0cdfd7c4017da373c4b65468eec96c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2002-11.csv.gz": {
+  "max": "2002-11-29",
+  "min": "2002-11-01",
+  "rows": 249,
+  "sha1": "85dd45eb0c014f31e6285cd4c0f133c4161f3961:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2002-12.csv.gz": {
+  "max": "2002-12-31",
+  "min": "2002-12-02",
+  "rows": 272,
+  "sha1": "1da6e8d194238ca5776db0898a2623134e220bb0:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2003-01.csv.gz": {
+  "max": "2003-01-31",
+  "min": "2003-01-02",
+  "rows": 274,
+  "sha1": "1aadc7f5cb4fdd2c8715873c274285f7e447e099:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2003-02.csv.gz": {
+  "max": "2003-02-28",
+  "min": "2003-02-03",
+  "rows": 248,
+  "sha1": "e1a3346f9ee8a8052783262bb5af951d253670cf:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2003-03.csv.gz": {
+  "max": "2003-03-31",
+  "min": "2003-03-03",
+  "rows": 288,
+  "sha1": "a0fd568bf44655d3cddc53595cd5ba1cbef2c073:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2003-04.csv.gz": {
+  "max": "2003-04-30",
+  "min": "2003-04-01",
+  "rows": 295,
+  "sha1": "9fd09eca64ec96e75e5a63e83ade80dcaa656657:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2003-05.csv.gz": {
+  "max": "2003-05-30",
+  "min": "2003-05-01",
+  "rows": 295,
+  "sha1": "1783333d5ce0c24e4704171968be9dc7ba2537da:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2003-06.csv.gz": {
+  "max": "2003-06-30",
+  "min": "2003-06-02",
+  "rows": 294,
+  "sha1": "fa9a776cb539aed6a55c59281a4abb851405d5bc:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2003-07.csv.gz": {
+  "max": "2003-07-31",
+  "min": "2003-07-01",
+  "rows": 309,
+  "sha1": "9fd0447b7e568d624521ffc3c88cfa7fc1569f82:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2003-08.csv.gz": {
+  "max": "2003-08-29",
+  "min": "2003-08-01",
+  "rows": 294,
+  "sha1": "92f851e9d64b46178432e8b873a25fadf5f6f897:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2003-09.csv.gz": {
+  "max": "2003-09-30",
+  "min": "2003-09-01",
+  "rows": 295,
+  "sha1": "28238ed3ea4fddf35f55a34b43a58479680781da:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2003-10.csv.gz": {
+  "max": "2003-10-31",
+  "min": "2003-10-01",
+  "rows": 322,
+  "sha1": "a12de0fa58b5c89e8b91af895a54531ae50b9e52:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2003-11.csv.gz": {
+  "max": "2003-11-28",
+  "min": "2003-11-03",
+  "rows": 254,
+  "sha1": "3a18f04de4e7e2de7f6c68774be7499aea0c1b21:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2003-12.csv.gz": {
+  "max": "2003-12-31",
+  "min": "2003-12-01",
+  "rows": 294,
+  "sha1": "45ef7d750d68afdaf5ef316491dcbc75625202b9:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2004-01.csv.gz": {
+  "max": "2004-01-30",
+  "min": "2004-01-02",
+  "rows": 268,
+  "sha1": "c4b732c2c3f9cb7f1c435212d528135106bcf067:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2004-02.csv.gz": {
+  "max": "2004-02-27",
+  "min": "2004-02-02",
+  "rows": 267,
+  "sha1": "0fe4043caaa7d486c5b40f5a199246e3446bc563:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2004-03.csv.gz": {
+  "max": "2004-03-31",
+  "min": "2004-03-01",
+  "rows": 319,
+  "sha1": "aacb87141da9a196772073a030a22d55406f3a0a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2004-04.csv.gz": {
+  "max": "2004-04-30",
+  "min": "2004-04-01",
+  "rows": 295,
+  "sha1": "b24597e2c66818dcbbca3aec28434ab46f131cdb:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2004-05.csv.gz": {
+  "max": "2004-05-31",
+  "min": "2004-05-03",
+  "rows": 281,
+  "sha1": "78e1e148d952b0cdf032460b6d215bb25a7a34a1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2004-06.csv.gz": {
+  "max": "2004-06-30",
+  "min": "2004-06-01",
+  "rows": 295,
+  "sha1": "5d8ce9f16959b508152377af6862b446127552d0:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2004-07.csv.gz": {
+  "max": "2004-07-30",
+  "min": "2004-07-01",
+  "rows": 295,
+  "sha1": "8cc051a7103df1b8a7033ebeaa94232c26494a68:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2004-08.csv.gz": {
+  "max": "2004-08-31",
+  "min": "2004-08-02",
+  "rows": 308,
+  "sha1": "efc24ba1934551159347c298926bd3ed7d7fd377:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2004-09.csv.gz": {
+  "max": "2004-09-30",
+  "min": "2004-09-01",
+  "rows": 295,
+  "sha1": "be749c1f75db808a8c426e81cccfa6c5be69efc2:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2004-10.csv.gz": {
+  "max": "2004-10-29",
+  "min": "2004-10-01",
+  "rows": 294,
+  "sha1": "b3a3e0aff4a80291253f1cdb880af52ed3e4083b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2004-11.csv.gz": {
+  "max": "2004-11-30",
+  "min": "2004-11-01",
+  "rows": 282,
+  "sha1": "7ffb5e2212eed0b379a4f7f922a344efb944e84a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2004-12.csv.gz": {
+  "max": "2004-12-31",
+  "min": "2004-12-01",
+  "rows": 296,
+  "sha1": "a6c6411ebd3732af5fd2d7402354733ad641cb46:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2005-01.csv.gz": {
+  "max": "2005-01-31",
+  "min": "2005-01-03",
+  "rows": 280,
+  "sha1": "ea475d9b0db05ffee8dfbfb8bcd1748aff88b58d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2005-02.csv.gz": {
+  "max": "2005-02-28",
+  "min": "2005-02-01",
+  "rows": 267,
+  "sha1": "40f225028cf8546771e42653644943a03f0c544c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2005-03.csv.gz": {
+  "max": "2005-03-31",
+  "min": "2005-03-01",
+  "rows": 308,
+  "sha1": "d342642e44d6be7ed5c0ecaa54982370f3eeea4f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2005-04.csv.gz": {
+  "max": "2005-04-29",
+  "min": "2005-04-01",
+  "rows": 294,
+  "sha1": "dd1e9da2045d9088a31c08c98fe6e68231977e9a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2005-05.csv.gz": {
+  "max": "2005-05-31",
+  "min": "2005-05-02",
+  "rows": 295,
+  "sha1": "6eb28cd3969802c0f88c87c13be582cd71e55c24:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2005-06.csv.gz": {
+  "max": "2005-06-30",
+  "min": "2005-06-01",
+  "rows": 308,
+  "sha1": "9d99bd768e261bcc3b3e34913315758c6cd8a063:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2005-07.csv.gz": {
+  "max": "2005-07-29",
+  "min": "2005-07-01",
+  "rows": 281,
+  "sha1": "0933405ba0d9e8f6a9a15c3a95fca2f2b2cf8db1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2005-08.csv.gz": {
+  "max": "2005-08-31",
+  "min": "2005-08-01",
+  "rows": 322,
+  "sha1": "19f63a10693f4e318e9037464bb2697906da6222:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2005-09.csv.gz": {
+  "max": "2005-09-30",
+  "min": "2005-09-01",
+  "rows": 289,
+  "sha1": "881f02935e5b08cade5886f612979ea3ee1d1d10:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2005-10.csv.gz": {
+  "max": "2005-10-31",
+  "min": "2005-10-03",
+  "rows": 290,
+  "sha1": "4a8abb21a26d6ca7c40b3e9bf4f3b062247708fa:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2005-11.csv.gz": {
+  "max": "2005-11-30",
+  "min": "2005-11-01",
+  "rows": 282,
+  "sha1": "92870890cb2e912465174d93dba13aac1ad1ab44:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2005-12.csv.gz": {
+  "max": "2005-12-30",
+  "min": "2005-12-01",
+  "rows": 294,
+  "sha1": "f53ebdd1a14983c61ac478cce2e93eb08ee0b602:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2006-01.csv.gz": {
+  "max": "2006-01-31",
+  "min": "2006-01-03",
+  "rows": 281,
+  "sha1": "ac60f094805e501eba67b0fc52651829ffdc920a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2006-02.csv.gz": {
+  "max": "2006-02-28",
+  "min": "2006-02-01",
+  "rows": 267,
+  "sha1": "d2bc3931efd80cf1898097cd623c6bb9b32754b8:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2006-03.csv.gz": {
+  "max": "2006-03-31",
+  "min": "2006-03-01",
+  "rows": 322,
+  "sha1": "b6c52c4373cbca6583a20289ab495bd5184c6d53:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2006-04.csv.gz": {
+  "max": "2006-04-28",
+  "min": "2006-04-03",
+  "rows": 265,
+  "sha1": "2bfe02d3ddd25d9a6882ea6c8339351832b1b338:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2006-05.csv.gz": {
+  "max": "2006-05-31",
+  "min": "2006-05-01",
+  "rows": 309,
+  "sha1": "3a828709fcd3593b03d5d37f35e60e61846ef811:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2006-06.csv.gz": {
+  "max": "2006-06-30",
+  "min": "2006-06-01",
+  "rows": 334,
+  "sha1": "64641dcfb3350d1d88c9c7456ad8087ed7750656:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2006-07.csv.gz": {
+  "max": "2006-07-31",
+  "min": "2006-07-03",
+  "rows": 308,
+  "sha1": "22099deab09c94ba42c1ab809775b7833dba16bd:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2006-08.csv.gz": {
+  "max": "2006-08-31",
+  "min": "2006-08-01",
+  "rows": 368,
+  "sha1": "7bd6d5fcfe410a9a7574629ae677a7d18dd857e3:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2006-09.csv.gz": {
+  "max": "2006-09-29",
+  "min": "2006-09-01",
+  "rows": 321,
+  "sha1": "16e59fb3ff6af06c793dc79eea5271b0ee909adf:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2006-10.csv.gz": {
+  "max": "2006-10-31",
+  "min": "2006-10-02",
+  "rows": 352,
+  "sha1": "89f86942947b1ff8d9272aa3ef3d7f9b1e337be4:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2006-11.csv.gz": {
+  "max": "2006-11-30",
+  "min": "2006-11-01",
+  "rows": 324,
+  "sha1": "7eb3a99343b9565c6618710a06fd550564c99bb7:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2006-12.csv.gz": {
+  "max": "2006-12-29",
+  "min": "2006-12-01",
+  "rows": 319,
+  "sha1": "59ba4ad2dedc0d9204e00f6c3f39568004339260:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2007-01.csv.gz": {
+  "max": "2007-01-31",
+  "min": "2007-01-02",
+  "rows": 335,
+  "sha1": "030be541d7a7272aee910a7fad90beaaeb18959f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2007-02.csv.gz": {
+  "max": "2007-02-28",
+  "min": "2007-02-01",
+  "rows": 304,
+  "sha1": "480f9a68c3d638c8f298d33b860ca2f40db02cbe:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2007-03.csv.gz": {
+  "max": "2007-03-30",
+  "min": "2007-03-01",
+  "rows": 352,
+  "sha1": "05dfc0a8a6a87dd3ac400f17e5ca7b794835ef8f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2007-04.csv.gz": {
+  "max": "2007-04-30",
+  "min": "2007-04-02",
+  "rows": 319,
+  "sha1": "5681a3e4daa0848b2320be11bd690983a343f0bb:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2007-05.csv.gz": {
+  "max": "2007-05-31",
+  "min": "2007-05-01",
+  "rows": 352,
+  "sha1": "493eee3eaba2edf1d64d51fb1a87692d926778c2:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2007-06.csv.gz": {
+  "max": "2007-06-29",
+  "min": "2007-06-01",
+  "rows": 336,
+  "sha1": "7722a70ad179cc8204851cb3c54b0bacc994f7b5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2007-07.csv.gz": {
+  "max": "2007-07-31",
+  "min": "2007-07-02",
+  "rows": 336,
+  "sha1": "44e8d16330c000e2ab14d66bd849b0520626e45f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2007-08.csv.gz": {
+  "max": "2007-08-31",
+  "min": "2007-08-01",
+  "rows": 368,
+  "sha1": "5164ab1c3ee04dc129edbb0055eb1340a8663df5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2007-09.csv.gz": {
+  "max": "2007-09-28",
+  "min": "2007-09-04",
+  "rows": 304,
+  "sha1": "835ed06bfed524b97f0e8608ed7b02eb9d2786f8:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2007-10.csv.gz": {
+  "max": "2007-10-31",
+  "min": "2007-10-01",
+  "rows": 368,
+  "sha1": "713ef7502d484b25b89bbdcc563215066d0a58e8:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2007-11.csv.gz": {
+  "max": "2007-11-30",
+  "min": "2007-11-01",
+  "rows": 336,
+  "sha1": "6c5c7ab93b940509bd4c447237bdb9756d6adb05:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2007-12.csv.gz": {
+  "max": "2007-12-31",
+  "min": "2007-12-03",
+  "rows": 319,
+  "sha1": "a08e10db9ba0f126b586cc8b1c29f8dce183e249:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2008-01.csv.gz": {
+  "max": "2008-01-31",
+  "min": "2008-01-02",
+  "rows": 336,
+  "sha1": "cdd49d816dd5681b9ee338fb17b1c83a39ce6186:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2008-02.csv.gz": {
+  "max": "2008-02-29",
+  "min": "2008-02-01",
+  "rows": 320,
+  "sha1": "5e6582e59f8fecc760cb44cf55bac87883ca7114:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2008-03.csv.gz": {
+  "max": "2008-03-31",
+  "min": "2008-03-03",
+  "rows": 320,
+  "sha1": "e8a5347bb569f0e41e9db391880f87b4f07fb538:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2008-04.csv.gz": {
+  "max": "2008-04-30",
+  "min": "2008-04-01",
+  "rows": 352,
+  "sha1": "37a393fdfe51ebd9c6e7edfc0c18988337761741:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2008-05.csv.gz": {
+  "max": "2008-05-30",
+  "min": "2008-05-01",
+  "rows": 336,
+  "sha1": "7de7d6572c21217eaf3a3bc13be672754fa99a56:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2008-06.csv.gz": {
+  "max": "2008-06-30",
+  "min": "2008-06-02",
+  "rows": 336,
+  "sha1": "49391b1055f09a8292562c51b9a10d6fa965818f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2008-07.csv.gz": {
+  "max": "2008-07-31",
+  "min": "2008-07-01",
+  "rows": 352,
+  "sha1": "c26a449c279411e5099fb305f08883c209567dac:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2008-08.csv.gz": {
+  "max": "2008-08-29",
+  "min": "2008-08-01",
+  "rows": 336,
+  "sha1": "cd1117453f0c2b6f38adf34bd12c94c16cc49f3f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2008-09.csv.gz": {
+  "max": "2008-09-30",
+  "min": "2008-09-02",
+  "rows": 336,
+  "sha1": "a1b10fdb4dd710dbbde5e3b18c05d47b6187407f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2008-10.csv.gz": {
+  "max": "2008-10-31",
+  "min": "2008-10-01",
+  "rows": 368,
+  "sha1": "4183b6e3be7ca32998e00813f9710f311de463f4:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2008-11.csv.gz": {
+  "max": "2008-11-28",
+  "min": "2008-11-03",
+  "rows": 304,
+  "sha1": "db446a76747650d8f31776bb634d00009e54e892:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2008-12.csv.gz": {
+  "max": "2008-12-31",
+  "min": "2008-12-01",
+  "rows": 352,
+  "sha1": "2ce8937a236fb7ac24827724dae1af7c920607ba:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2009-01.csv.gz": {
+  "max": "2009-01-30",
+  "min": "2009-01-02",
+  "rows": 320,
+  "sha1": "56770359779e33217b715ee5d60abf4d8a7749f3:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2009-02.csv.gz": {
+  "max": "2009-02-27",
+  "min": "2009-02-02",
+  "rows": 304,
+  "sha1": "8de8998f6ccd55fe74b82188dce17582f181e2e1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2009-03.csv.gz": {
+  "max": "2009-03-31",
+  "min": "2009-03-02",
+  "rows": 352,
+  "sha1": "cc91539689e39bce60f72c77dcbb8044276644da:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2009-04.csv.gz": {
+  "max": "2009-04-30",
+  "min": "2009-04-01",
+  "rows": 336,
+  "sha1": "c738658cddb996e5e9dc9ddcd47bab284e3133e1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2009-05.csv.gz": {
+  "max": "2009-05-29",
+  "min": "2009-05-01",
+  "rows": 320,
+  "sha1": "4b7efeac9115c257ff243975399b8080a1dcbaca:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2009-06.csv.gz": {
+  "max": "2009-06-30",
+  "min": "2009-06-01",
+  "rows": 352,
+  "sha1": "eaf79c4687e70985163e3ba18c9dd0cb4264ceb4:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2009-07.csv.gz": {
+  "max": "2009-07-31",
+  "min": "2009-07-01",
+  "rows": 352,
+  "sha1": "566cfc7a6fb33e5268f82092584bfb83d6736fa8:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2009-08.csv.gz": {
+  "max": "2009-08-31",
+  "min": "2009-08-03",
+  "rows": 336,
+  "sha1": "c6852f7e1502e9acd608ef2f859ab8e05cd5f023:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2009-09.csv.gz": {
+  "max": "2009-09-30",
+  "min": "2009-09-01",
+  "rows": 336,
+  "sha1": "77673f4ebdf3c16e2c7542da49b69cdbbc1bf589:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2009-10.csv.gz": {
+  "max": "2009-10-30",
+  "min": "2009-10-01",
+  "rows": 352,
+  "sha1": "c235584fbc8b986c3e27c61be72c911be52b4caa:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2009-11.csv.gz": {
+  "max": "2009-11-30",
+  "min": "2009-11-02",
+  "rows": 320,
+  "sha1": "0a6c51bfbc62a57a134b91e07f7d3e2bcbe77cfb:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2009-12.csv.gz": {
+  "max": "2009-12-31",
+  "min": "2009-12-01",
+  "rows": 352,
+  "sha1": "0b44216b98f1db680457c62ba31dad5ec1bd406f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2010-01.csv.gz": {
+  "max": "2010-01-29",
+  "min": "2010-01-04",
+  "rows": 304,
+  "sha1": "36c69a781869c83257a509d9c19a5b7f7151357f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2010-02.csv.gz": {
+  "max": "2010-02-26",
+  "min": "2010-02-01",
+  "rows": 301,
+  "sha1": "3b5c30fa6544d1e12afece5471eb86fc21f1620c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2010-03.csv.gz": {
+  "max": "2010-03-31",
+  "min": "2010-03-01",
+  "rows": 368,
+  "sha1": "b91ccd5f86789826e0284f54aa11a1a0e8d7c403:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2010-04.csv.gz": {
+  "max": "2010-04-30",
+  "min": "2010-04-01",
+  "rows": 336,
+  "sha1": "18d83e078273a96a9d1967772ca102eba0ff9a15:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2010-05.csv.gz": {
+  "max": "2010-05-28",
+  "min": "2010-05-03",
+  "rows": 320,
+  "sha1": "33be9c437cc735158d1c5a045514942e3006421f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2010-06.csv.gz": {
+  "max": "2010-06-30",
+  "min": "2010-06-01",
+  "rows": 352,
+  "sha1": "17d23b920ebc54339ffc319df7dae377e1fac595:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2010-07.csv.gz": {
+  "max": "2010-07-30",
+  "min": "2010-07-01",
+  "rows": 336,
+  "sha1": "0de03ec4688f2a2d40ea8f377417e301d98fd290:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2010-08.csv.gz": {
+  "max": "2010-08-31",
+  "min": "2010-08-02",
+  "rows": 352,
+  "sha1": "e6120573f1a0473585fa63e177e9c0a1e809a472:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2010-09.csv.gz": {
+  "max": "2010-09-30",
+  "min": "2010-09-01",
+  "rows": 336,
+  "sha1": "b171d6fbcae441587c6c6b13d3f62db6f9e897cd:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2010-10.csv.gz": {
+  "max": "2010-10-29",
+  "min": "2010-10-01",
+  "rows": 336,
+  "sha1": "613e6f25a2380f4d20689ce096e6d726c7e2adbf:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2010-11.csv.gz": {
+  "max": "2010-11-30",
+  "min": "2010-11-01",
+  "rows": 336,
+  "sha1": "d050e6113e5781fdd11aa0dfdb3130812db4fcf4:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2010-12.csv.gz": {
+  "max": "2010-12-31",
+  "min": "2010-12-01",
+  "rows": 352,
+  "sha1": "52dd348e989690310d57de5a5079eb8c62676896:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2011-01.csv.gz": {
+  "max": "2011-01-31",
+  "min": "2011-01-03",
+  "rows": 320,
+  "sha1": "0a149a286f7473351a5d7bc23b7637071e806765:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2011-02.csv.gz": {
+  "max": "2011-02-28",
+  "min": "2011-02-01",
+  "rows": 304,
+  "sha1": "1d30dd987849b62645d4542f4cd88c5e35da63e0:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2011-03.csv.gz": {
+  "max": "2011-03-31",
+  "min": "2011-03-01",
+  "rows": 368,
+  "sha1": "01c9ccd11c4271cac222f1ddf9bf3bb0d8fe6c0a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2011-04.csv.gz": {
+  "max": "2011-04-29",
+  "min": "2011-04-01",
+  "rows": 318,
+  "sha1": "0d1e5e1bfb92740aefc1642c27abfe4f4f46f7f6:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2011-05.csv.gz": {
+  "max": "2011-05-31",
+  "min": "2011-05-02",
+  "rows": 336,
+  "sha1": "8d6d4320bc871a6099391de487f1876af140483a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2011-06.csv.gz": {
+  "max": "2011-06-30",
+  "min": "2011-06-01",
+  "rows": 352,
+  "sha1": "c1622bc0478014d7d4dc3fe24c0c2a7de36022a9:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2011-07.csv.gz": {
+  "max": "2011-07-29",
+  "min": "2011-07-01",
+  "rows": 320,
+  "sha1": "c885743d445be95b0a4353f003aa30886b145d74:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2011-08.csv.gz": {
+  "max": "2011-08-31",
+  "min": "2011-08-01",
+  "rows": 367,
+  "sha1": "48d5517b78db58bacae7c259aa7d3c191a638152:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2011-09.csv.gz": {
+  "max": "2011-09-30",
+  "min": "2011-09-01",
+  "rows": 336,
+  "sha1": "fc3436c4e82c2509749b0c2b003fdacdb49ea719:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2011-10.csv.gz": {
+  "max": "2011-10-31",
+  "min": "2011-10-03",
+  "rows": 336,
+  "sha1": "bd63b9b4d6f52143a192fad1cc5697e5b8a561b6:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2011-11.csv.gz": {
+  "max": "2011-11-30",
+  "min": "2011-11-01",
+  "rows": 336,
+  "sha1": "f7acc85cf0144d420fc91c38e4ac3f7c3cf1ab0b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2011-12.csv.gz": {
+  "max": "2011-12-30",
+  "min": "2011-12-01",
+  "rows": 335,
+  "sha1": "4adaf73d34901c4b1cec4fb6405f9fa37e273890:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2012-01.csv.gz": {
+  "max": "2012-01-31",
+  "min": "2012-01-03",
+  "rows": 320,
+  "sha1": "01b4cee80cbfddcccbc6e18c120c1f2e874c2aa9:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2012-02.csv.gz": {
+  "max": "2012-02-29",
+  "min": "2012-02-01",
+  "rows": 320,
+  "sha1": "c64872ebf86aad73d734d610ad5af5d65f0b5af7:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2012-03.csv.gz": {
+  "max": "2012-03-30",
+  "min": "2012-03-01",
+  "rows": 352,
+  "sha1": "17f70682bfcd8f69c7ef4a02f37f93318738f2bb:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2012-04.csv.gz": {
+  "max": "2012-04-30",
+  "min": "2012-04-02",
+  "rows": 319,
+  "sha1": "698b01fe70891d0ef874425b5780c3c96b6e5040:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2012-05.csv.gz": {
+  "max": "2012-05-31",
+  "min": "2012-05-01",
+  "rows": 350,
+  "sha1": "db1a86542f73783dfb9ca588823b99f78ce27731:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2012-06.csv.gz": {
+  "max": "2012-06-29",
+  "min": "2012-06-01",
+  "rows": 332,
+  "sha1": "4c7c160fbab3ac08210af911a59f6ca2399d55e9:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2012-07.csv.gz": {
+  "max": "2012-07-31",
+  "min": "2012-07-02",
+  "rows": 336,
+  "sha1": "60f5fbff85997b5a6fb4a3bd265be23c46f8b752:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2012-08.csv.gz": {
+  "max": "2012-08-31",
+  "min": "2012-08-01",
+  "rows": 368,
+  "sha1": "5902d959bd5bcf3ec00cda5fa0c9576c511e0bd1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2012-09.csv.gz": {
+  "max": "2012-09-28",
+  "min": "2012-09-04",
+  "rows": 304,
+  "sha1": "0f4219a7808c1bb5f3788b39248f4924e6603ecf:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2012-10.csv.gz": {
+  "max": "2012-10-31",
+  "min": "2012-10-01",
+  "rows": 366,
+  "sha1": "d065af80592ac2462e9924cc04a7808f70d6fc49:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2012-11.csv.gz": {
+  "max": "2012-11-30",
+  "min": "2012-11-01",
+  "rows": 334,
+  "sha1": "5f2890636d4491d4afa6004393371fdbcca6bcfb:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2012-12.csv.gz": {
+  "max": "2012-12-31",
+  "min": "2012-12-03",
+  "rows": 319,
+  "sha1": "f5fb7319f36b3a9148480706ef40ddf00eccac91:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2013-01.csv.gz": {
+  "max": "2013-01-31",
+  "min": "2013-01-02",
+  "rows": 336,
+  "sha1": "a93c2753e2c2918b8f2e6b3ae3885b1234059504:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2013-02.csv.gz": {
+  "max": "2013-02-28",
+  "min": "2013-02-01",
+  "rows": 304,
+  "sha1": "a80f7c2b3809c5e222d2d991100266cda3766f1d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2013-03.csv.gz": {
+  "max": "2013-03-28",
+  "min": "2013-03-01",
+  "rows": 319,
+  "sha1": "6ec5c25545b4f1330ef98c9ebe30e48207bae82a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2013-04.csv.gz": {
+  "max": "2013-04-30",
+  "min": "2013-04-01",
+  "rows": 352,
+  "sha1": "dbc4aafe8d24a953871da69d2af1a438e663fbec:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2013-05.csv.gz": {
+  "max": "2013-05-31",
+  "min": "2013-05-01",
+  "rows": 352,
+  "sha1": "bea0340e2852fd4abf05b952e1a3be11b9171ef2:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2013-06.csv.gz": {
+  "max": "2013-06-28",
+  "min": "2013-06-03",
+  "rows": 320,
+  "sha1": "03f8f937b26015b0c11b127048bb3f8b013f8954:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2013-07.csv.gz": {
+  "max": "2013-07-31",
+  "min": "2013-07-01",
+  "rows": 352,
+  "sha1": "830114f8d134764478a5a5accf8026cc734dbaab:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2013-08.csv.gz": {
+  "max": "2013-08-30",
+  "min": "2013-08-01",
+  "rows": 352,
+  "sha1": "4b118fdf23b352e5b0b8e9d7492e4acea166c59b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2013-09.csv.gz": {
+  "max": "2013-09-30",
+  "min": "2013-09-03",
+  "rows": 320,
+  "sha1": "53d91c7b291d22f8209d19f55e21dbada9886cac:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2013-10.csv.gz": {
+  "max": "2013-10-31",
+  "min": "2013-10-01",
+  "rows": 368,
+  "sha1": "44d1b5c80d71e269a10b9362ed227d9d2a785f1a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2013-11.csv.gz": {
+  "max": "2013-11-29",
+  "min": "2013-11-01",
+  "rows": 320,
+  "sha1": "6d45041a8146d24cdd5f65915707bb6891a368a8:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2013-12.csv.gz": {
+  "max": "2013-12-31",
+  "min": "2013-12-02",
+  "rows": 335,
+  "sha1": "8846518fb229fcc24af60569aea181f13591a33a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2014-01.csv.gz": {
+  "max": "2014-01-31",
+  "min": "2014-01-02",
+  "rows": 341,
+  "sha1": "f31969f16a7a90d3bbdd575dd1d6af0f089c5b90:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2014-02.csv.gz": {
+  "max": "2014-02-28",
+  "min": "2014-02-03",
+  "rows": 308,
+  "sha1": "057593c21cf410e56ae78e1b4a7caa225abd38c6:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2014-03.csv.gz": {
+  "max": "2014-03-31",
+  "min": "2014-03-03",
+  "rows": 336,
+  "sha1": "93af02e9f05d53df0e806644bd43cb375fd323f9:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2014-04.csv.gz": {
+  "max": "2014-04-30",
+  "min": "2014-04-01",
+  "rows": 336,
+  "sha1": "2dd340e5a2de62f3eea4c12fc49344836ef27d2f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2014-05.csv.gz": {
+  "max": "2014-05-30",
+  "min": "2014-05-01",
+  "rows": 338,
+  "sha1": "6ce082722ca72cd061776ede4161cdd50dcc9e7a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2014-06.csv.gz": {
+  "max": "2014-06-30",
+  "min": "2014-06-02",
+  "rows": 332,
+  "sha1": "f3afb4a050a9b0b053fbbdd290bf373c4d565ad5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2014-07.csv.gz": {
+  "max": "2014-07-31",
+  "min": "2014-07-01",
+  "rows": 352,
+  "sha1": "fdb8feb5264c5c3053b2274d3f9d2e28862e9f8a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2014-08.csv.gz": {
+  "max": "2014-08-29",
+  "min": "2014-08-01",
+  "rows": 336,
+  "sha1": "278929fb755cfcb1c04b68a7bb11bc74049a380c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2014-09.csv.gz": {
+  "max": "2014-09-30",
+  "min": "2014-09-02",
+  "rows": 326,
+  "sha1": "daee3375f22f9119643314fc6ad75d450383d862:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2014-10.csv.gz": {
+  "max": "2014-10-31",
+  "min": "2014-10-01",
+  "rows": 340,
+  "sha1": "b8e3f765e582486fd0dacb4a49867919da5756f3:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2014-11.csv.gz": {
+  "max": "2014-11-28",
+  "min": "2014-11-03",
+  "rows": 304,
+  "sha1": "89f2d0d76199ac26a04059c12d796c2ab342d3c7:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2014-12.csv.gz": {
+  "max": "2014-12-31",
+  "min": "2014-12-01",
+  "rows": 352,
+  "sha1": "3abbfa61e98e08aaccaad67db1312ba585e5de6b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2015-01.csv.gz": {
+  "max": "2015-01-30",
+  "min": "2015-01-02",
+  "rows": 320,
+  "sha1": "ab55e5c71f60d3513c9236ce7dec2035e8352b54:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2015-02.csv.gz": {
+  "max": "2015-02-27",
+  "min": "2015-02-02",
+  "rows": 305,
+  "sha1": "6ea622c5a0aad6013bc1c0671283d51441cba1bd:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2015-03.csv.gz": {
+  "max": "2015-03-31",
+  "min": "2015-03-02",
+  "rows": 352,
+  "sha1": "cab914f7aff22faa19173420577c9e14dd820205:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2015-04.csv.gz": {
+  "max": "2015-04-30",
+  "min": "2015-04-01",
+  "rows": 336,
+  "sha1": "515b73d0dbec7b72f13e95cc2e4fb9d97448bb74:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2015-05.csv.gz": {
+  "max": "2015-05-29",
+  "min": "2015-05-01",
+  "rows": 320,
+  "sha1": "77a4fbabf6a44ac015d605cdae1045430594dd80:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2015-06.csv.gz": {
+  "max": "2015-06-30",
+  "min": "2015-06-01",
+  "rows": 352,
+  "sha1": "06e6757f50b63be564cb914a79628de7add36617:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2015-07.csv.gz": {
+  "max": "2015-07-31",
+  "min": "2015-07-01",
+  "rows": 350,
+  "sha1": "5748230fbb8c139769606c853009283e4b8e9504:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2015-08.csv.gz": {
+  "max": "2015-08-31",
+  "min": "2015-08-03",
+  "rows": 336,
+  "sha1": "414bfa5ff4fc5ff820935bb0c803b987e6ac43d2:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2015-09.csv.gz": {
+  "max": "2015-09-30",
+  "min": "2015-09-01",
+  "rows": 338,
+  "sha1": "3889d06da957c1a240fbf11010ef39948be35427:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2015-10.csv.gz": {
+  "max": "2015-10-30",
+  "min": "2015-10-01",
+  "rows": 348,
+  "sha1": "bf174d934555cdeafd5387e157860a3731eec7ed:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2015-11.csv.gz": {
+  "max": "2015-11-30",
+  "min": "2015-11-02",
+  "rows": 328,
+  "sha1": "9098fecb249f80e47f53cfc6a7f82942f295d356:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2015-12.csv.gz": {
+  "max": "2015-12-31",
+  "min": "2015-12-01",
+  "rows": 364,
+  "sha1": "4650975f63b837c1770d81739ee282e2af96471b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2016-01.csv.gz": {
+  "max": "2016-01-29",
+  "min": "2016-01-01",
+  "rows": 318,
+  "sha1": "0132db897206ec8f5b4fd53c57467e9561f03b6f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2016-02.csv.gz": {
+  "max": "2016-02-29",
+  "min": "2016-02-01",
+  "rows": 321,
+  "sha1": "9c4623c19c0054a4df5da3d7fc60d2947a089946:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2016-03.csv.gz": {
+  "max": "2016-03-31",
+  "min": "2016-03-01",
+  "rows": 353,
+  "sha1": "bef42dec2a5c7da946069e78baf61f3767969832:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2016-04.csv.gz": {
+  "max": "2016-04-29",
+  "min": "2016-04-01",
+  "rows": 336,
+  "sha1": "08d9a318f9bd43b2b1d12aa574799b9eac1bcb7e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2016-05.csv.gz": {
+  "max": "2016-05-31",
+  "min": "2016-05-02",
+  "rows": 337,
+  "sha1": "81d5fb4ea460bdc1455c3f47a62c329388fa4510:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2016-06.csv.gz": {
+  "max": "2016-06-30",
+  "min": "2016-06-01",
+  "rows": 348,
+  "sha1": "8e393adc62c2aa08242f514e36cd3bf1cb3a56d8:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2016-07.csv.gz": {
+  "max": "2016-07-29",
+  "min": "2016-07-01",
+  "rows": 322,
+  "sha1": "7ecc918d171c7184ef6e64e0b0db856274df7ee1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2016-08.csv.gz": {
+  "max": "2016-08-31",
+  "min": "2016-08-01",
+  "rows": 368,
+  "sha1": "03e85eeadd944b56bbc24b0b39310bd064651d1f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2016-09.csv.gz": {
+  "max": "2016-09-30",
+  "min": "2016-09-01",
+  "rows": 348,
+  "sha1": "2dc190e0dcc5ef96a594b6d26f4c09c9ed410cf6:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2016-10.csv.gz": {
+  "max": "2016-10-31",
+  "min": "2016-10-03",
+  "rows": 332,
+  "sha1": "7cbba76c41c2b5c67320cdc256ff524815befc21:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2016-11.csv.gz": {
+  "max": "2016-11-30",
+  "min": "2016-11-01",
+  "rows": 330,
+  "sha1": "3365547b65723922f97e189815390026176eac92:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2016-12.csv.gz": {
+  "max": "2016-12-30",
+  "min": "2016-12-01",
+  "rows": 333,
+  "sha1": "599d719f76355eeea62eec647688f3e116cc9c3e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2017-01.csv.gz": {
+  "max": "2017-01-31",
+  "min": "2017-01-02",
+  "rows": 323,
+  "sha1": "7021407b11fb5e0a1228fdfb0554d61ef335f50e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2017-02.csv.gz": {
+  "max": "2017-02-28",
+  "min": "2017-02-01",
+  "rows": 306,
+  "sha1": "1e90889160f9a5bbbadfdf561bdf880584ef5b33:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2017-03.csv.gz": {
+  "max": "2017-03-31",
+  "min": "2017-03-01",
+  "rows": 368,
+  "sha1": "d07cce29b1353662727d12c8659dccd3f2586c9c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2017-04.csv.gz": {
+  "max": "2017-04-28",
+  "min": "2017-04-03",
+  "rows": 305,
+  "sha1": "46fb93fdb49df7e6a1d2ecc62cd3d129402b742a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2017-05.csv.gz": {
+  "max": "2017-05-31",
+  "min": "2017-05-01",
+  "rows": 354,
+  "sha1": "9062ce1a78831a168c05a19c9cb415ade93739dc:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2017-06.csv.gz": {
+  "max": "2017-06-30",
+  "min": "2017-06-01",
+  "rows": 352,
+  "sha1": "910b97fd56cf2e555cb91d9de2edc8a88cdd8465:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2017-07.csv.gz": {
+  "max": "2017-07-31",
+  "min": "2017-07-03",
+  "rows": 312,
+  "sha1": "e6c3bc952a9422b0bd773dce1fef27f51248030a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2017-08.csv.gz": {
+  "max": "2017-08-31",
+  "min": "2017-08-01",
+  "rows": 368,
+  "sha1": "173b63f5894bcfa25672c71cba34b3a8bb60becf:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2017-09.csv.gz": {
+  "max": "2017-09-29",
+  "min": "2017-09-01",
+  "rows": 322,
+  "sha1": "a1f78493db78478a62544ceb8bb0a62cf43edf66:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2017-10.csv.gz": {
+  "max": "2017-10-31",
+  "min": "2017-10-02",
+  "rows": 348,
+  "sha1": "921abfedda129b120b9c72d06e5e3e6d2f81d026:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2017-11.csv.gz": {
+  "max": "2017-11-30",
+  "min": "2017-11-01",
+  "rows": 339,
+  "sha1": "394ac70fdeec6afc20e87364bf25de5bb57e47a7:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2017-12.csv.gz": {
+  "max": "2017-12-29",
+  "min": "2017-12-01",
+  "rows": 319,
+  "sha1": "9156942bc4fed918f2572ea6bca60158b7a49971:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2018-01.csv.gz": {
+  "max": "2018-01-31",
+  "min": "2018-01-01",
+  "rows": 345,
+  "sha1": "e5120d75019cbe3359fdd6b54b8635e4840ac03a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2018-02.csv.gz": {
+  "max": "2018-02-28",
+  "min": "2018-02-01",
+  "rows": 318,
+  "sha1": "3289a1b687c7cc5b28bc91e44dc5ac2c2aa11059:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2018-03.csv.gz": {
+  "max": "2018-03-30",
+  "min": "2018-03-01",
+  "rows": 340,
+  "sha1": "96e0329b51f9cb47698837a03762d0d074038181:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2018-04.csv.gz": {
+  "max": "2018-04-30",
+  "min": "2018-04-02",
+  "rows": 336,
+  "sha1": "fc71d6559f3f9d199beb0237db99877ca669eec4:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2018-05.csv.gz": {
+  "max": "2018-05-31",
+  "min": "2018-05-01",
+  "rows": 365,
+  "sha1": "7eeee7b589d55b4e72e136b92e8ed76371cf6d48:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2018-06.csv.gz": {
+  "max": "2018-06-29",
+  "min": "2018-06-01",
+  "rows": 336,
+  "sha1": "399d1a93733f2190ea6c95b39db9bb19950a5edd:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2018-07.csv.gz": {
+  "max": "2018-07-31",
+  "min": "2018-07-02",
+  "rows": 341,
+  "sha1": "714633a89f6dbd53edafb68806c748c4a4596482:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2018-08.csv.gz": {
+  "max": "2018-08-31",
+  "min": "2018-08-01",
+  "rows": 368,
+  "sha1": "5ae3e8084959107f68f8d071c47fd08cf7dda58a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2018-09.csv.gz": {
+  "max": "2018-09-28",
+  "min": "2018-09-03",
+  "rows": 309,
+  "sha1": "3749100a8dae45c8b9e4b3ed3562b6a93b20d40e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2018-10.csv.gz": {
+  "max": "2018-10-31",
+  "min": "2018-10-01",
+  "rows": 368,
+  "sha1": "fd7b1f7522f18c6ed7bb0b394b6f99291529e1d1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2018-11.csv.gz": {
+  "max": "2018-11-30",
+  "min": "2018-11-01",
+  "rows": 330,
+  "sha1": "fedcd3deca3811e618623d368c36adf49f569b35:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2018-12.csv.gz": {
+  "max": "2018-12-31",
+  "min": "2018-12-03",
+  "rows": 299,
+  "sha1": "5381eb605c83425ef888ff3b6ddae8937e8a22bf:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2019-01.csv.gz": {
+  "max": "2019-01-31",
+  "min": "2019-01-01",
+  "rows": 356,
+  "sha1": "08b8a51e1f76fad29bfa191ba6635330d0bfa451:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2019-02.csv.gz": {
+  "max": "2019-02-28",
+  "min": "2019-02-01",
+  "rows": 320,
+  "sha1": "62a0443254be89f5994b9afe73d5233dafef7100:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2019-03.csv.gz": {
+  "max": "2019-03-29",
+  "min": "2019-03-01",
+  "rows": 336,
+  "sha1": "524a8d36a1035fd610b5e03d812f93f8923c40cc:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2019-04.csv.gz": {
+  "max": "2019-04-30",
+  "min": "2019-04-01",
+  "rows": 349,
+  "sha1": "9b22a49202e37c301a82791b802b7dc59cf96734:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2019-05.csv.gz": {
+  "max": "2019-05-31",
+  "min": "2019-05-01",
+  "rows": 368,
+  "sha1": "9863e8f3e496e24e578be3980934dece362bad1e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2019-06.csv.gz": {
+  "max": "2019-06-28",
+  "min": "2019-06-03",
+  "rows": 320,
+  "sha1": "dd940fa233d4cb9f198c7f3bf40ac7fd51efbbe4:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2019-07.csv.gz": {
+  "max": "2019-07-31",
+  "min": "2019-07-01",
+  "rows": 364,
+  "sha1": "f2fa0247f1ffb9c09d5753cb16c9c2f72e2a1fc9:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2019-08.csv.gz": {
+  "max": "2019-08-30",
+  "min": "2019-08-01",
+  "rows": 352,
+  "sha1": "f562dcf7316bb7fec88cbe53aabd47bffad58e40:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2019-09.csv.gz": {
+  "max": "2019-09-30",
+  "min": "2019-09-02",
+  "rows": 336,
+  "sha1": "d127dbeba7db70697afe1aa8849c7328ca20f679:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2019-10.csv.gz": {
+  "max": "2019-10-31",
+  "min": "2019-10-01",
+  "rows": 368,
+  "sha1": "a1a86ce2aa640228f955cb02ffed5b3fbc2299c3:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2019-11.csv.gz": {
+  "max": "2019-11-29",
+  "min": "2019-11-01",
+  "rows": 334,
+  "sha1": "69c8941e99fad3fde129500364941961af9d0c2e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2019-12.csv.gz": {
+  "max": "2019-12-31",
+  "min": "2019-12-02",
+  "rows": 343,
+  "sha1": "3b2a0d2ffd6002eb3c3efea6728b08f480cd7757:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2020-01.csv.gz": {
+  "max": "2020-01-31",
+  "min": "2020-01-02",
+  "rows": 337,
+  "sha1": "b0ed5a7b0b7d091ee729459e4710dd1608075750:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2020-02.csv.gz": {
+  "max": "2020-02-28",
+  "min": "2020-02-03",
+  "rows": 305,
+  "sha1": "b8de6633dd2df44f9cdfb01703e4d3018cb80594:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2020-03.csv.gz": {
+  "max": "2020-03-31",
+  "min": "2020-03-02",
+  "rows": 351,
+  "sha1": "f6b9742c00392dc8a2be414a8bfddfefb57fd764:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2020-04.csv.gz": {
+  "max": "2020-04-30",
+  "min": "2020-04-01",
+  "rows": 335,
+  "sha1": "ebf63623f518a4476a028af7085b82ca6b795192:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2020-05.csv.gz": {
+  "max": "2020-05-29",
+  "min": "2020-05-01",
+  "rows": 319,
+  "sha1": "e22b33a82c9235540f2e7e44c47fc5161d206030:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2020-06.csv.gz": {
+  "max": "2020-06-30",
+  "min": "2020-06-01",
+  "rows": 352,
+  "sha1": "eb75d1ad93db687f51961806c1b3ec0fea0fd6de:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2020-07.csv.gz": {
+  "max": "2020-07-31",
+  "min": "2020-07-01",
+  "rows": 353,
+  "sha1": "e983df3a8ae1998f5d5b15fdb3dedaa9f09937ad:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2020-08.csv.gz": {
+  "max": "2020-08-31",
+  "min": "2020-08-03",
+  "rows": 335,
+  "sha1": "93fa67509b8032c490e7a7540bb2e37aa7809d93:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2020-09.csv.gz": {
+  "max": "2020-09-30",
+  "min": "2020-09-01",
+  "rows": 337,
+  "sha1": "b57b9c3701dbe5b658c21cd01df064353e28edd4:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2020-10.csv.gz": {
+  "max": "2020-10-30",
+  "min": "2020-10-01",
+  "rows": 352,
+  "sha1": "8982b135edb13a04d9997234bbf0c57c7b9d74b7:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2020-11.csv.gz": {
+  "max": "2020-11-30",
+  "min": "2020-11-02",
+  "rows": 306,
+  "sha1": "402cc818e37177af5627d72bca3cb4622c67c675:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2020-12.csv.gz": {
+  "max": "2020-12-31",
+  "min": "2020-12-01",
+  "rows": 352,
+  "sha1": "aa4d765055b800aee876c9046df91eea15c73942:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2021-01.csv.gz": {
+  "max": "2021-01-29",
+  "min": "2021-01-04",
+  "rows": 305,
+  "sha1": "f9f8084593d9a1c5d1810dd0bd64f8012629466e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2021-02.csv.gz": {
+  "max": "2021-02-26",
+  "min": "2021-02-01",
+  "rows": 305,
+  "sha1": "29cd873f4e084b3358376e71deebf319554ef777:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2021-03.csv.gz": {
+  "max": "2021-03-31",
+  "min": "2021-03-01",
+  "rows": 368,
+  "sha1": "628afb2ca57396204a39c15f52524ff86f6351ad:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2021-04.csv.gz": {
+  "max": "2021-04-30",
+  "min": "2021-04-01",
+  "rows": 335,
+  "sha1": "08b70e4c4bcb38cdbdaa62f0737f343d590da829:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2021-05.csv.gz": {
+  "max": "2021-05-28",
+  "min": "2021-05-03",
+  "rows": 319,
+  "sha1": "c56bcf48a72c2d251d05c80aacf466e8691f9c7e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2021-06.csv.gz": {
+  "max": "2021-06-30",
+  "min": "2021-06-01",
+  "rows": 352,
+  "sha1": "e9c7b7a8c05925265642260e42bc9b0536d69a24:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2021-07.csv.gz": {
+  "max": "2021-07-30",
+  "min": "2021-07-01",
+  "rows": 337,
+  "sha1": "079984419752a480cde3d0a90e1ec4bb3d84f35f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2021-08.csv.gz": {
+  "max": "2021-08-31",
+  "min": "2021-08-02",
+  "rows": 351,
+  "sha1": "7d9d51257647349b53f889be925aa099fff90045:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2021-09.csv.gz": {
+  "max": "2021-09-30",
+  "min": "2021-09-01",
+  "rows": 337,
+  "sha1": "ab61f8f5543f3fa7dda78db8dc4044bbb7069e7c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2021-10.csv.gz": {
+  "max": "2021-10-29",
+  "min": "2021-10-01",
+  "rows": 332,
+  "sha1": "70a026573032026029d269ad6c734f1c3853a966:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2021-11.csv.gz": {
+  "max": "2021-11-30",
+  "min": "2021-11-01",
+  "rows": 322,
+  "sha1": "32bf69ac88b06dc26094b0821fa54a39dde561c1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2021-12.csv.gz": {
+  "max": "2021-12-31",
+  "min": "2021-12-01",
+  "rows": 350,
+  "sha1": "3bab0b3e7602738f01024911ce1edf1b8be12b62:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2022-01.csv.gz": {
+  "max": "2022-01-31",
+  "min": "2022-01-03",
+  "rows": 320,
+  "sha1": "488eb5cf68b883456f6d4d65bf1564513294b96f:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2022-02.csv.gz": {
+  "max": "2022-02-28",
+  "min": "2022-02-01",
+  "rows": 305,
+  "sha1": "6cb82abc91205a6611d2203f4cf312d3543e0acf:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2022-03.csv.gz": {
+  "max": "2022-03-31",
+  "min": "2022-03-01",
+  "rows": 368,
+  "sha1": "aae6ebcca7792d50abfe9087676c62c957d413ae:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2022-04.csv.gz": {
+  "max": "2022-04-29",
+  "min": "2022-04-01",
+  "rows": 319,
+  "sha1": "affa00743ed0ff429c0eca34e9b870941123edd7:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2022-05.csv.gz": {
+  "max": "2022-05-31",
+  "min": "2022-05-02",
+  "rows": 336,
+  "sha1": "7c97b38f8a96edf0f79930c0a0c7bde768dda273:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2022-06.csv.gz": {
+  "max": "2022-06-30",
+  "min": "2022-06-01",
+  "rows": 336,
+  "sha1": "df14736329f10ddf9b53c5a6328fb74cf06ffee5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2022-07.csv.gz": {
+  "max": "2022-07-29",
+  "min": "2022-07-01",
+  "rows": 321,
+  "sha1": "defbd34a23c711ec7ad0d59af9495eac13bfcf8a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2022-08.csv.gz": {
+  "max": "2022-08-31",
+  "min": "2022-08-01",
+  "rows": 367,
+  "sha1": "56b68d1cef62d5ec6c45f110ce333588947dd841:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2022-09.csv.gz": {
+  "max": "2022-09-30",
+  "min": "2022-09-01",
+  "rows": 336,
+  "sha1": "465890d888cf099ac6d837c0d71399115b6ab6b5:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2022-10.csv.gz": {
+  "max": "2022-10-31",
+  "min": "2022-10-03",
+  "rows": 316,
+  "sha1": "d6e6009754fda309381401badb4b43b3cd97c517:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2022-11.csv.gz": {
+  "max": "2022-11-30",
+  "min": "2022-11-01",
+  "rows": 328,
+  "sha1": "2aa65eef553227246a557249d48bfb538555c4db:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2022-12.csv.gz": {
+  "max": "2022-12-30",
+  "min": "2022-12-01",
+  "rows": 324,
+  "sha1": "8e64c86ba5bc7c0722ae374e66b3d931e2bbc434:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2023-01.csv.gz": {
+  "max": "2023-01-31",
+  "min": "2023-01-03",
+  "rows": 321,
+  "sha1": "c6a500f896cd17e507e5508926fc7f16679c6c5e:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2023-02.csv.gz": {
+  "max": "2023-02-28",
+  "min": "2023-02-01",
+  "rows": 305,
+  "sha1": "681a554762662c03f3108374fea197eabf83376a:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2023-03.csv.gz": {
+  "max": "2023-03-31",
+  "min": "2023-03-01",
+  "rows": 357,
+  "sha1": "0b1a384bab73af3a2141d2127ef5fdb176c9f961:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2023-04.csv.gz": {
+  "max": "2023-04-28",
+  "min": "2023-04-03",
+  "rows": 303,
+  "sha1": "4ccaa673d50b4acd99ddfdcb9607a283a8ff79dc:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2023-05.csv.gz": {
+  "max": "2023-05-31",
+  "min": "2023-05-01",
+  "rows": 350,
+  "sha1": "3479d43f5285f787348d7cafd74aa2b597571751:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2023-06.csv.gz": {
+  "max": "2023-06-30",
+  "min": "2023-06-01",
+  "rows": 337,
+  "sha1": "09cec6cd5715303ac0ef97f86531a45d39ba0ea9:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2023-07.csv.gz": {
+  "max": "2023-07-31",
+  "min": "2023-07-03",
+  "rows": 321,
+  "sha1": "a643df2212dea9fd7db018030a10b3f3993cd02d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2023-08.csv.gz": {
+  "max": "2023-08-31",
+  "min": "2023-08-01",
+  "rows": 367,
+  "sha1": "69823814c91288f729df22ba7a9fb8a111581113:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2023-09.csv.gz": {
+  "max": "2023-09-29",
+  "min": "2023-09-01",
+  "rows": 321,
+  "sha1": "b6f72c5eda65db3f17e6dc5ed6b216de8652e859:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2023-10.csv.gz": {
+  "max": "2023-10-31",
+  "min": "2023-10-02",
+  "rows": 342,
+  "sha1": "a3fd998691566dfc5ce5537ebd49ab6f18178afa:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2023-11.csv.gz": {
+  "max": "2023-11-30",
+  "min": "2023-11-01",
+  "rows": 336,
+  "sha1": "08abd34f568518b7201f30d78967b14e86d80a2b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2023-12.csv.gz": {
+  "max": "2023-12-29",
+  "min": "2023-12-01",
+  "rows": 319,
+  "sha1": "ad07698183e9b674e220b3093b3643c78c86482b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2024-01.csv.gz": {
+  "max": "2024-01-31",
+  "min": "2024-01-02",
+  "rows": 337,
+  "sha1": "dfa4d0c169fe33786182fd3997dd4e6f1ddf2abd:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2024-02.csv.gz": {
+  "max": "2024-02-29",
+  "min": "2024-02-01",
+  "rows": 310,
+  "sha1": "f9d6d6843f36524d2ff580602ee0de99c8391d83:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2024-03.csv.gz": {
+  "max": "2024-03-28",
+  "min": "2024-03-01",
+  "rows": 320,
+  "sha1": "8423dcb74d6536adafb8ca96b35245ff878d67d3:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2024-04.csv.gz": {
+  "max": "2024-04-30",
+  "min": "2024-04-01",
+  "rows": 272,
+  "sha1": "906df567c287babe7beb386c8eaf5cf206b79817:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2024-05.csv.gz": {
+  "max": "2024-05-31",
+  "min": "2024-05-01",
+  "rows": 263,
+  "sha1": "db51d7f9ab075f13bab64b3b26fb68a0be5aea3b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2024-06.csv.gz": {
+  "max": "2024-06-28",
+  "min": "2024-06-03",
+  "rows": 229,
+  "sha1": "9939d290ccd6c93f54cf3462b5a1500632adc99c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2024-07.csv.gz": {
+  "max": "2024-07-31",
+  "min": "2024-07-01",
+  "rows": 264,
+  "sha1": "7a97c5dd685b27a5468835543b52185f666f3972:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2024-08.csv.gz": {
+  "max": "2024-08-30",
+  "min": "2024-08-01",
+  "rows": 263,
+  "sha1": "7ed10a15c3e6a495213d6a28431a40e2956fd303:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2024-09.csv.gz": {
+  "max": "2024-09-30",
+  "min": "2024-09-02",
+  "rows": 237,
+  "sha1": "53ce3c7381d08090b37f5070ad9f3f1fdd4648e0:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2024-10.csv.gz": {
+  "max": "2024-10-31",
+  "min": "2024-10-01",
+  "rows": 275,
+  "sha1": "5b149fe659b02cb99122c8cad09418db128ab238:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2024-11.csv.gz": {
+  "max": "2024-11-29",
+  "min": "2024-11-01",
+  "rows": 240,
+  "sha1": "1de5ecb989b0a76c2dcf4fd90215d23635d5bc1d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2024-12.csv.gz": {
+  "max": "2024-12-31",
+  "min": "2024-12-02",
+  "rows": 252,
+  "sha1": "b1ff504a2b0c3ca31335cd852820ce5352b5c95d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2025-01.csv.gz": {
+  "max": "2025-01-31",
+  "min": "2025-01-02",
+  "rows": 244,
+  "sha1": "e7b37ed798706d7d6b9d43eb6088fca6006c59fd:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2025-02.csv.gz": {
+  "max": "2025-02-28",
+  "min": "2025-02-03",
+  "rows": 229,
+  "sha1": "42c02249df82a02a71a749bbf522e6d403a30c12:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2025-03.csv.gz": {
+  "max": "2025-03-31",
+  "min": "2025-03-03",
+  "rows": 252,
+  "sha1": "e962468939358219123cd0d2048263b81a0b179b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2025-04.csv.gz": {
+  "max": "2025-04-30",
+  "min": "2025-04-01",
+  "rows": 251,
+  "sha1": "acdcc6e9850a5190f70bcd24579b8485af7fef1c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2025-05.csv.gz": {
+  "max": "2025-05-30",
+  "min": "2025-05-01",
+  "rows": 251,
+  "sha1": "5415e3413ae3e12b4c56aaafcc99a9913d896fc1:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2025-06.csv.gz": {
+  "max": "2025-06-30",
+  "min": "2025-06-02",
+  "rows": 241,
+  "sha1": "474d97f457e2e643bf4f77d1a547c84ca01ae3f6:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2025-07.csv.gz": {
+  "max": "2025-07-31",
+  "min": "2025-07-01",
+  "rows": 265,
+  "sha1": "64b52bbb46ca3763457e21ba92562f96a38592cf:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2025-08.csv.gz": {
+  "max": "2025-08-29",
+  "min": "2025-08-01",
+  "rows": 251,
+  "sha1": "98a2f10176f141559b528b53e95acb2ac49d132c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2025-09.csv.gz": {
+  "max": "2025-09-30",
+  "min": "2025-09-01",
+  "rows": 253,
+  "sha1": "7c2494f9e8a986a9c179c707301559beccf5aa1d:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2025-10.csv.gz": {
+  "max": "2025-10-31",
+  "min": "2025-10-01",
+  "rows": 266,
+  "sha1": "2d255d9b63f58a5048784cb02568060309a158bf:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2025-11.csv.gz": {
+  "max": "2025-11-28",
+  "min": "2025-11-03",
+  "rows": 217,
+  "sha1": "62e21040e1283beb8f4a5059640fe332031d4b66:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2025-12.csv.gz": {
+  "max": "2025-12-31",
+  "min": "2025-12-01",
+  "rows": 261,
+  "sha1": "9a2f13d5c842d4d0a869e78d8a7e295d7c56665b:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2026-01.csv.gz": {
+  "max": "2026-01-30",
+  "min": "2026-01-02",
+  "rows": 239,
+  "sha1": "5e3f46d0f091684818b723360caad7f2758f7ff2:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2026-02.csv.gz": {
+  "max": "2026-02-27",
+  "min": "2026-02-02",
+  "rows": 229,
+  "sha1": "3586c6fe17d4819ec43d5bf2b2fdd50657455a46:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2026-03.csv.gz": {
+  "max": "2026-03-31",
+  "min": "2026-03-02",
+  "rows": 264,
+  "sha1": "167ba869afa94c38d9a1475c5d13c6cac1c57efa:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2026-04.csv.gz": {
+  "max": "2026-04-30",
+  "min": "2026-04-01",
+  "rows": 251,
+  "sha1": "787431d7ab377bcb5d8ad4488bb9a8ddcaa4b09c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2026-05.csv.gz": {
+  "max": "2026-05-29",
+  "min": "2026-05-01",
+  "rows": 238,
+  "sha1": "14252adb15a1c49063c5f12a342e1f26a873d2e9:2",
+  "time_col": "period"
+ },
  "energy/eia/fuel_prices/2026-06.csv.gz": {
   "max": "2026-06-30",
-  "min": "2026-06-29",
-  "rows": 24,
-  "sha1": "fc85248c07d96e546e2ac6834dbe39b04f42f5b3:2",
+  "min": "2026-06-01",
+  "rows": 253,
+  "sha1": "4c4c0e4c217264cfe08a730f922595916753826c:2",
   "time_col": "period"
  },
  "energy/eia/fuel_prices/2026-07.csv": {
@@ -90,11 +3485,53 @@
   "sha1": "8fde6f92815f3436f05e5a6163fa304f0452f2cb:2",
   "time_col": "period"
  },
+ "energy/eia/fuel_type/2018-07.csv.gz": {
+  "max": "2018-07-31T23:00Z",
+  "min": "2018-07-01T05:00Z",
+  "rows": 739,
+  "sha1": "493825f9ee96b21b3c0813fdedfa7da02d51bae6:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_type/2018-08.csv.gz": {
+  "max": "2018-08-31T23:00Z",
+  "min": "2018-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "23928ff3a04ec7c39eb9bec12aa6f534a1697c76:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_type/2018-09.csv.gz": {
+  "max": "2018-09-30T23:00Z",
+  "min": "2018-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "a75600077e2d12ee3fce5beefb22a604e5510f83:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_type/2018-10.csv.gz": {
+  "max": "2018-10-31T23:00Z",
+  "min": "2018-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "455a6be2d83a508c216209ac7d28279619f0e94c:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_type/2018-11.csv.gz": {
+  "max": "2018-11-30T23:00Z",
+  "min": "2018-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "d24c82c979213a34638742a0e0bde6331aec7023:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_type/2018-12.csv.gz": {
+  "max": "2018-12-31T23:00Z",
+  "min": "2018-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "1f8e94dff95ad6ce29d3d98c20744ff3e479ac44:2",
+  "time_col": "period"
+ },
  "energy/eia/fuel_type/2019-01.csv.gz": {
   "max": "2019-01-31T23:00Z",
   "min": "2019-01-01T00:00Z",
   "rows": 744,
-  "sha1": "3cc1b7e5dce456912634f699a855184cfe3557c8:2",
+  "sha1": "100de20d82f4d2a06cdaffb08d57d02d8693aa77:2",
   "time_col": "period"
  },
  "energy/eia/fuel_type/2019-02.csv.gz": {
@@ -125,18 +3562,326 @@
   "sha1": "fa256ebfea6c538269c1587bf34a3447535e040a:2",
   "time_col": "period"
  },
+ "energy/eia/fuel_type/2019-06.csv.gz": {
+  "max": "2019-06-30T23:00Z",
+  "min": "2019-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "a65db7beedc28b0583faa88014e4b57e4742e1ba:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_type/2019-07.csv.gz": {
+  "max": "2019-07-31T23:00Z",
+  "min": "2019-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "3c3b059121c9bf9ee21423fbff318fa9776ae65f:2",
+  "time_col": "period"
+ },
  "energy/eia/fuel_type/2026-09.csv": {
   "max": "2026-09-27T06:00Z",
   "min": "2026-09-20T11:00Z",
   "rows": 164,
-  "sha1": "ddcac8cbb610c1d2ff40d47b4d4085f900ed62e9:2",
+  "sha1": "c4b30e4df008c1959793c8265ea663cce6957847:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2015-07.csv.gz": {
+  "max": "2015-07-31T23:00Z",
+  "min": "2015-07-01T05:00Z",
+  "rows": 739,
+  "sha1": "8c4a535571971f3957b72a55b71ec3b54d539920:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2015-08.csv.gz": {
+  "max": "2015-08-31T23:00Z",
+  "min": "2015-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "0630169c7d9b872d138768e43aed5ca85f3aa1c4:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2015-09.csv.gz": {
+  "max": "2015-09-30T23:00Z",
+  "min": "2015-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "2d9678edc963188c18e17fcbd4b6f8ff3de3b257:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2015-10.csv.gz": {
+  "max": "2015-10-31T23:00Z",
+  "min": "2015-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "b1df6ecca1d4a557a91413ba2755882016233c79:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2015-11.csv.gz": {
+  "max": "2015-11-30T23:00Z",
+  "min": "2015-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "db58f657ffdff347227f734a2a7513b5c3d84fd1:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2015-12.csv.gz": {
+  "max": "2015-12-31T23:00Z",
+  "min": "2015-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "2bb2b7fc81d2b42a76d7658e977e89bc386c7e3c:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2016-01.csv.gz": {
+  "max": "2016-01-31T23:00Z",
+  "min": "2016-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "e6975ebaf571290be1c18480b2b3c78fd5ba3d96:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2016-02.csv.gz": {
+  "max": "2016-02-29T23:00Z",
+  "min": "2016-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "5dfe0e98c34843816988622a1a1a14ddd882fea2:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2016-03.csv.gz": {
+  "max": "2016-03-31T23:00Z",
+  "min": "2016-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "0da87b2fe1d9bb78e102a11e878a00b614c6c1c1:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2016-04.csv.gz": {
+  "max": "2016-04-30T23:00Z",
+  "min": "2016-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "890047ba5f9d2123b2096d7d81b4c922ef0143b2:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2016-05.csv.gz": {
+  "max": "2016-05-31T23:00Z",
+  "min": "2016-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "d58fa5e8489bf9069bd180b7a9faf8d0636c7f3b:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2016-06.csv.gz": {
+  "max": "2016-06-30T23:00Z",
+  "min": "2016-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "f4766270f6e915237a6c5a1ec30d75eda0bd882e:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2016-07.csv.gz": {
+  "max": "2016-07-31T23:00Z",
+  "min": "2016-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "e9b36623841ea970c66b12926f0de6232e1eef8d:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2016-08.csv.gz": {
+  "max": "2016-08-31T23:00Z",
+  "min": "2016-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "b42236f4ec8c22c3d99ebefd4d56ccec7023a539:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2016-09.csv.gz": {
+  "max": "2016-09-30T23:00Z",
+  "min": "2016-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "b524f03eca8c6b33d63a5a8f1b37d435ae9acc21:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2016-10.csv.gz": {
+  "max": "2016-10-31T23:00Z",
+  "min": "2016-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "91487f966679b16eaeff11c60fb9f1839ace7df5:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2016-11.csv.gz": {
+  "max": "2016-11-30T23:00Z",
+  "min": "2016-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "cd43107c01a3dd9cbac6cfed668f92489b35176b:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2016-12.csv.gz": {
+  "max": "2016-12-31T23:00Z",
+  "min": "2016-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "145c5e6137c7f48951530afbb814d7b0838d3f41:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2017-01.csv.gz": {
+  "max": "2017-01-31T23:00Z",
+  "min": "2017-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "d69b6a7edea38fb41db980d4ee89b07eaca98aa1:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2017-02.csv.gz": {
+  "max": "2017-02-28T23:00Z",
+  "min": "2017-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "7466effd8f78239fa0f204b845a339ec9ad2f377:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2017-03.csv.gz": {
+  "max": "2017-03-31T23:00Z",
+  "min": "2017-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "a174df7cff07ebd19bc88d1f2c5351ee4a165f5f:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2017-04.csv.gz": {
+  "max": "2017-04-30T23:00Z",
+  "min": "2017-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "840f19be469c49c5687bfaf072a4adf5296ceefe:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2017-05.csv.gz": {
+  "max": "2017-05-31T23:00Z",
+  "min": "2017-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "74d2ff7efab4f61da390a149b840d16dbe285f3c:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2017-06.csv.gz": {
+  "max": "2017-06-30T23:00Z",
+  "min": "2017-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "2d4aed0629957dfc7b84375f7392c5392a03d65b:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2017-07.csv.gz": {
+  "max": "2017-07-31T23:00Z",
+  "min": "2017-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "7290b04e24de7ee360060829aa59fa1014044c76:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2017-08.csv.gz": {
+  "max": "2017-08-31T23:00Z",
+  "min": "2017-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "87ecc928832622d10343ff79206709602a8ed272:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2017-09.csv.gz": {
+  "max": "2017-09-30T23:00Z",
+  "min": "2017-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "5ab940388a1980735eb4d67d817fa18688db0421:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2017-10.csv.gz": {
+  "max": "2017-10-31T23:00Z",
+  "min": "2017-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "80729fb0120c51423333497bb013057420bb4627:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2017-11.csv.gz": {
+  "max": "2017-11-30T23:00Z",
+  "min": "2017-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "e9d45a56ecac5a9c871b2adbd3f086a551500bc0:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2017-12.csv.gz": {
+  "max": "2017-12-31T23:00Z",
+  "min": "2017-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "d9cfca71748424266c0c001cc8cec0d6fd3d44bc:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2018-01.csv.gz": {
+  "max": "2018-01-31T23:00Z",
+  "min": "2018-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "1cc8a2799fed2e00c321090d25fe6e292cc7159a:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2018-02.csv.gz": {
+  "max": "2018-02-28T23:00Z",
+  "min": "2018-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "0f447077707954729c45c8bebfc7a51ef43fc6ae:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2018-03.csv.gz": {
+  "max": "2018-03-31T23:00Z",
+  "min": "2018-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "a8e359c9b63e7f4416f72b119b7cf1eeac95b3ad:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2018-04.csv.gz": {
+  "max": "2018-04-30T23:00Z",
+  "min": "2018-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "51d0bd37bec5bcb88ce68fc6e732072d37a4dd0e:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2018-05.csv.gz": {
+  "max": "2018-05-31T23:00Z",
+  "min": "2018-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "ee2aae25e91055a7264edb0c6777cd2778e2dc29:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2018-06.csv.gz": {
+  "max": "2018-06-30T23:00Z",
+  "min": "2018-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "f1142972fd66adafe72f97899610a2305da2daf1:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2018-07.csv.gz": {
+  "max": "2018-07-31T23:00Z",
+  "min": "2018-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "fce3c094ce42dacad37b9b6946a237e0ed873df3:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2018-08.csv.gz": {
+  "max": "2018-08-31T23:00Z",
+  "min": "2018-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "59328a49f7d399ba250a046e8b05352afcf183bd:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2018-09.csv.gz": {
+  "max": "2018-09-30T23:00Z",
+  "min": "2018-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "a08d9a6223b8d22f2e46521c7890b0726747243d:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2018-10.csv.gz": {
+  "max": "2018-10-31T23:00Z",
+  "min": "2018-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "5e0e258aa9611f35715508247305c667d66b8c33:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2018-11.csv.gz": {
+  "max": "2018-11-30T23:00Z",
+  "min": "2018-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "488cea8948886da3a5ff378f971f7f8297024558:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2018-12.csv.gz": {
+  "max": "2018-12-31T23:00Z",
+  "min": "2018-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "3118cfb5ce804e36797f9e1a96e5adc77d6c8317:2",
   "time_col": "period"
  },
  "energy/eia/interchange/2019-01.csv.gz": {
   "max": "2019-01-31T23:00Z",
   "min": "2019-01-01T00:00Z",
   "rows": 744,
-  "sha1": "725905b6e4edf9bed4170fd31e9147f015efe90a:2",
+  "sha1": "2f0a8ff87e4ae0f6878426c4ca993f619499d24e:2",
   "time_col": "period"
  },
  "energy/eia/interchange/2019-02.csv.gz": {
@@ -167,18 +3912,326 @@
   "sha1": "b543161dc0621b1802553e644e6fa1e793022cca:2",
   "time_col": "period"
  },
+ "energy/eia/interchange/2019-06.csv.gz": {
+  "max": "2019-06-30T23:00Z",
+  "min": "2019-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "acba727a101997f01208fcc3c230bad2e4d51fcc:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2019-07.csv.gz": {
+  "max": "2019-07-31T23:00Z",
+  "min": "2019-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "b8d56dce0ff3a7ed5b22118489dfc70f4820bff6:2",
+  "time_col": "period"
+ },
  "energy/eia/interchange/2026-09.csv": {
   "max": "2026-09-26T07:00Z",
   "min": "2026-09-20T11:00Z",
   "rows": 141,
-  "sha1": "0fda793c15cde067e9b52e8693841c4c2cbe8577:2",
+  "sha1": "7af65d384572ae87a9aed7bdb3dc86a0df643097:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2015-07.csv.gz": {
+  "max": "2015-07-31T23:00Z",
+  "min": "2015-07-01T05:00Z",
+  "rows": 739,
+  "sha1": "c7bf24655d29241c3ddf71d6e0526df06f83a186:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2015-08.csv.gz": {
+  "max": "2015-08-31T23:00Z",
+  "min": "2015-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "9361aff231c712244c7edc7613bc1a1972395ee6:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2015-09.csv.gz": {
+  "max": "2015-09-30T23:00Z",
+  "min": "2015-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "d43dc0b9a2478529e25f24ec7e376138230d28e6:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2015-10.csv.gz": {
+  "max": "2015-10-31T23:00Z",
+  "min": "2015-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "50d482e07fd5c2f5552ecc1ee3a42a64c1ec2a5f:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2015-11.csv.gz": {
+  "max": "2015-11-30T23:00Z",
+  "min": "2015-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "2ee4b64ec0ea235d8309eaf5bfbbf1efb824c4ba:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2015-12.csv.gz": {
+  "max": "2015-12-31T23:00Z",
+  "min": "2015-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "ddcac8ea37f64dca4bafde6b066d0819b943de0f:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2016-01.csv.gz": {
+  "max": "2016-01-31T23:00Z",
+  "min": "2016-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "a712d37b3869cc2a82e529697dd730fe81858090:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2016-02.csv.gz": {
+  "max": "2016-02-29T23:00Z",
+  "min": "2016-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "db0a9c2e3aff183a4b9e7ab2787e5b3973b74b35:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2016-03.csv.gz": {
+  "max": "2016-03-31T23:00Z",
+  "min": "2016-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "6e769e756c1d4559b8536b824a606b3d8f431d76:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2016-04.csv.gz": {
+  "max": "2016-04-30T23:00Z",
+  "min": "2016-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "a4111051bbc8c6b554c5d7c916e6da4b73d99e59:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2016-05.csv.gz": {
+  "max": "2016-05-31T23:00Z",
+  "min": "2016-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "c3066de5745b8e93b319b8a645b1da30b7364ae0:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2016-06.csv.gz": {
+  "max": "2016-06-30T23:00Z",
+  "min": "2016-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "2a92ed0cbc2b06ca27950f4510eb3553c054e112:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2016-07.csv.gz": {
+  "max": "2016-07-31T23:00Z",
+  "min": "2016-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "865487678a9b12b198615b4c8466ac9d1b89f62f:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2016-08.csv.gz": {
+  "max": "2016-08-31T23:00Z",
+  "min": "2016-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "80cc10f82af085fb3aac68ae80f9823689e9b22c:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2016-09.csv.gz": {
+  "max": "2016-09-30T23:00Z",
+  "min": "2016-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "5e31a351ec6d8dce0d68c0051ceacb0c51bc116f:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2016-10.csv.gz": {
+  "max": "2016-10-31T23:00Z",
+  "min": "2016-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "39e985a104288d08646e0512b61fa69251ac3441:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2016-11.csv.gz": {
+  "max": "2016-11-30T23:00Z",
+  "min": "2016-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "4906837fbeaf089d8101ee2d2e6d542df628e7c6:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2016-12.csv.gz": {
+  "max": "2016-12-31T23:00Z",
+  "min": "2016-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "587584acb3ec46c3e50b39257bcf9f00e0f1d7a7:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2017-01.csv.gz": {
+  "max": "2017-01-31T23:00Z",
+  "min": "2017-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "8ddbab8282c84a54ea504ac50ccd32a16c59980b:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2017-02.csv.gz": {
+  "max": "2017-02-28T23:00Z",
+  "min": "2017-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "86050ccd96063269207f12944a60dda16654d675:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2017-03.csv.gz": {
+  "max": "2017-03-31T23:00Z",
+  "min": "2017-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "fd7d2f3f73be5570bf063efbdd1ff7b5cad46925:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2017-04.csv.gz": {
+  "max": "2017-04-30T23:00Z",
+  "min": "2017-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "c94e02b67566da79cadc1e608c610f365ef011a5:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2017-05.csv.gz": {
+  "max": "2017-05-31T23:00Z",
+  "min": "2017-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "a20c97ef0117d7ecb7e206b6e1c0025dab95f50a:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2017-06.csv.gz": {
+  "max": "2017-06-30T23:00Z",
+  "min": "2017-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "5351705f4d3827c0238bba8d6abae90d1251a648:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2017-07.csv.gz": {
+  "max": "2017-07-31T23:00Z",
+  "min": "2017-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "ba14379106a4096c04d1f4b26d0a2f62279ae8d8:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2017-08.csv.gz": {
+  "max": "2017-08-31T23:00Z",
+  "min": "2017-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "067fe3fdbd4b5ed72a33fdf622d70374cb0ae2ff:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2017-09.csv.gz": {
+  "max": "2017-09-30T23:00Z",
+  "min": "2017-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "94f67fb7f0eaa4e2d427a49310600c101fde461e:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2017-10.csv.gz": {
+  "max": "2017-10-31T23:00Z",
+  "min": "2017-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "ec2e348132fa029d0eda84f7ba97abee12c976aa:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2017-11.csv.gz": {
+  "max": "2017-11-30T23:00Z",
+  "min": "2017-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "92b70a39c80e2d83767066be7525689ee14e345e:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2017-12.csv.gz": {
+  "max": "2017-12-31T23:00Z",
+  "min": "2017-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "6b39f746deda7d490699111d9a117804e5adb0c1:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2018-01.csv.gz": {
+  "max": "2018-01-31T23:00Z",
+  "min": "2018-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "073625c8d5014bee1378521515431000d38d7b74:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2018-02.csv.gz": {
+  "max": "2018-02-28T23:00Z",
+  "min": "2018-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "019bb9e7b84c6756292ed3abe5d30a21bfbf16c5:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2018-03.csv.gz": {
+  "max": "2018-03-31T23:00Z",
+  "min": "2018-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "c335fe55c5d1ac8aeb53ea8dfe2bf4d811eedd1f:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2018-04.csv.gz": {
+  "max": "2018-04-30T23:00Z",
+  "min": "2018-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "035453b225924bbf5665253b762f06f6c087a09b:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2018-05.csv.gz": {
+  "max": "2018-05-31T23:00Z",
+  "min": "2018-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "7abe80b9d87eee6ed698fe600202c1bc6ec51f39:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2018-06.csv.gz": {
+  "max": "2018-06-30T23:00Z",
+  "min": "2018-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "c6d7108cd9778b36a9c03cd796d5ae500d9742c2:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2018-07.csv.gz": {
+  "max": "2018-07-31T23:00Z",
+  "min": "2018-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "ed80fde39478ffc20c4c16417d011e8c411adfd6:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2018-08.csv.gz": {
+  "max": "2018-08-31T23:00Z",
+  "min": "2018-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "8daec89e7c74160fdb5c670f509dc24eff33b51d:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2018-09.csv.gz": {
+  "max": "2018-09-30T23:00Z",
+  "min": "2018-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "cc9e513544704d2360211ced9fc4aca02fa401c9:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2018-10.csv.gz": {
+  "max": "2018-10-31T23:00Z",
+  "min": "2018-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "2f36efdaa6f68d2b8c4dee2fcd167484cea75943:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2018-11.csv.gz": {
+  "max": "2018-11-30T23:00Z",
+  "min": "2018-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "cb24001505158fbfa59aba1aa0ce8e04e4e5a801:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2018-12.csv.gz": {
+  "max": "2018-12-31T23:00Z",
+  "min": "2018-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "0ac29e2dfa051283d0dc4af0043ed5ab5e7b893a:2",
   "time_col": "period"
  },
  "energy/eia/region/2019-01.csv.gz": {
   "max": "2019-01-31T23:00Z",
   "min": "2019-01-01T00:00Z",
   "rows": 744,
-  "sha1": "222b9fc19bb27743ab34fd22911a1d45c4b5a4ed:2",
+  "sha1": "a510666dc2f958669578ba193b4050d63bdf162d:2",
   "time_col": "period"
  },
  "energy/eia/region/2019-02.csv.gz": {
@@ -209,11 +4262,2160 @@
   "sha1": "78ed6eddca08d2724b57f40b91a2d1f1b9ffb8c4:2",
   "time_col": "period"
  },
+ "energy/eia/region/2019-06.csv.gz": {
+  "max": "2019-06-30T23:00Z",
+  "min": "2019-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "dd48e5b8aab1adc5b0f4697e8a633699b4bc7172:2",
+  "time_col": "period"
+ },
+ "energy/eia/region/2019-07.csv.gz": {
+  "max": "2019-07-31T23:00Z",
+  "min": "2019-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "d5db696eeb34029cac89d94c0a68b9c561012312:2",
+  "time_col": "period"
+ },
  "energy/eia/region/2026-09.csv": {
-  "max": "2026-09-27T11:00Z",
+  "max": "2026-09-27T14:00Z",
   "min": "2026-09-20T11:00Z",
-  "rows": 169,
-  "sha1": "2c919c9415463fd1afc57cc6874531bee3398ccc:2",
+  "rows": 172,
+  "sha1": "0bb1c4c8c01b86823dea27ac18268b85d50e5215:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2001-01.csv.gz": {
+  "max": "2001-01",
+  "min": "2001-01",
+  "rows": 372,
+  "sha1": "86b8b16652b3f74a5c50303e084d010a907098c5:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2001-02.csv.gz": {
+  "max": "2001-02",
+  "min": "2001-02",
+  "rows": 372,
+  "sha1": "c4123a4d7d61c6a70cf183fa81b0723e712134d4:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2001-03.csv.gz": {
+  "max": "2001-03",
+  "min": "2001-03",
+  "rows": 372,
+  "sha1": "9bc6d821fee385a78edd53be0776f42df1a6fb3f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2001-04.csv.gz": {
+  "max": "2001-04",
+  "min": "2001-04",
+  "rows": 372,
+  "sha1": "0c49fdf929195455a04645e9f6de367fd7090e96:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2001-05.csv.gz": {
+  "max": "2001-05",
+  "min": "2001-05",
+  "rows": 372,
+  "sha1": "cbdc50a76cef819f8346bd8268ad736442e4110d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2001-06.csv.gz": {
+  "max": "2001-06",
+  "min": "2001-06",
+  "rows": 372,
+  "sha1": "fb6cd6046b1b4ff787c9981f1bd78d1881f50da4:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2001-07.csv.gz": {
+  "max": "2001-07",
+  "min": "2001-07",
+  "rows": 372,
+  "sha1": "e30d89d14e60721f24c8086a6b004bcce2f2fb49:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2001-08.csv.gz": {
+  "max": "2001-08",
+  "min": "2001-08",
+  "rows": 372,
+  "sha1": "a4af1a14a9d2a1e8ecc75aaa1016add4e6dc0e34:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2001-09.csv.gz": {
+  "max": "2001-09",
+  "min": "2001-09",
+  "rows": 372,
+  "sha1": "cd6e99492b4572c13f3ad1e8de4b63297b344d76:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2001-10.csv.gz": {
+  "max": "2001-10",
+  "min": "2001-10",
+  "rows": 372,
+  "sha1": "21af486d9fb25237d2384fc88bc57923e9807078:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2001-11.csv.gz": {
+  "max": "2001-11",
+  "min": "2001-11",
+  "rows": 372,
+  "sha1": "bc91a08764e8c63441a593cfc0823fe619166417:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2001-12.csv.gz": {
+  "max": "2001-12",
+  "min": "2001-12",
+  "rows": 372,
+  "sha1": "0a72cc2fb6d0367a59f2ff5fdb97b4e6b093c02a:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2002-01.csv.gz": {
+  "max": "2002-01",
+  "min": "2002-01",
+  "rows": 372,
+  "sha1": "c36bc869923e488dc597c6f571cbb66abd9407ac:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2002-02.csv.gz": {
+  "max": "2002-02",
+  "min": "2002-02",
+  "rows": 372,
+  "sha1": "21775eef9935c096b123cee29b7af3c599bb9bdf:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2002-03.csv.gz": {
+  "max": "2002-03",
+  "min": "2002-03",
+  "rows": 372,
+  "sha1": "5ad58c0a37a38b2b665067c5b1e52d131bcddc3c:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2002-04.csv.gz": {
+  "max": "2002-04",
+  "min": "2002-04",
+  "rows": 372,
+  "sha1": "7eaf87bb61c55c2850c87a6ef52e22b53c8ca4ee:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2002-05.csv.gz": {
+  "max": "2002-05",
+  "min": "2002-05",
+  "rows": 372,
+  "sha1": "6ff267d6213d0942431e28af8a0f40149c34c8b0:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2002-06.csv.gz": {
+  "max": "2002-06",
+  "min": "2002-06",
+  "rows": 372,
+  "sha1": "d353085e91c3f8dd4ac6a8d6113eb7929a6716bb:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2002-07.csv.gz": {
+  "max": "2002-07",
+  "min": "2002-07",
+  "rows": 372,
+  "sha1": "0d3274a1750fe9a611e66662da838e3fee62fe5f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2002-08.csv.gz": {
+  "max": "2002-08",
+  "min": "2002-08",
+  "rows": 372,
+  "sha1": "e4aa29f9a5a275572dd14c958fbcd842add0db15:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2002-09.csv.gz": {
+  "max": "2002-09",
+  "min": "2002-09",
+  "rows": 372,
+  "sha1": "927b49e0a72d76ab3d6b966071481f15937af0a9:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2002-10.csv.gz": {
+  "max": "2002-10",
+  "min": "2002-10",
+  "rows": 372,
+  "sha1": "4ec7c25f454b44b6f4f8ad487d14e84db510f6f7:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2002-11.csv.gz": {
+  "max": "2002-11",
+  "min": "2002-11",
+  "rows": 372,
+  "sha1": "875527a74759f27d51b6774ba02205f450a5144d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2002-12.csv.gz": {
+  "max": "2002-12",
+  "min": "2002-12",
+  "rows": 372,
+  "sha1": "c055afe8154dfabdb01d0c8faeee281e6dc6c097:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2003-01.csv.gz": {
+  "max": "2003-01",
+  "min": "2003-01",
+  "rows": 372,
+  "sha1": "27d8525749c91f907ea8216c24b89c065f29edd8:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2003-02.csv.gz": {
+  "max": "2003-02",
+  "min": "2003-02",
+  "rows": 372,
+  "sha1": "0628460f10ef739dab092bb7feb9b131d45a2ac7:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2003-03.csv.gz": {
+  "max": "2003-03",
+  "min": "2003-03",
+  "rows": 372,
+  "sha1": "98c3033f0ef9c933380112385e77145fa95277ef:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2003-04.csv.gz": {
+  "max": "2003-04",
+  "min": "2003-04",
+  "rows": 372,
+  "sha1": "5338cb4611742605f4061615374700353097e323:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2003-05.csv.gz": {
+  "max": "2003-05",
+  "min": "2003-05",
+  "rows": 372,
+  "sha1": "5f3e6de5d5e4fb5f80840e246571e27176b2f12c:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2003-06.csv.gz": {
+  "max": "2003-06",
+  "min": "2003-06",
+  "rows": 372,
+  "sha1": "09488a4e9b4f0fbbcd32d78a3250c0cddcf3efce:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2003-07.csv.gz": {
+  "max": "2003-07",
+  "min": "2003-07",
+  "rows": 372,
+  "sha1": "89a98b2bbdea1ff060bd8812b8b4e7b766db453c:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2003-08.csv.gz": {
+  "max": "2003-08",
+  "min": "2003-08",
+  "rows": 372,
+  "sha1": "2d9acff4b66cef06cd1a020c789c544aaf29cf97:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2003-09.csv.gz": {
+  "max": "2003-09",
+  "min": "2003-09",
+  "rows": 372,
+  "sha1": "8ace6038ec4d0104a49c283c1fe81ca08530e220:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2003-10.csv.gz": {
+  "max": "2003-10",
+  "min": "2003-10",
+  "rows": 372,
+  "sha1": "e4cfb50c062d638e47f7ef05928daf76d973df34:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2003-11.csv.gz": {
+  "max": "2003-11",
+  "min": "2003-11",
+  "rows": 372,
+  "sha1": "258463e187f8ba04dddf964fe7d2348da635b6a2:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2003-12.csv.gz": {
+  "max": "2003-12",
+  "min": "2003-12",
+  "rows": 372,
+  "sha1": "3dc94f0722ba88cc816ca50902df2e75d59803a9:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2004-01.csv.gz": {
+  "max": "2004-01",
+  "min": "2004-01",
+  "rows": 372,
+  "sha1": "2ceb5948fc2f62eb40dd13f63368191e92dc925b:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2004-02.csv.gz": {
+  "max": "2004-02",
+  "min": "2004-02",
+  "rows": 372,
+  "sha1": "f9015212b1c552c42d12bfc61142c2e74ad884cd:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2004-03.csv.gz": {
+  "max": "2004-03",
+  "min": "2004-03",
+  "rows": 372,
+  "sha1": "ad6fc05fe73b21257da0a17dfb0fd17f5b9be9de:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2004-04.csv.gz": {
+  "max": "2004-04",
+  "min": "2004-04",
+  "rows": 372,
+  "sha1": "b246c0d766c3b4ce761282c715c3916c43a71a8b:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2004-05.csv.gz": {
+  "max": "2004-05",
+  "min": "2004-05",
+  "rows": 372,
+  "sha1": "62719e98c8ddd39e2eb01a85aca88249a90b3a8f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2004-06.csv.gz": {
+  "max": "2004-06",
+  "min": "2004-06",
+  "rows": 372,
+  "sha1": "c18986bd3891f407c37e715b7dd293129103d396:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2004-07.csv.gz": {
+  "max": "2004-07",
+  "min": "2004-07",
+  "rows": 372,
+  "sha1": "7dda3a6ffc56093ba7a5d74b2f919338d50cd435:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2004-08.csv.gz": {
+  "max": "2004-08",
+  "min": "2004-08",
+  "rows": 372,
+  "sha1": "b68e2766f1ad6ce9a66002c34a0c193b40f05de4:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2004-09.csv.gz": {
+  "max": "2004-09",
+  "min": "2004-09",
+  "rows": 372,
+  "sha1": "04061792764b7dca921671bd565f7cff154d8518:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2004-10.csv.gz": {
+  "max": "2004-10",
+  "min": "2004-10",
+  "rows": 372,
+  "sha1": "29238b5de359714f4b538cf56718ebf79f3efa07:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2004-11.csv.gz": {
+  "max": "2004-11",
+  "min": "2004-11",
+  "rows": 372,
+  "sha1": "c809a8dfa507e7661d5c347730e9f291c19d84a5:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2004-12.csv.gz": {
+  "max": "2004-12",
+  "min": "2004-12",
+  "rows": 372,
+  "sha1": "2ac7946d225830c2c5a42b497ec627f5f99592ea:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2005-01.csv.gz": {
+  "max": "2005-01",
+  "min": "2005-01",
+  "rows": 372,
+  "sha1": "fe7024cc60ed078681bd81988c8225652842ee2f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2005-02.csv.gz": {
+  "max": "2005-02",
+  "min": "2005-02",
+  "rows": 372,
+  "sha1": "16fa17a6239f1262861a3e76d5bb084f34112b4b:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2005-03.csv.gz": {
+  "max": "2005-03",
+  "min": "2005-03",
+  "rows": 372,
+  "sha1": "e911ee6abb0050ea8c5fa10b52b487eaf4b1d898:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2005-04.csv.gz": {
+  "max": "2005-04",
+  "min": "2005-04",
+  "rows": 372,
+  "sha1": "2e301e7f66e00fce656359dfc27204615906ba3e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2005-05.csv.gz": {
+  "max": "2005-05",
+  "min": "2005-05",
+  "rows": 372,
+  "sha1": "15bb6e37bb11c64b652513780fb114fdb10c7450:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2005-06.csv.gz": {
+  "max": "2005-06",
+  "min": "2005-06",
+  "rows": 372,
+  "sha1": "50c10a160daf752eea7ab846ccf69d588abe228d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2005-07.csv.gz": {
+  "max": "2005-07",
+  "min": "2005-07",
+  "rows": 372,
+  "sha1": "d872e37a1b987e85fdc2420707f7e4d751d12874:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2005-08.csv.gz": {
+  "max": "2005-08",
+  "min": "2005-08",
+  "rows": 372,
+  "sha1": "c2950bacf7dbb1594e35e2d89f86fb974b4cd1ca:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2005-09.csv.gz": {
+  "max": "2005-09",
+  "min": "2005-09",
+  "rows": 372,
+  "sha1": "5d914599cb9df028b6cc4e66fc00dc7bdb8764e9:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2005-10.csv.gz": {
+  "max": "2005-10",
+  "min": "2005-10",
+  "rows": 372,
+  "sha1": "1d72b2ca3d7994b15c46376db540ade121c9abe5:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2005-11.csv.gz": {
+  "max": "2005-11",
+  "min": "2005-11",
+  "rows": 372,
+  "sha1": "57b9b65c0bf7bd64632778b13f5dc79fa3b87d0d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2005-12.csv.gz": {
+  "max": "2005-12",
+  "min": "2005-12",
+  "rows": 372,
+  "sha1": "ee5175c0db98c1ae6c84411768bd92f0ace2d1c3:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2006-01.csv.gz": {
+  "max": "2006-01",
+  "min": "2006-01",
+  "rows": 372,
+  "sha1": "5341c7df916025f7b7170eb97b37714df2742503:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2006-02.csv.gz": {
+  "max": "2006-02",
+  "min": "2006-02",
+  "rows": 372,
+  "sha1": "b99cf36275da1cc38bdf3024437cb1027404c6c2:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2006-03.csv.gz": {
+  "max": "2006-03",
+  "min": "2006-03",
+  "rows": 372,
+  "sha1": "c07a73d566d19d746bad55311f1cdbbece55b2b6:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2006-04.csv.gz": {
+  "max": "2006-04",
+  "min": "2006-04",
+  "rows": 372,
+  "sha1": "a099da7f592b5bd10d7ac5164597823e97a8dd0c:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2006-05.csv.gz": {
+  "max": "2006-05",
+  "min": "2006-05",
+  "rows": 372,
+  "sha1": "38561a0cbfd04c9e20d6efab0ceef9f31297feb9:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2006-06.csv.gz": {
+  "max": "2006-06",
+  "min": "2006-06",
+  "rows": 372,
+  "sha1": "dabf496214e67f8a1a2137cbd5c3bbfb1bf33116:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2006-07.csv.gz": {
+  "max": "2006-07",
+  "min": "2006-07",
+  "rows": 372,
+  "sha1": "1ec410ddf27a13c9479cdec53d214a7adf93ceaf:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2006-08.csv.gz": {
+  "max": "2006-08",
+  "min": "2006-08",
+  "rows": 372,
+  "sha1": "dbeb7c7d287ce5c5eb395b61a71672486a2885a9:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2006-09.csv.gz": {
+  "max": "2006-09",
+  "min": "2006-09",
+  "rows": 372,
+  "sha1": "6c544df145a0d1c4e1496e381cac8d1e1f16a795:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2006-10.csv.gz": {
+  "max": "2006-10",
+  "min": "2006-10",
+  "rows": 372,
+  "sha1": "bf854e20fce9562d83b18a667788cbc194b0fa5d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2006-11.csv.gz": {
+  "max": "2006-11",
+  "min": "2006-11",
+  "rows": 372,
+  "sha1": "9ca3830bcf57a7f53883c43d387d190117aeae98:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2006-12.csv.gz": {
+  "max": "2006-12",
+  "min": "2006-12",
+  "rows": 372,
+  "sha1": "c0270579697b2d4c19ea41b652140845702bdbd0:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2007-01.csv.gz": {
+  "max": "2007-01",
+  "min": "2007-01",
+  "rows": 372,
+  "sha1": "fa061f28ec290e8598f44fd858e5e9d3a3af0c5e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2007-02.csv.gz": {
+  "max": "2007-02",
+  "min": "2007-02",
+  "rows": 372,
+  "sha1": "e2667f6d98ef760e51966638728bb4c75b162638:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2007-03.csv.gz": {
+  "max": "2007-03",
+  "min": "2007-03",
+  "rows": 372,
+  "sha1": "2400257776909cd054ec77033742188978f2b19e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2007-04.csv.gz": {
+  "max": "2007-04",
+  "min": "2007-04",
+  "rows": 372,
+  "sha1": "0c36794d5293d6934b0852c236ea9a705973b71e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2007-05.csv.gz": {
+  "max": "2007-05",
+  "min": "2007-05",
+  "rows": 372,
+  "sha1": "8f1484e72da29da4a303910a21b974d088d55818:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2007-06.csv.gz": {
+  "max": "2007-06",
+  "min": "2007-06",
+  "rows": 372,
+  "sha1": "5cca7caecec5c98f95d6c1c13b904f1b376e660d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2007-07.csv.gz": {
+  "max": "2007-07",
+  "min": "2007-07",
+  "rows": 372,
+  "sha1": "bae042cd7ad882381948645e67e9fb279fa1392c:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2007-08.csv.gz": {
+  "max": "2007-08",
+  "min": "2007-08",
+  "rows": 372,
+  "sha1": "8be90da7271ea8d16cc975a66c85ddabd6674e76:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2007-09.csv.gz": {
+  "max": "2007-09",
+  "min": "2007-09",
+  "rows": 372,
+  "sha1": "4334f3a922bf4aee7ac20a702d0d49992b3e2a9c:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2007-10.csv.gz": {
+  "max": "2007-10",
+  "min": "2007-10",
+  "rows": 372,
+  "sha1": "6ce6d3c83040ada835b44815d8cd07294a871ee2:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2007-11.csv.gz": {
+  "max": "2007-11",
+  "min": "2007-11",
+  "rows": 372,
+  "sha1": "2cdcafe303feb1b626d12404bb2988d352a2c1f4:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2007-12.csv.gz": {
+  "max": "2007-12",
+  "min": "2007-12",
+  "rows": 372,
+  "sha1": "cb5d1709c1f54e69516733ff817b903c129bb279:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2008-01.csv.gz": {
+  "max": "2008-01",
+  "min": "2008-01",
+  "rows": 372,
+  "sha1": "791ab5e51da5949e0c81d35fd035fc3c2b34fc46:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2008-02.csv.gz": {
+  "max": "2008-02",
+  "min": "2008-02",
+  "rows": 372,
+  "sha1": "0cf2e9906dd215ad554a685aca0d148d60a82b73:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2008-03.csv.gz": {
+  "max": "2008-03",
+  "min": "2008-03",
+  "rows": 372,
+  "sha1": "3785eeb7f1e6cfc925d34ada79c917cb4d9d17d1:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2008-04.csv.gz": {
+  "max": "2008-04",
+  "min": "2008-04",
+  "rows": 372,
+  "sha1": "4144f35cc4a37281b1ee1e6a3020a46e4e0b3c6d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2008-05.csv.gz": {
+  "max": "2008-05",
+  "min": "2008-05",
+  "rows": 372,
+  "sha1": "f96a5b6aedafbdf93eec4d47c3f116e4731cfbee:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2008-06.csv.gz": {
+  "max": "2008-06",
+  "min": "2008-06",
+  "rows": 372,
+  "sha1": "eeff96877c769578b3dc5e581db60c207f2412d2:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2008-07.csv.gz": {
+  "max": "2008-07",
+  "min": "2008-07",
+  "rows": 372,
+  "sha1": "0bc3fd4103b69a256284fded91bec9597f47b88e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2008-08.csv.gz": {
+  "max": "2008-08",
+  "min": "2008-08",
+  "rows": 372,
+  "sha1": "f1ecad1ff24bb1db8912f1d7b0030f89ed35b25d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2008-09.csv.gz": {
+  "max": "2008-09",
+  "min": "2008-09",
+  "rows": 372,
+  "sha1": "576f67d38e37647fd70499a5119460f1ec7bc429:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2008-10.csv.gz": {
+  "max": "2008-10",
+  "min": "2008-10",
+  "rows": 372,
+  "sha1": "7f130b0c8dd3d3ab93662a1b75fb61ab7166a254:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2008-11.csv.gz": {
+  "max": "2008-11",
+  "min": "2008-11",
+  "rows": 372,
+  "sha1": "42c3f671a1c348f86128c03883ef4241a6fbe148:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2008-12.csv.gz": {
+  "max": "2008-12",
+  "min": "2008-12",
+  "rows": 372,
+  "sha1": "99439b64fb6f10164b647f1655a75eb1447f7695:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2009-01.csv.gz": {
+  "max": "2009-01",
+  "min": "2009-01",
+  "rows": 372,
+  "sha1": "6447c58872e037a3902b902b2d5f54bce9e00b71:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2009-02.csv.gz": {
+  "max": "2009-02",
+  "min": "2009-02",
+  "rows": 372,
+  "sha1": "e1732590943ad50351f79689cd27787ec5efaae4:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2009-03.csv.gz": {
+  "max": "2009-03",
+  "min": "2009-03",
+  "rows": 372,
+  "sha1": "87bbb6f699c6fe54209d6ab610fcdd7652bd86f9:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2009-04.csv.gz": {
+  "max": "2009-04",
+  "min": "2009-04",
+  "rows": 372,
+  "sha1": "49c975a2d8ee70d21d35bfeafe10e28eece264be:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2009-05.csv.gz": {
+  "max": "2009-05",
+  "min": "2009-05",
+  "rows": 372,
+  "sha1": "f6b835aa5c851732a4c6a18606c1a41144594491:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2009-06.csv.gz": {
+  "max": "2009-06",
+  "min": "2009-06",
+  "rows": 372,
+  "sha1": "a7e030fbcff946dd685bb923ae150d3ed3746251:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2009-07.csv.gz": {
+  "max": "2009-07",
+  "min": "2009-07",
+  "rows": 372,
+  "sha1": "37988cff3eb1573179e540249a4a27ece762e6ac:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2009-08.csv.gz": {
+  "max": "2009-08",
+  "min": "2009-08",
+  "rows": 372,
+  "sha1": "d595fd26af6b69cef8d52fe0144e6e66f68321f4:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2009-09.csv.gz": {
+  "max": "2009-09",
+  "min": "2009-09",
+  "rows": 372,
+  "sha1": "805dd65ace7438fa701d0c051fab2c37f2b099ea:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2009-10.csv.gz": {
+  "max": "2009-10",
+  "min": "2009-10",
+  "rows": 372,
+  "sha1": "12be168ba01ca43f8a06677af70b014199a28a6e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2009-11.csv.gz": {
+  "max": "2009-11",
+  "min": "2009-11",
+  "rows": 372,
+  "sha1": "e64f62b29b4ff1c46304d98b5ea32271a6fa982a:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2009-12.csv.gz": {
+  "max": "2009-12",
+  "min": "2009-12",
+  "rows": 372,
+  "sha1": "dd0f45068edd74f54aeaaa8dc0cfda629cef77d1:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2010-01.csv.gz": {
+  "max": "2010-01",
+  "min": "2010-01",
+  "rows": 372,
+  "sha1": "9d9295c4e4a45b3259454e08fe9b806f9492e8b6:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2010-02.csv.gz": {
+  "max": "2010-02",
+  "min": "2010-02",
+  "rows": 372,
+  "sha1": "e491e5f3e865fb125ebf8c1e7bfa0b0864c2e762:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2010-03.csv.gz": {
+  "max": "2010-03",
+  "min": "2010-03",
+  "rows": 372,
+  "sha1": "fb49dc0a9a261e182bf8cc30c0c82c2f919aee7a:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2010-04.csv.gz": {
+  "max": "2010-04",
+  "min": "2010-04",
+  "rows": 372,
+  "sha1": "36595558b790f11fa1965732d9751b2885383dfe:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2010-05.csv.gz": {
+  "max": "2010-05",
+  "min": "2010-05",
+  "rows": 372,
+  "sha1": "c01a283863b80b103e5c0031d582f48a75c1cfb9:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2010-06.csv.gz": {
+  "max": "2010-06",
+  "min": "2010-06",
+  "rows": 372,
+  "sha1": "80f5a68d98797b51f5056b65ca4e7c95cd2d55c7:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2010-07.csv.gz": {
+  "max": "2010-07",
+  "min": "2010-07",
+  "rows": 372,
+  "sha1": "7f86037f74a4ac9b47bc775f9021eaf4be2066f5:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2010-08.csv.gz": {
+  "max": "2010-08",
+  "min": "2010-08",
+  "rows": 372,
+  "sha1": "38d4a8a1759ca7899da0c131218b13947421acd4:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2010-09.csv.gz": {
+  "max": "2010-09",
+  "min": "2010-09",
+  "rows": 372,
+  "sha1": "6579f1c18902631dd7efdbcf07fe560d7b187c1d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2010-10.csv.gz": {
+  "max": "2010-10",
+  "min": "2010-10",
+  "rows": 372,
+  "sha1": "fa954281f2cdba856b54c2c3de48a3236e5995d2:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2010-11.csv.gz": {
+  "max": "2010-11",
+  "min": "2010-11",
+  "rows": 372,
+  "sha1": "84f50eea05cbaf722ff54e9011876adf10389d70:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2010-12.csv.gz": {
+  "max": "2010-12",
+  "min": "2010-12",
+  "rows": 372,
+  "sha1": "b91bd4d9103f97003fdcf145ebb613de665436e7:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2011-01.csv.gz": {
+  "max": "2011-01",
+  "min": "2011-01",
+  "rows": 372,
+  "sha1": "13b71b01351a1aee2653ec88efb440a2fa4153b8:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2011-02.csv.gz": {
+  "max": "2011-02",
+  "min": "2011-02",
+  "rows": 372,
+  "sha1": "45c082c1ee4f504bbf0d396243f319b3b6dc75b5:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2011-03.csv.gz": {
+  "max": "2011-03",
+  "min": "2011-03",
+  "rows": 372,
+  "sha1": "957c66ae6b82652496408a90da10e60579697419:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2011-04.csv.gz": {
+  "max": "2011-04",
+  "min": "2011-04",
+  "rows": 372,
+  "sha1": "e78f652f603ce9c953971cff11ce72dcb1a6383b:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2011-05.csv.gz": {
+  "max": "2011-05",
+  "min": "2011-05",
+  "rows": 372,
+  "sha1": "0934d7b8fa0bfdf882cdd9d8941b77fe8872d005:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2011-06.csv.gz": {
+  "max": "2011-06",
+  "min": "2011-06",
+  "rows": 372,
+  "sha1": "09086974a86bc49830ad25df332eee821aee59dc:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2011-07.csv.gz": {
+  "max": "2011-07",
+  "min": "2011-07",
+  "rows": 372,
+  "sha1": "631ecdc9257f203656e8c8c7507cec05dbddb5ae:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2011-08.csv.gz": {
+  "max": "2011-08",
+  "min": "2011-08",
+  "rows": 372,
+  "sha1": "972b53c529782d668e687d795fb6403781e07a40:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2011-09.csv.gz": {
+  "max": "2011-09",
+  "min": "2011-09",
+  "rows": 372,
+  "sha1": "e7e28cfd5979150cc761cc731bee8d627fbdaae0:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2011-10.csv.gz": {
+  "max": "2011-10",
+  "min": "2011-10",
+  "rows": 372,
+  "sha1": "00199fa10c300def3e5cd070c1bd2a520d566a33:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2011-11.csv.gz": {
+  "max": "2011-11",
+  "min": "2011-11",
+  "rows": 372,
+  "sha1": "7f249b28d9ea1edfd983c7f896ce630d70840652:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2011-12.csv.gz": {
+  "max": "2011-12",
+  "min": "2011-12",
+  "rows": 372,
+  "sha1": "7a557432d9bde70cfab7e0c9a52e2333a7cbeebc:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2012-01.csv.gz": {
+  "max": "2012-01",
+  "min": "2012-01",
+  "rows": 372,
+  "sha1": "8cf3bc9d0f1bb6728a147d724adfedd48bffef15:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2012-02.csv.gz": {
+  "max": "2012-02",
+  "min": "2012-02",
+  "rows": 372,
+  "sha1": "a87c17c5ee5155ef71b475a896bc1fd01bf7dfbf:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2012-03.csv.gz": {
+  "max": "2012-03",
+  "min": "2012-03",
+  "rows": 372,
+  "sha1": "17c100014ec8d6699685b48a0980635bca0f7207:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2012-04.csv.gz": {
+  "max": "2012-04",
+  "min": "2012-04",
+  "rows": 372,
+  "sha1": "16bf1f79e1ec1dd7b36686c8b98b16270680cc9b:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2012-05.csv.gz": {
+  "max": "2012-05",
+  "min": "2012-05",
+  "rows": 372,
+  "sha1": "1627df85f3568df218f802fcbb8556947da3c081:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2012-06.csv.gz": {
+  "max": "2012-06",
+  "min": "2012-06",
+  "rows": 372,
+  "sha1": "80cc2570784b0e8b4f6105fa1bf4c66ef8b372f5:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2012-07.csv.gz": {
+  "max": "2012-07",
+  "min": "2012-07",
+  "rows": 372,
+  "sha1": "60fc50ab5b7b1764ca5dc7971c63d4b6dbda50b8:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2012-08.csv.gz": {
+  "max": "2012-08",
+  "min": "2012-08",
+  "rows": 372,
+  "sha1": "b053a5a4171e5cabb93e0b26d4e8d0b836f94011:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2012-09.csv.gz": {
+  "max": "2012-09",
+  "min": "2012-09",
+  "rows": 372,
+  "sha1": "5c6b4fe63b8d44b1f570cac12306fe427de17422:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2012-10.csv.gz": {
+  "max": "2012-10",
+  "min": "2012-10",
+  "rows": 372,
+  "sha1": "1198dc756a8cb25a279bce2aa0682860e7484cb0:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2012-11.csv.gz": {
+  "max": "2012-11",
+  "min": "2012-11",
+  "rows": 372,
+  "sha1": "42232219442c6245b7084c4af04c63e4e1496700:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2012-12.csv.gz": {
+  "max": "2012-12",
+  "min": "2012-12",
+  "rows": 372,
+  "sha1": "d94b804bf1201dc1416c860e8b166c70cd223342:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2013-01.csv.gz": {
+  "max": "2013-01",
+  "min": "2013-01",
+  "rows": 372,
+  "sha1": "0e4000303a6a659672e7cf60622f39ccee76a130:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2013-02.csv.gz": {
+  "max": "2013-02",
+  "min": "2013-02",
+  "rows": 372,
+  "sha1": "65d2e20b2d066e8bfb60a83e0cead4c0030db158:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2013-03.csv.gz": {
+  "max": "2013-03",
+  "min": "2013-03",
+  "rows": 372,
+  "sha1": "e3ad99c03a1d8077b83f67ee2124cd01a9823a1e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2013-04.csv.gz": {
+  "max": "2013-04",
+  "min": "2013-04",
+  "rows": 372,
+  "sha1": "038a1e1f6cc03bb4e3e2477cb7d728e268ad817e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2013-05.csv.gz": {
+  "max": "2013-05",
+  "min": "2013-05",
+  "rows": 372,
+  "sha1": "bc75050972b8fc36817637038572c3db434e34cc:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2013-06.csv.gz": {
+  "max": "2013-06",
+  "min": "2013-06",
+  "rows": 372,
+  "sha1": "a9ab8bce1f9a172760d99503e98478cc687348e9:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2013-07.csv.gz": {
+  "max": "2013-07",
+  "min": "2013-07",
+  "rows": 372,
+  "sha1": "cacb1996c0712436b78841ced2120b1b5b7f720e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2013-08.csv.gz": {
+  "max": "2013-08",
+  "min": "2013-08",
+  "rows": 372,
+  "sha1": "b841b30a17804b619c32dbbbb5ef155320d7f279:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2013-09.csv.gz": {
+  "max": "2013-09",
+  "min": "2013-09",
+  "rows": 372,
+  "sha1": "1040901b9b874560cb160282f3a657a940a4142f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2013-10.csv.gz": {
+  "max": "2013-10",
+  "min": "2013-10",
+  "rows": 372,
+  "sha1": "e398614998f3dd0f456534f445dbecfc433896bc:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2013-11.csv.gz": {
+  "max": "2013-11",
+  "min": "2013-11",
+  "rows": 372,
+  "sha1": "0d180ee2dace769d00328c59d3966296f11d8985:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2013-12.csv.gz": {
+  "max": "2013-12",
+  "min": "2013-12",
+  "rows": 372,
+  "sha1": "b1050170b31498a3b98b429b38cd8563b9c598bc:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2014-01.csv.gz": {
+  "max": "2014-01",
+  "min": "2014-01",
+  "rows": 372,
+  "sha1": "5a39ed8b6c88617fc01394ea7a66e3bc92cbb714:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2014-02.csv.gz": {
+  "max": "2014-02",
+  "min": "2014-02",
+  "rows": 372,
+  "sha1": "2acda6ce3fd880a320f8e94a515dea3fc7ddafe1:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2014-03.csv.gz": {
+  "max": "2014-03",
+  "min": "2014-03",
+  "rows": 372,
+  "sha1": "4f5e46a5f62746ec54b22cb4a005477c4b58c984:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2014-04.csv.gz": {
+  "max": "2014-04",
+  "min": "2014-04",
+  "rows": 372,
+  "sha1": "11eb5ce447435ef16b941f7a8dc3b22a8deb4d7b:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2014-05.csv.gz": {
+  "max": "2014-05",
+  "min": "2014-05",
+  "rows": 372,
+  "sha1": "676755afef037436273eaa0fe05fe3a44fc87669:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2014-06.csv.gz": {
+  "max": "2014-06",
+  "min": "2014-06",
+  "rows": 372,
+  "sha1": "f49966721b6e80df609c107d5faf1e0d421520e2:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2014-07.csv.gz": {
+  "max": "2014-07",
+  "min": "2014-07",
+  "rows": 372,
+  "sha1": "d3d653d9be0a55abd45178bcce4151521b1c546f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2014-08.csv.gz": {
+  "max": "2014-08",
+  "min": "2014-08",
+  "rows": 372,
+  "sha1": "3de9f2c306d675d4517e603f94b93809bf8ff2b4:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2014-09.csv.gz": {
+  "max": "2014-09",
+  "min": "2014-09",
+  "rows": 372,
+  "sha1": "4b061cb849c8922bc1b388255a09b5734cd1b970:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2014-10.csv.gz": {
+  "max": "2014-10",
+  "min": "2014-10",
+  "rows": 372,
+  "sha1": "251bb35c730198d212a8f22262c660252817a035:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2014-11.csv.gz": {
+  "max": "2014-11",
+  "min": "2014-11",
+  "rows": 372,
+  "sha1": "e378900bd79757defc5b1a60e75f7f2669ae8816:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2014-12.csv.gz": {
+  "max": "2014-12",
+  "min": "2014-12",
+  "rows": 372,
+  "sha1": "13421828e3847c16d43cefe089d4555ee3099b60:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2015-01.csv.gz": {
+  "max": "2015-01",
+  "min": "2015-01",
+  "rows": 372,
+  "sha1": "944ee811d6cc7182c11899b2cb034feddcaea303:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2015-02.csv.gz": {
+  "max": "2015-02",
+  "min": "2015-02",
+  "rows": 372,
+  "sha1": "d8842d65055fe607e935b7159b0ac55fb9518308:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2015-03.csv.gz": {
+  "max": "2015-03",
+  "min": "2015-03",
+  "rows": 372,
+  "sha1": "88eda71f5f57f914b75bcc4d9439b98477d5b615:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2015-04.csv.gz": {
+  "max": "2015-04",
+  "min": "2015-04",
+  "rows": 372,
+  "sha1": "fe7256ae9f90ebf69ddd6375bcacc36829a813fa:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2015-05.csv.gz": {
+  "max": "2015-05",
+  "min": "2015-05",
+  "rows": 372,
+  "sha1": "906ca67a9ee1f20de344d0eb6dee97643a5b0582:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2015-06.csv.gz": {
+  "max": "2015-06",
+  "min": "2015-06",
+  "rows": 372,
+  "sha1": "d2ddaae2c47d7f55492a151f93b80d290ce366c7:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2015-07.csv.gz": {
+  "max": "2015-07",
+  "min": "2015-07",
+  "rows": 372,
+  "sha1": "04471f77ca057e181f3d547d945579e5d55aaa67:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2015-08.csv.gz": {
+  "max": "2015-08",
+  "min": "2015-08",
+  "rows": 372,
+  "sha1": "2a03f431e5f84f848102e6cbf5c840df74af723d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2015-09.csv.gz": {
+  "max": "2015-09",
+  "min": "2015-09",
+  "rows": 372,
+  "sha1": "a2b44e7ffd1b11a0ab847ad7b325ab0a3c296467:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2015-10.csv.gz": {
+  "max": "2015-10",
+  "min": "2015-10",
+  "rows": 372,
+  "sha1": "424223e39b5e0e78394af1401908347210bc9991:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2015-11.csv.gz": {
+  "max": "2015-11",
+  "min": "2015-11",
+  "rows": 372,
+  "sha1": "98fcfa4211e515f63e70f822ed2ed03e4c9b234b:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2015-12.csv.gz": {
+  "max": "2015-12",
+  "min": "2015-12",
+  "rows": 372,
+  "sha1": "2eb191701237a5d438763d7e595000a7989da231:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2016-01.csv.gz": {
+  "max": "2016-01",
+  "min": "2016-01",
+  "rows": 372,
+  "sha1": "d7a4e9000b84c7d7da4bf1e529ca85e7f2c2dd3a:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2016-02.csv.gz": {
+  "max": "2016-02",
+  "min": "2016-02",
+  "rows": 372,
+  "sha1": "8a4e9cfa766df79a91bebd76178a7049a8745d5d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2016-03.csv.gz": {
+  "max": "2016-03",
+  "min": "2016-03",
+  "rows": 372,
+  "sha1": "d219abae044a3dbb3a0222010d3dec183fe8c25e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2016-04.csv.gz": {
+  "max": "2016-04",
+  "min": "2016-04",
+  "rows": 372,
+  "sha1": "bcca11d226bbc58a30970e8276362bff6e8c8907:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2016-05.csv.gz": {
+  "max": "2016-05",
+  "min": "2016-05",
+  "rows": 372,
+  "sha1": "20e2a4f1d16b563bcbdad3c60ec09a35c7c542c2:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2016-06.csv.gz": {
+  "max": "2016-06",
+  "min": "2016-06",
+  "rows": 372,
+  "sha1": "5bd6ad5ee7703f5ea41be31ed842f788cce84449:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2016-07.csv.gz": {
+  "max": "2016-07",
+  "min": "2016-07",
+  "rows": 372,
+  "sha1": "be22934832ba5bc84823fdd02f805033375ccd98:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2016-08.csv.gz": {
+  "max": "2016-08",
+  "min": "2016-08",
+  "rows": 372,
+  "sha1": "bdfdad1b51460596a4baa573f544b121ba9222cb:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2016-09.csv.gz": {
+  "max": "2016-09",
+  "min": "2016-09",
+  "rows": 372,
+  "sha1": "c04fca96afabe31743dea0123de972c808c18d05:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2016-10.csv.gz": {
+  "max": "2016-10",
+  "min": "2016-10",
+  "rows": 372,
+  "sha1": "5c94c844e2aa040ee9ebae9b222c5156f9162d75:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2016-11.csv.gz": {
+  "max": "2016-11",
+  "min": "2016-11",
+  "rows": 372,
+  "sha1": "b763e5df5734d8480839411714fee01c472b389f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2016-12.csv.gz": {
+  "max": "2016-12",
+  "min": "2016-12",
+  "rows": 372,
+  "sha1": "ead11a619b2c2dff6bd49693d2b3bbb55b1f70cd:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2017-01.csv.gz": {
+  "max": "2017-01",
+  "min": "2017-01",
+  "rows": 372,
+  "sha1": "a9f55bc54ff0dae33c4da645c2e7046fabd3a555:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2017-02.csv.gz": {
+  "max": "2017-02",
+  "min": "2017-02",
+  "rows": 372,
+  "sha1": "426bcb3a690c7f9569df4f5f249005f1d4f56984:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2017-03.csv.gz": {
+  "max": "2017-03",
+  "min": "2017-03",
+  "rows": 372,
+  "sha1": "66522951ddebb663bca2fb9f02317f9358d43882:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2017-04.csv.gz": {
+  "max": "2017-04",
+  "min": "2017-04",
+  "rows": 372,
+  "sha1": "156172084d0731193ffdbf39d45376f0a072e072:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2017-05.csv.gz": {
+  "max": "2017-05",
+  "min": "2017-05",
+  "rows": 372,
+  "sha1": "b871e90fa86a782f431edf9a23077c059fc4942d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2017-06.csv.gz": {
+  "max": "2017-06",
+  "min": "2017-06",
+  "rows": 372,
+  "sha1": "3208a9ce1dccadbd81338834e2f13500bd1bca57:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2017-07.csv.gz": {
+  "max": "2017-07",
+  "min": "2017-07",
+  "rows": 372,
+  "sha1": "07f3b86206529220cd12edf4f6b173ca8a119c3d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2017-08.csv.gz": {
+  "max": "2017-08",
+  "min": "2017-08",
+  "rows": 372,
+  "sha1": "57a793ea0c63185c18d9ee3b13957f6ddf03d8ba:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2017-09.csv.gz": {
+  "max": "2017-09",
+  "min": "2017-09",
+  "rows": 372,
+  "sha1": "9002d26d1a830fd9638b96d35558647a07f1aaba:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2017-10.csv.gz": {
+  "max": "2017-10",
+  "min": "2017-10",
+  "rows": 372,
+  "sha1": "a62dc3e4e7be2062f683f21746568ebb30ad9bbc:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2017-11.csv.gz": {
+  "max": "2017-11",
+  "min": "2017-11",
+  "rows": 372,
+  "sha1": "c001138670e3d17b6bf9e85380d64b00b96762a0:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2017-12.csv.gz": {
+  "max": "2017-12",
+  "min": "2017-12",
+  "rows": 372,
+  "sha1": "f3c91723ecde56c61c1d9c24dc0bad5f522c31bb:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2018-01.csv.gz": {
+  "max": "2018-01",
+  "min": "2018-01",
+  "rows": 372,
+  "sha1": "8f4bf29eb42c2da62e98dc6f7c83be52bbf5fe7a:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2018-02.csv.gz": {
+  "max": "2018-02",
+  "min": "2018-02",
+  "rows": 372,
+  "sha1": "a480f924c3e0e5d4af20b0d6f47c89e67453c8ac:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2018-03.csv.gz": {
+  "max": "2018-03",
+  "min": "2018-03",
+  "rows": 372,
+  "sha1": "3b327c41755d559878865d557249020c7c49098c:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2018-04.csv.gz": {
+  "max": "2018-04",
+  "min": "2018-04",
+  "rows": 372,
+  "sha1": "69a33f4229b67602ab585f81028fc9bdb7871fde:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2018-05.csv.gz": {
+  "max": "2018-05",
+  "min": "2018-05",
+  "rows": 372,
+  "sha1": "c4583d029495e73e9d6bd60bc245d702c04242a0:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2018-06.csv.gz": {
+  "max": "2018-06",
+  "min": "2018-06",
+  "rows": 372,
+  "sha1": "e11a9f301d84a575f873e1c7f57558a472f3342f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2018-07.csv.gz": {
+  "max": "2018-07",
+  "min": "2018-07",
+  "rows": 372,
+  "sha1": "1dbcdfcf8eb4bd58dba104791344ee616b67c58e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2018-08.csv.gz": {
+  "max": "2018-08",
+  "min": "2018-08",
+  "rows": 372,
+  "sha1": "6f7d12af9a99210d1aec1013947577c2191ef7f1:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2018-09.csv.gz": {
+  "max": "2018-09",
+  "min": "2018-09",
+  "rows": 372,
+  "sha1": "50cfd8a2332f1df14b245d3528595763b85fd821:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2018-10.csv.gz": {
+  "max": "2018-10",
+  "min": "2018-10",
+  "rows": 372,
+  "sha1": "6d610c8278fefb66452494e0d939cddf88c1b44b:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2018-11.csv.gz": {
+  "max": "2018-11",
+  "min": "2018-11",
+  "rows": 372,
+  "sha1": "3e955cc1b873520790fbab3a5b764c0d6cd1c546:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2018-12.csv.gz": {
+  "max": "2018-12",
+  "min": "2018-12",
+  "rows": 372,
+  "sha1": "eeed3711d7ef985737a1e310fe6fa5e2efaa6e95:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2019-01.csv.gz": {
+  "max": "2019-01",
+  "min": "2019-01",
+  "rows": 372,
+  "sha1": "f329b29f9197cc2b162299caa8298e4cb9484bb3:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2019-02.csv.gz": {
+  "max": "2019-02",
+  "min": "2019-02",
+  "rows": 372,
+  "sha1": "e78621017a14685e40958031a0dac87b5632b057:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2019-03.csv.gz": {
+  "max": "2019-03",
+  "min": "2019-03",
+  "rows": 372,
+  "sha1": "01aeff8a90d26a46498ff41c5c422b612efa9010:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2019-04.csv.gz": {
+  "max": "2019-04",
+  "min": "2019-04",
+  "rows": 372,
+  "sha1": "7bbc78e1eefed22497849b6796a202fdcdd2755f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2019-05.csv.gz": {
+  "max": "2019-05",
+  "min": "2019-05",
+  "rows": 372,
+  "sha1": "edcf50a3002785e0c136b5ca4894b566b286c4e7:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2019-06.csv.gz": {
+  "max": "2019-06",
+  "min": "2019-06",
+  "rows": 372,
+  "sha1": "c725ae47d0b4edde4e4a40e5738f1b88d79f29fa:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2019-07.csv.gz": {
+  "max": "2019-07",
+  "min": "2019-07",
+  "rows": 372,
+  "sha1": "d9c0d5f82e92ab64aadb4a122171c8378c74a9e5:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2019-08.csv.gz": {
+  "max": "2019-08",
+  "min": "2019-08",
+  "rows": 372,
+  "sha1": "c868caddcb182bcefa2bef655cdd6838ec2b1ad1:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2019-09.csv.gz": {
+  "max": "2019-09",
+  "min": "2019-09",
+  "rows": 372,
+  "sha1": "6062c0a52308755bcd7f152bbce5ab5c1f1d4f15:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2019-10.csv.gz": {
+  "max": "2019-10",
+  "min": "2019-10",
+  "rows": 372,
+  "sha1": "19e3cf36a6ee88c2b29cefd99ba418ad6ba80fff:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2019-11.csv.gz": {
+  "max": "2019-11",
+  "min": "2019-11",
+  "rows": 372,
+  "sha1": "6873d0e2a7403e30793f43afe5bcd249bba24b4b:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2019-12.csv.gz": {
+  "max": "2019-12",
+  "min": "2019-12",
+  "rows": 372,
+  "sha1": "c15345d55364a8f7b1acd3b1cac2b37617c1fee3:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2020-01.csv.gz": {
+  "max": "2020-01",
+  "min": "2020-01",
+  "rows": 372,
+  "sha1": "efe37b16a2c18ef1a4a1429343ffd0c1337d00e9:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2020-02.csv.gz": {
+  "max": "2020-02",
+  "min": "2020-02",
+  "rows": 372,
+  "sha1": "533a30f4c68d51876b480bbf2f2ca87969cc7340:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2020-03.csv.gz": {
+  "max": "2020-03",
+  "min": "2020-03",
+  "rows": 372,
+  "sha1": "f6fe88d690562fa149f16cce9043d57e9d8add05:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2020-04.csv.gz": {
+  "max": "2020-04",
+  "min": "2020-04",
+  "rows": 372,
+  "sha1": "cb2f47a35564254e5ef29cc489774d0bba539b54:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2020-05.csv.gz": {
+  "max": "2020-05",
+  "min": "2020-05",
+  "rows": 372,
+  "sha1": "e23eb6483397b8231e418bd916efb044d5f4faa7:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2020-06.csv.gz": {
+  "max": "2020-06",
+  "min": "2020-06",
+  "rows": 372,
+  "sha1": "dea59b173347fe6e0740481715828ecb138861d3:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2020-07.csv.gz": {
+  "max": "2020-07",
+  "min": "2020-07",
+  "rows": 372,
+  "sha1": "23b9d9c87566a231c7df7806016b53830d0b80e8:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2020-08.csv.gz": {
+  "max": "2020-08",
+  "min": "2020-08",
+  "rows": 372,
+  "sha1": "e98a4d2a4eb1993be8ca2b3074d2c6cdbf5b2968:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2020-09.csv.gz": {
+  "max": "2020-09",
+  "min": "2020-09",
+  "rows": 372,
+  "sha1": "1e88cb7b215da355c7b6b9b639661f8a2157c63b:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2020-10.csv.gz": {
+  "max": "2020-10",
+  "min": "2020-10",
+  "rows": 372,
+  "sha1": "699896c16ace75158ffd4ddd76f7e2bbf040c204:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2020-11.csv.gz": {
+  "max": "2020-11",
+  "min": "2020-11",
+  "rows": 372,
+  "sha1": "3d26fb9e74ac4f78a16725607cc9b88292d61c09:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2020-12.csv.gz": {
+  "max": "2020-12",
+  "min": "2020-12",
+  "rows": 372,
+  "sha1": "b81f841eeb1c9b23fe91bba5ad0808deb689856e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2021-01.csv.gz": {
+  "max": "2021-01",
+  "min": "2021-01",
+  "rows": 372,
+  "sha1": "feaeb0dfd7066d97f23bf93c158cc8d850dce940:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2021-02.csv.gz": {
+  "max": "2021-02",
+  "min": "2021-02",
+  "rows": 372,
+  "sha1": "a1877dc13e5814142169c86e7cc673aeab61ff1a:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2021-03.csv.gz": {
+  "max": "2021-03",
+  "min": "2021-03",
+  "rows": 372,
+  "sha1": "6c0fd4e0a1c5ad57051c442c04d00a755dbb805e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2021-04.csv.gz": {
+  "max": "2021-04",
+  "min": "2021-04",
+  "rows": 372,
+  "sha1": "798f3890eea0536916446534250a7fac2c70bcc0:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2021-05.csv.gz": {
+  "max": "2021-05",
+  "min": "2021-05",
+  "rows": 372,
+  "sha1": "dd2d224aa50bad0703022a52bf4026b30db29bf2:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2021-06.csv.gz": {
+  "max": "2021-06",
+  "min": "2021-06",
+  "rows": 372,
+  "sha1": "b4b09999f8d55ff1b1b6e4ef14f68c2c15688525:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2021-07.csv.gz": {
+  "max": "2021-07",
+  "min": "2021-07",
+  "rows": 372,
+  "sha1": "f91f284b6c065ef279e36ee5b34be26a35476063:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2021-08.csv.gz": {
+  "max": "2021-08",
+  "min": "2021-08",
+  "rows": 372,
+  "sha1": "c33a24a38ff9dc1a2ce10eb0c83c75b175ee680b:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2021-09.csv.gz": {
+  "max": "2021-09",
+  "min": "2021-09",
+  "rows": 372,
+  "sha1": "bbb289ccf424f25ce8dfe1143f07b74f8dd64f0f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2021-10.csv.gz": {
+  "max": "2021-10",
+  "min": "2021-10",
+  "rows": 372,
+  "sha1": "e166dc0c07ac147394fca91afce3b72dd5623825:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2021-11.csv.gz": {
+  "max": "2021-11",
+  "min": "2021-11",
+  "rows": 372,
+  "sha1": "f0188ff9401756d206ca439b3e391e4d0b13d486:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2021-12.csv.gz": {
+  "max": "2021-12",
+  "min": "2021-12",
+  "rows": 372,
+  "sha1": "425e411cad8ea5e401d66fc7d98f88e6d08a662c:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2022-01.csv.gz": {
+  "max": "2022-01",
+  "min": "2022-01",
+  "rows": 372,
+  "sha1": "40fe36281fedec2bd749e578fc02816af59cdf46:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2022-02.csv.gz": {
+  "max": "2022-02",
+  "min": "2022-02",
+  "rows": 372,
+  "sha1": "f94eee4eef30a301c24c548d86f1bfb517c50d48:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2022-03.csv.gz": {
+  "max": "2022-03",
+  "min": "2022-03",
+  "rows": 372,
+  "sha1": "2bd7c1eaedcbf2311e78fbd6489687f8823290cd:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2022-04.csv.gz": {
+  "max": "2022-04",
+  "min": "2022-04",
+  "rows": 372,
+  "sha1": "0c2ec7e312d50df35f0a25669e3d7574782a4cc9:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2022-05.csv.gz": {
+  "max": "2022-05",
+  "min": "2022-05",
+  "rows": 372,
+  "sha1": "79c65da96090d13312e6eeeefc299be8369152c1:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2022-06.csv.gz": {
+  "max": "2022-06",
+  "min": "2022-06",
+  "rows": 372,
+  "sha1": "9a7d23ac5bce0556524ab7fbe5d47cc37b60221e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2022-07.csv.gz": {
+  "max": "2022-07",
+  "min": "2022-07",
+  "rows": 372,
+  "sha1": "44773036f9ec3f14a57fa505f5e4adc1d5cd0978:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2022-08.csv.gz": {
+  "max": "2022-08",
+  "min": "2022-08",
+  "rows": 372,
+  "sha1": "d7232883a2c92d1e6d3a8ef8d0abf0c09360b1d2:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2022-09.csv.gz": {
+  "max": "2022-09",
+  "min": "2022-09",
+  "rows": 372,
+  "sha1": "828132a2506fa173f6df3bb4370d545b18403d0b:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2022-10.csv.gz": {
+  "max": "2022-10",
+  "min": "2022-10",
+  "rows": 372,
+  "sha1": "5ec322e9169c9692ce9ef02ca9fd13a9f8e3d511:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2022-11.csv.gz": {
+  "max": "2022-11",
+  "min": "2022-11",
+  "rows": 372,
+  "sha1": "60449128cf89406e69809ae5506780ed1af12427:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2022-12.csv.gz": {
+  "max": "2022-12",
+  "min": "2022-12",
+  "rows": 372,
+  "sha1": "084279cae0f7619eaf0f9627e31802a04a29601f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2023-01.csv.gz": {
+  "max": "2023-01",
+  "min": "2023-01",
+  "rows": 372,
+  "sha1": "9200ec460ccbfeae8ffee9215130ff98fff7f50f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2023-02.csv.gz": {
+  "max": "2023-02",
+  "min": "2023-02",
+  "rows": 372,
+  "sha1": "7307c96628312e25b12b1c87b6dc99a0ea446176:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2023-03.csv.gz": {
+  "max": "2023-03",
+  "min": "2023-03",
+  "rows": 372,
+  "sha1": "519f82046b9a054f90125c85a9b76e4d06d86d4f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2023-04.csv.gz": {
+  "max": "2023-04",
+  "min": "2023-04",
+  "rows": 372,
+  "sha1": "405a1c893c329a5349cc2b32b768fb11286b8edd:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2023-05.csv.gz": {
+  "max": "2023-05",
+  "min": "2023-05",
+  "rows": 372,
+  "sha1": "211be2e4587d9a5c09e8999df381050761e4175e:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2023-06.csv.gz": {
+  "max": "2023-06",
+  "min": "2023-06",
+  "rows": 372,
+  "sha1": "df1adfb9952b1862689c986af506961bb442b2b6:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2023-07.csv.gz": {
+  "max": "2023-07",
+  "min": "2023-07",
+  "rows": 372,
+  "sha1": "0e5ac151ae8ad080e5e21a112f221540c952cbc8:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2023-08.csv.gz": {
+  "max": "2023-08",
+  "min": "2023-08",
+  "rows": 372,
+  "sha1": "42a7ab8f09e88830212388c89e2efed043e44765:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2023-09.csv.gz": {
+  "max": "2023-09",
+  "min": "2023-09",
+  "rows": 372,
+  "sha1": "bba82e919345d506b5ab000fbcd6f2c20bbbde37:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2023-10.csv.gz": {
+  "max": "2023-10",
+  "min": "2023-10",
+  "rows": 372,
+  "sha1": "efc5ee66e113b26ae7b8ec94ac78c33c8dd1f032:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2023-11.csv.gz": {
+  "max": "2023-11",
+  "min": "2023-11",
+  "rows": 372,
+  "sha1": "fe455726200247db2614170dc1bb02eb9975519f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2023-12.csv.gz": {
+  "max": "2023-12",
+  "min": "2023-12",
+  "rows": 372,
+  "sha1": "6d03c86adf42ba5dbd49094777f9e32588b4c788:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2024-01.csv.gz": {
+  "max": "2024-01",
+  "min": "2024-01",
+  "rows": 372,
+  "sha1": "499e47699fd32538b677a7969f9002f81f69d1dc:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2024-02.csv.gz": {
+  "max": "2024-02",
+  "min": "2024-02",
+  "rows": 372,
+  "sha1": "f98103bb3d0803dcd7f94c25cfcb69fa6d83faf0:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2024-03.csv.gz": {
+  "max": "2024-03",
+  "min": "2024-03",
+  "rows": 372,
+  "sha1": "a3fae46d4c599c93f62aaa5d615503a746ce034c:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2024-04.csv.gz": {
+  "max": "2024-04",
+  "min": "2024-04",
+  "rows": 372,
+  "sha1": "f53820f3676fbf5e539265de477cf50b2e1398d3:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2024-05.csv.gz": {
+  "max": "2024-05",
+  "min": "2024-05",
+  "rows": 372,
+  "sha1": "f60273371212365afdaed11205d89982b4028eab:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2024-06.csv.gz": {
+  "max": "2024-06",
+  "min": "2024-06",
+  "rows": 372,
+  "sha1": "63b57ff6d61463faf15309dc44fd39ca6ee72f7d:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2024-07.csv.gz": {
+  "max": "2024-07",
+  "min": "2024-07",
+  "rows": 372,
+  "sha1": "30695adc3156b1e6c46314e32e9b9781f6c24add:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2024-08.csv.gz": {
+  "max": "2024-08",
+  "min": "2024-08",
+  "rows": 372,
+  "sha1": "7577af6fcd4bee687af1e6f065b24ba8ff0a99bb:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2024-09.csv.gz": {
+  "max": "2024-09",
+  "min": "2024-09",
+  "rows": 372,
+  "sha1": "a43757df495aa7da0969f00d9598830b1766126f:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2024-10.csv.gz": {
+  "max": "2024-10",
+  "min": "2024-10",
+  "rows": 372,
+  "sha1": "afeb0e5bf535981db8838906a79a4da5146a3f84:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2024-11.csv.gz": {
+  "max": "2024-11",
+  "min": "2024-11",
+  "rows": 372,
+  "sha1": "846fe5ae34a9b35943c1b7bd1f60e7ac1a113a35:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2024-12.csv.gz": {
+  "max": "2024-12",
+  "min": "2024-12",
+  "rows": 372,
+  "sha1": "ebc54232482706f3700c58ffb33ebd64349733de:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2025-01.csv.gz": {
+  "max": "2025-01",
+  "min": "2025-01",
+  "rows": 372,
+  "sha1": "da8679ee8a55de594f604e056d0716ad3de3ca31:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2025-02.csv.gz": {
+  "max": "2025-02",
+  "min": "2025-02",
+  "rows": 372,
+  "sha1": "912f827be2c5c7df99116f6e6bacd83e3e4075e2:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2025-03.csv.gz": {
+  "max": "2025-03",
+  "min": "2025-03",
+  "rows": 372,
+  "sha1": "81c9b8e1428c4fbb0a7b826ef949e4881b9a186c:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2025-04.csv.gz": {
+  "max": "2025-04",
+  "min": "2025-04",
+  "rows": 372,
+  "sha1": "594be536c0bd0fd6c6ab26a18c0add481de269c2:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2025-05.csv.gz": {
+  "max": "2025-05",
+  "min": "2025-05",
+  "rows": 372,
+  "sha1": "3b88f6caca3973b96cb6c6de861e3f5b2f52c3d6:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2025-06.csv.gz": {
+  "max": "2025-06",
+  "min": "2025-06",
+  "rows": 372,
+  "sha1": "81781543a036b9a7759ea82c155322e5d15b5d5c:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2025-07.csv.gz": {
+  "max": "2025-07",
+  "min": "2025-07",
+  "rows": 372,
+  "sha1": "6eeda100b05e8855d6b5b3d0623afc6e154fc842:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2025-08.csv.gz": {
+  "max": "2025-08",
+  "min": "2025-08",
+  "rows": 372,
+  "sha1": "818c57809bd4285b8bb46a545cb80d9647c55f7a:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2025-09.csv.gz": {
+  "max": "2025-09",
+  "min": "2025-09",
+  "rows": 372,
+  "sha1": "410801349ea0f488ba17a220f0030d958e7eb34a:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2025-10.csv.gz": {
+  "max": "2025-10",
+  "min": "2025-10",
+  "rows": 372,
+  "sha1": "834c2899c1e37f2be418507cf00519250667ba40:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2025-11.csv.gz": {
+  "max": "2025-11",
+  "min": "2025-11",
+  "rows": 372,
+  "sha1": "ea850f9885546d3f9af16558ef0fa17fbf75b7f6:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2025-12.csv.gz": {
+  "max": "2025-12",
+  "min": "2025-12",
+  "rows": 372,
+  "sha1": "8f570963c22e55da3b84f3f43034c435df143295:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2026-01.csv.gz": {
+  "max": "2026-01",
+  "min": "2026-01",
+  "rows": 372,
+  "sha1": "b5463228c74464bbf13816e62154bc2794c5bd7a:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2026-02.csv.gz": {
+  "max": "2026-02",
+  "min": "2026-02",
+  "rows": 372,
+  "sha1": "b5d09fc238fb999324e975e0304e2b0ef77c3fc0:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2026-03.csv.gz": {
+  "max": "2026-03",
+  "min": "2026-03",
+  "rows": 372,
+  "sha1": "20f8632074ea7c7f9a00308c48eaa8f58d68e368:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2026-04.csv.gz": {
+  "max": "2026-04",
+  "min": "2026-04",
+  "rows": 372,
+  "sha1": "439bf47c7b13896ecf7c6620ea92242ccebaa920:2",
+  "time_col": "period"
+ },
+ "energy/eia/retail_sales/2026-05.csv.gz": {
+  "max": "2026-05",
+  "min": "2026-05",
+  "rows": 372,
+  "sha1": "50bd9fb9467b1388dac28b36d6bd7b05a9f7f562:2",
   "time_col": "period"
  },
  "energy/eia/retail_sales/2026-06.csv.gz": {
@@ -265,11 +6467,25 @@
   "sha1": "d72191766ab6463e5cfa30cc68b79b03fc4252e8:2",
   "time_col": "period"
  },
+ "energy/eia/subregion/2019-06.csv.gz": {
+  "max": "2019-06-30T23:00Z",
+  "min": "2019-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "ab492d6dc66912440300c1dd0b1301ead607dd6d:2",
+  "time_col": "period"
+ },
+ "energy/eia/subregion/2019-07.csv.gz": {
+  "max": "2019-07-31T23:00Z",
+  "min": "2019-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "27bb3f560a753a65b6b0fb2bb97c6b871d798960:2",
+  "time_col": "period"
+ },
  "energy/eia/subregion/2026-09.csv": {
   "max": "2026-09-27T07:00Z",
   "min": "2026-09-20T11:00Z",
   "rows": 165,
-  "sha1": "5a00aac74293c3d075e1e2d48d3023b5c38acd51:2",
+  "sha1": "ea56ef1be123d131797562ea1fa3faa190e51fea:2",
   "time_col": "period"
  },
  "energy/europe/power/2015-01.csv.gz": {

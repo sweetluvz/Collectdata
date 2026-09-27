@@ -6,12 +6,12 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 |---|---:|---:|---|---|---|---:|
 | `energy/aemo/price_demand` | 3 | 16,416 | `timestamp` | 2026-07-31T14:05Z | 2026-09-26T14:00Z | 1.4 MB |
 | `energy/airquality/observed` | 6 | 7,040 | `time` | 2022-08-04T00:00Z | 2026-09-27T13:00Z | 274.4 KB |
-| `energy/eia/fuel_prices` | 4 | 721 | `period` | 2026-06-29 | 2026-09-22 | 82.7 KB |
-| `energy/eia/fuel_type` | 6 | 3,788 | `period` | 2019-01-01T00:00Z | 2026-09-27T06:00Z | 2.5 MB |
-| `energy/eia/interchange` | 6 | 3,765 | `period` | 2019-01-01T00:00Z | 2026-09-26T07:00Z | 2.5 MB |
-| `energy/eia/region` | 6 | 3,793 | `period` | 2019-01-01T00:00Z | 2026-09-27T11:00Z | 2.5 MB |
-| `energy/eia/retail_sales` | 2 | 744 | `period` | 2026-06 | 2026-07 | 22.1 KB |
-| `energy/eia/subregion` | 6 | 3,789 | `period` | 2019-01-01T00:00Z | 2026-09-27T07:00Z | 633.5 KB |
+| `energy/eia/fuel_prices` | 489 | 129,990 | `period` | 1986-01-02 | 2026-09-22 | 1022.3 KB |
+| `energy/eia/fuel_type` | 14 | 9,663 | `period` | 2018-07-01T05:00Z | 2026-09-27T06:00Z | 5.2 MB |
+| `energy/eia/interchange` | 50 | 35,944 | `period` | 2015-07-01T05:00Z | 2026-09-26T07:00Z | 19.7 MB |
+| `energy/eia/region` | 50 | 35,975 | `period` | 2015-07-01T05:00Z | 2026-09-27T14:00Z | 18.9 MB |
+| `energy/eia/retail_sales` | 307 | 114,204 | `period` | 2001-01 | 2026-07 | 1.8 MB |
+| `energy/eia/subregion` | 8 | 5,253 | `period` | 2019-01-01T00:00Z | 2026-09-27T07:00Z | 894.0 KB |
 | `energy/europe/power` | 20 | 234,169 | `timestamp` | 2015-01-01T00:00Z | 2026-09-27T11:15Z | 10.2 MB |
 | `energy/europe/price` | 1 | 480 | `timestamp` | 2026-09-23T22:00Z | 2026-09-28T21:45Z | 47.1 KB |
 | `energy/gb/carbon_intensity` | 1 | 337 | `timestamp` | 2026-09-20T23:30Z | 2026-09-27T23:30Z | 11.3 KB |
@@ -29,8 +29,9 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 |---|---|---:|---:|---:|
 | `aemo` | 1998-12-01 .. 2026-09-27 | 0 / 334 | 0 | 334 |
 | `airquality` | 2022-08-01 .. 2026-09-27 | 1 / 200 | 0 | 199 |
-| `eia` | 2015-07-01 .. 2026-09-27 | 5 / 135 | 42 | 88 |
-| `eia_market` | 1986-01-01 .. 2026-09-27 | 0 / 41 | 0 | 41 |
+| `eia` | 2015-07-01 .. 2026-09-27 | 7 / 135 | 42 | 86 |
+| `eia_bulk` | 2015-07-01 .. 2026-09-27 | 7 / 7 | 0 | complete |
+| `eia_market` | 1986-01-01 .. 2026-09-27 | 41 / 41 | 0 | complete |
 | `era5` | 2015-01-01 .. 2026-09-27 | 381 / 480 | 0 | 99 |
 | `europe_power` | 2015-01-01 .. 2026-09-27 | 185 / 1410 | 0 | 1225 |
 | `europe_price` | 2015-01-01 .. 2026-09-27 | 0 / 141 | 0 | 141 |
