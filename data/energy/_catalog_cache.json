@@ -793,43 +793,43 @@
  "energy/airquality/observed/2022-08.csv.gz": {
   "max": "2022-08-31T23:00Z",
   "min": "2022-08-04T00:00Z",
-  "rows": 672,
-  "sha1": "00fc91455f13d8067aa8d795064e17f0a8e137d0:2",
+  "rows": 2688,
+  "sha1": "2dac6011a6c69c4abf814be9ba6abe7edf702d64:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2022-09.csv.gz": {
   "max": "2022-09-30T23:00Z",
   "min": "2022-09-01T00:00Z",
-  "rows": 720,
-  "sha1": "a0fac343e53d55ef6dd62e77c1ef49fc5a7f0ad3:2",
+  "rows": 2880,
+  "sha1": "a8203a3dee80ecc7699d416bf87a8138e4e94107:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2022-10.csv.gz": {
   "max": "2022-10-31T23:00Z",
   "min": "2022-10-01T00:00Z",
-  "rows": 744,
-  "sha1": "74dcf4b390af009204efaaaba59dc765bfa4c32f:2",
+  "rows": 2976,
+  "sha1": "9e0d4561467cc308840fd4a68482edbc3cae2415:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2022-11.csv.gz": {
   "max": "2022-11-30T23:00Z",
   "min": "2022-11-01T00:00Z",
-  "rows": 720,
-  "sha1": "4502c6547d7d6c8da418774f2039bd34d7872574:2",
+  "rows": 2880,
+  "sha1": "0cf04a64cb87ee1b9cec5616600e8a9457c6bc21:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2022-12.csv.gz": {
   "max": "2022-12-31T23:00Z",
   "min": "2022-12-01T00:00Z",
-  "rows": 744,
-  "sha1": "068001dde16cf404147fe079d37385287147b9ba:2",
+  "rows": 2976,
+  "sha1": "f0043b92b0f81f121d9ee5aa821c757c1fd4999a:2",
   "time_col": "time"
  },
  "energy/airquality/observed/2026-09.csv": {
-  "max": "2026-09-27T13:00Z",
+  "max": "2026-09-27T17:00Z",
   "min": "2026-09-24T00:00Z",
-  "rows": 3440,
-  "sha1": "63b7686ab33cb85fcb13ba2c5a60d6fa78d079ea:2",
+  "rows": 3600,
+  "sha1": "d4f90ec04d6f195b898cda59c3620edfd8a594cd:2",
   "time_col": "time"
  },
  "energy/eia/fuel_prices/1986-01.csv.gz": {
@@ -14065,106 +14065,246 @@
  "energy/weather/era5/2024-01.csv.gz": {
   "max": "2024-01-31T23:00Z",
   "min": "2024-01-01T00:00Z",
-  "rows": 15624,
-  "sha1": "d5045dde95cfb7a57eb0e38beefa96bff403a981:2",
+  "rows": 29760,
+  "sha1": "26bc1290ed315266c05111111605d8b108d60a0a:2",
   "time_col": "time"
  },
  "energy/weather/era5/2024-02.csv.gz": {
   "max": "2024-02-29T23:00Z",
   "min": "2024-02-01T00:00Z",
-  "rows": 14616,
-  "sha1": "5c0bb723ad7617aac4928a3a1f52c8b429a71442:2",
+  "rows": 27840,
+  "sha1": "1fd34bf5933577dcb1d7244f7e630756304ca590:2",
   "time_col": "time"
  },
  "energy/weather/era5/2024-03.csv.gz": {
   "max": "2024-03-31T23:00Z",
   "min": "2024-03-01T00:00Z",
-  "rows": 15624,
-  "sha1": "d2e8c6bd426b74aa22978406424ac9439c0e3171:2",
+  "rows": 29760,
+  "sha1": "e54c69fc6cafd24ed76b40ccd2b5ad5208cf031d:2",
   "time_col": "time"
  },
  "energy/weather/era5/2024-04.csv.gz": {
   "max": "2024-04-30T23:00Z",
   "min": "2024-04-01T00:00Z",
-  "rows": 15120,
-  "sha1": "677b4f0bcaac0740ab32d4014a1210f70eb9f401:2",
+  "rows": 28800,
+  "sha1": "e3e0670bf7ab2bb1e4a7bc6466504388cbf39063:2",
   "time_col": "time"
  },
  "energy/weather/era5/2024-05.csv.gz": {
   "max": "2024-05-31T23:00Z",
   "min": "2024-05-01T00:00Z",
-  "rows": 15624,
-  "sha1": "c3c58e3582701fe9f7a9ffc05b7d5209f05d9136:2",
+  "rows": 29760,
+  "sha1": "f2963c55b8193b877858793309dc4fa716ab8400:2",
   "time_col": "time"
  },
  "energy/weather/era5/2024-06.csv.gz": {
   "max": "2024-06-30T23:00Z",
   "min": "2024-06-01T00:00Z",
-  "rows": 15120,
-  "sha1": "86df4a809509852d2e7294ef381ff3bddf4237d4:2",
+  "rows": 28800,
+  "sha1": "306285c3bef1d8e7cefd6a08a044d3f0b5271684:2",
   "time_col": "time"
  },
  "energy/weather/era5/2024-07.csv.gz": {
   "max": "2024-07-31T23:00Z",
   "min": "2024-07-01T00:00Z",
-  "rows": 15624,
-  "sha1": "6b1dcac64ddc3361fa56714ae0947dae51f8b351:2",
+  "rows": 29760,
+  "sha1": "74612a49b1b5f817d201a448ee42467dfc22fb92:2",
   "time_col": "time"
  },
  "energy/weather/era5/2024-08.csv.gz": {
   "max": "2024-08-31T23:00Z",
   "min": "2024-08-01T00:00Z",
-  "rows": 15624,
-  "sha1": "2439c689408e1ee91112846bb6305f68a00fe19c:2",
+  "rows": 29760,
+  "sha1": "3ee9a0673626e46e2f03613da35b2a91cebb997d:2",
   "time_col": "time"
  },
  "energy/weather/era5/2024-09.csv.gz": {
   "max": "2024-09-30T23:00Z",
   "min": "2024-09-01T00:00Z",
-  "rows": 15120,
-  "sha1": "2f34b8ef6ee9b8dfb19a069772183540832cd5cb:2",
+  "rows": 28800,
+  "sha1": "09ca565bfd4f6a94c5d2c7522fcac1fd48901d82:2",
   "time_col": "time"
  },
  "energy/weather/era5/2024-10.csv.gz": {
   "max": "2024-10-31T23:00Z",
   "min": "2024-10-01T00:00Z",
-  "rows": 15624,
-  "sha1": "74251de09ba6f0d75cf36ecd59d1fc83cc5f1197:2",
+  "rows": 29760,
+  "sha1": "98a3979f80e37c1ad3635f780094e64b7be36282:2",
   "time_col": "time"
  },
  "energy/weather/era5/2024-11.csv.gz": {
   "max": "2024-11-30T23:00Z",
   "min": "2024-11-01T00:00Z",
-  "rows": 15120,
-  "sha1": "6d1541db5fb0720acf365cc7b515c75ab56b5a95:2",
+  "rows": 28800,
+  "sha1": "f0f225eca4742bd64bf5b3b9c36b3a2707f0ad29:2",
   "time_col": "time"
  },
  "energy/weather/era5/2024-12.csv.gz": {
   "max": "2024-12-31T23:00Z",
   "min": "2024-12-01T00:00Z",
-  "rows": 15624,
-  "sha1": "98b82fe029b52938c21108cb23233d7ff622412a:2",
+  "rows": 29760,
+  "sha1": "7fae299ab33f66d064736535bf6bdb70d1812fed:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2025-01.csv.gz": {
+  "max": "2025-01-31T23:00Z",
+  "min": "2025-01-01T00:00Z",
+  "rows": 29760,
+  "sha1": "de18b43fc75cec2c3655fb3cffa12489cc447bbe:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2025-02.csv.gz": {
+  "max": "2025-02-28T23:00Z",
+  "min": "2025-02-01T00:00Z",
+  "rows": 26880,
+  "sha1": "c1b64289f8a822a9568fca9dd58c5f42b96129b1:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2025-03.csv.gz": {
+  "max": "2025-03-31T23:00Z",
+  "min": "2025-03-01T00:00Z",
+  "rows": 29760,
+  "sha1": "ff7b75eed53edb6fb39d0ba3c17b4ebc13fa7e9c:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2025-04.csv.gz": {
+  "max": "2025-04-30T23:00Z",
+  "min": "2025-04-01T00:00Z",
+  "rows": 28800,
+  "sha1": "3aebc0d1e26e9eec3beff53a60601d12661a1d90:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2025-05.csv.gz": {
+  "max": "2025-05-31T23:00Z",
+  "min": "2025-05-01T00:00Z",
+  "rows": 29760,
+  "sha1": "1ef5005eccb03142d69fbafb038b982ad773ca48:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2025-06.csv.gz": {
+  "max": "2025-06-30T23:00Z",
+  "min": "2025-06-01T00:00Z",
+  "rows": 28800,
+  "sha1": "e68e31cc4e5d7d7ea9d6784fb324124a75d7d80d:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2025-07.csv.gz": {
+  "max": "2025-07-31T23:00Z",
+  "min": "2025-07-01T00:00Z",
+  "rows": 29760,
+  "sha1": "f41e24a952937d4960b80ae27cc2acb13a5aec7c:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2025-08.csv.gz": {
+  "max": "2025-08-31T23:00Z",
+  "min": "2025-08-01T00:00Z",
+  "rows": 29760,
+  "sha1": "a421b9d6c9adb76c785040e6fc4f37066a8a4c5e:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2025-09.csv.gz": {
+  "max": "2025-09-30T23:00Z",
+  "min": "2025-09-01T00:00Z",
+  "rows": 28800,
+  "sha1": "186fd99c79232425d1d77aa0993efdbd5fa29432:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2025-10.csv.gz": {
+  "max": "2025-10-31T23:00Z",
+  "min": "2025-10-01T00:00Z",
+  "rows": 29760,
+  "sha1": "a4f24b9031bc049a2863321ef154ace157a28845:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2025-11.csv.gz": {
+  "max": "2025-11-30T23:00Z",
+  "min": "2025-11-01T00:00Z",
+  "rows": 28800,
+  "sha1": "45e75160c21422a7ab7a5ea54b2dad08e42fce19:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2025-12.csv.gz": {
+  "max": "2025-12-31T23:00Z",
+  "min": "2025-12-01T00:00Z",
+  "rows": 29760,
+  "sha1": "f0fff91383360ea6a2b97cafefd836eb75a200b8:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2026-01.csv.gz": {
+  "max": "2026-01-31T23:00Z",
+  "min": "2026-01-01T00:00Z",
+  "rows": 29760,
+  "sha1": "664b894e54afc6ce6c2e6b9486c87b38caaf1a62:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2026-02.csv.gz": {
+  "max": "2026-02-28T23:00Z",
+  "min": "2026-02-01T00:00Z",
+  "rows": 26880,
+  "sha1": "561357449bf7d4d3e9a935cb09532ac477ed85d2:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2026-03.csv.gz": {
+  "max": "2026-03-31T23:00Z",
+  "min": "2026-03-01T00:00Z",
+  "rows": 29760,
+  "sha1": "90990e03cb66e70b2cf2ab3e402c6ce3fca044b9:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2026-04.csv.gz": {
+  "max": "2026-04-30T23:00Z",
+  "min": "2026-04-01T00:00Z",
+  "rows": 28800,
+  "sha1": "294f604e9cfec8b2e4a2d8ba7ef916a235415d34:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2026-05.csv.gz": {
+  "max": "2026-05-31T23:00Z",
+  "min": "2026-05-01T00:00Z",
+  "rows": 29760,
+  "sha1": "4bba34a7aa17fdc2d70045ac20e1855796703c2a:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2026-06.csv.gz": {
+  "max": "2026-06-30T23:00Z",
+  "min": "2026-06-01T00:00Z",
+  "rows": 28800,
+  "sha1": "8a69e3d401a7b810894254d8c9b8f46363910db0:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2026-07.csv": {
+  "max": "2026-07-31T23:00Z",
+  "min": "2026-07-01T00:00Z",
+  "rows": 29760,
+  "sha1": "2265e702876c89a52fbded867e5b282b152801d1:2",
+  "time_col": "time"
+ },
+ "energy/weather/era5/2026-08.csv": {
+  "max": "2026-08-31T23:00Z",
+  "min": "2026-08-01T00:00Z",
+  "rows": 29760,
+  "sha1": "02b0c4e033fe9618ff609e83afd5577c9adb3513:2",
   "time_col": "time"
  },
  "energy/weather/era5/2026-09.csv": {
   "max": "2026-09-21T23:00Z",
-  "min": "2026-09-07T00:00Z",
-  "rows": 14400,
-  "sha1": "277d85e98104a3897c5586005f722da604d3cd73:2",
+  "min": "2026-09-01T00:00Z",
+  "rows": 20160,
+  "sha1": "52f0fca85ebbc92423dca555aace40983547f777:2",
   "time_col": "time"
  },
  "energy/weather/forecast/2026-09.csv": {
-  "max": "2026-09-27T13:00Z",
+  "max": "2026-09-27T17:00Z",
   "min": "2026-09-27T08:00Z",
-  "rows": 3698,
-  "sha1": "3ac489d7d19a04429057988e7cae33ffc784a327:2",
+  "rows": 4898,
+  "sha1": "7702691fe6bfc51fea7eb0484ed0e49acb47b138:2",
   "time_col": "issued_at"
  },
  "energy/weather/observed/2026-09.csv": {
-  "max": "2026-09-27T13:00Z",
+  "max": "2026-09-27T17:00Z",
   "min": "2026-09-24T00:00Z",
-  "rows": 3440,
-  "sha1": "f7d90d388d988efff703af25d612f3e66220e87b:2",
+  "rows": 3600,
+  "sha1": "a71fee0c93ea1f444503bcf434a02422e4bed947:2",
   "time_col": "time"
  }
 }
