@@ -1498,10 +1498,822 @@
   "time_col": "timestamp"
  },
  "energy/aemo/price_demand/2016-10.csv.gz": {
-  "max": "2016-10-31T14:00Z",
+  "max": "2016-10-31T23:30Z",
   "min": "2016-10-01T00:00Z",
-  "rows": 1469,
-  "sha1": "7e9d956ffad0b3542c164a35caca6c7c7150d300:2",
+  "rows": 1488,
+  "sha1": "44aba9038b9e8540a435e43ce2a806508da78a85:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2016-11.csv.gz": {
+  "max": "2016-11-30T23:30Z",
+  "min": "2016-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "6da7f360706bb78541faf28281cde0f008065c4b:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2016-12.csv.gz": {
+  "max": "2016-12-31T23:30Z",
+  "min": "2016-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "cd547694f7013dc6760c131429a411a7b34ec34e:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2017-01.csv.gz": {
+  "max": "2017-01-31T23:30Z",
+  "min": "2017-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "413f8b1965067cb2ded4f27bdcb615904a079b89:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2017-02.csv.gz": {
+  "max": "2017-02-28T23:30Z",
+  "min": "2017-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "c0fccd4433288edf254a42ff697d31930550f42f:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2017-03.csv.gz": {
+  "max": "2017-03-31T23:30Z",
+  "min": "2017-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ce874b7e1ff847452527c9c2fb8a5ded077bce2e:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2017-04.csv.gz": {
+  "max": "2017-04-30T23:30Z",
+  "min": "2017-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "14c6fb035f86bc092eb68eff94826566bf1a0c00:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2017-05.csv.gz": {
+  "max": "2017-05-31T23:30Z",
+  "min": "2017-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "123b843a231d174d5a2af17b0facee8304ae3cb5:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2017-06.csv.gz": {
+  "max": "2017-06-30T23:30Z",
+  "min": "2017-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "9fc5d78cc35a7948ed250f0da14ab90993c82a8a:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2017-07.csv.gz": {
+  "max": "2017-07-31T23:30Z",
+  "min": "2017-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "22a2dd6c2b67efb3b1609dcc11156cb0eeff9731:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2017-08.csv.gz": {
+  "max": "2017-08-31T23:30Z",
+  "min": "2017-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "13977f3a0afcf91ed256e149f970fdcf6f989359:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2017-09.csv.gz": {
+  "max": "2017-09-30T23:30Z",
+  "min": "2017-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "97f61fedbe0cd2e1a072ac79843a9afbf17053fc:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2017-10.csv.gz": {
+  "max": "2017-10-31T23:30Z",
+  "min": "2017-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "8d0fdb3e9831118c147d9f73591ebbfb2add8f49:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2017-11.csv.gz": {
+  "max": "2017-11-30T23:30Z",
+  "min": "2017-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "7354a2a24010ec9cd6da739cb650bdfd2e1e7c8f:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2017-12.csv.gz": {
+  "max": "2017-12-31T23:30Z",
+  "min": "2017-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "4be011b3ac2bb1c63b8ed6605db0f104de81d444:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2018-01.csv.gz": {
+  "max": "2018-01-31T23:30Z",
+  "min": "2018-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "baf7a897aacec5009613ac6baa184d8333cebff5:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2018-02.csv.gz": {
+  "max": "2018-02-28T23:30Z",
+  "min": "2018-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "ba918b1be0f41b1456610e2bbe3a36934e44e823:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2018-03.csv.gz": {
+  "max": "2018-03-31T23:30Z",
+  "min": "2018-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "be52f22f58a635c1de90fd706d8f6a2bdf1a7cca:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2018-04.csv.gz": {
+  "max": "2018-04-30T23:30Z",
+  "min": "2018-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "9f6a62a992d1f27f23eb0fd027e0ba3f3845cbb1:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2018-05.csv.gz": {
+  "max": "2018-05-31T23:30Z",
+  "min": "2018-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "1a00f3b19fb9870526c3a06b1ebaefdac317b4de:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2018-06.csv.gz": {
+  "max": "2018-06-30T23:30Z",
+  "min": "2018-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "df9cf0bd05ca150618d475aae597ad436c145119:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2018-07.csv.gz": {
+  "max": "2018-07-31T23:30Z",
+  "min": "2018-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "dc3d6b86b23c74bcf6fb03b01e0bf16f7a218790:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2018-08.csv.gz": {
+  "max": "2018-08-31T23:30Z",
+  "min": "2018-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7b9f7b6d59f32691a93faddefff0e48267bedeac:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2018-09.csv.gz": {
+  "max": "2018-09-30T23:30Z",
+  "min": "2018-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "949bb879b8f34fb06388a2f6066cbab1e92395a1:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2018-10.csv.gz": {
+  "max": "2018-10-31T23:30Z",
+  "min": "2018-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "cb61087a217ab858f69ff57b5198567e855f12bf:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2018-11.csv.gz": {
+  "max": "2018-11-30T23:30Z",
+  "min": "2018-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "305db5bdab1d5b393c3dcdfe2c918f56e16aa97a:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2018-12.csv.gz": {
+  "max": "2018-12-31T23:30Z",
+  "min": "2018-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e5ec097765b09f444f45232a7d1bd26644ae3cdc:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2019-01.csv.gz": {
+  "max": "2019-01-31T23:30Z",
+  "min": "2019-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "8bae1d7e03d454bb8d0c0875edbe397e5a584965:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2019-02.csv.gz": {
+  "max": "2019-02-28T23:30Z",
+  "min": "2019-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "c8c5b961625aa406e4ae97f742ded89fc756c5ac:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2019-03.csv.gz": {
+  "max": "2019-03-31T23:30Z",
+  "min": "2019-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "abd36ecf9a0253ed68316cc028de9e30a9a23a27:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2019-04.csv.gz": {
+  "max": "2019-04-30T23:30Z",
+  "min": "2019-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "75dfcb5bda8bd10c6a28dd5b0e1eb5c6d0293a96:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2019-05.csv.gz": {
+  "max": "2019-05-31T23:30Z",
+  "min": "2019-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "c22980c4ec5f2881ce4604183f4cb53b2ff676a9:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2019-06.csv.gz": {
+  "max": "2019-06-30T23:30Z",
+  "min": "2019-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "5dc4cf7dfa2c6daf4ef76a0a5086863cf5471c27:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2019-07.csv.gz": {
+  "max": "2019-07-31T23:30Z",
+  "min": "2019-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "dad22635e00e6444ea654b102cbadc4b48c7ae2a:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2019-08.csv.gz": {
+  "max": "2019-08-31T23:30Z",
+  "min": "2019-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "6377e6e9d822ec60506d8b8af5dfa745e5d1c6e1:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2019-09.csv.gz": {
+  "max": "2019-09-30T23:30Z",
+  "min": "2019-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "9529b8ae0b2de2f99d1c223ffe1ade9180eb0f11:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2019-10.csv.gz": {
+  "max": "2019-10-31T23:30Z",
+  "min": "2019-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "1ef642acd8206874ce5510709af0d21d6d0a979d:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2019-11.csv.gz": {
+  "max": "2019-11-30T23:30Z",
+  "min": "2019-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "a46f45d9cdf666cfb8b13db68ad6af86b17c84c8:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2019-12.csv.gz": {
+  "max": "2019-12-31T23:30Z",
+  "min": "2019-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "1b6acd8e10983c34f112f9ead7cfc8e31d39640b:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2020-01.csv.gz": {
+  "max": "2020-01-31T23:30Z",
+  "min": "2020-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "7fdb236398079baf0fbc643700224d76bff4543e:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2020-02.csv.gz": {
+  "max": "2020-02-29T23:30Z",
+  "min": "2020-02-01T00:00Z",
+  "rows": 1392,
+  "sha1": "84b51c7d8e419eb5dcb6eea57078912a79e3d620:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2020-03.csv.gz": {
+  "max": "2020-03-31T23:30Z",
+  "min": "2020-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "24eed289eb8cea1466f9fed78ac3fb932f7e94b6:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2020-04.csv.gz": {
+  "max": "2020-04-30T23:30Z",
+  "min": "2020-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "129af166100e0b51bcd82d38e624abcd3d3e50be:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2020-05.csv.gz": {
+  "max": "2020-05-31T23:30Z",
+  "min": "2020-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "be98d9c1abe1ea5aca35375facbbac4145a65c60:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2020-06.csv.gz": {
+  "max": "2020-06-30T23:30Z",
+  "min": "2020-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "98e8854c5e31981f349f7ff4ad1a2e7ce0145afc:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2020-07.csv.gz": {
+  "max": "2020-07-31T23:30Z",
+  "min": "2020-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "0b34e4fd11625fe0ac61b87a35720b8433dc4744:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2020-08.csv.gz": {
+  "max": "2020-08-31T23:30Z",
+  "min": "2020-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "e7fdb204ac5f14ff82fddfec21c402ac05fda72c:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2020-09.csv.gz": {
+  "max": "2020-09-30T23:30Z",
+  "min": "2020-09-01T00:00Z",
+  "rows": 1440,
+  "sha1": "e596b0be6783e9f8567c149b6a76d5f96521c132:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2020-10.csv.gz": {
+  "max": "2020-10-31T23:30Z",
+  "min": "2020-10-01T00:00Z",
+  "rows": 1488,
+  "sha1": "3763ad3f2ee6681c5080a9dd948973ba83931582:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2020-11.csv.gz": {
+  "max": "2020-11-30T23:30Z",
+  "min": "2020-11-01T00:00Z",
+  "rows": 1440,
+  "sha1": "470ae728169710fa2cc2e4b1d0cdcdbaa66dabd1:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2020-12.csv.gz": {
+  "max": "2020-12-31T23:30Z",
+  "min": "2020-12-01T00:00Z",
+  "rows": 1488,
+  "sha1": "5c4c1d15d7af21869121532d7659c8e651a6dea4:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2021-01.csv.gz": {
+  "max": "2021-01-31T23:30Z",
+  "min": "2021-01-01T00:00Z",
+  "rows": 1488,
+  "sha1": "cfe17a4dde3e94b2c1432417cf5875e09c67d8d7:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2021-02.csv.gz": {
+  "max": "2021-02-28T23:30Z",
+  "min": "2021-02-01T00:00Z",
+  "rows": 1344,
+  "sha1": "b3431786edd60bd5f7051d8c1bfa9e4bd3b21835:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2021-03.csv.gz": {
+  "max": "2021-03-31T23:30Z",
+  "min": "2021-03-01T00:00Z",
+  "rows": 1488,
+  "sha1": "63fe63d40f0ec63285b1d8d85391b2c5aa47477d:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2021-04.csv.gz": {
+  "max": "2021-04-30T23:30Z",
+  "min": "2021-04-01T00:00Z",
+  "rows": 1440,
+  "sha1": "86af46e1725b02b6f4b30800e61b5f300e41f3d6:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2021-05.csv.gz": {
+  "max": "2021-05-31T23:30Z",
+  "min": "2021-05-01T00:00Z",
+  "rows": 1488,
+  "sha1": "9b2951e39ae6a40e3ee3ee4f2ddd109cbedba4da:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2021-06.csv.gz": {
+  "max": "2021-06-30T23:30Z",
+  "min": "2021-06-01T00:00Z",
+  "rows": 1440,
+  "sha1": "f15db8570b7dbc2b56c1132bc8465d9e77315473:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2021-07.csv.gz": {
+  "max": "2021-07-31T23:30Z",
+  "min": "2021-07-01T00:00Z",
+  "rows": 1488,
+  "sha1": "c8b1915aa4aaf175a757b0250623623edaa75652:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2021-08.csv.gz": {
+  "max": "2021-08-31T23:30Z",
+  "min": "2021-08-01T00:00Z",
+  "rows": 1488,
+  "sha1": "ea12d0eaa32ae3df6cd0373f234d9e9a91cafebc:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2021-09.csv.gz": {
+  "max": "2021-09-30T23:55Z",
+  "min": "2021-09-01T00:00Z",
+  "rows": 1540,
+  "sha1": "7713ddeec807708b1e42ee646c7676c4da7b7aff:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2021-10.csv.gz": {
+  "max": "2021-10-31T23:55Z",
+  "min": "2021-10-01T00:00Z",
+  "rows": 8928,
+  "sha1": "c1f1df8b98ba28b53e03efb1f8e3f7cb60cd9247:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2021-11.csv.gz": {
+  "max": "2021-11-30T23:55Z",
+  "min": "2021-11-01T00:00Z",
+  "rows": 8640,
+  "sha1": "19b078d1e711ab1c479a7db478eed0f4749ea29e:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2021-12.csv.gz": {
+  "max": "2021-12-31T23:55Z",
+  "min": "2021-12-01T00:00Z",
+  "rows": 8928,
+  "sha1": "8404321dda9063b1182baee0f1ed0e0bd1200370:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2022-01.csv.gz": {
+  "max": "2022-01-31T23:55Z",
+  "min": "2022-01-01T00:00Z",
+  "rows": 8928,
+  "sha1": "8abb0638262333d73761a5ac426a1a808231101c:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2022-02.csv.gz": {
+  "max": "2022-02-28T23:55Z",
+  "min": "2022-02-01T00:00Z",
+  "rows": 8064,
+  "sha1": "54c8756e8838c7718e4e7b732a3a4212c6646e0f:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2022-03.csv.gz": {
+  "max": "2022-03-31T23:55Z",
+  "min": "2022-03-01T00:00Z",
+  "rows": 8928,
+  "sha1": "23c12ed8a508f28821109be35f85ca6cc02eb637:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2022-04.csv.gz": {
+  "max": "2022-04-30T23:55Z",
+  "min": "2022-04-01T00:00Z",
+  "rows": 8640,
+  "sha1": "503869292a59c0f9d1f4d709652a0e0921c66b4f:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2022-05.csv.gz": {
+  "max": "2022-05-31T23:55Z",
+  "min": "2022-05-01T00:00Z",
+  "rows": 8928,
+  "sha1": "3cdc308adc68fa99a64885cbca57fe6a3c9bfc59:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2022-06.csv.gz": {
+  "max": "2022-06-30T23:55Z",
+  "min": "2022-06-01T00:00Z",
+  "rows": 8640,
+  "sha1": "c8e704bd9df5e4f357e92e060177785d3f08cd86:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2022-07.csv.gz": {
+  "max": "2022-07-31T23:55Z",
+  "min": "2022-07-01T00:00Z",
+  "rows": 8928,
+  "sha1": "7bddce21d9683c4ce6b437cf8dedc56302366387:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2022-08.csv.gz": {
+  "max": "2022-08-31T23:55Z",
+  "min": "2022-08-01T00:00Z",
+  "rows": 8928,
+  "sha1": "cdd22bb9737c1c9e1b58414c6359c285a338bc5a:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2022-09.csv.gz": {
+  "max": "2022-09-30T23:55Z",
+  "min": "2022-09-01T00:00Z",
+  "rows": 8640,
+  "sha1": "114276a587dda22bf2720f7f3a21f82c68363cc6:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2022-10.csv.gz": {
+  "max": "2022-10-31T23:55Z",
+  "min": "2022-10-01T00:00Z",
+  "rows": 8928,
+  "sha1": "b2c6c235e85a537ae879ef905222d18c0884dbb6:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2022-11.csv.gz": {
+  "max": "2022-11-30T23:55Z",
+  "min": "2022-11-01T00:00Z",
+  "rows": 8640,
+  "sha1": "2ea0dd10039c639039ea76d51c8fc4fb65dd9a4f:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2022-12.csv.gz": {
+  "max": "2022-12-31T23:55Z",
+  "min": "2022-12-01T00:00Z",
+  "rows": 8928,
+  "sha1": "baf70a8a50b2072204d4ce539f693556bb5052cf:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2023-01.csv.gz": {
+  "max": "2023-01-31T23:55Z",
+  "min": "2023-01-01T00:00Z",
+  "rows": 8928,
+  "sha1": "797607aca8395ef3acfb6a35d1f0ccd06c5ba5fb:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2023-02.csv.gz": {
+  "max": "2023-02-28T23:55Z",
+  "min": "2023-02-01T00:00Z",
+  "rows": 8064,
+  "sha1": "e6f5c00520e5e63edc8888356113e88c5da9844b:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2023-03.csv.gz": {
+  "max": "2023-03-31T23:55Z",
+  "min": "2023-03-01T00:00Z",
+  "rows": 8928,
+  "sha1": "2de7fbff17cb9f02aa3d7479e4d23f64c45571df:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2023-04.csv.gz": {
+  "max": "2023-04-30T23:55Z",
+  "min": "2023-04-01T00:00Z",
+  "rows": 8640,
+  "sha1": "cf8c4a74da8a7911be23c7a77e492bc890ca20cf:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2023-05.csv.gz": {
+  "max": "2023-05-31T23:55Z",
+  "min": "2023-05-01T00:00Z",
+  "rows": 8928,
+  "sha1": "0ea6abc4356f2ab55740acda0755d639b0f82542:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2023-06.csv.gz": {
+  "max": "2023-06-30T23:55Z",
+  "min": "2023-06-01T00:00Z",
+  "rows": 8640,
+  "sha1": "ad49ab0357bbaf6419354a8367115293c9d7e443:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2023-07.csv.gz": {
+  "max": "2023-07-31T23:55Z",
+  "min": "2023-07-01T00:00Z",
+  "rows": 8928,
+  "sha1": "47e86d78828d7f85c614e041e9d7a615dc021dd4:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2023-08.csv.gz": {
+  "max": "2023-08-31T23:55Z",
+  "min": "2023-08-01T00:00Z",
+  "rows": 8928,
+  "sha1": "6020b500b6363041f0bda498876099802d0bd970:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2023-09.csv.gz": {
+  "max": "2023-09-30T23:55Z",
+  "min": "2023-09-01T00:00Z",
+  "rows": 8640,
+  "sha1": "4e9a619302b562d5e592e0ea2987485c0ad06486:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2023-10.csv.gz": {
+  "max": "2023-10-31T23:55Z",
+  "min": "2023-10-01T00:00Z",
+  "rows": 8928,
+  "sha1": "42b764e4182bdbe53d2ca557a00c8ac62fe1ba87:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2023-11.csv.gz": {
+  "max": "2023-11-30T23:55Z",
+  "min": "2023-11-01T00:00Z",
+  "rows": 8640,
+  "sha1": "ea25c4c470e20ff1f66f959ecf82effd4bac20da:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2023-12.csv.gz": {
+  "max": "2023-12-31T23:55Z",
+  "min": "2023-12-01T00:00Z",
+  "rows": 8928,
+  "sha1": "2cba741c5f0adbafec44387ebe3fbf54086c64da:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2024-01.csv.gz": {
+  "max": "2024-01-31T23:55Z",
+  "min": "2024-01-01T00:00Z",
+  "rows": 8928,
+  "sha1": "afc75f5ac8c7d04b218006b6fe12adf5881b3810:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2024-02.csv.gz": {
+  "max": "2024-02-29T23:55Z",
+  "min": "2024-02-01T00:00Z",
+  "rows": 8352,
+  "sha1": "cc336e9fe7f5abe402eef946e4cfab89122f1e6c:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2024-03.csv.gz": {
+  "max": "2024-03-31T23:55Z",
+  "min": "2024-03-01T00:00Z",
+  "rows": 8928,
+  "sha1": "d46d4f390121873c9cb97fdac5e77353fc08af68:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2024-04.csv.gz": {
+  "max": "2024-04-30T23:55Z",
+  "min": "2024-04-01T00:00Z",
+  "rows": 8640,
+  "sha1": "9982478f93d5234e08d47d9595824417a486cbc9:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2024-05.csv.gz": {
+  "max": "2024-05-31T23:55Z",
+  "min": "2024-05-01T00:00Z",
+  "rows": 8928,
+  "sha1": "12605a16fbf577f31c928d91a27f6d52242b3bef:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2024-06.csv.gz": {
+  "max": "2024-06-30T23:55Z",
+  "min": "2024-06-01T00:00Z",
+  "rows": 8640,
+  "sha1": "0dd24ff5084b38420358cdebf6d4a503bc86f75e:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2024-07.csv.gz": {
+  "max": "2024-07-31T23:55Z",
+  "min": "2024-07-01T00:00Z",
+  "rows": 8928,
+  "sha1": "27426fc7349c7b0cdabb087b5fd65d094723ef6e:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2024-08.csv.gz": {
+  "max": "2024-08-31T23:55Z",
+  "min": "2024-08-01T00:00Z",
+  "rows": 8928,
+  "sha1": "35cdcfa83136c2094dfd42d0bf2a5bd1a9aea397:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2024-09.csv.gz": {
+  "max": "2024-09-30T23:55Z",
+  "min": "2024-09-01T00:00Z",
+  "rows": 8640,
+  "sha1": "417b8992ec154cc205016ef522db74df635b9420:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2024-10.csv.gz": {
+  "max": "2024-10-31T23:55Z",
+  "min": "2024-10-01T00:00Z",
+  "rows": 8928,
+  "sha1": "3369a815089698fda2b85fe5e92054b309bcca29:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2024-11.csv.gz": {
+  "max": "2024-11-30T23:55Z",
+  "min": "2024-11-01T00:00Z",
+  "rows": 8640,
+  "sha1": "b9f436008c24ad6debc21f76091c8ba7f4aba1d2:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2024-12.csv.gz": {
+  "max": "2024-12-31T23:55Z",
+  "min": "2024-12-01T00:00Z",
+  "rows": 8928,
+  "sha1": "956cafa29af1c91a50376c649e5ca7ac50a193b5:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2025-01.csv.gz": {
+  "max": "2025-01-31T23:55Z",
+  "min": "2025-01-01T00:00Z",
+  "rows": 8928,
+  "sha1": "233eac25265021a9fbff1c6ecff9bd2f5e94d88c:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2025-02.csv.gz": {
+  "max": "2025-02-28T23:55Z",
+  "min": "2025-02-01T00:00Z",
+  "rows": 8064,
+  "sha1": "0e1151e717f6c402f79e72fbcaed82cb0601b904:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2025-03.csv.gz": {
+  "max": "2025-03-31T23:55Z",
+  "min": "2025-03-01T00:00Z",
+  "rows": 8928,
+  "sha1": "303c82734d272b4fd047c35abf6e958401f7e462:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2025-04.csv.gz": {
+  "max": "2025-04-30T23:55Z",
+  "min": "2025-04-01T00:00Z",
+  "rows": 8640,
+  "sha1": "a00d808629c4ca4b0decaa4c70a7e3ea96fe1a5d:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2025-05.csv.gz": {
+  "max": "2025-05-31T23:55Z",
+  "min": "2025-05-01T00:00Z",
+  "rows": 8928,
+  "sha1": "a770aee93d24c4ea5e940b80618accd6c5779067:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2025-06.csv.gz": {
+  "max": "2025-06-30T23:55Z",
+  "min": "2025-06-01T00:00Z",
+  "rows": 8640,
+  "sha1": "d5485af00bf8c85829c1952cdc75a8fb1f424aa5:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2025-07.csv.gz": {
+  "max": "2025-07-31T23:55Z",
+  "min": "2025-07-01T00:00Z",
+  "rows": 8928,
+  "sha1": "9700b8377c5206b9ff0041053ed3755e13f7446b:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2025-08.csv.gz": {
+  "max": "2025-08-31T23:55Z",
+  "min": "2025-08-01T00:00Z",
+  "rows": 8928,
+  "sha1": "26cf3f39115ba5ebd69f7b26868b40652d3842ac:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2025-09.csv.gz": {
+  "max": "2025-09-30T23:55Z",
+  "min": "2025-09-01T00:00Z",
+  "rows": 8640,
+  "sha1": "1e7d42bfa38dacc86178042c6306ad098083733a:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2025-10.csv.gz": {
+  "max": "2025-10-31T23:55Z",
+  "min": "2025-10-01T00:00Z",
+  "rows": 8928,
+  "sha1": "1259263205f7114722d251b1bd5e2efe67b47623:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2025-11.csv.gz": {
+  "max": "2025-11-30T23:55Z",
+  "min": "2025-11-01T00:00Z",
+  "rows": 8640,
+  "sha1": "07efa7e69694283987823b16c8ea648339ec2cb1:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2025-12.csv.gz": {
+  "max": "2025-12-31T23:55Z",
+  "min": "2025-12-01T00:00Z",
+  "rows": 8928,
+  "sha1": "2d9403c85f20ba96a547fb8146d4d26e7bdb6342:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2026-01.csv.gz": {
+  "max": "2026-01-31T23:55Z",
+  "min": "2026-01-01T00:00Z",
+  "rows": 8928,
+  "sha1": "3c01f796670ad75b566abedecf9cabd4eb9ec35a:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2026-02.csv.gz": {
+  "max": "2026-02-28T23:55Z",
+  "min": "2026-02-01T00:00Z",
+  "rows": 8064,
+  "sha1": "4e6994648ef471a72ee45e7d58f150e84dfc87ac:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2026-03.csv.gz": {
+  "max": "2026-03-31T23:55Z",
+  "min": "2026-03-01T00:00Z",
+  "rows": 8928,
+  "sha1": "b3a17e91a8c8ca8bc24debb68c6574992dd0262e:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2026-04.csv.gz": {
+  "max": "2026-04-30T23:55Z",
+  "min": "2026-04-01T00:00Z",
+  "rows": 8640,
+  "sha1": "839fad8cb128a71316828c451886f4645ef1c495:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2026-05.csv.gz": {
+  "max": "2026-05-31T23:55Z",
+  "min": "2026-05-01T00:00Z",
+  "rows": 8928,
+  "sha1": "23ef89f4ef8ff6f53536e6c76c5e7429fa9893ef:2",
+  "time_col": "timestamp"
+ },
+ "energy/aemo/price_demand/2026-06.csv.gz": {
+  "max": "2026-06-30T14:00Z",
+  "min": "2026-06-01T00:00Z",
+  "rows": 8521,
+  "sha1": "23b49f2dedf5d24a7437fcd3ccbd0259ed27bfbc:2",
   "time_col": "timestamp"
  },
  "energy/aemo/price_demand/2026-07.csv": {
