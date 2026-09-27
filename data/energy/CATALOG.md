@@ -14,4 +14,6 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | Source | Range | Chunks done | Skipped (no data) | Remaining |
 |---|---|---:|---:|---:|
 | `airquality` | 2022-08-01 .. 2026-09-27 | 0 / 110 | 0 | 110 |
+| `eia` | 2015-07-01 .. 2026-09-27 | 0 / 0 | 0 | waiting (API key missing?) |
+| `eia_market` | 1986-01-01 .. 2026-09-27 | 0 / 0 | 0 | waiting (API key missing?) |
 | `era5` | 2015-01-01 .. 2026-09-27 | 175 / 264 | 0 | 89 |

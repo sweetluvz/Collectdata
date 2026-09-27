@@ -6,6 +6,20 @@
   "start": "2022-08-01",
   "total": 110
  },
+ "eia": {
+  "done": [],
+  "end": "2026-09-27",
+  "skipped": [],
+  "start": "2015-07-01",
+  "total": 0
+ },
+ "eia_market": {
+  "done": [],
+  "end": "2026-09-27",
+  "skipped": [],
+  "start": "1986-01-01",
+  "total": 0
+ },
  "era5": {
   "done": [
    "2015/AT_Vienna",
