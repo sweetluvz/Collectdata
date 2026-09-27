@@ -38,7 +38,7 @@ def elexon(http, path, first, last):
     for a, b in windows(first, last):
         r = check(http.get(f"{ELEXON}/{path}", params={
             "settlementDateFrom": a.isoformat(), "settlementDateTo": b.isoformat(), "format": "json"}, timeout=120))
-        rows.extend(r.json().get("data") or [])
+        rows.extend((r.json() or {}).get("data") or [])
         time.sleep(0.5)
     return pd.DataFrame(rows)
 
@@ -69,7 +69,9 @@ def carbon(http, first, last):
     for a, b in windows(first, last, days=14):
         r = check(http.get(f"{CARBON}/intensity/{a.isoformat()}T00:00Z/{(b + timedelta(days=1)).isoformat()}T00:00Z",
                            timeout=120))
-        for d in r.json().get("data") or []:
+        for d in (r.json() or {}).get("data") or []:  # the API answers `null` before its record starts
+            if not d:
+                continue
             i = d.get("intensity") or {}
             rows.append({"timestamp": d["from"], "forecast": i.get("forecast"), "actual": i.get("actual"),
                          "index": i.get("index")})

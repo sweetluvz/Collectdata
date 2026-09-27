@@ -137,3 +137,29 @@ def test_chotot_drops_personal_fields_and_snapshots(data_dir, monkeypatch):
     assert json.loads(row.params) == {"direction": "Hướng Bắc"} and row.pty_characteristics == "3;2"
     assert row.list_time == "2026-09-27T10:05Z"
     assert len(load_all("realestate/chotot/snapshots")) == 1
+
+
+def test_gb_survives_null_carbon_answers(data_dir, monkeypatch):
+    import scrapers.energy.gb_collector as gb
+
+    def get(url, params=None, timeout=None):
+        if "carbonintensity" in url:
+            return FakeResponse(None)  # body "null" before the API's record starts
+        if "FUELHH" in url:
+            return FakeResponse({"data": [{"startTime": "2016-01-01T00:00:00Z", "fuelType": "COAL", "generation": 1}]})
+        return FakeResponse({"data": []})
+
+    monkeypatch.setenv("BACKFILL_START", "2016-01-01")
+    monkeypatch.setenv("BACKFILL_END", "2016-01-07")
+    with mock.patch("requests.Session.get", side_effect=get):
+        gb.main()
+    assert backfill.load_state("energy")["gb"]["done"] == ["2016-01"]
+
+
+def test_aemo_reads_old_files_without_seconds(data_dir):
+    import scrapers.energy.aemo_collector as ae
+
+    text = 'REGION,SETTLEMENTDATE,TOTALDEMAND,RRP,PERIODTYPE\nNSW1,"1998/12/07 02:00",5000,20,TRADE\n'
+    with mock.patch("requests.Session.get", return_value=FakeResponse(text=text)):
+        df = ae.fetch_month(ae.session(), 1998, 12)
+    assert df.timestamp.tolist() == ["1998-12-06T16:00Z"]

@@ -6,7 +6,7 @@ Hệ thống thu thập dữ liệu **hiện tại và lịch sử** bằng **Gi
 |---|---|---|---|
 | **Lưới điện Mỹ** | EIA-930 (key miễn phí + file CSV 6 tháng không cần key) | Phụ tải, dự báo phụ tải, phát điện theo nhiên liệu của **tất cả ~80 vùng cân bằng**, dòng điện giữa các vùng, phụ tải ~90 vùng con — theo giờ | từ 07/2015 (vùng con từ 2019) |
 | | EIA (key miễn phí) | Giá dầu WTI/Brent, khí Henry Hub, xăng/dầu diesel theo ngày; giá và sản lượng điện bán lẻ theo bang theo tháng | từ 1986 / 2001 |
-| | NYISO | Giá điện nút (LBMP) 11 vùng New York: ngày tới (giờ) và thời gian thực (5 phút) | từ 2000 |
+| | NYISO | Giá điện nút (LBMP) 11 vùng New York: ngày tới và thời gian thực (cả hai theo giờ) | từ 2000 |
 | **Lưới điện châu Âu** | Energy-Charts (Fraunhofer ISE) | Sản lượng theo nguồn, phụ tải, trao đổi qua biên giới của 10 nước (15 phút); giá ngày tới 13 vùng giá | từ 2015 |
 | **Lưới điện Anh** | Elexon BMRS, NESO Carbon Intensity | Phát điện theo nhiên liệu, phụ tải, cường độ carbon (30 phút) | từ 2016 / 2017 |
 | **Lưới điện Úc** | AEMO | Phụ tải và giá của 5 vùng NEM (5–30 phút) | từ 12/1998 |
@@ -147,13 +147,12 @@ Muốn lấy xa hơn mốc mặc định hoặc chỉ một số nguồn: *Actio
 | `gb` | 2016-01-01 | 2016-01-01 | tháng | ~10 MB |
 | `aemo` | 1998-12-01 | 1998-12-01 | tháng | ~20 MB |
 | `nyiso_da` | 2000-01-01 | 2000-01-01 | tháng | ~6 MB |
-| `nyiso_rt` | 2015-01-01 | 2000-01-01 | tháng | ~35 MB |
+| `nyiso_rt` | 2000-01-01 | 2000-01-01 | tháng | ~6 MB |
 
 \* **[Ước tính]** dung lượng nén, dựa trên kích thước thực đo của dữ liệu Open-Meteo và số dòng/cột dự kiến. Con số thật hiện trong `CATALOG.md`. Tổng nhóm năng lượng khoảng **0,5 GB**.
 
 **Vì sao mốc `auto` không phải lúc nào cũng là mốc sớm nhất:**
 - ERA5 được căn theo dữ liệu lưới điện (2015), vì thời tiết trước đó không có phụ tải để ghép; lấy từ 1940 sẽ tăng thêm khoảng 700 MB.
-- Giá thời gian thực NYISO 5 phút trước 2015 rất lớn.
 
 Muốn lấy xa hơn thì điền ngày cụ thể.
 
@@ -258,7 +257,7 @@ Danh sách mã BA: <https://www.eia.gov/electricity/gridmonitor/about>.
 `timestamp` (UTC) + `<REGION>_demand` (MW), `<REGION>_price` (AUD/MWh) cho `NSW1`, `QLD1`, `VIC1`, `SA1`, `TAS1`. Khoảng đo 30 phút trước 10/2021, 5 phút sau đó. Riêng nguồn này, `timestamp` là **thời điểm kết thúc** của khoảng đo (quy ước của AEMO), đã đổi sang UTC.
 
 ### 6.7. New York — `energy/nyiso/lbmp_da`, `lbmp_rt`
-`timestamp` (UTC, thời điểm bắt đầu) + mỗi vùng tải một cột: `CAPITL`, `CENTRL`, `DUNWOD`, `GENESE`, `H Q`, `HUD VL`, `LONGIL`, `MHK VL`, `MILLWD`, `N.Y.C.`, `NORTH`, `WEST`, `NPX`, `O H`, `PJM`. Giá LBMP tính bằng $/MWh; `da` theo giờ, `rt` theo 5 phút.
+`timestamp` (UTC, thời điểm bắt đầu) + mỗi vùng tải một cột: `CAPITL`, `CENTRL`, `DUNWOD`, `GENESE`, `H Q`, `HUD VL`, `LONGIL`, `MHK VL`, `MILLWD`, `N.Y.C.`, `NORTH`, `WEST`, `NPX`, `O H`, `PJM`. Giá LBMP tính bằng $/MWh; cả `da` và `rt` đều theo giờ (file vùng của NYISO công bố giá thời gian thực đã tích hợp theo giờ; đã kiểm tra trên dữ liệu thật).
 
 ### 6.8. Bất động sản Mỹ — `realestate/{zillow, fhfa, realtor}/*`
 Mỗi thư mục chỉ giữ **bản phát hành mới nhất**, và bản này đã chứa toàn bộ lịch sử; tên file là kỳ dữ liệu mới nhất.

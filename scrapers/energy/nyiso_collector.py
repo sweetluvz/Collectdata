@@ -1,7 +1,7 @@
 """NYISO zonal Locational Based Marginal Prices - keyless public CSVs.
 
   energy/nyiso/lbmp_da : day-ahead hourly LBMP ($/MWh), timestamp (UTC) + one column per load zone
-  energy/nyiso/lbmp_rt : real-time 5-minute LBMP ($/MWh), same layout
+  energy/nyiso/lbmp_rt : real-time LBMP ($/MWh) as published in the zonal files - hourly, same layout
 NYISO timestamps are Eastern prevailing time (interval start) and are converted to UTC; the repeated hour
 when daylight saving ends is resolved from the order of the rows. Recent days come from daily CSVs,
 history from monthly zip archives.
@@ -20,7 +20,7 @@ from utils.storage import upsert
 BASE = "http://mis.nyiso.com/public/csv"
 MARKETS = {"da": "damlbmp", "rt": "rtlbmp"}
 EARLIEST = date(2000, 1, 1)
-RT_DEFAULT_START = date(2015, 1, 1)  # 5-minute data is large; earlier years via BACKFILL_START
+RT_DEFAULT_START = EARLIEST
 PRICE_COL = "LBMP ($/MWHr)"
 
 

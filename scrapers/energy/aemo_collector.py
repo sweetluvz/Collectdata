@@ -28,7 +28,10 @@ def fetch_month(http, year, month):
         if r.status_code == 404:
             continue
         df = pd.read_csv(io.StringIO(check(r).text))
-        ts = pd.to_datetime(df["SETTLEMENTDATE"], format="%Y/%m/%d %H:%M:%S") - NEM_UTC_OFFSET
+        raw = df["SETTLEMENTDATE"].astype(str).str.strip()
+        ts = pd.to_datetime(raw, format="%Y/%m/%d %H:%M:%S", errors="coerce").fillna(
+            pd.to_datetime(raw, format="%Y/%m/%d %H:%M", errors="coerce"))  # pre-2021 files omit seconds
+        ts = ts - NEM_UTC_OFFSET
         frames.append(pd.DataFrame({
             "timestamp": ts.dt.strftime("%Y-%m-%dT%H:%MZ"),
             f"{region}_demand": pd.to_numeric(df["TOTALDEMAND"], errors="coerce"),

@@ -100,12 +100,13 @@ def main():
             raise backfill.Skip("no prices")
         save_prices(df)
 
+    # Prices are one small request set per month; run them first so the long power backfill cannot starve them.
+    backfill.run("energy", "europe_price", EARLIEST, EARLIEST, backfill.month_chunks, fetch_price_month)
     backfill.run(
         "energy", "europe_power", EARLIEST, EARLIEST,
         lambda s, e: [(f"{cid}/{c}", f, l, c) for cid, f, l in backfill.month_chunks(s, e) for c in COUNTRIES],
         fetch_country_month,
     )
-    backfill.run("energy", "europe_price", EARLIEST, EARLIEST, backfill.month_chunks, fetch_price_month)
 
 
 if __name__ == "__main__":
