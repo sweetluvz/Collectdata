@@ -14,6 +14,7 @@ print("API CISO D:", [(d["period"], d["value"]) for d in r.json()["response"]["d
 
 url = "https://www.eia.gov/electricity/gridmonitor/sixMonthFiles/EIA930_BALANCE_2019_Jan_Jun.csv"
 with requests.get(url, timeout=300, stream=True, headers={"User-Agent": "Mozilla/5.0"}) as resp:
+    resp.encoding = "utf-8"
     lines = resp.iter_lines(decode_unicode=True)
     header = next(csv.reader([next(lines)]))
     print("BULK header:", header)
