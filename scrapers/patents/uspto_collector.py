@@ -2,7 +2,7 @@
 
 Free key: https://patentsview-support.atlassian.net/servicedesk (request API key) -> secret PATENTSVIEW_API_KEY
 PatentsView refreshes its database roughly quarterly, so each run re-queries a long window and upserts.
-Table: patents/uspto/grants (partitioned by grant month).
+Table: patents/uspto/grants (partitioned by grant month). History: backfilled month by month.
 """
 from datetime import date, timedelta
 import json
@@ -11,6 +11,7 @@ import time
 import pandas as pd
 
 from scrapers.patents.common import CPC_SUBCLASSES
+from utils import backfill
 from utils.http import check, env_int, require_env, session
 from utils.storage import upsert
 
@@ -20,6 +21,8 @@ FIELDS = [
     "application", "cpc_current", "ipcr", "assignees", "inventors",
 ]
 PAGE = 1000
+EARLIEST = date(1976, 1, 1)
+DEFAULT_START = date(2015, 1, 1)  # ~0.2 GB gzipped; earlier years via BACKFILL_START (see README)
 
 
 def _collect(items, key):
@@ -56,16 +59,12 @@ def flatten(p):
     }
 
 
-def main():
-    http = session({"X-Api-Key": require_env("PATENTSVIEW_API_KEY"), "Accept": "application/json"})
-    end = date.today()
-    start = end - timedelta(days=env_int("PATENTSVIEW_LOOKBACK_DAYS", 180))
+def collect(http, start, end):
     query = {"_and": [
         {"_gte": {"patent_date": start.isoformat()}},
         {"_lte": {"patent_date": end.isoformat()}},
         {"_or": [{"cpc_current.cpc_subclass_id": s} for s in CPC_SUBCLASSES]},
     ]}
-
     rows, after = [], None
     while True:
         opts = {"size": PAGE}
@@ -78,14 +77,26 @@ def main():
         r = check(http.get(URL, params=params, timeout=120))
         batch = r.json().get("patents") or []
         rows.extend(flatten(p) for p in batch)
-        print(f"[uspto] fetched {len(rows)}")
+        print(f"[uspto] {start}..{end}: fetched {len(rows)}")
+        time.sleep(1.5)  # API limit: 45 requests/minute
         if len(batch) < PAGE:
             break
         after = batch[-1]["patent_id"]
-        time.sleep(1.5)  # API limit: 45 requests/minute
+    upsert(pd.DataFrame(rows), "patents/uspto/grants", ["patent_id"], "patent_date", gzip=True)
+    return len(rows)
 
-    upsert(pd.DataFrame(rows), "patents/uspto/grants", ["patent_id"], "patent_date", ext=".csv.gz")
 
+def main():
+    backfill.register("patents", "uspto", DEFAULT_START, EARLIEST)
+    http = session({"X-Api-Key": require_env("PATENTSVIEW_API_KEY"), "Accept": "application/json"})
+    end = date.today()
+    collect(http, end - timedelta(days=env_int("PATENTSVIEW_LOOKBACK_DAYS", 180)), end)
+
+    def fetch_month(first, last):
+        if not collect(http, first, last):
+            raise backfill.Skip("no grants in range")
+
+    backfill.run("patents", "uspto", DEFAULT_START, EARLIEST, backfill.month_chunks, fetch_month)
 
 if __name__ == "__main__":
     main()

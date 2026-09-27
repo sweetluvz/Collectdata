@@ -45,7 +45,7 @@ def test_uspto_paginates_with_cursor(data_dir, monkeypatch):
     with mock.patch("requests.Session.get", side_effect=get):
         us.main()
     assert opts == [{"size": 1}, {"size": 1, "after": "12000001"}]
-    row = load_all("patents/uspto/grants", ext=".csv.gz").iloc[0]
+    row = load_all("patents/uspto/grants").iloc[0]
     assert (row.cpc_subclasses, row.ipc, row.filing_date) == ("G06N;G05B", "G06N", "2024-01-02")
 
 
@@ -66,6 +66,6 @@ def test_lens_flattens_and_scrolls(data_dir, monkeypatch):
     must = bodies[0]["query"]["bool"]["must"]
     assert {"terms": {"jurisdiction": ["WO", "EP", "US"]}} in must
     assert bodies[1] == {"scroll_id": "s1", "scroll": "1m"}
-    row = load_all("patents/lens/publications", ext=".csv.gz").iloc[0]
+    row = load_all("patents/lens/publications").iloc[0]
     assert (row.title, row.first_claim, row.num_claims, row.cpc) == (
         "Laser lens", "1. A lens comprising...", "2", "H01S3/00;G02B1/00")

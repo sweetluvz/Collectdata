@@ -5,23 +5,50 @@ on:
     - cron: "23 */6 * * *"   # every 6 hours; each run re-pulls a multi-day window, so no hour is lost
   workflow_dispatch:
     inputs:
-      lookback_days:
-        description: "Days to (re)collect for EIA / ENTSO-E / weather (weather max 92). Use for backfill."
+      backfill_start:
+        description: "Historical backfill: 'auto' (ERA5/ENTSO-E from 2015, EIA from 2015-07, air quality from 2022-08) or YYYY-MM-DD. Empty = normal run."
         default: ""
+      backfill_end:
+        description: "Backfill end date YYYY-MM-DD (empty = today)"
+        default: ""
+      backfill_sources:
+        description: "Comma list of era5, airquality, eia, entsoe (empty = all)"
+        default: ""
+      lookback_days:
+        description: "Recent window for a normal run (EIA / ENTSO-E / weather, weather max 92)"
+        default: ""
+      chain:
+        description: "Internal counter for automatic backfill continuation"
+        default: "0"
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: collect-energy
   cancel-in-progress: false
 
+env:
+  BACKFILL_START: ${{ inputs.backfill_start }}
+  BACKFILL_END: ${{ inputs.backfill_end }}
+  BACKFILL_SOURCES: ${{ inputs.backfill_sources }}
+  BACKFILL_FLAG: /tmp/backfill_incomplete
+  BACKFILL_MINUTES: "95"
+
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}   # latest head, not the commit that was current when this run was queued
+          sparse-checkout: |
+            scrapers
+            utils
+            scripts
+            data/energy
 
       - uses: actions/setup-python@v6
         with:
@@ -30,26 +57,46 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Weather & air quality (Open-Meteo)
+      - name: Weather, ERA5 & air quality (Open-Meteo)
+        timeout-minutes: 110
         env:
           WEATHER_PAST_DAYS: ${{ inputs.lookback_days }}
         run: python -m scrapers.energy.weather_collector
 
+      - name: Commit weather
+        if: ${{ !cancelled() }}
+        run: |
+          bash scripts/commit_data.sh energy "data(energy): weather $(date -u +%Y-%m-%dT%H:%MZ)"
+
       - name: US grid (EIA-930)
         if: ${{ !cancelled() }}
+        timeout-minutes: 110
         env:
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
           EIA_LOOKBACK_DAYS: ${{ inputs.lookback_days }}
         run: python -m scrapers.energy.eia_collector
 
+      - name: Commit EIA
+        if: ${{ !cancelled() }}
+        run: |
+          bash scripts/commit_data.sh energy "data(energy): eia $(date -u +%Y-%m-%dT%H:%MZ)"
+
       - name: European grid (ENTSO-E)
         if: ${{ !cancelled() }}
+        timeout-minutes: 110
         env:
           ENTSOE_API_KEY: ${{ secrets.ENTSOE_API_KEY }}
           ENTSOE_LOOKBACK_DAYS: ${{ inputs.lookback_days }}
         run: python -m scrapers.energy.entsoe_collector
 
-      - name: Commit data
+      - name: Commit ENTSO-E
         if: ${{ !cancelled() }}
         run: |
-          bash scripts/commit_data.sh energy "data(energy): $(date -u +%Y-%m-%dT%H:%MZ)"
+          bash scripts/commit_data.sh energy "data(energy): entsoe $(date -u +%Y-%m-%dT%H:%MZ)"
+
+      - name: Continue unfinished backfill
+        if: ${{ !cancelled() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CHAIN: ${{ inputs.chain || '0' }}
+        run: bash scripts/continue_backfill.sh collect_energy.yml

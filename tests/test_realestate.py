@@ -81,3 +81,10 @@ def test_zillow_stores_each_release_once(data_dir):
         zc.main()
     files = sorted(p.relative_to(data_dir).as_posix() for p in data_dir.rglob("*.gz"))
     assert files == [f"realestate/zillow/{n}/2026-08.csv.gz" for n in sorted(zc.DATASETS)]
+
+
+def test_phone_numbers_are_masked():
+    from scrapers.realestate.batdongsan_collector import mask_phones
+
+    text = "Liên hệ 0912 345 678 hoặc +84 912.345.678, giá 3,5 tỷ, 70 m2, năm 2024"
+    assert mask_phones(text) == "Liên hệ [SĐT] hoặc [SĐT], giá 3,5 tỷ, 70 m2, năm 2024"

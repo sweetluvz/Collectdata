@@ -35,6 +35,12 @@ HEADERS = {
     "Referer": BASE + "/",
 }
 BLOCK_MARKERS = ("Just a moment", "cf-browser-verification", "Attention Required", "captcha")
+# The repository is public: phone numbers posted in titles/descriptions are masked before saving.
+PHONE_RE = re.compile(r"(?<!\d)(?:\+?84|0)(?:[\s.\-]?\d){8,10}(?!\d)")
+
+
+def mask_phones(text):
+    return PHONE_RE.sub("[SĐT]", text or "")
 
 
 class Blocked(RuntimeError):
@@ -116,7 +122,7 @@ def parse_cards(html, category, city, scraped_at):
             "scraped_at": scraped_at,
             "category": category,
             "city": city,
-            "title": first_text(c, ".re__card-title", ".pr-title", "h3"),
+            "title": mask_phones(first_text(c, ".re__card-title", ".pr-title", "h3")),
             "price_text": price_txt,
             "price_vnd": parse_price_vnd(price_txt, area),
             "area_m2": area,
@@ -157,7 +163,7 @@ def parse_detail(html, lid, scraped_at):
         "latitude": lat,
         "longitude": lon,
         "address": first_text(soup, ".re__pr-short-description", ".js__pr-address"),
-        "description": first_text(soup, ".re__detail-content", ".re__section-body.re__detail-content"),
+        "description": mask_phones(first_text(soup, ".re__detail-content", ".re__section-body.re__detail-content")),
         "posted_date": short.get("Ngày đăng", ""),
         "expiry_date": short.get("Ngày hết hạn", ""),
         "listing_type": short.get("Loại tin", ""),

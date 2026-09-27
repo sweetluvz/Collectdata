@@ -1,20 +1,35 @@
+from datetime import date
 from unittest import mock
 
 import pandas as pd
 import pytest
 
 from conftest import FakeResponse
+from utils import backfill
 from utils.storage import load_all
 
 
-def test_weather_splits_observed_and_forecast(data_dir):
+@pytest.fixture(autouse=True)
+def no_backfill_env(monkeypatch):
+    monkeypatch.setattr(backfill, "_deadline", None)
+    for var in ("BACKFILL_START", "BACKFILL_END", "BACKFILL_SOURCES"):
+        monkeypatch.delenv(var, raising=False)
+
+
+def hourly_payload(times, variables):
+    return FakeResponse({"hourly": {"time": list(times), **{v: [1.0] * len(times) for v in variables}}})
+
+
+def test_weather_splits_observed_forecast_and_era5(data_dir):
     import scrapers.energy.weather_collector as wc
 
     now = pd.Timestamp.now(tz="UTC").floor("h")
-    times = pd.date_range(now - pd.Timedelta("24h"), now + pd.Timedelta("24h"), freq="h").strftime("%Y-%m-%dT%H:%M")
+    recent = pd.date_range(now - pd.Timedelta("24h"), now + pd.Timedelta("24h"), freq="h").strftime("%Y-%m-%dT%H:%M")
+    era5 = pd.date_range(now - pd.Timedelta("20D"), now - pd.Timedelta("6D"), freq="h").strftime("%Y-%m-%dT%H:%M")
 
     def fake_get(url, params=None, timeout=None):
-        return FakeResponse({"hourly": {"time": list(times), **{v: [1.0] * len(times) for v in params["hourly"].split(",")}}})
+        times = era5 if "archive" in url else recent
+        return hourly_payload(times, params["hourly"].split(","))
 
     with mock.patch.object(wc, "LOCATIONS", wc.LOCATIONS[:2]), mock.patch("requests.Session.get", side_effect=fake_get):
         wc.main()
@@ -25,27 +40,85 @@ def test_weather_splits_observed_and_forecast(data_dir):
     assert (pd.to_datetime(observed.time) <= now).all()
     assert (pd.to_datetime(forecast.time) > pd.to_datetime(forecast.issued_at)).all()
     assert not load_all("energy/airquality/observed").empty
+    assert len(load_all("energy/weather/era5")) == 2 * len(era5)
 
 
-def test_eia_paginates_and_writes_both_tables(data_dir, monkeypatch):
+def test_weather_backfill_chunks_per_location_year(data_dir, monkeypatch):
+    import scrapers.energy.weather_collector as wc
+
+    monkeypatch.setenv("BACKFILL_START", "2016-12-31")
+    monkeypatch.setenv("BACKFILL_END", "2017-01-01")
+    monkeypatch.setenv("BACKFILL_SOURCES", "era5")
+    requests_seen = []
+
+    def fake_get(url, params=None, timeout=None):
+        if "start_date" in params:
+            requests_seen.append((params["latitude"], params["start_date"], params["end_date"]))
+            times = pd.date_range(params["start_date"], params["end_date"] + " 23:00", freq="h")
+        else:
+            times = pd.date_range(pd.Timestamp.now().floor("h"), periods=3, freq="h")
+        return hourly_payload(times.strftime("%Y-%m-%dT%H:%M"), params["hourly"].split(","))
+
+    with mock.patch.object(wc, "LOCATIONS", wc.LOCATIONS[:2]), mock.patch.object(wc, "ARCHIVE_PAUSE", 0), \
+         mock.patch("requests.Session.get", side_effect=fake_get):
+        wc.main()
+
+    state = backfill.load_state("energy")["era5"]
+    assert state["total"] == 4 and len(state["done"]) == 4
+    era5 = load_all("energy/weather/era5")
+    assert set(era5.time.str[:7]) >= {"2016-12", "2017-01"}
+    assert (data_dir / "energy/weather/era5/2016-12.csv.gz").exists()
+    assert ("34.05", "2016-12-31", "2016-12-31") in {(str(a), b, c) for a, b, c in requests_seen}
+
+
+def test_weather_backfill_runs_even_if_live_api_is_down(data_dir, monkeypatch):
+    import scrapers.energy.weather_collector as wc
+
+    monkeypatch.setenv("BACKFILL_START", "2017-01-01")
+    monkeypatch.setenv("BACKFILL_END", "2017-01-01")
+    monkeypatch.setenv("BACKFILL_SOURCES", "era5")
+
+    def fake_get(url, params=None, timeout=None):
+        if params.get("start_date") == "2017-01-01":
+            return hourly_payload(pd.date_range("2017-01-01", periods=24, freq="h").strftime("%Y-%m-%dT%H:%M"),
+                                  params["hourly"].split(","))
+        return FakeResponse(status=503, text="down")
+
+    with mock.patch.object(wc, "LOCATIONS", wc.LOCATIONS[:1]), mock.patch.object(wc, "ARCHIVE_PAUSE", 0), \
+         mock.patch("requests.Session.get", side_effect=fake_get), pytest.raises(SystemExit):
+        wc.main()
+    assert len(load_all("energy/weather/era5")) == 24
+
+
+def test_eia_paginates_slims_and_backfills_by_month(data_dir, monkeypatch):
     import scrapers.energy.eia_collector as ec
 
     monkeypatch.setenv("EIA_API_KEY", "k")
     monkeypatch.setattr(ec, "PAGE", 2)
-    offsets = []
+    seen = []
 
     def fake_get(url, params=None, timeout=None):
-        offset = dict(params)["offset"]
-        offsets.append(offset)
+        p = dict(params)
+        seen.append((p["start"], p["offset"]))
         key = "fueltype" if "fuel" in url else "type"
-        rows = [{"period": f"2026-09-26T0{i}", "respondent": "CISO", key: "D", "value": "1"} for i in range(3)]
-        return FakeResponse({"response": {"total": "3", "data": rows[offset:offset + 2]}})
+        day = p["start"][:10]
+        rows = [{"period": f"{day}T0{i}", "respondent": "CISO", "respondent-name": "California", key: "D",
+                 "type-name": "Demand", "value": "1", "value-units": "MWh"} for i in range(3)]
+        return FakeResponse({"response": {"total": "3", "data": rows[p["offset"]:p["offset"] + 2]}})
 
     with mock.patch("requests.Session.get", side_effect=fake_get):
         ec.main()
-    assert offsets == [0, 2, 0, 2]
-    assert len(load_all("energy/eia/region")) == 3
-    assert len(load_all("energy/eia/fuel_type")) == 3
+    region = load_all("energy/eia/region")
+    assert list(region.columns) == ["period", "respondent", "type", "value"]
+    assert len(region) == 3
+
+    monkeypatch.setenv("BACKFILL_START", "2015-06-01")
+    monkeypatch.setenv("BACKFILL_END", "2015-08-15")
+    with mock.patch("requests.Session.get", side_effect=fake_get):
+        ec.main()
+    state = backfill.load_state("energy")["eia"]
+    assert state["start"] == "2015-07-01" and state["done"] == ["2015-07", "2015-08"]
+    assert ("2015-07-01T00", 0) in seen and ("2015-08-01T00", 2) in seen
 
 
 def test_missing_key_skips_without_failing(monkeypatch):
@@ -57,35 +130,48 @@ def test_missing_key_skips_without_failing(monkeypatch):
     assert exc.value.code == 0
 
 
-def test_entsoe_long_format_and_one_table_per_dataset(data_dir, monkeypatch):
+def test_entsoe_wide_format_and_backfill(data_dir, monkeypatch):
     import scrapers.energy.entsoe_collector as en
+    from entsoe.exceptions import NoMatchingDataError
 
     idx = pd.date_range("2026-09-26", periods=2, freq="h", tz="Europe/Brussels")
     gen = pd.DataFrame(
         [[1, 2], [3, 4]], index=idx,
         columns=pd.MultiIndex.from_tuples([("Solar", "Actual Aggregated"), ("Hydro", "Actual Consumption")]),
     )
-    long = en.to_long(gen, "DE_LU", "generation")
-    assert set(long.variable) == {"Solar | Actual Aggregated", "Hydro | Actual Consumption"}
-    assert long.timestamp.iloc[0] == "2026-09-25T22:00Z"
+    wide = en.to_wide(gen, "DE_LU", "generation")
+    assert list(wide.columns) == ["timestamp", "country", "Solar | Actual Aggregated", "Hydro | Actual Consumption"]
+    assert wide.timestamp.iloc[0] == "2026-09-25T22:00Z"
 
     class FakeClient:
         def __init__(self, api_key):
             pass
 
-        def query_load(self, *a, **k):
-            return pd.DataFrame({"Actual Load": [1.0, 2.0]}, index=idx)
+        def query_load(self, zone, start, end):
+            i = pd.date_range(start, periods=2, freq="h")
+            return pd.DataFrame({"Actual Load": [1.0, 2.0]}, index=i)
 
-        def query_day_ahead_prices(self, *a, **k):
-            return pd.Series([50.0, None], index=idx)
+        def query_day_ahead_prices(self, zone, start, end):
+            return pd.Series([50.0, None], index=pd.date_range(start, periods=2, freq="h"))
 
         def __getattr__(self, name):
             def fail(*a, **k):
-                raise RuntimeError("NoMatchingDataError")
+                raise NoMatchingDataError()
             return fail
 
     monkeypatch.setenv("ENTSOE_API_KEY", "k")
     with mock.patch.object(en, "EntsoePandasClient", FakeClient):
         en.main()
-    assert len(load_all("energy/entsoe/load")) == 2 * len(en.ZONES)
-    assert len(load_all("energy/entsoe/day_ahead_price")) == len(en.ZONES)
+    load = load_all("energy/entsoe/load")
+    assert len(load) == 2 * len(en.ZONES) and "Actual Load" in load.columns
+    assert list(load_all("energy/entsoe/day_ahead_price").columns) == ["timestamp", "country", "day_ahead_price"]
+
+    monkeypatch.setenv("BACKFILL_START", "2016-01-01")
+    monkeypatch.setenv("BACKFILL_END", "2016-12-31")
+    with mock.patch.object(en, "EntsoePandasClient", FakeClient):
+        en.main()
+    state = backfill.load_state("energy")["entsoe"]
+    assert state["total"] == len(en.ZONES) * len(en.QUERIES)
+    assert len(state["done"]) == 2 * len(en.ZONES)            # load + price
+    assert len(state["skipped"]) == 3 * len(en.ZONES)         # NoMatchingDataError
+    assert (data_dir / "energy/entsoe/load/2016-01.csv.gz").exists()

@@ -1,21 +1,28 @@
 """EIA Open Data API v2 - hourly Form EIA-930 grid data for US balancing authorities.
 
 Free key: https://www.eia.gov/opendata/register.php  ->  secret EIA_API_KEY
-Tables:
-  energy/eia/region    : demand (D), day-ahead demand forecast (DF), net generation (NG), total interchange (TI)
-  energy/eia/fuel_type : net generation by fuel (SUN, WND, NG, COL, NUC, WAT, OIL, OTH, ...)
+Tables (value in MWh; descriptive name columns are dropped to keep history compact - see README):
+  energy/eia/region    : type D (demand), DF (day-ahead demand forecast), NG (net generation), TI (interchange)
+  energy/eia/fuel_type : net generation by fueltype (SUN, WND, NG, COL, NUC, WAT, OIL, OTH, ...)
+History: EIA-930 starts 2015-07-01; backfilled month by month.
 """
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 import time
 
 import pandas as pd
 
+from utils import backfill
 from utils.http import check, env_int, require_env, session
 from utils.storage import upsert
 
 BASE = "https://api.eia.gov/v2/electricity/rto"
 RESPONDENTS = ["CISO", "ERCO", "NYIS", "PJM", "MISO", "ISNE", "SWPP", "BPAT"]
 PAGE = 5000
+EARLIEST = date(2015, 7, 1)
+ROUTES = [
+    ("region-data", "energy/eia/region", "type"),
+    ("fuel-type-data", "energy/eia/fuel_type", "fueltype"),
+]
 
 
 def fetch_route(http, api_key, route, start, end):
@@ -35,26 +42,42 @@ def fetch_route(http, api_key, route, start, end):
         if not batch or offset >= int(resp.get("total", 0)):
             break
         time.sleep(1)
-    df = pd.DataFrame(rows)
-    if not df.empty:
-        df["period"] = pd.to_datetime(df["period"], utc=True).dt.strftime("%Y-%m-%dT%H:%MZ")
-        df["value"] = pd.to_numeric(df["value"], errors="coerce")
-    return df
+    return pd.DataFrame(rows)
+
+
+def slim(df, key):
+    if df.empty:
+        return df
+    out = df[["period", "respondent", key, "value"]].copy()
+    out["period"] = pd.to_datetime(out["period"], utc=True).dt.strftime("%Y-%m-%dT%H:%MZ")
+    out["value"] = pd.to_numeric(out["value"], errors="coerce")
+    return out
+
+
+def collect(http, api_key, start, end):
+    """start/end: EIA hour strings 'YYYY-MM-DDTHH' (UTC, inclusive)."""
+    got = 0
+    for route, table, key in ROUTES:
+        df = slim(fetch_route(http, api_key, route, start, end), key)
+        got += len(df)
+        upsert(df, table, ["period", "respondent", key], "period")
+    return got
 
 
 def main():
+    backfill.register("energy", "eia", EARLIEST, EARLIEST)
     api_key = require_env("EIA_API_KEY")
     http = session()
     # EIA-930 values get revised for several days, so re-pull a rolling window and upsert.
     now = datetime.now(timezone.utc)
     start = (now - timedelta(days=env_int("EIA_LOOKBACK_DAYS", 7))).strftime("%Y-%m-%dT%H")
-    end = now.strftime("%Y-%m-%dT%H")
+    collect(http, api_key, start, now.strftime("%Y-%m-%dT%H"))
 
-    region = fetch_route(http, api_key, "region-data", start, end)
-    upsert(region, "energy/eia/region", ["period", "respondent", "type"], "period")
+    def fetch_month(first, last):
+        if not collect(http, api_key, f"{first.isoformat()}T00", f"{last.isoformat()}T23"):
+            raise backfill.Skip("no rows")
 
-    fuel = fetch_route(http, api_key, "fuel-type-data", start, end)
-    upsert(fuel, "energy/eia/fuel_type", ["period", "respondent", "fueltype"], "period")
+    backfill.run("energy", "eia", EARLIEST, EARLIEST, backfill.month_chunks, fetch_month)
 
 
 if __name__ == "__main__":
