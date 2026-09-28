@@ -10164,17 +10164,80 @@
   "time_col": "timestamp"
  },
  "energy/europe/power/2017-03.csv.gz": {
-  "max": "2017-03-31T21:45Z",
+  "max": "2017-03-31T23:45Z",
   "min": "2017-03-01T00:00Z",
-  "rows": 14098,
-  "sha1": "22fa53867ef19175979739c348dbd0f7cd5b3cb4:2",
+  "rows": 14136,
+  "sha1": "af461350098563b51d9d86b17e45ae604c05c4bb:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/power/2017-04.csv.gz": {
+  "max": "2017-04-30T23:45Z",
+  "min": "2017-04-01T00:00Z",
+  "rows": 13680,
+  "sha1": "9f66d7d914fad6764999bcdcfd1f7d79cb56ebc2:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/power/2017-05.csv.gz": {
+  "max": "2017-05-31T23:45Z",
+  "min": "2017-05-01T00:00Z",
+  "rows": 14136,
+  "sha1": "cb3617b1d8792f7aa1e6b46de1296041e6c7ca77:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/power/2017-06.csv.gz": {
+  "max": "2017-06-30T23:45Z",
+  "min": "2017-06-01T00:00Z",
+  "rows": 13680,
+  "sha1": "235d0048120e891a5e7bdd40427aca23f34c1d80:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/power/2017-07.csv.gz": {
+  "max": "2017-07-31T23:45Z",
+  "min": "2017-07-01T00:00Z",
+  "rows": 14136,
+  "sha1": "605426b9dee47e5f18da633319b29d8eda0093a0:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/power/2017-08.csv.gz": {
+  "max": "2017-08-31T23:45Z",
+  "min": "2017-08-01T00:00Z",
+  "rows": 14136,
+  "sha1": "1403c2c45e02c14606fd1f2e04953128f327ab4c:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/power/2017-09.csv.gz": {
+  "max": "2017-09-30T23:45Z",
+  "min": "2017-09-01T00:00Z",
+  "rows": 13680,
+  "sha1": "4f7b8226fd1794cdbe92d6ce9464e0049c16bb4c:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/power/2017-10.csv.gz": {
+  "max": "2017-10-31T23:45Z",
+  "min": "2017-10-01T00:00Z",
+  "rows": 14136,
+  "sha1": "1c84cc2025a9ce7b1da1e5284dfd636d153ab007:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/power/2017-11.csv.gz": {
+  "max": "2017-11-30T23:45Z",
+  "min": "2017-11-01T00:00Z",
+  "rows": 13666,
+  "sha1": "c975c67934b5ed336b9e0bccf6048688d305c529:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/power/2017-12.csv.gz": {
+  "max": "2017-12-31T22:45Z",
+  "min": "2017-12-01T00:00Z",
+  "rows": 3715,
+  "sha1": "dc6a8b9b6ab69a86d526ae716770e45818c998d9:2",
   "time_col": "timestamp"
  },
  "energy/europe/power/2026-09.csv": {
-  "max": "2026-09-28T06:30Z",
+  "max": "2026-09-28T09:45Z",
   "min": "2026-09-23T22:00Z",
-  "rows": 3547,
-  "sha1": "70e02382c1356b4f6c7d9199c879baa85bb44893:2",
+  "rows": 3653,
+  "sha1": "ee92e507c1d10a5b98657203a49ff3a846f85019:2",
   "time_col": "timestamp"
  },
  "energy/europe/price/2015-01.csv.gz": {
@@ -11025,17 +11088,143 @@
   "time_col": "timestamp"
  },
  "energy/europe/price/2025-02.csv.gz": {
-  "max": "2025-02-28T22:00Z",
+  "max": "2025-02-28T23:00Z",
   "min": "2025-02-01T00:00Z",
-  "rows": 671,
-  "sha1": "ebb03b80a5981b73e87166625430508193f79a13:2",
+  "rows": 672,
+  "sha1": "29a2151804373f3a992989d3bc00913084186fc4:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2025-03.csv.gz": {
+  "max": "2025-03-31T23:00Z",
+  "min": "2025-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "268aeaa83ca75eb011e189ff9e8ed8dca67ade9b:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2025-04.csv.gz": {
+  "max": "2025-04-30T23:00Z",
+  "min": "2025-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "b6f13cb43b061efe70a80539c800bf62d0f0d585:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2025-05.csv.gz": {
+  "max": "2025-05-31T23:00Z",
+  "min": "2025-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "03addb2bf1bb894d6d514d42208bf49fe831e33a:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2025-06.csv.gz": {
+  "max": "2025-06-30T23:00Z",
+  "min": "2025-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "e059d8f5596f7c3f2ec43e521705346c3ea42231:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2025-07.csv.gz": {
+  "max": "2025-07-31T23:00Z",
+  "min": "2025-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "89a59af3013dbe86121c35c9fdd705fc3013dbfe:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2025-08.csv.gz": {
+  "max": "2025-08-31T23:00Z",
+  "min": "2025-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "2793d6b72362e6087fcf198a7df8cba3385d4fea:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2025-09.csv.gz": {
+  "max": "2025-09-30T23:45Z",
+  "min": "2025-09-01T00:00Z",
+  "rows": 726,
+  "sha1": "2c3b2a324e2ba0d7be0df1756dc433f857667ed9:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2025-10.csv.gz": {
+  "max": "2025-10-31T23:45Z",
+  "min": "2025-10-01T00:00Z",
+  "rows": 2976,
+  "sha1": "99faf322888aef39165de224e503f00afe628a69:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2025-11.csv.gz": {
+  "max": "2025-11-30T23:45Z",
+  "min": "2025-11-01T00:00Z",
+  "rows": 2880,
+  "sha1": "9248df340d697cfaf01671a46331a8796f5d4521:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2025-12.csv.gz": {
+  "max": "2025-12-31T23:45Z",
+  "min": "2025-12-01T00:00Z",
+  "rows": 2976,
+  "sha1": "385fcc09054b72fef27519c4848d0195a598d7f3:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2026-01.csv.gz": {
+  "max": "2026-01-31T23:45Z",
+  "min": "2026-01-01T00:00Z",
+  "rows": 2976,
+  "sha1": "c875a0e7fee72fdcdb3163409cab0288a48b644e:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2026-02.csv.gz": {
+  "max": "2026-02-28T23:45Z",
+  "min": "2026-02-01T00:00Z",
+  "rows": 2688,
+  "sha1": "6c07a8a0312ee142cbcbcb3487e73fcca723e25c:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2026-03.csv.gz": {
+  "max": "2026-03-31T23:45Z",
+  "min": "2026-03-01T00:00Z",
+  "rows": 2976,
+  "sha1": "d00c51f36969623383b9140eb19427826c19cf0f:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2026-04.csv.gz": {
+  "max": "2026-04-30T23:45Z",
+  "min": "2026-04-01T00:00Z",
+  "rows": 2880,
+  "sha1": "9f5b55d63343276b6a04da80064deffcfa9d4ca1:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2026-05.csv.gz": {
+  "max": "2026-05-31T23:45Z",
+  "min": "2026-05-01T00:00Z",
+  "rows": 2976,
+  "sha1": "b13815dd059cf638ed66cb7255e944123c6dff9b:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2026-06.csv.gz": {
+  "max": "2026-06-30T23:45Z",
+  "min": "2026-06-01T00:00Z",
+  "rows": 2880,
+  "sha1": "a48518a77de396d659261821ecd0365e112ebd28:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2026-07.csv": {
+  "max": "2026-07-31T23:45Z",
+  "min": "2026-07-01T00:00Z",
+  "rows": 2976,
+  "sha1": "10005a115a879de55682ce9a7743c48ecf87d30a:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2026-08.csv": {
+  "max": "2026-08-31T23:45Z",
+  "min": "2026-08-01T00:00Z",
+  "rows": 2976,
+  "sha1": "796fb4c8a3b2a45e090c44c7caa9e15c7473ac3a:2",
   "time_col": "timestamp"
  },
  "energy/europe/price/2026-09.csv": {
-  "max": "2026-09-28T21:45Z",
-  "min": "2026-09-23T22:00Z",
-  "rows": 480,
-  "sha1": "ae3ada54bb90a500bd4237ddc03a59fbcfb06b6e:2",
+  "max": "2026-09-29T21:00Z",
+  "min": "2026-09-01T00:00Z",
+  "rows": 2704,
+  "sha1": "bc918c84721a34cb2ccadb7ed397457a3ad5b17a:2",
   "time_col": "timestamp"
  },
  "energy/gb/carbon_intensity/2017-09.csv.gz": {
