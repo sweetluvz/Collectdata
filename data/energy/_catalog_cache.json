@@ -16331,10 +16331,10 @@
   "time_col": "timestamp"
  },
  "energy/nyiso/lbmp_da/2026-09.csv": {
-  "max": "2026-09-29T03:00Z",
+  "max": "2026-09-30T03:00Z",
   "min": "2026-09-01T00:00Z",
-  "rows": 676,
-  "sha1": "3fe011fba772f5f8e69f35e34a414c44123be35e:2",
+  "rows": 700,
+  "sha1": "7da15a348f068cb38c3649b8577c811fb45feaf1:2",
   "time_col": "timestamp"
  },
  "energy/nyiso/lbmp_rt/2000-01.csv.gz": {
@@ -18578,10 +18578,10 @@
   "time_col": "timestamp"
  },
  "energy/nyiso/lbmp_rt/2026-09.csv": {
-  "max": "2026-09-28T12:00Z",
+  "max": "2026-09-28T15:00Z",
   "min": "2026-09-01T00:00Z",
-  "rows": 661,
-  "sha1": "32cd4c2de545b581f07806370409768901161a67:2",
+  "rows": 664,
+  "sha1": "fe859762352bb614c9037ac2608bc234841d297f:2",
   "time_col": "timestamp"
  },
  "energy/weather/era5/2015-01.csv.gz": {
