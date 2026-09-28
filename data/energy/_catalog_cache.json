@@ -2331,10 +2331,10 @@
   "time_col": "timestamp"
  },
  "energy/aemo/price_demand/2026-09.csv": {
-  "max": "2026-09-27T14:00Z",
+  "max": "2026-09-28T14:00Z",
   "min": "2026-09-01T00:00Z",
-  "rows": 7657,
-  "sha1": "15b9052c0cd1848e502cd6bc5f46a79649934ca8:2",
+  "rows": 7945,
+  "sha1": "cda5600ab6ebfb4a0731fae600dd850bf5db5c15:2",
   "time_col": "timestamp"
  },
  "energy/airquality/observed/2022-08.csv.gz": {
