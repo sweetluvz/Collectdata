@@ -58,9 +58,9 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Weather, ERA5 & air quality (Open-Meteo)
-        timeout-minutes: 80
+        timeout-minutes: 45
         env:
-          BACKFILL_MINUTES: "60"
+          BACKFILL_MINUTES: "30"
           WEATHER_PAST_DAYS: ${{ inputs.lookback_days }}
         run: python -m scrapers.energy.weather_collector
 
@@ -71,9 +71,9 @@ jobs:
 
       - name: US grid & markets (EIA)
         if: ${{ !cancelled() }}
-        timeout-minutes: 80
+        timeout-minutes: 100
         env:
-          BACKFILL_MINUTES: "60"
+          BACKFILL_MINUTES: "85"
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
           EIA_LOOKBACK_DAYS: ${{ inputs.lookback_days }}
         run: python -m scrapers.energy.eia_collector
@@ -85,9 +85,9 @@ jobs:
 
       - name: Europe power & prices (Energy-Charts)
         if: ${{ !cancelled() }}
-        timeout-minutes: 65
+        timeout-minutes: 100
         env:
-          BACKFILL_MINUTES: "45"
+          BACKFILL_MINUTES: "85"
         run: python -m scrapers.energy.europe_collector
 
       - name: Commit europe
@@ -97,9 +97,9 @@ jobs:
 
       - name: Great Britain (Elexon, Carbon Intensity)
         if: ${{ !cancelled() }}
-        timeout-minutes: 50
+        timeout-minutes: 30
         env:
-          BACKFILL_MINUTES: "30"
+          BACKFILL_MINUTES: "15"
         run: python -m scrapers.energy.gb_collector
 
       - name: Commit gb
@@ -121,9 +121,9 @@ jobs:
 
       - name: New York prices (NYISO)
         if: ${{ !cancelled() }}
-        timeout-minutes: 40
+        timeout-minutes: 30
         env:
-          BACKFILL_MINUTES: "20"
+          BACKFILL_MINUTES: "15"
         run: python -m scrapers.energy.nyiso_collector
 
       - name: Commit nyiso

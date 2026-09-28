@@ -89,7 +89,7 @@ Mỗi collector, mỗi lượt chạy:
 
 | Workflow | Cron (UTC) | Giờ Việt Nam | Nội dung |
 |---|---|---|---|
-| `collect_energy.yml` | `23 */6 * * *` | 06:23, 12:23, 18:23, 00:23 | 6 bước: thời tiết → EIA → châu Âu → Anh → Úc → NYISO. Mỗi bước lấy vài ngày gần nhất rồi backfill trong quỹ 20–60 phút |
+| `collect_energy.yml` | `23 */6 * * *` | 06:23, 12:23, 18:23, 00:23 | 6 bước: thời tiết → EIA → châu Âu → Anh → Úc → NYISO. Mỗi bước lấy vài ngày gần nhất rồi backfill trong quỹ 15–85 phút (EIA và châu Âu 85 phút vì còn nhiều lịch sử nhất) |
 | `collect_realestate.yml` | `37 1 * * *` | 08:37 hằng ngày | Chỉ số nhà ở Mỹ, Chợ Tốt (máy GitHub); Batdongsan (máy tại Việt Nam) |
 | `keepalive.yml` | `0 6 * * 1` | 13:00 thứ Hai | Bật lại các workflow |
 
@@ -312,7 +312,7 @@ python -m pytest -q                                   # test offline, không g�
 |---|---|---|
 | `BACKFILL_START` / `BACKFILL_END` / `BACKFILL_SOURCES` | trống | Như mục 4.1 |
 | `BACKFILL_AUTO` | 1 | `0` = không tự ghi kế hoạch backfill cho nguồn mới |
-| `BACKFILL_MINUTES` | 90 (workflow đặt 20–60 tuỳ bước) | Quỹ thời gian backfill của một collector trong một lượt |
+| `BACKFILL_MINUTES` | 90 (workflow đặt 15–85 tuỳ bước) | Quỹ thời gian backfill của một collector trong một lượt |
 | `OPEN_METEO_PAUSE_SECONDS` | 30 | Nghỉ giữa các request lịch sử Open-Meteo |
 | `WEATHER_PAST_DAYS` / `WEATHER_FORECAST_DAYS` | 3 / 2 | Cửa sổ gần đây của Open-Meteo |
 | `EIA_LOOKBACK_DAYS` | 7 | |
