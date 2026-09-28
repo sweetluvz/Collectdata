@@ -2310,17 +2310,17 @@
   "time_col": "timestamp"
  },
  "energy/aemo/price_demand/2026-06.csv.gz": {
-  "max": "2026-06-30T14:00Z",
+  "max": "2026-06-30T23:55Z",
   "min": "2026-06-01T00:00Z",
-  "rows": 8521,
-  "sha1": "23b49f2dedf5d24a7437fcd3ccbd0259ed27bfbc:2",
+  "rows": 8640,
+  "sha1": "d84c38828a000a3d5acf9fa2ab21667e94c2496a:2",
   "time_col": "timestamp"
  },
  "energy/aemo/price_demand/2026-07.csv": {
   "max": "2026-07-31T23:55Z",
-  "min": "2026-07-31T14:05Z",
-  "rows": 119,
-  "sha1": "20827a69025355d0411b584e27ab4b6b605cfbfd:2",
+  "min": "2026-07-01T00:00Z",
+  "rows": 8928,
+  "sha1": "a9d50ffc2262d7899969b2e729eb6bae1aac7378:2",
   "time_col": "timestamp"
  },
  "energy/aemo/price_demand/2026-08.csv": {
