@@ -10096,22 +10096,29 @@
  "energy/europe/power/2017-01.csv.gz": {
   "max": "2017-01-31T23:45Z",
   "min": "2017-01-01T00:00Z",
-  "rows": 14129,
-  "sha1": "11345e956f6a081c5a8d42d74456bcb4144a96a0:2",
+  "rows": 14136,
+  "sha1": "0b56861c0bbfbfe01c5277e5af92c69f8aaa9bbc:2",
   "time_col": "timestamp"
  },
  "energy/europe/power/2017-02.csv.gz": {
-  "max": "2017-02-28T22:45Z",
+  "max": "2017-02-28T23:45Z",
   "min": "2017-02-01T00:00Z",
-  "rows": 8052,
-  "sha1": "007fac0cb2d203e1debf9d52646abe79e207bb16:2",
+  "rows": 12768,
+  "sha1": "00f06ea50faeeeb1dd6919d308dcf69f3df098cb:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/power/2017-03.csv.gz": {
+  "max": "2017-03-31T21:45Z",
+  "min": "2017-03-01T00:00Z",
+  "rows": 14098,
+  "sha1": "22fa53867ef19175979739c348dbd0f7cd5b3cb4:2",
   "time_col": "timestamp"
  },
  "energy/europe/power/2026-09.csv": {
-  "max": "2026-09-28T03:45Z",
+  "max": "2026-09-28T06:30Z",
   "min": "2026-09-23T22:00Z",
-  "rows": 3452,
-  "sha1": "8830b637de462228c1d28fac287e656118478754:2",
+  "rows": 3547,
+  "sha1": "70e02382c1356b4f6c7d9199c879baa85bb44893:2",
   "time_col": "timestamp"
  },
  "energy/europe/price/2015-01.csv.gz": {
@@ -10794,10 +10801,178 @@
   "time_col": "timestamp"
  },
  "energy/europe/price/2023-02.csv.gz": {
-  "max": "2023-02-28T22:00Z",
+  "max": "2023-02-28T23:00Z",
   "min": "2023-02-01T00:00Z",
+  "rows": 672,
+  "sha1": "844a785ace9c287e93ef022889cd2182c870131c:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2023-03.csv.gz": {
+  "max": "2023-03-31T23:00Z",
+  "min": "2023-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "f296d41e528e006542c97579a1b53bcda7fe7fb9:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2023-04.csv.gz": {
+  "max": "2023-04-30T23:00Z",
+  "min": "2023-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "b368484a8d8c8d9a9192c5d82d2220ca5a3a2626:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2023-05.csv.gz": {
+  "max": "2023-05-31T23:00Z",
+  "min": "2023-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "bf8965c420b8ecaa8ce56e6cddf5ab289ca0ddbf:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2023-06.csv.gz": {
+  "max": "2023-06-30T23:00Z",
+  "min": "2023-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "d64168b1ce979511509fd1dd4f776c563b9bb7d3:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2023-07.csv.gz": {
+  "max": "2023-07-31T23:00Z",
+  "min": "2023-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "3dc026c71cae06a8883eb3cdb15a39ac165679b0:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2023-08.csv.gz": {
+  "max": "2023-08-31T23:00Z",
+  "min": "2023-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "a32ad5d95648aeeff00450c45156c2324c4a0bed:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2023-09.csv.gz": {
+  "max": "2023-09-30T23:00Z",
+  "min": "2023-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "43b670b27c55e6cd5ea3323bc2329e94e873067e:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2023-10.csv.gz": {
+  "max": "2023-10-31T23:00Z",
+  "min": "2023-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "59d879ac708c17383b68847e4a3ec541dba6b4d1:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2023-11.csv.gz": {
+  "max": "2023-11-30T23:00Z",
+  "min": "2023-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "5ec96139109cbfa957ea80c5ee08afdffa668057:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2023-12.csv.gz": {
+  "max": "2023-12-31T23:00Z",
+  "min": "2023-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "329e4970da4a88af604bd0d30e74f93c3ee11d42:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2024-01.csv.gz": {
+  "max": "2024-01-31T23:00Z",
+  "min": "2024-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "f2177f85c84a6feaf7fd26f1fd528650a950834b:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2024-02.csv.gz": {
+  "max": "2024-02-29T23:00Z",
+  "min": "2024-02-01T00:00Z",
+  "rows": 696,
+  "sha1": "a6cbd0ed1936c9e483ea0fbef34320b2e0aad3cf:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2024-03.csv.gz": {
+  "max": "2024-03-31T23:00Z",
+  "min": "2024-03-01T00:00Z",
+  "rows": 744,
+  "sha1": "27cafd36ca21a1ecc82de3a6f3f6c43157d5c6a1:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2024-04.csv.gz": {
+  "max": "2024-04-30T23:00Z",
+  "min": "2024-04-01T00:00Z",
+  "rows": 720,
+  "sha1": "ad4a7455bc382a67f53c8f0728f828b6194001a9:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2024-05.csv.gz": {
+  "max": "2024-05-31T23:00Z",
+  "min": "2024-05-01T00:00Z",
+  "rows": 744,
+  "sha1": "428e3483f4fe532c752e97791d782921fad83e75:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2024-06.csv.gz": {
+  "max": "2024-06-30T23:00Z",
+  "min": "2024-06-01T00:00Z",
+  "rows": 720,
+  "sha1": "377da7392ec81a5faf2f9d9df699a7c0c328b8ad:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2024-07.csv.gz": {
+  "max": "2024-07-31T23:00Z",
+  "min": "2024-07-01T00:00Z",
+  "rows": 744,
+  "sha1": "101bafa16392756c9bbd8225cc97d86d60a3f9e1:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2024-08.csv.gz": {
+  "max": "2024-08-31T23:00Z",
+  "min": "2024-08-01T00:00Z",
+  "rows": 744,
+  "sha1": "afa3dbc5dc720100c54c10bd8e0bdd228c8df989:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2024-09.csv.gz": {
+  "max": "2024-09-30T23:00Z",
+  "min": "2024-09-01T00:00Z",
+  "rows": 720,
+  "sha1": "9edb8ddda326e1286d1e1e65de2e326f3d700f61:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2024-10.csv.gz": {
+  "max": "2024-10-31T23:00Z",
+  "min": "2024-10-01T00:00Z",
+  "rows": 744,
+  "sha1": "c80b99a51149c020b8fed22c70e27350c95bf4c1:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2024-11.csv.gz": {
+  "max": "2024-11-30T23:00Z",
+  "min": "2024-11-01T00:00Z",
+  "rows": 720,
+  "sha1": "89912bcafacf31f5a72e03e35fa8831fee0fa2cc:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2024-12.csv.gz": {
+  "max": "2024-12-31T23:00Z",
+  "min": "2024-12-01T00:00Z",
+  "rows": 744,
+  "sha1": "df977fad403a23c3f7eef937f8804adf9f9046b1:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2025-01.csv.gz": {
+  "max": "2025-01-31T23:00Z",
+  "min": "2025-01-01T00:00Z",
+  "rows": 744,
+  "sha1": "0983daf891a2763a29dba7731d8385ae3a087fda:2",
+  "time_col": "timestamp"
+ },
+ "energy/europe/price/2025-02.csv.gz": {
+  "max": "2025-02-28T22:00Z",
+  "min": "2025-02-01T00:00Z",
   "rows": 671,
-  "sha1": "ae8ad8c0dcef7a5dc93828fe30a87480cac9d796:2",
+  "sha1": "ebb03b80a5981b73e87166625430508193f79a13:2",
   "time_col": "timestamp"
  },
  "energy/europe/price/2026-09.csv": {
