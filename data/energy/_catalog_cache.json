@@ -11830,10 +11830,10 @@
   "time_col": "timestamp"
  },
  "energy/europe/power/2026-09.csv": {
-  "max": "2026-09-28T23:00Z",
+  "max": "2026-09-29T01:30Z",
   "min": "2026-09-01T00:00Z",
-  "rows": 22809,
-  "sha1": "3df2dbc648e87cc20f452bde48ab4a7333b3e445:2",
+  "rows": 22887,
+  "sha1": "294c9d34ea208f73f41e3d19923130b863bf1f74:2",
   "time_col": "timestamp"
  },
  "energy/europe/price/2015-01.csv.gz": {
