@@ -15,8 +15,8 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | `energy/europe/power` | 141 | 2,132,948 | `timestamp` | 2015-01-01T00:00Z | 2026-09-29T21:00Z | 96.4 MB |
 | `energy/europe/price` | 141 | 129,262 | `timestamp` | 2015-01-01T00:00Z | 2026-09-30T21:45Z | 4.4 MB |
 | `energy/gb/carbon_intensity` | 109 | 158,463 | `timestamp` | 2017-09-11T23:00Z | 2026-09-29T23:30Z | 1.0 MB |
-| `energy/gb/demand` | 128 | 184,509 | `timestamp` | 2016-02-29T23:30Z | 2026-09-29T12:30Z | 1.6 MB |
-| `energy/gb/generation` | 130 | 188,269 | `timestamp` | 2015-12-31T23:30Z | 2026-09-29T12:30Z | 5.3 MB |
+| `energy/gb/demand` | 128 | 184,527 | `timestamp` | 2016-02-29T23:30Z | 2026-09-29T21:30Z | 1.6 MB |
+| `energy/gb/generation` | 130 | 188,287 | `timestamp` | 2015-12-31T23:30Z | 2026-09-29T21:30Z | 5.3 MB |
 | `energy/nyiso/lbmp_da` | 321 | 234,455 | `timestamp` | 2000-01-01T05:00Z | 2026-09-30T03:00Z | 8.5 MB |
 | `energy/nyiso/lbmp_rt` | 321 | 233,985 | `timestamp` | 2000-01-01T05:00Z | 2026-09-29T13:00Z | 8.7 MB |
 | `energy/weather/era5` | 141 | 4,112,640 | `time` | 2015-01-01T00:00Z | 2026-09-23T23:00Z | 103.5 MB |
