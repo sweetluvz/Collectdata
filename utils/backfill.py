@@ -167,9 +167,11 @@ def run(domain, source, default_start, earliest, chunker, fetch):
                 plan["skipped"].append(chunk_id)
             else:
                 print(f"::warning::backfill {source} {chunk_id}: {e} - will retry next run")
+                flag_incomplete(source)  # keep the self-dispatch chain going (bounded by MAX_CHAIN)
                 return
         except Exception as e:
             print(f"::warning::backfill {source} {chunk_id}: {type(e).__name__}: {e} - will retry next run")
+            flag_incomplete(source)
             return
         finally:
             durations.append(time.monotonic() - started)

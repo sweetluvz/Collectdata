@@ -71,9 +71,9 @@ jobs:
 
       - name: US grid & markets (EIA)
         if: ${{ !cancelled() }}
-        timeout-minutes: 100
+        timeout-minutes: 140
         env:
-          BACKFILL_MINUTES: "85"
+          BACKFILL_MINUTES: "120"
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
           EIA_LOOKBACK_DAYS: ${{ inputs.lookback_days }}
         run: python -m scrapers.energy.eia_collector
@@ -85,9 +85,9 @@ jobs:
 
       - name: Europe power & prices (Energy-Charts)
         if: ${{ !cancelled() }}
-        timeout-minutes: 100
+        timeout-minutes: 35
         env:
-          BACKFILL_MINUTES: "85"
+          BACKFILL_MINUTES: "20"
         run: python -m scrapers.energy.europe_collector
 
       - name: Commit europe

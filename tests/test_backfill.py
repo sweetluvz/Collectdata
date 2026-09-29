@@ -132,3 +132,19 @@ def test_stops_before_a_chunk_that_would_overrun(data_dir, monkeypatch):
     monkeypatch.setenv("BACKFILL_END", "2020-12-31")
     backfill.run("energy", "src", date(2020, 1, 1), date(2020, 1, 1), backfill.month_chunks, fetch)
     assert backfill.load_state("energy")["src"]["done"] == ["2020-01", "2020-02"]  # third would end at 30 > 25
+
+
+def test_transient_error_flags_the_run_for_continuation(data_dir, monkeypatch, tmp_path):
+    import requests
+
+    flag = tmp_path / "flag"
+    monkeypatch.setenv("BACKFILL_FLAG", str(flag))
+    monkeypatch.setenv("BACKFILL_START", "2020-01-01")
+    monkeypatch.setenv("BACKFILL_END", "2020-02-28")
+
+    def fetch(first, last):
+        raise requests.HTTPError("503", response=type("R", (), {"status_code": 503})())
+
+    backfill.run("energy", "src", date(2020, 1, 1), date(2020, 1, 1), backfill.month_chunks, fetch)
+    assert backfill.load_state("energy")["src"]["done"] == []
+    assert flag.read_text() == "src\n"

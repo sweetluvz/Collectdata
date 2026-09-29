@@ -89,7 +89,7 @@ Mỗi collector, mỗi lượt chạy:
 
 | Workflow | Cron (UTC) | Giờ Việt Nam | Nội dung |
 |---|---|---|---|
-| `collect_energy.yml` | `23 */6 * * *` | 06:23, 12:23, 18:23, 00:23 | 6 bước: thời tiết → EIA → châu Âu → Anh → Úc → NYISO. Mỗi bước lấy vài ngày gần nhất rồi backfill trong quỹ 15–85 phút (EIA và châu Âu 85 phút vì còn nhiều lịch sử nhất) |
+| `collect_energy.yml` | `23 */6 * * *` | 06:23, 12:23, 18:23, 00:23 | 6 bước: thời tiết → EIA → châu Âu → Anh → Úc → NYISO. Mỗi bước lấy vài ngày gần nhất rồi backfill trong quỹ 15–120 phút (EIA 120 phút vì còn nhiều lịch sử nhất) |
 | `collect_realestate.yml` | `37 1 * * *` | 08:37 hằng ngày | Chỉ số nhà ở Mỹ, Chợ Tốt (máy GitHub); Batdongsan (máy tại Việt Nam) |
 | `keepalive.yml` | `0 6 * * 1` | 13:00 thứ Hai | Bật lại các workflow |
 
@@ -163,7 +163,7 @@ Muốn lấy xa hơn thì điền ngày cụ thể.
 ### 4.2. Cách backfill chạy
 - Kế hoạch lưu trong `data/energy/_backfill.json`. Mỗi lượt tải trong quỹ thời gian, commit sau mỗi nguồn, rồi **tự kích hoạt lượt tiếp** nếu chưa có lượt nào đang chờ (tối đa 40 lượt nối tiếp). Sau đó các lượt theo lịch làm tiếp đến khi xong.
 - Theo dõi ở mục **Backfill progress** trong `data/energy/CATALOG.md`.
-- Phần nào nguồn trả lỗi cố định (HTTP 400/404/422, hoặc không có file cho tháng đó) được đánh dấu **skipped**. Lỗi tạm thời (429, 5xx, mất kết nối) thì dừng và thử lại lượt sau.
+- Phần nào nguồn trả lỗi cố định (HTTP 400/404/422, hoặc không có file cho tháng đó) được đánh dấu **skipped**. Lỗi tạm thời (429, 5xx, mất kết nối) thì dừng nguồn đó và lượt tự kích hoạt kế tiếp thử lại.
 - Chạy lại với khoảng rộng hơn sẽ **mở rộng** kế hoạch; phần đã xong không bị tải lại.
 
 ### 4.3. Thời gian dự kiến [ước tính]
@@ -312,7 +312,7 @@ python -m pytest -q                                   # test offline, không g�
 |---|---|---|
 | `BACKFILL_START` / `BACKFILL_END` / `BACKFILL_SOURCES` | trống | Như mục 4.1 |
 | `BACKFILL_AUTO` | 1 | `0` = không tự ghi kế hoạch backfill cho nguồn mới |
-| `BACKFILL_MINUTES` | 90 (workflow đặt 15–85 tuỳ bước) | Quỹ thời gian backfill của một collector trong một lượt |
+| `BACKFILL_MINUTES` | 90 (workflow đặt 15–120 tuỳ bước) | Quỹ thời gian backfill của một collector trong một lượt |
 | `OPEN_METEO_PAUSE_SECONDS` | 30 | Nghỉ giữa các request lịch sử Open-Meteo |
 | `WEATHER_PAST_DAYS` / `WEATHER_FORECAST_DAYS` | 3 / 2 | Cửa sổ gần đây của Open-Meteo |
 | `EIA_LOOKBACK_DAYS` | 7 | |
