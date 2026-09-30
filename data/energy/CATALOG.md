@@ -5,7 +5,7 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | Table | Files | Rows | Time column | From | To | Size |
 |---|---:|---:|---|---|---|---:|
 | `energy/aemo/price_demand` | 334 | 925,615 | `timestamp` | 1998-12-06T16:00Z | 2026-09-29T14:00Z | 29.6 MB |
-| `energy/airquality/observed` | 50 | 1,458,104 | `time` | 2022-08-01T00:00Z | 2026-09-29T22:00Z | 24.1 MB |
+| `energy/airquality/observed` | 50 | 1,458,384 | `time` | 2022-08-01T00:00Z | 2026-09-30T05:00Z | 24.1 MB |
 | `energy/eia/fuel_prices` | 489 | 129,990 | `period` | 1986-01-02 | 2026-09-22 | 1022.3 KB |
 | `energy/eia/fuel_type` | 99 | 72,290 | `period` | 2018-07-01T05:00Z | 2026-09-29T06:00Z | 47.0 MB |
 | `energy/eia/interchange` | 135 | 98,571 | `period` | 2015-07-01T05:00Z | 2026-09-28T07:00Z | 60.2 MB |
@@ -19,9 +19,9 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | `energy/gb/generation` | 130 | 188,287 | `timestamp` | 2015-12-31T23:30Z | 2026-09-29T21:30Z | 5.3 MB |
 | `energy/nyiso/lbmp_da` | 322 | 234,479 | `timestamp` | 2000-01-01T05:00Z | 2026-10-01T03:00Z | 8.5 MB |
 | `energy/nyiso/lbmp_rt` | 321 | 233,994 | `timestamp` | 2000-01-01T05:00Z | 2026-09-29T22:00Z | 8.7 MB |
-| `energy/weather/era5` | 141 | 4,112,640 | `time` | 2015-01-01T00:00Z | 2026-09-23T23:00Z | 103.5 MB |
-| `energy/weather/forecast` | 1 | 29,058 | `issued_at` | 2026-09-27T08:00Z | 2026-09-29T22:00Z | 3.2 MB |
-| `energy/weather/observed` | 1 | 5,720 | `time` | 2026-09-24T00:00Z | 2026-09-29T22:00Z | 535.0 KB |
+| `energy/weather/era5` | 141 | 4,113,600 | `time` | 2015-01-01T00:00Z | 2026-09-24T23:00Z | 103.5 MB |
+| `energy/weather/forecast` | 1 | 30,738 | `issued_at` | 2026-09-27T08:00Z | 2026-09-30T05:00Z | 3.3 MB |
+| `energy/weather/observed` | 1 | 6,000 | `time` | 2026-09-24T00:00Z | 2026-09-30T05:00Z | 561.1 KB |
 
 ## Backfill progress
 
