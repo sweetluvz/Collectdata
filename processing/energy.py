@@ -2,6 +2,8 @@
 
 Outputs processed/<grid>/<area>.csv.gz, one row per hour (UTC, labelled at the end of the hour).
 """
+import functools
+
 import pandas as pd
 from pandas.tseries.holiday import USFederalHolidayCalendar
 
@@ -24,9 +26,15 @@ EU_PRICE_ZONE = {"DE": "DE-LU", "FR": "FR", "ES": "ES", "NL": "NL", "BE": "BE", 
 AEMO_REGIONS = ["NSW1", "QLD1", "VIC1", "SA1", "TAS1"]
 
 
+@functools.lru_cache(maxsize=2)
+def _era5(start, end):
+    """ERA5 is read once per build instead of once per area (it is the largest table)."""
+    return load("energy/weather/era5", "time", start, end, columns=WEATHER_COLS + ["location"])
+
+
 def weather_for(token, start, end, prefix=None):
     """Mean ERA5 weather over the locations whose code contains `token` (e.g. ERCO, NSW1) or starts with prefix."""
-    df = load("energy/weather/era5", "time", start, end, columns=WEATHER_COLS + ["location"])
+    df = _era5(start, end)
     if df.empty:
         return pd.DataFrame()
     parts = df["location"].str.split("_")

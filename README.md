@@ -377,7 +377,7 @@ cd Collectdata && git sparse-checkout set data/energy/eia
 ### 8.1. Xử lý sơ bộ (`processing/`)
 
 Dữ liệu thô giữ nguyên như nguồn công bố. `processing/` sinh ra **bảng phân tích theo giờ** cho từng vùng lưới
-và bảng tin Chợ Tốt đã làm sạch, ghi vào `processed/` (không commit; chạy lại khi cần, vài phút trên CPU).
+và bảng tin Chợ Tốt đã làm sạch, ghi vào `processed/` (không commit; chạy lại khi cần; trên CPU khoảng 15–20 giây mỗi vùng, `all` khoảng 10 phút [ước tính]).
 
 ```bash
 pip install -r requirements.txt

@@ -24,4 +24,7 @@ def data_dir(tmp_path, monkeypatch):
     monkeypatch.setattr(storage, "DATA_DIR", data)
     monkeypatch.setenv("BACKFILL_AUTO", "0")  # tests opt in to backfill explicitly
     monkeypatch.setattr("time.sleep", lambda *_: None)
+    from processing import energy
+
+    energy._era5.cache_clear()  # cached per build; each test has its own data directory
     return data
