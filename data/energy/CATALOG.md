@@ -9,7 +9,7 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | `energy/eia/fuel_prices` | 489 | 130,050 | `period` | 1986-01-02 | 2026-09-29 | 1000.3 KB |
 | `energy/eia/fuel_type` | 99 | 72,314 | `period` | 2018-07-01T05:00Z | 2026-09-30T06:00Z | 45.6 MB |
 | `energy/eia/interchange` | 135 | 98,595 | `period` | 2015-07-01T05:00Z | 2026-09-29T07:00Z | 59.3 MB |
-| `energy/eia/region` | 135 | 98,634 | `period` | 2015-07-01T05:00Z | 2026-09-30T22:00Z | 58.2 MB |
+| `energy/eia/region` | 136 | 98,642 | `period` | 2015-07-01T05:00Z | 2026-10-01T06:00Z | 58.2 MB |
 | `energy/eia/retail_sales` | 307 | 114,204 | `period` | 2001-01 | 2026-07 | 1.8 MB |
 | `energy/eia/subregion` | 93 | 67,904 | `period` | 2019-01-01T00:00Z | 2026-09-30T07:00Z | 11.9 MB |
 | `energy/europe/power` | 141 | 2,133,772 | `timestamp` | 2015-01-01T00:00Z | 2026-09-30T20:45Z | 94.3 MB |
