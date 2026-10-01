@@ -1,23 +1,30 @@
 {
- "realestate/chotot/ads/2026-07.csv": {
+ "realestate/chotot/ads/2026-07.csv.gz": {
   "max": "2026-07-31T00:23Z",
   "min": "2026-07-29T10:25Z",
   "rows": 3,
-  "sha1": "abe1744640fb75e15840915359a7d12a3dbce889:2",
+  "sha1": "3d96dae0fbb5c66f2deb3d04926a2b1892acb0b0:2",
   "time_col": "list_time"
  },
  "realestate/chotot/ads/2026-08.csv": {
   "max": "2026-08-31T19:03Z",
   "min": "2026-08-01T00:17Z",
   "rows": 353,
-  "sha1": "a5cf4a6b956fdf2b8c6c075972498221e94fc62a:2",
+  "sha1": "89908edc093c27339002be2817b69d385bdc1e49:2",
   "time_col": "list_time"
  },
  "realestate/chotot/ads/2026-09.csv": {
-  "max": "2026-09-30T07:23Z",
+  "max": "2026-09-30T23:59Z",
   "min": "2026-09-01T00:56Z",
-  "rows": 13553,
-  "sha1": "6c4d0984cc120cecff01f091a56ad0be5f1252c8:2",
+  "rows": 14138,
+  "sha1": "683c9b86d26cc79d44648c7ee7791c54f67aa88e:2",
+  "time_col": "list_time"
+ },
+ "realestate/chotot/ads/2026-10.csv": {
+  "max": "2026-10-01T07:44Z",
+  "min": "2026-10-01T00:00Z",
+  "rows": 2293,
+  "sha1": "4e487554e26c0bb4bb87547db160c4e1b5b062d6:2",
   "time_col": "list_time"
  },
  "realestate/chotot/snapshots/2026-09.csv": {
@@ -27,6 +34,13 @@
   "sha1": "254f40c475108885b2919a9bc2aa6e7ff3b2f8ab:2",
   "time_col": "scraped_date"
  },
+ "realestate/chotot/snapshots/2026-10.csv": {
+  "max": "2026-10-01",
+  "min": "2026-10-01",
+  "rows": 9661,
+  "sha1": "d3d6907066643214661c33bf7595d2879450a9b9:2",
+  "time_col": "scraped_date"
+ },
  "realestate/fhfa/hpi_master/2026-07.csv.gz": {
   "max": "",
   "min": "",
@@ -34,11 +48,11 @@
   "sha1": "433dba276d6748f3c7efce826f41aace580c69e0:2",
   "time_col": "release"
  },
- "realestate/realtor/inventory_metro/2026-08.csv.gz": {
+ "realestate/realtor/inventory_metro/2026-09.csv.gz": {
   "max": "",
   "min": "",
   "rows": null,
-  "sha1": "2ed8d1e6ca9b70d782688c1e461623e03c3bbe8a:2",
+  "sha1": "5798f4d89de18d7fcc505bd2afb1d1e2e3ed8d93:2",
   "time_col": "release"
  },
  "realestate/zillow/inventory_metro/2026-08.csv.gz": {
