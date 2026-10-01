@@ -4,24 +4,24 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 
 | Table | Files | Rows | Time column | From | To | Size |
 |---|---:|---:|---|---|---|---:|
-| `energy/aemo/price_demand` | 334 | 925,903 | `timestamp` | 1998-12-06T16:00Z | 2026-09-30T14:00Z | 29.6 MB |
-| `energy/airquality/observed` | 50 | 1,459,064 | `time` | 2022-08-01T00:00Z | 2026-09-30T22:00Z | 24.2 MB |
-| `energy/eia/fuel_prices` | 489 | 130,050 | `period` | 1986-01-02 | 2026-09-29 | 1.0 MB |
-| `energy/eia/fuel_type` | 99 | 72,314 | `period` | 2018-07-01T05:00Z | 2026-09-30T06:00Z | 47.0 MB |
-| `energy/eia/interchange` | 135 | 98,595 | `period` | 2015-07-01T05:00Z | 2026-09-29T07:00Z | 60.3 MB |
-| `energy/eia/region` | 135 | 98,634 | `period` | 2015-07-01T05:00Z | 2026-09-30T22:00Z | 59.2 MB |
+| `energy/aemo/price_demand` | 334 | 925,903 | `timestamp` | 1998-12-06T16:00Z | 2026-09-30T14:00Z | 29.1 MB |
+| `energy/airquality/observed` | 51 | 1,459,384 | `time` | 2022-08-01T00:00Z | 2026-10-01T06:00Z | 22.7 MB |
+| `energy/eia/fuel_prices` | 489 | 130,050 | `period` | 1986-01-02 | 2026-09-29 | 1000.3 KB |
+| `energy/eia/fuel_type` | 99 | 72,314 | `period` | 2018-07-01T05:00Z | 2026-09-30T06:00Z | 45.6 MB |
+| `energy/eia/interchange` | 135 | 98,595 | `period` | 2015-07-01T05:00Z | 2026-09-29T07:00Z | 59.3 MB |
+| `energy/eia/region` | 135 | 98,634 | `period` | 2015-07-01T05:00Z | 2026-09-30T22:00Z | 58.2 MB |
 | `energy/eia/retail_sales` | 307 | 114,204 | `period` | 2001-01 | 2026-07 | 1.8 MB |
-| `energy/eia/subregion` | 93 | 67,904 | `period` | 2019-01-01T00:00Z | 2026-09-30T07:00Z | 12.2 MB |
-| `energy/europe/power` | 141 | 2,133,772 | `timestamp` | 2015-01-01T00:00Z | 2026-09-30T20:45Z | 96.5 MB |
-| `energy/europe/price` | 142 | 129,358 | `timestamp` | 2015-01-01T00:00Z | 2026-10-01T21:45Z | 4.4 MB |
-| `energy/gb/carbon_intensity` | 109 | 158,511 | `timestamp` | 2017-09-11T23:00Z | 2026-09-30T23:30Z | 1.0 MB |
+| `energy/eia/subregion` | 93 | 67,904 | `period` | 2019-01-01T00:00Z | 2026-09-30T07:00Z | 11.9 MB |
+| `energy/europe/power` | 141 | 2,133,772 | `timestamp` | 2015-01-01T00:00Z | 2026-09-30T20:45Z | 94.3 MB |
+| `energy/europe/price` | 142 | 129,358 | `timestamp` | 2015-01-01T00:00Z | 2026-10-01T21:45Z | 4.2 MB |
+| `energy/gb/carbon_intensity` | 109 | 158,511 | `timestamp` | 2017-09-11T23:00Z | 2026-09-30T23:30Z | 995.3 KB |
 | `energy/gb/demand` | 128 | 184,575 | `timestamp` | 2016-02-29T23:30Z | 2026-09-30T21:30Z | 1.6 MB |
-| `energy/gb/generation` | 130 | 188,335 | `timestamp` | 2015-12-31T23:30Z | 2026-09-30T21:30Z | 5.3 MB |
-| `energy/nyiso/lbmp_da` | 322 | 234,503 | `timestamp` | 2000-01-01T05:00Z | 2026-10-02T03:00Z | 8.5 MB |
+| `energy/gb/generation` | 130 | 188,335 | `timestamp` | 2015-12-31T23:30Z | 2026-09-30T21:30Z | 5.2 MB |
+| `energy/nyiso/lbmp_da` | 322 | 234,503 | `timestamp` | 2000-01-01T05:00Z | 2026-10-02T03:00Z | 8.4 MB |
 | `energy/nyiso/lbmp_rt` | 321 | 234,018 | `timestamp` | 2000-01-01T05:00Z | 2026-09-30T22:00Z | 8.7 MB |
-| `energy/weather/era5` | 141 | 4,113,600 | `time` | 2015-01-01T00:00Z | 2026-09-24T23:00Z | 103.5 MB |
-| `energy/weather/forecast` | 1 | 33,138 | `issued_at` | 2026-09-27T08:00Z | 2026-09-30T22:00Z | 3.6 MB |
-| `energy/weather/observed` | 1 | 6,680 | `time` | 2026-09-24T00:00Z | 2026-09-30T22:00Z | 625.1 KB |
+| `energy/weather/era5` | 141 | 4,114,560 | `time` | 2015-01-01T00:00Z | 2026-09-25T23:00Z | 101.6 MB |
+| `energy/weather/forecast` | 2 | 34,778 | `issued_at` | 2026-09-27T08:00Z | 2026-10-01T06:00Z | 3.8 MB |
+| `energy/weather/observed` | 2 | 7,000 | `time` | 2026-09-24T00:00Z | 2026-10-01T06:00Z | 655.2 KB |
 
 ## Backfill progress
 
