@@ -6814,14 +6814,14 @@
   "max": "2026-09-30T23:00Z",
   "min": "2026-09-01T00:00Z",
   "rows": 720,
-  "sha1": "81ac0227bcacace7f0bf3e1444ff24dbe8d500db:2",
+  "sha1": "8d214c72af32e4f481761602819367b4a63892f1:2",
   "time_col": "period"
  },
  "energy/eia/fuel_type/2026-10.csv": {
-  "max": "2026-10-01T06:00Z",
+  "max": "2026-10-02T06:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 7,
-  "sha1": "db8faedbf5cc01a807d30f2223f9232285ab4e6d:2",
+  "rows": 31,
+  "sha1": "864f40b7530b8e4ba89f9f38589b4c7b6945452c:2",
   "time_col": "period"
  },
  "energy/eia/interchange/2015-07.csv.gz": {
@@ -7763,10 +7763,17 @@
   "time_col": "period"
  },
  "energy/eia/interchange/2026-09.csv": {
-  "max": "2026-09-30T07:00Z",
+  "max": "2026-09-30T23:00Z",
   "min": "2026-09-01T00:00Z",
-  "rows": 704,
-  "sha1": "79d8a545db37d4856feb06f0a0625d7f32850a89:2",
+  "rows": 720,
+  "sha1": "f0b27894e5a6c699ab28405c3c611bcc43a5b5b3:2",
+  "time_col": "period"
+ },
+ "energy/eia/interchange/2026-10.csv": {
+  "max": "2026-10-01T07:00Z",
+  "min": "2026-10-01T00:00Z",
+  "rows": 8,
+  "sha1": "f49cc9625573b3cd2bc4748498bd3a3387a65fb5:2",
   "time_col": "period"
  },
  "energy/eia/region/2015-07.csv.gz": {
@@ -8711,14 +8718,14 @@
   "max": "2026-09-30T23:00Z",
   "min": "2026-09-01T00:00Z",
   "rows": 720,
-  "sha1": "6e973d7f89714b010b52e6cd3d20cd8aa14a533d:2",
+  "sha1": "8c9ea5a1f06a653069b7090e282f3212c7d02b7b:2",
   "time_col": "period"
  },
  "energy/eia/region/2026-10.csv": {
-  "max": "2026-10-02T05:00Z",
+  "max": "2026-10-02T12:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 30,
-  "sha1": "a34120828ea1ff91bae78396717be37387fa2258:2",
+  "rows": 37,
+  "sha1": "9c45620b9170679278b8252f8edd8bfd5cd7f779:2",
   "time_col": "period"
  },
  "energy/eia/retail_sales/2001-01.csv.gz": {
@@ -11518,14 +11525,14 @@
   "max": "2026-09-30T23:00Z",
   "min": "2026-09-01T00:00Z",
   "rows": 720,
-  "sha1": "beba08cb72a93ad093245ebd006c27a0f50b5fed:2",
+  "sha1": "137c9658008546347c7a270ad8c618700110f2a6:2",
   "time_col": "period"
  },
  "energy/eia/subregion/2026-10.csv": {
-  "max": "2026-10-01T07:00Z",
+  "max": "2026-10-02T07:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 8,
-  "sha1": "1275f894b6b909a9cd0bb4a14b9553137a1354ac:2",
+  "rows": 32,
+  "sha1": "2023600ed90fac11805cd692f6f7798e649aad1c:2",
   "time_col": "period"
  },
  "energy/europe/power/2015-01.csv.gz": {
