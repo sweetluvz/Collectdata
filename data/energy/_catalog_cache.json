@@ -12512,14 +12512,14 @@
   "max": "2026-09-30T23:45Z",
   "min": "2026-09-01T00:00Z",
   "rows": 24480,
-  "sha1": "d59d870c1dc82db98c230e6e3e970c2d4aeb64e5:2",
+  "sha1": "de54bf7493512d00149d03348a7d52bb77feb739:2",
   "time_col": "timestamp"
  },
  "energy/europe/power/2026-10.csv": {
-  "max": "2026-10-01T21:45Z",
+  "max": "2026-10-02T04:15Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 730,
-  "sha1": "be6ce2894bf93d387461ca6e1a435b2d5996aef8:2",
+  "rows": 935,
+  "sha1": "629e100a3a6d0d9cc8b0248f02255e40cf2357dd:2",
   "time_col": "timestamp"
  },
  "energy/europe/price/2015-01.csv.gz": {
