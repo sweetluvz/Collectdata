@@ -6814,14 +6814,14 @@
   "max": "2026-09-30T23:00Z",
   "min": "2026-09-01T00:00Z",
   "rows": 720,
-  "sha1": "6019581c8c1329adb49dd2aeeef2e36c0c0d18af:2",
+  "sha1": "ce0027df4ce70a99cb3dc52f8aa16446c0078f24:2",
   "time_col": "period"
  },
  "energy/eia/fuel_type/2026-10.csv": {
-  "max": "2026-10-02T06:00Z",
+  "max": "2026-10-03T06:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 31,
-  "sha1": "a831cb7f74d585b44e33be9a99df12642d34850c:2",
+  "rows": 55,
+  "sha1": "f32a10e7bf6ef586a61e65a6f534c8b2b28c0186:2",
   "time_col": "period"
  },
  "energy/eia/interchange/2015-07.csv.gz": {
@@ -7766,14 +7766,14 @@
   "max": "2026-09-30T23:00Z",
   "min": "2026-09-01T00:00Z",
   "rows": 720,
-  "sha1": "3d7096cbee10f5c27b1f86bfd30a18d4eff5d4cb:2",
+  "sha1": "397239dc8b782ded3c8e8649db3cb0c895aa3fb2:2",
   "time_col": "period"
  },
  "energy/eia/interchange/2026-10.csv": {
-  "max": "2026-10-01T07:00Z",
+  "max": "2026-10-02T07:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 8,
-  "sha1": "4f5ab08948954f9f7fbad0f3c784d54f73f3f60a:2",
+  "rows": 32,
+  "sha1": "dbbc7d2e0ee8464f3a54570a07fc04810026638a:2",
   "time_col": "period"
  },
  "energy/eia/region/2015-07.csv.gz": {
@@ -8718,14 +8718,14 @@
   "max": "2026-09-30T23:00Z",
   "min": "2026-09-01T00:00Z",
   "rows": 720,
-  "sha1": "45b5123bf7484a612739da0ec7f72524be441145:2",
+  "sha1": "2df4c63af8febb782850ef650ff45be423faff5c:2",
   "time_col": "period"
  },
  "energy/eia/region/2026-10.csv": {
-  "max": "2026-10-03T05:00Z",
+  "max": "2026-10-03T11:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 54,
-  "sha1": "6524f433417abf7fa4c19cc5e68ee5dafe56c1d9:2",
+  "rows": 60,
+  "sha1": "a56b5cb4913c2018bf35ce627666760763cfafef:2",
   "time_col": "period"
  },
  "energy/eia/retail_sales/2001-01.csv.gz": {
@@ -11529,10 +11529,10 @@
   "time_col": "period"
  },
  "energy/eia/subregion/2026-10.csv": {
-  "max": "2026-10-02T07:00Z",
+  "max": "2026-10-03T07:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 32,
-  "sha1": "f51d712c40230e56d2ee9fa07a56f3f61bdec0d7:2",
+  "rows": 56,
+  "sha1": "47888be3b5de7a0acf256c7955d4808902280f50:2",
   "time_col": "period"
  },
  "energy/europe/power/2015-01.csv.gz": {
