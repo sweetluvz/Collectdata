@@ -233,10 +233,22 @@ period,series,description,area,units,value
 2026-09-29,EER_EPD2DXL0_PF4_Y35NY_DPG,New York Harbor Ultra-Low Sulfur No 2 Diesel Spot Price (Dollars per Gallon),NEW YORK CITY,$/GAL,4.999
 2026-09-29,EER_EPD2F_PF4_Y35NY_DPG,New York Harbor No. 2 Heating Oil Spot Price FOB (Dollars per Gallon),NEW YORK CITY,$/GAL,4.789
 2026-09-29,EER_EPJK_PF4_RGC_DPG,U.S. Gulf Coast Kerosene-Type Jet Fuel Spot Price FOB (Dollars per Gallon),NA,$/GAL,4.399
-2026-09-29,EER_EPLLPA_PF4_Y44MB_DPG,"Mont Belvieu, TX Propane Spot Price FOB (Dollars per Gallon)",NA,$/GAL,0.894
+2026-09-29,EER_EPLLPA_PF4_Y44MB_DPG,"Mont Belvieu, TX Propane Spot Price FOB (Dollars per Gallon)",NA,$/GAL,0.891
 2026-09-29,EER_EPMRR_PF4_Y05LA_DPG,Los Angeles Reformulated RBOB Regular Gasoline Spot Price (Dollars per Gallon),LOS ANGELES,$/GAL,4.396
 2026-09-29,EER_EPMRU_PF4_RGC_DPG,U.S. Gulf Coast Conventional Gasoline Regular Spot Price FOB (Dollars per Gallon),NA,$/GAL,3.631
 2026-09-29,EER_EPMRU_PF4_Y35NY_DPG,New York Harbor Conventional Gasoline Regular Spot Price FOB (Dollars per Gallon),NEW YORK CITY,$/GAL,3.329
 2026-09-29,RBRTE,Europe Brent Spot Price FOB (Dollars per Barrel),NA,$/BBL,113.96
 2026-09-29,RNGWHHD,Henry Hub Natural Gas Spot Price (Dollars per Million Btu),NA,$/MMBTU,3.18
 2026-09-29,RWTC,"Cushing, OK WTI Spot Price FOB (Dollars per Barrel)",NA,$/BBL,96.16
+2026-09-30,EER_EPD2DC_PF4_Y05LA_DPG,"Los Angeles, CA Ultra-Low Sulfur CARB Diesel Spot Price (Dollars per Gallon)",LOS ANGELES,$/GAL,5.125
+2026-09-30,EER_EPD2DXL0_PF4_RGC_DPG,U.S. Gulf Coast Ultra-Low Sulfur No 2 Diesel Spot Price (Dollars per Gallon),NA,$/GAL,4.868
+2026-09-30,EER_EPD2DXL0_PF4_Y35NY_DPG,New York Harbor Ultra-Low Sulfur No 2 Diesel Spot Price (Dollars per Gallon),NEW YORK CITY,$/GAL,5.023
+2026-09-30,EER_EPD2F_PF4_Y35NY_DPG,New York Harbor No. 2 Heating Oil Spot Price FOB (Dollars per Gallon),NEW YORK CITY,$/GAL,4.813
+2026-09-30,EER_EPJK_PF4_RGC_DPG,U.S. Gulf Coast Kerosene-Type Jet Fuel Spot Price FOB (Dollars per Gallon),NA,$/GAL,4.677
+2026-09-30,EER_EPLLPA_PF4_Y44MB_DPG,"Mont Belvieu, TX Propane Spot Price FOB (Dollars per Gallon)",NA,$/GAL,0.899
+2026-09-30,EER_EPMRR_PF4_Y05LA_DPG,Los Angeles Reformulated RBOB Regular Gasoline Spot Price (Dollars per Gallon),LOS ANGELES,$/GAL,4.599
+2026-09-30,EER_EPMRU_PF4_RGC_DPG,U.S. Gulf Coast Conventional Gasoline Regular Spot Price FOB (Dollars per Gallon),NA,$/GAL,3.727
+2026-09-30,EER_EPMRU_PF4_Y35NY_DPG,New York Harbor Conventional Gasoline Regular Spot Price FOB (Dollars per Gallon),NEW YORK CITY,$/GAL,3.532
+2026-09-30,RBRTE,Europe Brent Spot Price FOB (Dollars per Barrel),NA,$/BBL,115.91
+2026-09-30,RNGWHHD,Henry Hub Natural Gas Spot Price (Dollars per Million Btu),NA,$/MMBTU,3.02
+2026-09-30,RWTC,"Cushing, OK WTI Spot Price FOB (Dollars per Barrel)",NA,$/BBL,97.18

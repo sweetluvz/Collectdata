@@ -6118,10 +6118,17 @@
   "time_col": "period"
  },
  "energy/eia/fuel_prices/2026-09.csv": {
-  "max": "2026-09-29",
+  "max": "2026-09-30",
   "min": "2026-09-01",
-  "rows": 241,
-  "sha1": "911e2ac0823bb05bc13e6242133db953cafa806f:2",
+  "rows": 253,
+  "sha1": "266279ff159152258b4af3392df21c41a292e678:2",
+  "time_col": "period"
+ },
+ "energy/eia/fuel_prices/2026-10.csv": {
+  "max": "2026-10-06",
+  "min": "2026-10-01",
+  "rows": 48,
+  "sha1": "09055c814975266cf2b5b2a54b5007a64917f5a5:2",
   "time_col": "period"
  },
  "energy/eia/fuel_type/2018-07.csv.gz": {
@@ -6821,7 +6828,7 @@
   "max": "2026-10-07T06:00Z",
   "min": "2026-10-01T00:00Z",
   "rows": 151,
-  "sha1": "f4dcd4aefa67ebb4de2aa9f63372f6cce2020cab:2",
+  "sha1": "ab266953112e8c0d75cac8850c23e55b67b231bb:2",
   "time_col": "period"
  },
  "energy/eia/interchange/2015-07.csv.gz": {
@@ -7773,7 +7780,7 @@
   "max": "2026-10-06T07:00Z",
   "min": "2026-10-01T00:00Z",
   "rows": 128,
-  "sha1": "2bd5118c1fb8254b00078cadb3fa493342ae1397:2",
+  "sha1": "6dc1d01f7c9d8d5254bb932990c2691429c177ee:2",
   "time_col": "period"
  },
  "energy/eia/region/2015-07.csv.gz": {
@@ -8722,10 +8729,10 @@
   "time_col": "period"
  },
  "energy/eia/region/2026-10.csv": {
-  "max": "2026-10-07T13:00Z",
+  "max": "2026-10-07T23:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 158,
-  "sha1": "20b14ff92e3056e0910ee29044f966db65bbcc25:2",
+  "rows": 168,
+  "sha1": "a41d4f4a0eea48db53eb1478797455f6c0e739f2:2",
   "time_col": "period"
  },
  "energy/eia/retail_sales/2001-01.csv.gz": {
@@ -11532,7 +11539,7 @@
   "max": "2026-10-07T07:00Z",
   "min": "2026-10-01T00:00Z",
   "rows": 152,
-  "sha1": "efce31c272e1eecf72d356995a12be2d46d4a414:2",
+  "sha1": "30d9ea25b1a212024aef4109eac29e1ce2938bc0:2",
   "time_col": "period"
  },
  "energy/europe/power/2015-01.csv.gz": {
