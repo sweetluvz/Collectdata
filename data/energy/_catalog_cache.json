@@ -12530,10 +12530,10 @@
   "time_col": "timestamp"
  },
  "energy/europe/power/2026-10.csv": {
-  "max": "2026-10-09T04:45Z",
+  "max": "2026-10-09T12:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 6683,
-  "sha1": "f2b88a1ab2dc69879e170e14a342b100702dcb23:2",
+  "rows": 6925,
+  "sha1": "d66e4a09007615ab5e3442767372a32e4f74ffce:2",
   "time_col": "timestamp"
  },
  "energy/europe/price/2015-01.csv.gz": {
@@ -13524,10 +13524,10 @@
   "time_col": "timestamp"
  },
  "energy/europe/price/2026-10.csv": {
-  "max": "2026-10-09T21:45Z",
+  "max": "2026-10-10T21:45Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 856,
-  "sha1": "7bae726de83429f97b92c491f03a97356fe9e389:2",
+  "rows": 952,
+  "sha1": "3c059cebee8837de531e5e7d928238ee64d652e0:2",
   "time_col": "timestamp"
  },
  "energy/gb/carbon_intensity/2017-09.csv.gz": {
