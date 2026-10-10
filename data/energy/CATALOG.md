@@ -14,9 +14,9 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | `energy/eia/subregion` | 94 | 68,120 | `period` | 2019-01-01T00:00Z | 2026-10-09T07:00Z | 12.0 MB |
 | `energy/europe/power` | 142 | 2,141,338 | `timestamp` | 2015-01-01T00:00Z | 2026-10-10T04:30Z | 95.3 MB |
 | `energy/europe/price` | 142 | 130,222 | `timestamp` | 2015-01-01T00:00Z | 2026-10-10T21:45Z | 4.3 MB |
-| `energy/gb/carbon_intensity` | 110 | 158,943 | `timestamp` | 2017-09-11T23:00Z | 2026-10-09T23:30Z | 1009.4 KB |
-| `energy/gb/demand` | 129 | 185,008 | `timestamp` | 2016-02-29T23:30Z | 2026-10-09T22:00Z | 1.6 MB |
-| `energy/gb/generation` | 131 | 188,768 | `timestamp` | 2015-12-31T23:30Z | 2026-10-09T22:00Z | 5.3 MB |
+| `energy/gb/carbon_intensity` | 110 | 158,991 | `timestamp` | 2017-09-11T23:00Z | 2026-10-10T23:30Z | 1010.7 KB |
+| `energy/gb/demand` | 129 | 185,023 | `timestamp` | 2016-02-29T23:30Z | 2026-10-10T05:30Z | 1.6 MB |
+| `energy/gb/generation` | 131 | 188,783 | `timestamp` | 2015-12-31T23:30Z | 2026-10-10T05:30Z | 5.3 MB |
 | `energy/nyiso/lbmp_da` | 322 | 234,719 | `timestamp` | 2000-01-01T05:00Z | 2026-10-11T03:00Z | 8.5 MB |
 | `energy/nyiso/lbmp_rt` | 322 | 234,234 | `timestamp` | 2000-01-01T05:00Z | 2026-10-09T22:00Z | 8.7 MB |
 | `energy/weather/era5` | 142 | 4,123,200 | `time` | 2015-01-01T00:00Z | 2026-10-04T23:00Z | 102.4 MB |
