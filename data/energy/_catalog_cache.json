@@ -14294,10 +14294,10 @@
   "time_col": "timestamp"
  },
  "energy/gb/carbon_intensity/2026-10.csv": {
-  "max": "2026-10-11T23:30Z",
+  "max": "2026-10-12T23:30Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 528,
-  "sha1": "15cd5f6e25c5c83330bbeff0dc563d6cf544f3b3:2",
+  "rows": 576,
+  "sha1": "03a6aba25141b084adfc5654dbb85d45b671c7ad:2",
   "time_col": "timestamp"
  },
  "energy/gb/demand/2016-02.csv.gz": {
@@ -15197,10 +15197,10 @@
   "time_col": "timestamp"
  },
  "energy/gb/demand/2026-10.csv": {
-  "max": "2026-10-11T21:30Z",
+  "max": "2026-10-12T05:30Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 524,
-  "sha1": "0277244048efd051f220c9a14be16a094cc9918f:2",
+  "rows": 540,
+  "sha1": "3d432b383915414155f204a4103693f9c198f000:2",
   "time_col": "timestamp"
  },
  "energy/gb/generation/2015-12.csv.gz": {
@@ -16114,10 +16114,10 @@
   "time_col": "timestamp"
  },
  "energy/gb/generation/2026-10.csv": {
-  "max": "2026-10-11T21:30Z",
+  "max": "2026-10-12T05:30Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 524,
-  "sha1": "a707a401c5b2d5ce43760ad608730003e5706bbb:2",
+  "rows": 540,
+  "sha1": "ea0ee72b37e1fce9d07a731d585ce9e835e5d0dc:2",
   "time_col": "timestamp"
  },
  "energy/nyiso/lbmp_da/2000-01.csv.gz": {
