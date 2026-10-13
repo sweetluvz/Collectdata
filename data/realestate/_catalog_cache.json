@@ -10,21 +10,21 @@
   "max": "2026-08-31T19:03Z",
   "min": "2026-08-01T00:17Z",
   "rows": 353,
-  "sha1": "30b43bb97741d83d828b0ae57b360f9b9ae33558:2",
+  "sha1": "f7b9434887c6ed60631c21de5484e7cc55997e41:2",
   "time_col": "list_time"
  },
  "realestate/chotot/ads/2026-09.csv": {
   "max": "2026-09-30T23:59Z",
   "min": "2026-09-01T00:56Z",
   "rows": 14138,
-  "sha1": "9ebc93f389f36a42df96755f07cf6c903fc9540b:2",
+  "sha1": "727bde2e71e437150dc1342113b675d75b7f6fa2:2",
   "time_col": "list_time"
  },
  "realestate/chotot/ads/2026-10.csv": {
-  "max": "2026-10-12T08:02Z",
+  "max": "2026-10-13T08:27Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 17304,
-  "sha1": "9732577d7e0929163610e1bd13f44edc60d531b5:2",
+  "rows": 18649,
+  "sha1": "21e7ac80429146e410b30edd1c487908021ba700:2",
   "time_col": "list_time"
  },
  "realestate/chotot/snapshots/2026-09.csv": {
@@ -35,10 +35,10 @@
   "time_col": "scraped_date"
  },
  "realestate/chotot/snapshots/2026-10.csv": {
-  "max": "2026-10-12",
+  "max": "2026-10-13",
   "min": "2026-10-01",
-  "rows": 117946,
-  "sha1": "bbb7242b2a270604ac9a622b71dc1db6612b130a:2",
+  "rows": 127835,
+  "sha1": "963673424ec6ad3c5d11fe915ee4ee732cb4c515:2",
   "time_col": "scraped_date"
  },
  "realestate/fhfa/hpi_master/2026-07.csv.gz": {
