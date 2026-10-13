@@ -18,7 +18,7 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | `energy/gb/demand` | 129 | 185,201 | `timestamp` | 2016-02-29T23:30Z | 2026-10-13T22:30Z | 1.6 MB |
 | `energy/gb/generation` | 131 | 188,961 | `timestamp` | 2015-12-31T23:30Z | 2026-10-13T22:30Z | 5.3 MB |
 | `energy/nyiso/lbmp_da` | 322 | 234,815 | `timestamp` | 2000-01-01T05:00Z | 2026-10-15T03:00Z | 8.5 MB |
-| `energy/nyiso/lbmp_rt` | 322 | 234,322 | `timestamp` | 2000-01-01T05:00Z | 2026-10-13T14:00Z | 8.7 MB |
+| `energy/nyiso/lbmp_rt` | 322 | 234,330 | `timestamp` | 2000-01-01T05:00Z | 2026-10-13T22:00Z | 8.7 MB |
 | `energy/weather/era5` | 142 | 4,126,080 | `time` | 2015-01-01T00:00Z | 2026-10-07T23:00Z | 102.7 MB |
 | `energy/weather/forecast` | 2 | 85,658 | `issued_at` | 2026-09-27T08:00Z | 2026-10-13T22:00Z | 9.3 MB |
 | `energy/weather/observed` | 2 | 19,160 | `time` | 2026-09-24T00:00Z | 2026-10-13T22:00Z | 1.7 MB |
