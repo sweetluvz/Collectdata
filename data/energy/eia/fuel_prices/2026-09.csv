@@ -48,6 +48,8 @@ period,series,description,area,units,value
 2026-09-04,RNGWHHD,Henry Hub Natural Gas Spot Price (Dollars per Million Btu),NA,$/MMBTU,2.92
 2026-09-04,RWTC,"Cushing, OK WTI Spot Price FOB (Dollars per Barrel)",NA,$/BBL,92.69
 2026-09-07,RBRTE,Europe Brent Spot Price FOB (Dollars per Barrel),NA,$/BBL,104.47
+2026-09-07,RNGWHHD,Henry Hub Natural Gas Spot Price (Dollars per Million Btu),NA,$/MMBTU,2.92
+2026-09-07,RWTC,"Cushing, OK WTI Spot Price FOB (Dollars per Barrel)",NA,$/BBL,92.69
 2026-09-08,EER_EPD2DC_PF4_Y05LA_DPG,"Los Angeles, CA Ultra-Low Sulfur CARB Diesel Spot Price (Dollars per Gallon)",LOS ANGELES,$/GAL,5.132
 2026-09-08,EER_EPD2DXL0_PF4_RGC_DPG,U.S. Gulf Coast Ultra-Low Sulfur No 2 Diesel Spot Price (Dollars per Gallon),NA,$/GAL,4.642
 2026-09-08,EER_EPD2DXL0_PF4_Y35NY_DPG,New York Harbor Ultra-Low Sulfur No 2 Diesel Spot Price (Dollars per Gallon),NEW YORK CITY,$/GAL,4.644
