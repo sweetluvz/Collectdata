@@ -14297,7 +14297,7 @@
   "max": "2026-10-18T23:30Z",
   "min": "2026-10-01T00:00Z",
   "rows": 864,
-  "sha1": "435d9e823d4665ca8ebe9875047fd89bdaf55741:2",
+  "sha1": "90e7671b977d8db58f7c18e6b9a62d3478140e53:2",
   "time_col": "timestamp"
  },
  "energy/gb/demand/2016-02.csv.gz": {
@@ -15197,10 +15197,10 @@
   "time_col": "timestamp"
  },
  "energy/gb/demand/2026-10.csv": {
-  "max": "2026-10-18T04:30Z",
+  "max": "2026-10-18T11:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 826,
-  "sha1": "40690d17f9303bfbb695b749bbd921c7f8ee0f08:2",
+  "rows": 839,
+  "sha1": "0843ff5fc4605791d909d75c4c9427880727b80f:2",
   "time_col": "timestamp"
  },
  "energy/gb/generation/2015-12.csv.gz": {
@@ -16114,10 +16114,10 @@
   "time_col": "timestamp"
  },
  "energy/gb/generation/2026-10.csv": {
-  "max": "2026-10-18T04:30Z",
+  "max": "2026-10-18T11:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 826,
-  "sha1": "64f835f9665916669c04026e0ac81cea06538b17:2",
+  "rows": 839,
+  "sha1": "ff418559054b1541539d9c89f8706b2774deb40d:2",
   "time_col": "timestamp"
  },
  "energy/nyiso/lbmp_da/2000-01.csv.gz": {
