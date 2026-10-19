@@ -12,8 +12,8 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | `energy/eia/region` | 136 | 99,081 | `period` | 2015-07-01T05:00Z | 2026-10-19T13:00Z | 59.1 MB |
 | `energy/eia/retail_sales` | 307 | 114,204 | `period` | 2001-01 | 2026-07 | 1.8 MB |
 | `energy/eia/subregion` | 94 | 68,360 | `period` | 2019-01-01T00:00Z | 2026-10-19T07:00Z | 12.1 MB |
-| `energy/europe/power` | 142 | 2,148,677 | `timestamp` | 2015-01-01T00:00Z | 2026-10-19T03:15Z | 96.2 MB |
-| `energy/europe/price` | 142 | 131,086 | `timestamp` | 2015-01-01T00:00Z | 2026-10-19T21:45Z | 4.4 MB |
+| `energy/europe/power` | 142 | 2,148,970 | `timestamp` | 2015-01-01T00:00Z | 2026-10-19T11:45Z | 96.3 MB |
+| `energy/europe/price` | 142 | 131,182 | `timestamp` | 2015-01-01T00:00Z | 2026-10-20T21:45Z | 4.4 MB |
 | `energy/gb/carbon_intensity` | 110 | 159,423 | `timestamp` | 2017-09-11T23:00Z | 2026-10-19T23:30Z | 1.0 MB |
 | `energy/gb/demand` | 129 | 185,453 | `timestamp` | 2016-02-29T23:30Z | 2026-10-19T04:30Z | 1.6 MB |
 | `energy/gb/generation` | 131 | 189,213 | `timestamp` | 2015-12-31T23:30Z | 2026-10-19T04:30Z | 5.3 MB |
