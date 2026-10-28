@@ -6,10 +6,10 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 |---|---:|---:|---|---|---|---:|
 | `energy/aemo/price_demand` | 335 | 933,679 | `timestamp` | 1998-12-06T16:00Z | 2026-10-27T14:00Z | 29.8 MB |
 | `energy/airquality/observed` | 51 | 1,485,944 | `time` | 2022-08-01T00:00Z | 2026-10-28T22:00Z | 24.4 MB |
-| `energy/eia/fuel_prices` | 490 | 130,232 | `period` | 1986-01-02 | 2026-10-20 | 1021.7 KB |
+| `energy/eia/fuel_prices` | 490 | 130,292 | `period` | 1986-01-02 | 2026-10-27 | 1.0 MB |
 | `energy/eia/fuel_type` | 100 | 72,986 | `period` | 2018-07-01T05:00Z | 2026-10-28T06:00Z | 47.4 MB |
 | `energy/eia/interchange` | 136 | 99,267 | `period` | 2015-07-01T05:00Z | 2026-10-27T07:00Z | 60.6 MB |
-| `energy/eia/region` | 136 | 99,297 | `period` | 2015-07-01T05:00Z | 2026-10-28T13:00Z | 59.5 MB |
+| `energy/eia/region` | 136 | 99,306 | `period` | 2015-07-01T05:00Z | 2026-10-28T22:00Z | 59.5 MB |
 | `energy/eia/retail_sales` | 308 | 114,576 | `period` | 2001-01 | 2026-08 | 1.8 MB |
 | `energy/eia/subregion` | 94 | 68,576 | `period` | 2019-01-01T00:00Z | 2026-10-28T07:00Z | 12.3 MB |
 | `energy/europe/power` | 142 | 2,156,295 | `timestamp` | 2015-01-01T00:00Z | 2026-10-28T11:30Z | 97.2 MB |
