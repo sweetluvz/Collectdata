@@ -20629,10 +20629,10 @@
   "time_col": "timestamp"
  },
  "energy/nyiso/lbmp_rt/2026-10.csv": {
-  "max": "2026-10-28T05:00Z",
+  "max": "2026-10-28T13:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 654,
-  "sha1": "c4a819d7469210df52c738dc3d78eda4e10bddb6:2",
+  "rows": 662,
+  "sha1": "0ac780058d00f8e82ea88fab396efd7c8284bf2a:2",
   "time_col": "timestamp"
  },
  "energy/weather/era5/2015-01.csv.gz": {
