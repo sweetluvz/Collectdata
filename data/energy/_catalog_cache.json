@@ -8729,10 +8729,10 @@
   "time_col": "period"
  },
  "energy/eia/region/2026-10.csv": {
-  "max": "2026-10-31T12:00Z",
+  "max": "2026-10-31T21:00Z",
   "min": "2026-10-01T00:00Z",
-  "rows": 733,
-  "sha1": "a3c65e97991f1fa8a603d1125c813c49898dd788:2",
+  "rows": 742,
+  "sha1": "c20d7d05912769f676662dc367fd0994a4d3f079:2",
   "time_col": "period"
  },
  "energy/eia/retail_sales/2001-01.csv.gz": {
