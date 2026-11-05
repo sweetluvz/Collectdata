@@ -17,8 +17,8 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | `energy/gb/carbon_intensity` | 111 | 160,239 | `timestamp` | 2017-09-11T23:00Z | 2026-11-05T23:30Z | 1013.8 KB |
 | `energy/gb/demand` | 130 | 186,299 | `timestamp` | 2016-02-29T23:30Z | 2026-11-05T19:30Z | 1.6 MB |
 | `energy/gb/generation` | 132 | 190,059 | `timestamp` | 2015-12-31T23:30Z | 2026-11-05T19:30Z | 5.3 MB |
-| `energy/nyiso/lbmp_da` | 323 | 235,344 | `timestamp` | 2000-01-01T05:00Z | 2026-11-06T04:00Z | 8.5 MB |
-| `energy/nyiso/lbmp_rt` | 323 | 234,866 | `timestamp` | 2000-01-01T05:00Z | 2026-11-05T06:00Z | 8.7 MB |
+| `energy/nyiso/lbmp_da` | 323 | 235,368 | `timestamp` | 2000-01-01T05:00Z | 2026-11-07T04:00Z | 8.5 MB |
+| `energy/nyiso/lbmp_rt` | 323 | 234,880 | `timestamp` | 2000-01-01T05:00Z | 2026-11-05T20:00Z | 8.7 MB |
 | `energy/weather/era5` | 142 | 4,148,160 | `time` | 2015-01-01T00:00Z | 2026-10-30T23:00Z | 102.7 MB |
 | `energy/weather/forecast` | 3 | 191,546 | `issued_at` | 2026-09-27T08:00Z | 2026-11-05T20:00Z | 20.7 MB |
 | `energy/weather/observed` | 3 | 41,160 | `time` | 2026-09-24T00:00Z | 2026-11-05T20:00Z | 3.7 MB |
