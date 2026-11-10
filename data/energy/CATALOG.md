@@ -4,7 +4,7 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 
 | Table | Files | Rows | Time column | From | To | Size |
 |---|---:|---:|---|---|---|---:|
-| `energy/aemo/price_demand` | 336 | 937,423 | `timestamp` | 1998-12-06T16:00Z | 2026-11-09T14:00Z | 29.6 MB |
+| `energy/aemo/price_demand` | 336 | 937,711 | `timestamp` | 1998-12-06T16:00Z | 2026-11-10T14:00Z | 29.7 MB |
 | `energy/airquality/observed` | 52 | 1,498,304 | `time` | 2022-08-01T00:00Z | 2026-11-10T19:00Z | 23.7 MB |
 | `energy/eia/fuel_prices` | 491 | 130,352 | `period` | 1986-01-02 | 2026-11-03 | 1008.2 KB |
 | `energy/eia/fuel_type` | 101 | 73,299 | `period` | 2018-07-01T05:00Z | 2026-11-10T07:00Z | 46.7 MB |
