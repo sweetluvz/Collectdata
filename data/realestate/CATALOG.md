@@ -4,8 +4,8 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 
 | Table | Files | Rows | Time column | From | To | Size |
 |---|---:|---:|---|---|---|---:|
-| `realestate/chotot/ads` | 5 | 64,815 | `list_time` | 2026-07-29T10:25Z | 2026-11-10T08:54Z | 48.8 MB |
-| `realestate/chotot/snapshots` | 3 | 436,331 | `scraped_date` | 2026-09-27 | 2026-11-10 | 13.4 MB |
+| `realestate/chotot/ads` | 5 | 66,058 | `list_time` | 2026-07-29T10:25Z | 2026-11-11T08:24Z | 49.7 MB |
+| `realestate/chotot/snapshots` | 3 | 445,740 | `scraped_date` | 2026-09-27 | 2026-11-11 | 13.7 MB |
 | `realestate/fhfa/hpi_master` | 1 | - | `release` | 2026-08 | 2026-08 | 1.5 MB |
 | `realestate/realtor/inventory_metro` | 1 | - | `release` | 2026-10 | 2026-10 | 11.5 MB |
 | `realestate/zillow/inventory_metro` | 1 | - | `release` | 2026-09 | 2026-09 | 166.2 KB |
