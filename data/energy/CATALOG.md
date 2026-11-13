@@ -12,7 +12,7 @@ Auto-generated after every collection run by `scripts/build_catalog.py`.
 | `energy/eia/region` | 137 | 99,674 | `period` | 2015-07-01T05:00Z | 2026-11-13T06:00Z | 59.2 MB |
 | `energy/eia/retail_sales` | 308 | 114,576 | `period` | 2001-01 | 2026-08 | 1.8 MB |
 | `energy/eia/subregion` | 95 | 68,937 | `period` | 2019-01-01T00:00Z | 2026-11-12T08:00Z | 12.1 MB |
-| `energy/europe/power` | 143 | 2,167,814 | `timestamp` | 2015-01-01T00:00Z | 2026-11-12T18:15Z | 96.6 MB |
+| `energy/europe/power` | 143 | 2,168,277 | `timestamp` | 2015-01-01T00:00Z | 2026-11-13T05:15Z | 96.6 MB |
 | `energy/europe/price` | 143 | 133,490 | `timestamp` | 2015-01-01T00:00Z | 2026-11-13T22:45Z | 4.4 MB |
 | `energy/gb/carbon_intensity` | 111 | 160,575 | `timestamp` | 2017-09-11T23:00Z | 2026-11-12T23:30Z | 1.0 MB |
 | `energy/gb/demand` | 130 | 186,635 | `timestamp` | 2016-02-29T23:30Z | 2026-11-12T19:30Z | 1.6 MB |
