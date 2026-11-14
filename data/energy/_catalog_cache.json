@@ -2709,10 +2709,10 @@
   "time_col": "time"
  },
  "energy/airquality/observed/2026-11.csv": {
-  "max": "2026-11-13T19:00Z",
+  "max": "2026-11-14T06:00Z",
   "min": "2026-11-01T00:00Z",
-  "rows": 12320,
-  "sha1": "af199a35e2b0246746094d94ab0971e07bfc62d4:2",
+  "rows": 12760,
+  "sha1": "55fd0f15cbab401316cccd1298a5e719b0fca6c4:2",
   "time_col": "time"
  },
  "energy/eia/fuel_prices/1986-01.csv.gz": {
@@ -21728,10 +21728,10 @@
   "time_col": "time"
  },
  "energy/weather/era5/2026-11.csv": {
-  "max": "2026-11-07T23:00Z",
+  "max": "2026-11-08T23:00Z",
   "min": "2026-11-01T00:00Z",
-  "rows": 6720,
-  "sha1": "a3e30e98c6dd170f94a5f50a539b798cfa757729:2",
+  "rows": 7680,
+  "sha1": "065488ac6e6ec361aafa9a9c73b3f7662dba674c:2",
   "time_col": "time"
  },
  "energy/weather/forecast/2026-09.csv": {
@@ -21749,10 +21749,10 @@
   "time_col": "issued_at"
  },
  "energy/weather/forecast/2026-11.csv": {
-  "max": "2026-11-13T19:00Z",
+  "max": "2026-11-14T06:00Z",
   "min": "2026-11-01T06:00Z",
-  "rows": 40840,
-  "sha1": "e119cc84ca210dcb894dd8fba16148d132901fea:2",
+  "rows": 42480,
+  "sha1": "d6c06eaddbf094320e172520c3c3a6291e86a61a:2",
   "time_col": "issued_at"
  },
  "energy/weather/observed/2026-09.csv": {
@@ -21770,10 +21770,10 @@
   "time_col": "time"
  },
  "energy/weather/observed/2026-11.csv": {
-  "max": "2026-11-13T19:00Z",
+  "max": "2026-11-14T06:00Z",
   "min": "2026-11-01T00:00Z",
-  "rows": 12320,
-  "sha1": "d6b27928b38e9fa69df41ee6061f8e4635b531e9:2",
+  "rows": 12760,
+  "sha1": "e1a4640365453f657dfc64700f0db1918b732a95:2",
   "time_col": "time"
  }
 }
