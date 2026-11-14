@@ -8771,10 +8771,10 @@
   "time_col": "period"
  },
  "energy/eia/region/2026-11.csv": {
-  "max": "2026-11-14T18:00Z",
+  "max": "2026-11-14T22:00Z",
   "min": "2026-11-01T00:00Z",
-  "rows": 331,
-  "sha1": "6060cdea88a5a60759c4bf79ca87e3db9f894f3b:2",
+  "rows": 335,
+  "sha1": "ef4ef163127656fb227fdf32d2c38f61153a61fa:2",
   "time_col": "period"
  },
  "energy/eia/retail_sales/2001-01.csv.gz": {
